@@ -1,0 +1,15 @@
+Tweaker > CPU Clock Ratio: 42.00
+Tweaker > Extreme Memory Profile(X.M.P.): Profile 1
+Tweaker > CPU Vcore: 1.028V
+Settings > Platform Power > Wake on LAN: Disabled
+Settings > Miscellaneous > LEDs in System Power On State: Off
+Settings > AMD CBS > CPU Common Options > Global C-state Control: Enabled
+Smart Fan 5 > CPU_FAN: 0c 0%, 40c 30%, 55c 40%, 60c 50%, 70c 80%, 80c 100%
+Smart Fan 5 > CPU_FAN > CPU_FAN Speed Control: Manual
+Smart Fan 5 > CPU_FAN > Temperature Interval: 3
+Smart Fan 5 > SYS_FAN1: 0c 0%, 40c 40%, 55c 50%, 60c 60%, 70c 80%, 80c 100%
+Smart Fan 5 > SYS_FAN1 > SYS_FAN1 Speed Control: Manual
+Smart Fan 5 > SYS_FAN1 > Fan Control Use Temperature Input: CPU
+Smart Fan 5 > SYS_FAN1 > Temperature Interval: 3
+Boot > Full Screen LOGO Show: Disabled
+
