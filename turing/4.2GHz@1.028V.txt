@@ -1,4 +1,6 @@
 Tweaker > CPU Clock Ratio: 42.00
+Tweaker > Advanced CPU Settings > SVM Mode: Enabled
+Tweaker > Advanced CPU Settings > Global C-state Control: Enabled
 Tweaker > Extreme Memory Profile(X.M.P.): Profile 1
 Tweaker > CPU Vcore: 1.028V
 Settings > Platform Power > Wake on LAN: Disabled
