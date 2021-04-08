@@ -11,8 +11,13 @@ Smart Fan 5 > CPU_FAN > CPU_FAN Speed Control: Manual
 Smart Fan 5 > CPU_FAN > Temperature Interval: 3
 Smart Fan 5 > SYS_FAN1: 0c 0%, 40c 40%, 55c 50%, 60c 60%, 70c 80%, 80c 100%
 Smart Fan 5 > SYS_FAN1 > SYS_FAN1 Speed Control: Manual
-Smart Fan 5 > SYS_FAN1 > Fan Control Use Temperature Input: CPU
+Smart Fan 5 > SYS_FAN1 > Fan Control Use Temperature Input: System
 Smart Fan 5 > SYS_FAN1 > Temperature Interval: 3
+Smart Fan 5 > SYS_FAN2: 0c 0%, 40c 40%, 55c 50%, 60c 60%, 70c 80%, 80c 100%
+Smart Fan 5 > SYS_FAN2 > SYS_FAN2 Speed Control: Manual
+Smart Fan 5 > SYS_FAN2 > Fan Control Use Temperature Input: System
+Smart Fan 5 > SYS_FAN2 > Temperature Interval: 3
 Boot > Full Screen LOGO Show: Disabled
-Boot > CSM Support: Disabled
-Boot > Secure Boot > Secure Boot: Enabled
+Boot > CSM Support: Enabled
+Boot > Other PCI Device ROM Priority: Disabled
+Boot > Secure Boot > Secure Boot: Disabled
