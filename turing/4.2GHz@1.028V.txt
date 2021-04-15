@@ -19,5 +19,4 @@ Smart Fan 5 > SYS_FAN2 > Fan Control Use Temperature Input: System 1
 Smart Fan 5 > SYS_FAN2 > Temperature Interval: 3
 Boot > Full Screen LOGO Show: Disabled
 Boot > CSM Support: Enabled
-Boot > Other PCI Device ROM Priority: Disabled
 Boot > Secure Boot > Secure Boot: Disabled
