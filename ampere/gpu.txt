@@ -1,0 +1,2 @@
+set core clock to -290MHz and drag 862mV point to 1920MHz
+
