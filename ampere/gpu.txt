@@ -1,2 +1,2 @@
-set core clock to -290MHz and drag 862mV point to 1920MHz
+set core clock to -290MHz and drag 875mV (or 900mV to prevent Metro Exodus crashes) point to 1920MHz
 
