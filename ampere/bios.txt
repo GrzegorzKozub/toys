@@ -3,6 +3,8 @@ Tweaker > Advanced CPU Settings > SVM Mode: Enabled
 Tweaker > Advanced CPU Settings > Global C-state Control: Enabled
 Tweaker > Extreme Memory Profile(X.M.P.): Profile 1
 Tweaker > CPU Vcore: 1.028V
+Settings > Above 4G Decoding: Enabled
+Settings > Re-Size BAR Support: Auto
 Settings > Platform Power > Wake on LAN: Disabled
 Settings > Miscellaneous > LEDs in System Power On State: Off
 Settings > AMD CBS > CPU Common Options > Global C-state Control: Enabled
@@ -18,5 +20,7 @@ Smart Fan 5 > SYS_FAN2 > SYS_FAN2 Speed Control: Manual
 Smart Fan 5 > SYS_FAN2 > Fan Control Use Temperature Input: System 1
 Smart Fan 5 > SYS_FAN2 > Temperature Interval: 3
 Boot > Full Screen LOGO Show: Disabled
-Boot > CSM Support: Enabled
-Boot > Secure Boot > Secure Boot: Disabled
+Boot > CSM Support: Disabled
+Boot > Secure Boot > System Mode: User
+Boot > Secure Boot > Secure Boot: Enabled, Active
+Boot > Secure Boot > Secure Boot Mode: Standard
