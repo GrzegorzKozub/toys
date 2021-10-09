@@ -3,8 +3,8 @@ Tweaker > Advanced CPU Settings > SVM Mode: Enabled
 Tweaker > Advanced CPU Settings > Global C-state Control: Enabled
 Tweaker > Extreme Memory Profile(X.M.P.): Profile 1
 Tweaker > CPU Vcore: 1.028V
-Settings > Above 4G Decoding: Enabled
-Settings > Re-Size BAR Support: Auto
+Settings > IO Ports > Above 4G Decoding: Enabled
+Settings > IO Ports > Re-Size BAR Support: Auto
 Settings > Platform Power > Wake on LAN: Disabled
 Settings > Miscellaneous > LEDs in System Power On State: Off
 Settings > AMD CBS > CPU Common Options > Global C-state Control: Enabled
