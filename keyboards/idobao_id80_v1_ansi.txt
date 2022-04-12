@@ -1,0 +1,1 @@
+Hold Fn+Esc to plug in ID80 in DFU mode
