@@ -12,6 +12,7 @@
 - LG 27GP950-B
 - Noctua NF-A12x25 PWM
 - Noctua NH-U12A
+- Samsung 850 Pro 512GB
 - Samsung 980 Pro 1TB
 
 ## Worker
@@ -32,6 +33,7 @@
 ## Drifter
 
 - Dell XPS 13 9310
+- Samsung 850 Pro 256GB
 
 ## Keyboards
 
@@ -44,7 +46,7 @@
 - Vortex Race 3
 - Zealio v2 78g
 
-## Other
+## Mobile
 
 - Kindle Paperwhite 5
 - Koss Porta Pro Wireless
