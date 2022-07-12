@@ -12,7 +12,7 @@
 - LG 27GP950-B
 - Noctua NF-A12x25 PWM
 - Noctua NH-U12A
-- Samsung 850 Pro 512GB
+- Samsung 850 Pro 500GB
 - Samsung 980 Pro 1TB
 
 ## Worker
@@ -26,6 +26,7 @@
 - LG 27UL850-W
 - MSI GeForce RTX 2080 Ti Gaming X Trio 11GB
 - Noctua NH-U9S
+- Samsung 840 Evo 500GB
 - Samsung 970 Evo 1TB
 - Zowie EC1-A
 - Zowie EC2-A
@@ -34,6 +35,8 @@
 
 - Dell XPS 13 9310
 - Samsung 850 Pro 256GB
+- SanDisk Ultra Dual Drive Luxe 128GB
+- SanDisk Ultra Dual Drive Luxe 64GB
 
 ## Keyboards
 
@@ -45,13 +48,4 @@
 - KBDfans D84 v2
 - Vortex Race 3
 - Zealio v2 78g
-
-## Mobile
-
-- Kindle Paperwhite 5
-- Koss Porta Pro Wireless
-- OnePlus 9
-- OnePlus Nord N100
-- SanDisk Ultra Dual Drive Luxe 128GB
-- SanDisk Ultra Dual Drive Luxe 64GB
 
