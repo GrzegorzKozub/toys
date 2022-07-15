@@ -66,6 +66,10 @@ Hardware list and settings
 
 In Afterburner, set core clock to -290MHz and drag 875mV (or 900mV to prevent some games from crashing) point to 1920MHz.
 
+### Monitor calibration
+
+LG 27GP950-B was calibrated for Gamer 1 profile, brightness set to 10 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.icm`.
+
 ### Keyboard settings
 
 For KBDfans D84 v2, use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `d84v2.json`.
@@ -91,6 +95,12 @@ For KBDfans D84 v2, use [VIA](https://www.caniusevia.com/) to program the keyboa
 ### Firmware settings
 
 Load from `worker-firmware-settings` file.
+
+### Monitor calibration
+
+LG LG 27UL850-W was calibrated for Custom profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.icm`.
+
+LG LG 27UD88-W was calibrated for Custom profile, brightness set to 30 and gamma mode 1 selected. Hardware calibration resulted in the RGB settings of 49 47 50. Software calibration is stored in the ICC profile `27ud88-w.icm`.
 
 ### Keyboard settings
 
