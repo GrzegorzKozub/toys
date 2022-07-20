@@ -64,7 +64,7 @@ Hardware list and settings
 
 ### GPU undervolting
 
-In Afterburner, set core clock to -290MHz and drag 875mV (or 900mV to prevent some games from crashing) point to 1920MHz.
+In Afterburner, set core clock to -290MHz and drag 900mV point to 1920MHz. Could go 875mV but that causes games like Metro to crash.
 
 ### Monitor calibration
 
