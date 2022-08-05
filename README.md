@@ -94,7 +94,35 @@ For KBDfans D84 v2, use [VIA](https://www.caniusevia.com/) to program the keyboa
 
 ### Firmware settings
 
-Load from `worker-firmware-settings` file.
+- Ai Overclock Tuner: XMP
+- CPU Core Ratio: Sync All Cores
+- 1-Core Ratio Limit: 44
+- CPU Core/Cache Voltage: Manual Mode
+- CPU Core Voltage Override: 1.200
+- Intel Virtualization Technology: Enabled
+- SATA6G_1(Charcoal Black): Disabled
+- SATA6G_3(Charcoal Black): Disabled
+- SATA6G_4(Charcoal Black): Disabled
+- Wi-Fi Controller: Disabled
+- CPU Fan Profile: Manual
+- CPU Upper Temperature: 75
+- CPU Fan Max. Duty Cycle (%): 100
+- CPU Middle Temperature: 70
+- CPU Fan Middle. Duty Cycle (%): 80
+- CPU Lower Temperature: 50
+- CPU Fan Min. Duty Cycle (%): 60
+- Chassis Fan Profile: Manual
+- Chassis Fan Upper Temperature: 75
+- Chassis Fan Max. Duty Cycle (%): 100
+- Chassis Fan Middle Temperature: 70
+- Chassis Fan Middle. Duty Cycle (%): 80
+- Chassis Fan Lower Temperature: 50
+- Chassis Fan Min. Duty Cycle (%): 60
+- Boot Logo Display: Disabled
+- POST Report: 1 sec
+- Profile Name: 4.4GHz@1.2V
+
+Settings saved with BIOS version 3005 to `worker-bios.cmo` and `worker-bios.txt` files.
 
 ### Monitor calibration
 
