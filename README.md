@@ -36,6 +36,7 @@ Hardware list and settings
     - Wake on LAN: Disabled
   - Miscellaneous
     - LEDs in System Power On State: Off
+    - AMD CPU fTPM: Enabled
   - AMD CBS
     - CPU Common Options
       - Global C-state Control: Enabled
