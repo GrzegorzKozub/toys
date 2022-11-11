@@ -1,6 +1,6 @@
 # Toys
 
-Hardware list and settings
+Hardware manifest and settings
 
 ## Player
 
@@ -74,6 +74,19 @@ LG 27GP950-B was calibrated for Gamer 1 profile, brightness set to 10 and gamma 
 ### Keyboard settings
 
 For KBDfans D84 v2, use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `d84v2.json`.
+
+### Benchmarks
+
+- Windows 10 21H2 19044, NVIDIA 526.86
+  - Cinebench R23.200
+    - fTPM off: multi core 21489, single core 1393
+    - fTPM on: multi core 21305, single core 1388
+  - 3DMark 5.54.1138 Time Spy 1.2
+    - fTPM off: 16438, graphics score 17224, CPU score 13061
+    - fTPM on: 16354, graphics score 17063, CPU score 13239
+  - Superposition 1.1.8628 4K
+    - fTPM off: 14291
+    - fTPM on: 14277
 
 ## Worker
 
