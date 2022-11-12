@@ -78,15 +78,44 @@ For KBDfans D84 v2, use [VIA](https://www.caniusevia.com/) to program the keyboa
 ### Benchmarks
 
 - Windows 10 21H2 19044, NVIDIA 526.86
-  - Cinebench R23.200
+  - Cinebench R23.200 (pts)
     - fTPM off: multi core 21489, single core 1393
     - fTPM on: multi core 21305, single core 1388
-  - 3DMark 5.54.1138 Time Spy 1.2
+  - 3DMark 5.54.1138 Time Spy 1.2 (pts)
     - fTPM off: 16438, graphics score 17224, CPU score 13061
     - fTPM on: 16354, graphics score 17063, CPU score 13239
-  - Superposition 1.1.8628 4K
+  - Superposition 1.1.8628 4K (pts)
     - fTPM off: 14291
     - fTPM on: 14277
+  - CrystalDiskMark 8.0.4 (MB/s)
+    - NVME 1:
+      - SEQ1M Q8T1: read 6871.93, write 4960.95
+      - SEQ1M Q1T1: read 4232.27, write 4346.58
+      - RND4K Q32T1: read 565.02, write 410.70
+      - RND4K Q1T1: read 86.36, write 210.73
+    - NVME 2:
+      - SEQ1M Q8T1: read 3235.74, write 3174.55
+      - SEQ1M Q1T1: read 2712.19, write 2887.07
+      - RND4K Q32T1: read 584.33, write 473.30
+      - RND4K Q1T1: read 83.55, write 186.64
+- Windows 11 22H2 22621, NVIDIA 526.86
+  - Cinebench R23.200 (pts)
+    - fTPM on: multi core 21501, single core 1380
+  - 3DMark 5.54.1138 Time Spy 1.2 (pts)
+    - fTPM on: 16921, graphics score 17761, CPU score 13345
+  - Superposition 1.1.8628 4K
+    - fTPM on: 14625  
+  - CrystalDiskMark 8.0.4 (MB/s)
+    - NVME 1:
+      - SEQ1M Q8T1: read 6864.65, write 5011.48
+      - SEQ1M Q1T1: read 4177.83, write 4325.48
+      - RND4K Q32T1: read 545.13, write 400.57
+      - RND4K Q1T1: read 84.04, write 193.85
+    - NVME 2:
+      - SEQ1M Q8T1: read 3238.47, write 3166.61
+      - SEQ1M Q1T1: read 2708.94, write 2886.74
+      - RND4K Q32T1: read 561.62, write 452.48
+      - RND4K Q1T1: read 81.13, write 173.23
 
 ## Worker
 
