@@ -180,7 +180,18 @@ For Idobao ID80V2, use [QMK Configurator](https://config.qmk.fm/#/) to customize
 ## Drifter
 
 - Dell XPS 13 9310
+  - Intel Core i71165G7
+  - LPDDR4x 32GB 4266MHz 
+  - M.2 NVMe PCIe 1TB
 - Samsung 850 Pro 256GB
+
+## Others
+
+- KOSS Porta Pro
+- OnePlus 9 8GB 128GB
+- SanDisk Ultra Dual Drive 64GB
 - SanDisk Ultra Dual Drive Luxe 128GB
 - SanDisk Ultra Dual Drive Luxe 64GB
+- Sennheiser HD 58X Jubilee
+- Steam Deck 512GB
 
