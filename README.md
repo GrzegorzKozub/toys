@@ -75,6 +75,8 @@ LG 27GP950-B was calibrated for Gamer 1 profile, brightness set to 10 and gamma 
 
 For KBDfans D84 v2, use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `d84v2.json`.
 
+To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt`+`PrintScreen`.
+
 ### Benchmarks
 
 - Windows 10 21H2 19044, NVIDIA 526.86
