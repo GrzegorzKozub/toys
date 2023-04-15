@@ -10,7 +10,7 @@ Hardware manifest and settings
 - Corsair SF750 Platinum
 - G.SKILL Trident Z Neo 32GB 3600MHz DDR4 CL16
 - Gigabyte B550I Aorus Pro AX
-- Glorious PC Gaming Race Model O Wireless
+- Glorious PC Gaming Race Model O 2 Wireless
 - KBDfans D84 v2
 - LG 27GP950-B
 - Noctua NF-A12x25 PWM
@@ -124,6 +124,7 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 - Asus ROG Strix Z370-I Gaming
 - Corsair SF600 Platinum
 - Fractal Design Define Nano S
+- Glorious PC Gaming Race Model O Wireless
 - HyperX Fury Black 16GB 2133MHz DDR4 CL14
 - Idobao ID80V2
 - Intel Core i9-9900K
@@ -135,7 +136,6 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 - Samsung 970 Evo 1TB
 - Vortex Race 3
 - Zowie EC1-A
-- Zowie EC2-A
 
 ### Firmware settings
 
