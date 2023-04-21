@@ -73,7 +73,7 @@ LG 27GP950-B was calibrated for Gamer 1 profile, brightness set to 10 and gamma 
 
 ### Keyboard settings
 
-For KBDfans D84 v2, use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `d84v2.json`.
+For KBDfans D84 v2, use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `d84v2-0.png` and `d84v2-1.png`.
 
 To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt`+`PrintScreen`.
 
@@ -177,11 +177,7 @@ LG LG 27UD88-W was calibrated for Custom profile, brightness set to 30 and gamma
 
 ### Keyboard settings
 
-For Idobao ID80V3 and ID80V2, use [this guide](https://idobao.github.io/manuals/flashing/) to update the firmware. Then use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `id80v3-1.png` and `id80v3-2.png`.
-
-Previously for Idobao ID80V2 [QMK Configurator](https://config.qmk.fm/#/) was used to customize the keymap and compile the firmware. Then [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) was used to flash the firmware to the keyboard. The latest keymap obtained this way is in `id80v2.json` and firmware is in `id80v2.hex`.
-
-To connect the keyboard in DFU mode hold `Fn`+`Esc` or `Fn`+`Z`. 
+For Idobao ID80V3 and ID80V2 follow [this guide](https://idobao.github.io/manuals/flashing/) to update the firmware and use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `id80v3-0.png` and `id80v3-1.png`.
 
 To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt`+`Fn`+`F10`.
 
