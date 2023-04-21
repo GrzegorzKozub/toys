@@ -177,7 +177,11 @@ LG LG 27UD88-W was calibrated for Custom profile, brightness set to 30 and gamma
 
 ### Keyboard settings
 
-For Idobao ID80V2, use [QMK Configurator](https://config.qmk.fm/#/) to customize the keymap and compile the firmware. Then use [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) to flash the firmware to the keyboard. Hold `Fn` + `Esc` to connect the keyboard in DFU mode. Current keymap is in `id80v2.json` and current firmware is in `id80v2.hex`.
+For Idobao ID80V3 and ID80V2, use [this guide](https://idobao.github.io/manuals/flashing/) to update the firmware. Then use [VIA](https://www.caniusevia.com/) to program the keyboard.
+
+Previously for Idobao ID80V2 [QMK Configurator](https://config.qmk.fm/#/) was used to customize the keymap and compile the firmware. Then [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) was used to flash the firmware to the keyboard. The latest keymap obtained this way is in `id80v2.json` and firmware is in `id80v2.hex`.
+
+To connect the keyboard in DFU mode hold `Fn`+`Esc` or `Fn`+`Z`. 
 
 To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt`+`Fn`+`F10`.
 
