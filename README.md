@@ -126,7 +126,7 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 - Fractal Design Define Nano S
 - Glorious PC Gaming Race Model O Wireless
 - HyperX Fury Black 16GB 2133MHz DDR4 CL14
-- Idobao ID80V2
+- Idobao ID80V3
 - Intel Core i9-9900K
 - LG 27UD88-W
 - LG 27UL850-W
@@ -177,7 +177,7 @@ LG LG 27UD88-W was calibrated for Custom profile, brightness set to 30 and gamma
 
 ### Keyboard settings
 
-For Idobao ID80V3 and ID80V2, use [this guide](https://idobao.github.io/manuals/flashing/) to update the firmware. Then use [VIA](https://www.caniusevia.com/) to program the keyboard.
+For Idobao ID80V3 and ID80V2, use [this guide](https://idobao.github.io/manuals/flashing/) to update the firmware. Then use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `id80v3-1.png` and `id80v3-2.png`.
 
 Previously for Idobao ID80V2 [QMK Configurator](https://config.qmk.fm/#/) was used to customize the keymap and compile the firmware. Then [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) was used to flash the firmware to the keyboard. The latest keymap obtained this way is in `id80v2.json` and firmware is in `id80v2.hex`.
 
