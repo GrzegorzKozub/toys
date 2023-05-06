@@ -67,6 +67,8 @@ Hardware manifest and settings
     - Secure Boot: Enabled, Active
     - Secure Boot Mode: Standard
 
+Settings saved with BIOS version F17c to `player-bios.cmo` file.
+
 ### GPU undervolting
 
 In Afterburner, set core clock to -290MHz and drag 900mV point to 1920MHz. Could go 875mV but that causes games like Metro to crash.
@@ -87,7 +89,7 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
   - Cinebench R23.200 (pts)
     - fTPM off: multi core 21489, single core 1393
     - fTPM on: multi core 21305, single core 1388
-  - 3DMark 5.54.1138 Time Spy 1.2 (pts)
+  - 3DMark 2.25.8043 Time Spy 1.2 (pts)
     - fTPM off: 16438, graphics score 17224, CPU score 13061
     - fTPM on: 16354, graphics score 17063, CPU score 13239
   - Superposition 1.1.8628 4K (pts)
@@ -106,9 +108,9 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
       - RND4K Q1T1: read 83.55, write 186.64
 - Windows 11 22H2 22621, NVIDIA 526.86
   - Cinebench R23.200 (pts)
-    - fTPM on: multi core 21501, single core 1380
-  - 3DMark 5.54.1138 Time Spy 1.2 (pts)
-    - fTPM on: 16921, graphics score 17761, CPU score 13345
+    - fTPM on: multi core 21395, single core 1385
+  - 3DMark 2.25.8043 Time Spy 1.2 (pts)
+    - fTPM on: 16988, graphics score 17854, CPU score 13328
   - Superposition 1.1.8628 4K
     - fTPM on: 14625  
   - CrystalDiskMark 8.0.4 (MB/s)
