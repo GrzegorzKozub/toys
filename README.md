@@ -29,17 +29,21 @@ Hardware manifest and settings
   - Extreme Memory Profile(X.M.P.): Profile 1
   - CPU Vcore: 1.028V
 - Settings
+  - Platform Power
+    - Wake on LAN: Disabled
   - IO Ports
     - Above 4G Decoding: Enabled
     - Re-Size BAR Support: Auto
-  - Platform Power
-    - Wake on LAN: Disabled
+    - APP Center Download & Install Configuration
+      - APP Center Download & Install: Disabled
   - Miscellaneous
     - LEDs in System Power On State: Off
     - AMD CPU fTPM: Enabled
   - AMD CBS
     - CPU Common Options
       - Global C-state Control: Enabled
+  - AMD Overclocking
+    - SOC/Uncore OC Mode: Enabled
 - Smart Fan 5
   - CPU_FAN
     - Curve: 0c 0%, 40c 30%, 55c 40%, 60c 50%, 70c 80%, 80c 100%
