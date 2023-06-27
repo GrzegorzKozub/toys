@@ -48,7 +48,7 @@ Hardware manifest and settings
     - SOC/Uncore OC Mode: Enabled
 - Smart Fan 5
   - CPU_FAN
-    - Curve: 0c 0%, 40c 30%, 55c 40%, 60c 50%, 70c 80%, 80c 100%
+    - Curve: 0c 0%, 40c 40%, 55c 50%, 60c 60%, 70c 80%, 80c 100%
     - CPU_FAN Speed Control: Manual
     - Temperature Interval: 3
   - SYS_FAN1
