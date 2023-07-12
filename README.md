@@ -177,6 +177,8 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 
 Settings saved with BIOS version 3005 to `worker-bios.cmo` and `worker-bios.txt` files.
 
+Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-enable).
+
 ### Monitor calibration
 
 LG LG 27UL850-W was calibrated for Custom profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`. 
