@@ -152,7 +152,7 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 - 1-Core Ratio Limit: 44
 - CPU Core/Cache Voltage: Manual Mode
 - CPU Core Voltage Override: 1.200
-- Intel Virtualization Technology: Enabled
+- Intel Virtualization Technology: Disabled (when enabled, `dmesg` reports `tpm_crb MSFT0101:00: [Firmware Bug]: ACPI region does not cover the entire command/response buffer.`)
 - SATA6G_1(Charcoal Black): Disabled
 - SATA6G_3(Charcoal Black): Disabled
 - SATA6G_4(Charcoal Black): Disabled
