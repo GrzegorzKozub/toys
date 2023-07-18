@@ -129,6 +129,7 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 
 ## Worker
 
+- Asus Dual Radeon RX 6650 XT OC V2 8GB
 - Asus ROG Strix Z370-I Gaming
 - Corsair SF600 Platinum
 - Fractal Design Define Nano S
@@ -138,7 +139,6 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 - Intel Core i9-9900K
 - LG 27UD88-W
 - LG 27UL850-W
-- MSI GeForce RTX 2080 Ti Gaming X Trio 11GB
 - Noctua NH-U9S
 - Samsung 840 Evo 500GB
 - Samsung 970 Evo 1TB
@@ -156,6 +156,8 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 - SATA6G_1(Charcoal Black): Disabled
 - SATA6G_3(Charcoal Black): Disabled
 - SATA6G_4(Charcoal Black): Disabled
+- Above 4G Decoding: Enabled
+- Re-Size BAR Support: Auto
 - Wi-Fi Controller: Disabled
 - CPU Fan Profile: Manual
 - CPU Upper Temperature: 75
