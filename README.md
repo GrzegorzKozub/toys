@@ -193,6 +193,10 @@ For Idobao ID80V3 and ID80V2 follow [this guide](https://idobao.github.io/manual
 
 To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt`+`Fn`+`F10`.
 
+### Reflect black screen
+
+Disable *Above 4G Decoding* in firmware to prevent a black screen when booting into Reflect.
+
 ## Drifter
 
 - Dell XPS 13 9310
