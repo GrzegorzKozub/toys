@@ -152,11 +152,12 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 - 1-Core Ratio Limit: 44
 - CPU Core/Cache Voltage: Manual Mode
 - CPU Core Voltage Override: 1.200
-- Intel Virtualization Technology: Disabled (when enabled, `dmesg` reports `tpm_crb MSFT0101:00: [Firmware Bug]: ACPI region does not cover the entire command/response buffer.`)
+- Security Device Support: Enabled
+- Intel Virtualization Technology: Enabled
 - SATA6G_1(Charcoal Black): Disabled
 - SATA6G_3(Charcoal Black): Disabled
 - SATA6G_4(Charcoal Black): Disabled
-- Above 4G Decoding: Enabled (disable to avoid black screen in Reflect)
+- Above 4G Decoding: Enabled
 - Re-Size BAR Support: Auto
 - Wi-Fi Controller: Disabled
 - CPU Fan Profile: Manual
@@ -180,6 +181,10 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 Settings saved with BIOS version 3005 to `worker-bios.cmo` and `worker-bios.txt` files.
 
 Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-enable).
+
+*Security Device Support* is required for Windows 11 but when it is enabled, `dmesg` reports `tpm_crb MSFT0101:00: [Firmware Bug]: ACPI region does not cover the entire command/response buffer.`
+
+*Above 4G Decoding* causes a black screen when trying to run Reflect or Windows setup.
 
 ### Monitor calibration
 
