@@ -156,7 +156,7 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 - SATA6G_1(Charcoal Black): Disabled
 - SATA6G_3(Charcoal Black): Disabled
 - SATA6G_4(Charcoal Black): Disabled
-- Above 4G Decoding: Enabled
+- Above 4G Decoding: Enabled (disable to avoid black screen in Reflect)
 - Re-Size BAR Support: Auto
 - Wi-Fi Controller: Disabled
 - CPU Fan Profile: Manual
@@ -192,10 +192,6 @@ LG LG 27UD88-W was calibrated for Custom profile, brightness set to 30 and gamma
 For Idobao ID80V3 and ID80V2 follow [this guide](https://idobao.github.io/manuals/flashing/) to update the firmware and use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `id80v3-0.png` and `id80v3-1.png`.
 
 To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt`+`Fn`+`F10`.
-
-### Reflect black screen
-
-Disable *Above 4G Decoding* in firmware to prevent a black screen when booting into Reflect.
 
 ## Drifter
 
