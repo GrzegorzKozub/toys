@@ -87,6 +87,13 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 
 ### Benchmarks
 
+    win 22h2 22621 ftpm on nvidia 546.01 
+      vbs off > on
+        cinebench 21491/1388 > 21400,1381
+        3dmark 2.25.8049 17126,17909,13726 > 16997 17910 13191
+        superposition 14582 > 14549
+        cp 68.45 > 67.71
+
 - Windows 10 21H2 19044, NVIDIA 526.86
   - Cinebench R23.200 (pts)
     - fTPM off: multi core 21489, single core 1393
