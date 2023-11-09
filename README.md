@@ -87,13 +87,6 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 
 ### Benchmarks
 
-    win 22h2 22621 ftpm on nvidia 546.01 
-      vbs off > on
-        cinebench 21491/1388 > 21400,1381
-        3dmark 2.25.8049 17126,17909,13726 > 16997 17910 13191
-        superposition 14582 > 14549
-        cp 68.45 > 67.71
-
 - Windows 10 21H2 19044, NVIDIA 526.86
   - Cinebench R23.200 (pts)
     - fTPM off: multi core 21489, single core 1393
@@ -133,6 +126,16 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
       - SEQ1M Q1T1: read 2708.94, write 2886.74
       - RND4K Q32T1: read 561.62, write 452.48
       - RND4K Q1T1: read 81.13, write 173.23
+- Windows 11 22H2 22621, NVIDIA 546.01
+  - Cinebench R23.200 (pts)
+    - Core isolation off: multi core 21491, single core 1388
+    - Core isolation on: multi core 21400, single core 1381
+  - 3DMark 2.25.8049 Time Spy 1.2 (pts)
+    - Core isolation off: 17126, graphics score 17909, CPU score 13726
+    - Core isolation on: 16997, graphics score 17910, CPU score 13191
+  - Superposition 1.1.8628 4K
+    - Core isolation off: 14582
+    - Core isolation off: 14549
 
 ## Worker
 
