@@ -91,8 +91,8 @@ Setup:
 
 - Windows 11 22H2 22621
 - NVIDIA 546.01
-- fTMP on
-- core isolation (memory integrity) off
+- core isolation (memory integrity) off (decreases CPU performance by 0.5% and GPU performance by 1%)
+- smart app control off (delays app startup)
 
 Results:
 
@@ -100,21 +100,16 @@ Results:
 - 3DMark 2.25.8049 (pts)
   - Time Spy 1.2: score 17126, graphics score 17909, CPU score 13726
 - CrystalDiskMark 8.0.4 (MB/s)
-  - NVME 1:
+  - NVME 1
     - SEQ1M Q8T1: read 6864.65, write 5011.48
     - SEQ1M Q1T1: read 4177.83, write 4325.48
     - RND4K Q32T1: read 545.13, write 400.57
     - RND4K Q1T1: read 84.04, write 193.85
-  - NVME 2:
+  - NVME 2
     - SEQ1M Q8T1: read 3238.47, write 3166.61
     - SEQ1M Q1T1: read 2708.94, write 2886.74
     - RND4K Q32T1: read 561.62, write 452.48
     - RND4K Q1T1: read 81.13, write 173.23
-
-Conclusions:
-
-- enabling fTPM decreases Cinebench score by 0.8% and 3DMark score by 0.5% 
-- enabling core isolation (memory integrity) decreases Cinebench score by 0.4% and 3DMark score by 0.8%
 
 ## Worker
 
