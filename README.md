@@ -89,16 +89,19 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 
 Setup:
 
-- Windows 11 22H2 22621
-- NVIDIA 546.01
-- core isolation (memory integrity) off (decreases CPU performance by 0.5% and GPU performance by 1%)
-- smart app control off (delays app startup)
+- Windows 11 23H2 22631.2861
+- NVIDIA 546.33
+- core isolation (memory integrity) off
 
 Results:
 
 - Cinebench R23.200 (pts): multi core 21491, single core 1388
-- 3DMark 2.25.8049 (pts)
-  - Time Spy 1.2: score 17126, graphics score 17909, CPU score 13726
+- 3DMark 2.28.8217 (pts)
+  - Time Spy 1.2: score 16972, graphics score 17830, CPU score 13338
+  - Time Spy Extreme 1.2: score 8745, graphics score 8948, CPU score 7751
+  - Port Royal 1.3: score 11833, graphics score 11833
+  - Speed Way 1.0: score 4688, graphics score 4688
+  - CPU Profile 1.0: max threads 10265
 - CrystalDiskMark 8.0.4 (MB/s)
   - NVME 1
     - SEQ1M Q8T1: read 6864.65, write 5011.48
@@ -110,6 +113,13 @@ Results:
     - SEQ1M Q1T1: read 2708.94, write 2886.74
     - RND4K Q32T1: read 561.62, write 452.48
     - RND4K Q1T1: read 81.13, write 173.23
+
+
+Conclusions:
+
+- switching from Windows 10 to 11 increases the GPU performance by 3%
+- enabling fTPM decreases CPU perf by 0.8% and GPU perf by 0.5%
+- enabling core isolation (memory integrity) decreases CPU perf by 0.4% and GPU perf by 0.8%
 
 ## Worker
 
