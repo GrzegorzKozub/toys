@@ -87,9 +87,43 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 
 ### Benchmarks
 
+- BIOS F19 AGESA 1.2.0.B
+
 Setup:
 
+- BIOS F17c AGESA 1.2.0.8
+- Windows 11 23H2 22631.3447
+- AMD chipset drivers not installed
+- NVIDIA 552.22
+- core isolation (memory integrity) off
+
+Results:
+
+- Cinebench R23.200 (pts): multi core 21375, single core 1392
+- Cinebench 2024.0.0 (pts): multi core 1184, single core 86, GPU 13942
+- 3DMark 2.28.8217 (pts)
+  - Time Spy 1.2: score 16970, graphics score 17908, CPU score 13087
+  - Time Spy Extreme 1.2: score 8804, graphics score 9020, CPU score 7755
+  - Port Royal 1.3: score 11817, graphics score 11817
+  - Speed Way 1.0: score 4684, graphics score 4684
+  - CPU Profile 1.0: max threads 10218
+- CrystalDiskMark 8.0.5 (MB/s)
+  - NVME 1
+    - SEQ1M Q8T1: read 6873, write 4950
+    - SEQ1M Q1T1: read 4265, write 4364
+    - RND4K Q32T1: read 596, write 446
+    - RND4K Q1T1: read 86, write 206
+  - NVME 2
+    - SEQ1M Q8T1: read 3247, write 3164
+    - SEQ1M Q1T1: read 2724, write 2899
+    - RND4K Q32T1: read 595, write 502
+    - RND4K Q1T1: read 83, write 182
+
+Setup:
+
+- BIOS F17c AGESA 1.2.0.8
 - Windows 11 23H2 22631.2861
+- AMD chipset drivers not installed
 - NVIDIA 546.33
 - core isolation (memory integrity) off
 
@@ -114,12 +148,12 @@ Results:
     - RND4K Q32T1: read 561.62, write 452.48
     - RND4K Q1T1: read 81.13, write 173.23
 
-
 Conclusions:
 
 - switching from Windows 10 to 11 increases the GPU performance by 3%
 - enabling fTPM decreases CPU perf by 0.8% and GPU perf by 0.5%
 - enabling core isolation (memory integrity) decreases CPU perf by 0.4% and GPU perf by 0.8%
+- installing AMD chipset drivers does not affect any performance
 
 ## Worker
 
