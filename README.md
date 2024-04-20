@@ -89,6 +89,23 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 
 - BIOS F19 AGESA 1.2.0.B
 
+- Cinebench 2024.0.0 (pts): multi core 1194, single core 86, GPU 12844
+- 3DMark 2.28.8217 (pts)
+  - Time Spy Extreme 1.2: score 8810, graphics score 9028, CPU score 7752
+  - Port Royal 1.3: score 11802, graphics score 11802
+  - Speed Way 1.0: score 4685, graphics score 4685
+- CrystalDiskMark 8.0.5 (MB/s)
+  - NVME 1
+    - SEQ1M Q8T1: read 6849, write 5014
+    - SEQ1M Q1T1: read 4183, write 4354
+    - RND4K Q32T1: read 592, write 449
+    - RND4K Q1T1: read 86, write 207
+  - NVME 2
+    - SEQ1M Q8T1: read 3242, write 3166
+    - SEQ1M Q1T1: read 2712, write 2898
+    - RND4K Q32T1: read 588, write 499
+    - RND4K Q1T1: read 82, write 181
+
 Setup:
 
 - BIOS F17c AGESA 1.2.0.8
