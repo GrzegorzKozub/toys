@@ -9,7 +9,7 @@ Hardware manifest and settings
 - Cooler Master NR200P
 - Corsair SF750 Platinum
 - G.SKILL Trident Z Neo 32GB 3600MHz DDR4 CL16
-- Gigabyte B550I Aorus Pro AX
+- Gigabyte B550I Aorus Pro AX (BIOS F19 AGESA 1.2.0.B)
 - Glorious PC Gaming Race Model O 2 Wireless
 - KBDfans D84 v2
 - LG 27GP950-B
@@ -69,8 +69,6 @@ Hardware manifest and settings
     - Secure Boot: Enabled, Active
     - Secure Boot Mode: Standard
 
-Settings saved with BIOS version F17c to `player-bios.cmo` file.
-
 ### GPU undervolting
 
 In Afterburner, set core clock to -290MHz and drag 900mV point to 1920MHz. Could go 875mV but that causes games like Metro to crash.
@@ -87,13 +85,21 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 
 ### Benchmarks
 
+Setup:
+
 - BIOS F19 AGESA 1.2.0.B
+- Windows 11 23H2 22631.3447
+- AMD chipset drivers not installed
+- NVIDIA 552.22
+- core isolation (memory integrity) off
+
+Results:
 
 - Cinebench 2024.0.0 (pts): multi core 1194, single core 86, GPU 12844
 - 3DMark 2.28.8217 (pts)
   - Time Spy Extreme 1.2: score 8810, graphics score 9028, CPU score 7752
-  - Port Royal 1.3: score 11802, graphics score 11802
-  - Speed Way 1.0: score 4685, graphics score 4685
+  - Port Royal 1.3: score 11802
+  - Speed Way 1.0: score 4685
 - CrystalDiskMark 8.0.5 (MB/s)
   - NVME 1
     - SEQ1M Q8T1: read 6849, write 5014
@@ -106,71 +112,13 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
     - RND4K Q32T1: read 588, write 499
     - RND4K Q1T1: read 82, write 181
 
-Setup:
-
-- BIOS F17c AGESA 1.2.0.8
-- Windows 11 23H2 22631.3447
-- AMD chipset drivers not installed
-- NVIDIA 552.22
-- core isolation (memory integrity) off
-
-Results:
-
-- Cinebench R23.200 (pts): multi core 21375, single core 1392
-- Cinebench 2024.0.0 (pts): multi core 1184, single core 86, GPU 13942
-- 3DMark 2.28.8217 (pts)
-  - Time Spy 1.2: score 16970, graphics score 17908, CPU score 13087
-  - Time Spy Extreme 1.2: score 8804, graphics score 9020, CPU score 7755
-  - Port Royal 1.3: score 11817, graphics score 11817
-  - Speed Way 1.0: score 4684, graphics score 4684
-  - CPU Profile 1.0: max threads 10218
-- CrystalDiskMark 8.0.5 (MB/s)
-  - NVME 1
-    - SEQ1M Q8T1: read 6873, write 4950
-    - SEQ1M Q1T1: read 4265, write 4364
-    - RND4K Q32T1: read 596, write 446
-    - RND4K Q1T1: read 86, write 206
-  - NVME 2
-    - SEQ1M Q8T1: read 3247, write 3164
-    - SEQ1M Q1T1: read 2724, write 2899
-    - RND4K Q32T1: read 595, write 502
-    - RND4K Q1T1: read 83, write 182
-
-Setup:
-
-- BIOS F17c AGESA 1.2.0.8
-- Windows 11 23H2 22631.2861
-- AMD chipset drivers not installed
-- NVIDIA 546.33
-- core isolation (memory integrity) off
-
-Results:
-
-- Cinebench R23.200 (pts): multi core 21491, single core 1388
-- 3DMark 2.28.8217 (pts)
-  - Time Spy 1.2: score 16972, graphics score 17830, CPU score 13338
-  - Time Spy Extreme 1.2: score 8745, graphics score 8948, CPU score 7751
-  - Port Royal 1.3: score 11833, graphics score 11833
-  - Speed Way 1.0: score 4688, graphics score 4688
-  - CPU Profile 1.0: max threads 10265
-- CrystalDiskMark 8.0.4 (MB/s)
-  - NVME 1
-    - SEQ1M Q8T1: read 6864.65, write 5011.48
-    - SEQ1M Q1T1: read 4177.83, write 4325.48
-    - RND4K Q32T1: read 545.13, write 400.57
-    - RND4K Q1T1: read 84.04, write 193.85
-  - NVME 2
-    - SEQ1M Q8T1: read 3238.47, write 3166.61
-    - SEQ1M Q1T1: read 2708.94, write 2886.74
-    - RND4K Q32T1: read 561.62, write 452.48
-    - RND4K Q1T1: read 81.13, write 173.23
-
 Conclusions:
 
 - switching from Windows 10 to 11 increases the GPU performance by 3%
 - enabling fTPM decreases CPU perf by 0.8% and GPU perf by 0.5%
 - enabling core isolation (memory integrity) decreases CPU perf by 0.4% and GPU perf by 0.8%
 - installing AMD chipset drivers does not affect any performance
+- updating BIOS from F17c (AGESA 1.2.0.8) to F19 (AGESA 1.2.0.B) did not affect any performance
 
 ## Worker
 
