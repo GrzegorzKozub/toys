@@ -11,6 +11,7 @@ Hardware manifest and settings
 - G.SKILL Trident Z Neo 32GB 3600MHz DDR4 CL16
 - Gigabyte B550I Aorus Pro AX (BIOS F19 AGESA 1.2.0.B)
 - Glorious PC Gaming Race Model O 2 Wireless
+- GuliKit KingKong 2 Pro NS09
 - KBDfans D84 v2
 - LG 27GP950-B
 - Noctua NF-A12x25 PWM
