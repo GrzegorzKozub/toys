@@ -5,6 +5,7 @@ Hardware manifest and settings
 ## Player
 
 - AMD Ryzen 9 5900X
+- Asus ROG Swift OLED PG32UCDM
 - Asus TUF RTX 3080 10GB Gaming
 - Cooler Master NR200P
 - Corsair SF750 Platinum
@@ -202,11 +203,12 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 
 ## Others
 
+- Kobo Clara BW
 - KOSS Porta Pro
 - OnePlus 9 8GB 128GB
 - SanDisk Ultra Dual Drive 64GB
 - SanDisk Ultra Dual Drive Luxe 128GB
 - SanDisk Ultra Dual Drive Luxe 64GB
 - Sennheiser HD 58X Jubilee
-- Steam Deck 512GB
+- Steam Deck OLED 512GB
 
