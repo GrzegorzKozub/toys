@@ -210,5 +210,5 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 - SanDisk Ultra Dual Drive Luxe 128GB
 - SanDisk Ultra Dual Drive Luxe 64GB
 - Sennheiser HD 58X Jubilee
-- Steam Deck OLED 512GB
+- Steam Deck OLED 1TB
 
