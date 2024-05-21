@@ -134,6 +134,7 @@ Conclusions:
 - Intel Core i9-9900K
 - LG 27UD88-W
 - LG 27UL850-W
+- Logitech C922 Pro Stream Webcam
 - Noctua NH-U9S
 - Samsung 840 Evo 500GB
 - Samsung 970 Evo 1TB
