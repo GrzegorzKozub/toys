@@ -98,7 +98,8 @@ Setup:
 Results:
 
 - Cinebench 2024.0.0 (pts): multi core 1194, single core 86, GPU 12844
-- 3DMark 2.28.8217 (pts)
+- 3DMark 2.29.8256 (pts)
+  - Steel Nomad 1.0: score 4494
   - Time Spy Extreme 1.2: score 8810, graphics score 9028, CPU score 7752
   - Port Royal 1.3: score 11802
   - Speed Way 1.0: score 4685
