@@ -91,6 +91,8 @@ Asus PG32UCDM settings which were enabled and/or modified:
   - Color Temp: User with RGB at 98 100 100 when Wide Gamutor 6500K when sRGB
   - Gamma: 2.2
 
+TFT Central provided `pg32ucdm.42.icm` ICC profile was created for brightness at 42 (120 nits) and RGB settings at 98 100 100 with uniform brightness enabled.
+
 LG 27GP950-B was calibrated for Gamer 1 profile, brightness set to 10 (around 120 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.b10.icm`. Not relevant for calibration, contrast looks best at 70.
 
 ### Keyboard settings
