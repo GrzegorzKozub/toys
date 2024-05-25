@@ -75,9 +75,22 @@ Hardware manifest and settings
 
 In Afterburner, set core clock to -290MHz and drag 900mV point to 1920MHz. Could go 875mV but that causes games like Metro to crash.
 
-### Monitor calibration
+### Monitor settings
 
-LG 27GP950-B was calibrated for Gamer 1 profile, brightness set to 10 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.b10.icm`.
+Asus PG32UCDM settings which were enabled and/or modified: 
+
+- Gaming
+  - Game Visual: User
+- Image
+  - Brightness: 42 for 120 nits, 55 for 150 nits, 75 for 200 nits or 100 for 256 nits
+  - Uniform Brightness: Enabled
+  - HDR Setting: Gaming HDR or Console HDR
+- Color
+  - Display Color Space: Wide Gamut (vivid) or sRGB (clamped)
+  - Color Temp: User with RGB at 98 100 100 when Wide Gamutor 6500K when sRGB
+  - Gamma: 2.2
+
+LG 27GP950-B was calibrated for Gamer 1 profile, brightness set to 10 (around 120 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.b10.icm`. Not relevant for calibration, contrast looks best at 70.
 
 ### Keyboard settings
 
@@ -183,7 +196,7 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 
 *Above 4G Decoding* causes a black screen when trying to run Reflect or Windows setup.
 
-### Monitor calibration
+### Monitor settings
 
 LG LG 27UL850-W was calibrated for Custom profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`. 
 
