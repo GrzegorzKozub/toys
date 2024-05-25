@@ -84,6 +84,7 @@ Asus PG32UCDM settings which were enabled and/or modified:
 - Image
   - Brightness: 42 for 120 nits, 55 for 150 nits, 75 for 200 nits or 100 for 256 nits
   - Uniform Brightness: Enabled
+  - Contrast: 70
   - HDR Setting: Gaming HDR or Console HDR
 - Color
   - Display Color Space: Wide Gamut (vivid) or sRGB (clamped)
