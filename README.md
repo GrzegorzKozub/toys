@@ -78,7 +78,7 @@ In Afterburner, set core clock to -290MHz and drag 900mV point to 1920MHz. Could
 
 LG 27GP950-B was calibrated for Gamer 1 profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
 
-TFT Central provided `27gp950-b.6.icm` ICC profile was created for Gamer 1, brightness at 6, contrast at 70 and RGB settings at 50 48 45.
+TFT Central provided `27gp950-b.6.icm` ICC profile was created for Gamer 1 profile, brightness set to 6, RGB settings at 50 48 45 and the contrast of 70.
 
 Asus PG32UCDM settings which were enabled and/or modified: 
 
@@ -94,9 +94,9 @@ Asus PG32UCDM settings which were enabled and/or modified:
   - Color Temp: User with RGB at 98 100 100 when Wide Gamut or 6500K when sRGB
   - Gamma: 2.2
 
-TFT Central provided `pg32ucdm.42.icm` ICC profile was created for brightness at 42 (120 nits) and RGB settings at 98 100 100 with uniform brightness enabled.
+TFT Central provided `pg32ucdm.42.icm` ICC profile was created for brightness set to 42 (120 nits), RGB settings at 98 100 100 and uniform brightness enabled.
 
-PG32UCDM got returned due to an aggressive VRR flickering during load screens and framerate dips when G-Sync was enabled. The only viable mitigation was to set the refresh rate to 60 Hz before launching a game.
+PG32UCDM got returned due to aggressive VRR flickering during load screens and framerate dips when G-Sync was enabled. Mitigation options were to either disable VRR or set the refresh rate to 60 Hz before launching a game.
 
 ### Keyboard settings
 
