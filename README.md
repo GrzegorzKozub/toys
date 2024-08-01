@@ -2,6 +2,10 @@
 
 Hardware manifest and settings
 
+## Next
+
+- NCase M2
+
 ## Player
 
 - AMD Ryzen 9 5900X
