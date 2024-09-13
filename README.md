@@ -5,6 +5,7 @@ Hardware manifest and settings
 ## Next
 
 - NCase M2
+- Lian Li A3-mATX
 
 ## Player
 
