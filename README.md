@@ -4,8 +4,9 @@ Hardware manifest and settings
 
 ## Next
 
-- NCase M2
-- Lian Li A3-mATX
+Ideas for the next build
+
+- NCase M2, Lian Li A3-mATX, Fractal Era 2
 
 ## Player
 
