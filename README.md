@@ -2,11 +2,9 @@
 
 Hardware manifest and settings
 
-## Next
+## Next build
 
-Ideas for the next build
-
-- NCase M2, Lian Li A3-mATX, Fractal Era 2
+- Fractal Era 2, Lian Li A3-mATX, NCase M2
 
 ## Player
 
@@ -112,6 +110,8 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 
 ### Benchmarks
 
+#### Windows 11 23H2
+
 Setup:
 
 - BIOS F19 AGESA 1.2.0.B
@@ -140,13 +140,44 @@ Results:
     - RND4K Q32T1: read 588, write 499
     - RND4K Q1T1: read 82, write 181
 
-Conclusions:
+#### Windows 11 24H2
 
-- switching from Windows 10 to 11 increases the GPU performance by 3%
-- enabling fTPM decreases CPU perf by 0.8% and GPU perf by 0.5%
-- enabling core isolation (memory integrity) decreases CPU perf by 0.4% and GPU perf by 0.8%
-- installing AMD chipset drivers does not affect any performance
-- updating BIOS from F17c (AGESA 1.2.0.8) to F19 (AGESA 1.2.0.B) did not affect any performance
+Setup:
+
+- BIOS F19 AGESA 1.2.0.B
+- Windows 11 24H2 26100.1882
+- AMD chipset drivers not installed
+- NVIDIA 565.90
+- core isolation (memory integrity) off
+
+Results:
+
+- Cinebench 2024.1.0 (pts): multi core 1195, single core 86, GPU 12978
+- 3DMark 2.29.8294 (pts)
+  - Steel Nomad 1.0: score 4483
+  - Time Spy Extreme 1.2: score 8728, graphics score 8923, CPU score 7767
+  - Port Royal 1.3: score 12050
+  - Speed Way 1.0: score 4790
+- CrystalDiskMark 8.0.5 (MB/s)
+  - NVME 1
+    - SEQ1M Q8T1: read 6869, write 4950
+    - SEQ1M Q1T1: read 4086, write 4253
+    - RND4K Q32T1: read 564, write 394
+    - RND4K Q1T1: read 81, write 192
+  - NVME 2
+    - SEQ1M Q8T1: read 3235, write 3167
+    - SEQ1M Q1T1: read 2621, write 2862
+    - RND4K Q32T1: read 560, write 438
+    - RND4K Q1T1: read 78, write 171
+
+#### Conclusions
+
+- Switching from Windows 10 to 11 increases the GPU performance by 3%
+- Upgrading Windows 11 from 23H2 to 24H2 decreases SSD perf by 1%
+- Enabling fTPM decreases CPU perf by 0.8% and GPU perf by 0.5%
+- Enabling core isolation (memory integrity) decreases CPU perf by 0.4% and GPU perf by 0.8%
+- Installing AMD chipset drivers does not affect any performance
+- Updating BIOS from F17c (AGESA 1.2.0.8) to F19 (AGESA 1.2.0.B) does not affect any performance
 
 ## Worker
 
