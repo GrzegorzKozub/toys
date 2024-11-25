@@ -4,7 +4,8 @@ Hardware manifest and settings
 
 ## Next build
 
-- Fractal Era 2, Lian Li A3-mATX, NCase M2
+- Fractal Era 2 or ~Terra?~ (runs hot, throttles), Lian Li A3-mATX, NCase M2, Asus X870 ITX, Asus B650E-I
+- NR200 with PA140 at 750 rpm and rear exhaust or Ncase M2 with PA120 Mini at 1050 rpm and rear intake
 
 ## Player
 
