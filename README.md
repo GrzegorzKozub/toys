@@ -7,6 +7,7 @@ Hardware manifest and settings
 - Fractal Era 2 or ~Terra?~ (runs hot, throttles), Lian Li A3-mATX, NCase M2, Asus X870 ITX, Asus B650E-I
 - NR200 with PA140 at 750 rpm and rear exhaust or Ncase M2 with PA120 Mini at 1050 rpm and rear intake
 - Asus Strix X870-I maybe or ASUS ROG STRIX X670e-i
+- ddr5 6000 cl28/30 or 8000 cl38
 
 ## Player
 
