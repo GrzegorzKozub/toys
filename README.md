@@ -2,17 +2,10 @@
 
 Hardware manifest and settings
 
-## Next build
-
-- Fractal Era 2 or ~Terra?~ (runs hot, throttles), Lian Li A3-mATX, NCase M2, Asus X870 ITX, Asus B650E-I
-- NR200 with PA140 at 750 rpm and rear exhaust or Ncase M2 with PA120 Mini at 1050 rpm and rear intake
-- Asus Strix X870-I maybe or ASUS ROG STRIX X670e-i
-- ddr5 6000 cl28/30 or 8000 cl38
-
 ## Player
 
 - AMD Ryzen 9 5900X
-- Asus TUF RTX 3080 10GB Gaming
+- Asus TUF Gaming OC GeForce RTX 3080 10GB
 - Cooler Master NR200P
 - Corsair SF750 Platinum
 - G.SKILL Trident Z Neo 32GB 3600MHz DDR4 CL16
@@ -87,7 +80,7 @@ LG 27GP950-B was calibrated for Gamer 1 profile, brightness set to 10 (about 130
 
 TFT Central provided `27gp950-b.6.icm` ICC profile was created for Gamer 1 profile, brightness set to 6, RGB settings at 50 48 45 and the contrast of 70.
 
-Asus PG32UCDM settings which were enabled and/or modified: 
+Asus PG32UCDM settings which were enabled and/or modified:
 
 - Gaming
   - Game Visual: User
@@ -184,7 +177,7 @@ Results:
 
 ## Worker
 
-- Asus Dual Radeon RX 6650 XT OC V2 8GB
+- Asus Dual OC V2 Radeon RX 6650 XT 8GB
 - Asus ROG Strix Z370-I Gaming
 - Corsair SF600 Platinum
 - Fractal Design Define Nano S
@@ -244,9 +237,9 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 
 ### Monitor settings
 
-LG 27UL850-W was calibrated for Custom profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`. 
+LG 27UL850-W was calibrated for Custom profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
 
-LG 27UD88-W was calibrated for Custom profile, brightness set to 30 and gamma mode 1 selected. Hardware calibration resulted in the RGB settings of 49 47 50. Software calibration is stored in the ICC profile `27ud88-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ud88-w.50.icm`. 
+LG 27UD88-W was calibrated for Custom profile, brightness set to 30 and gamma mode 1 selected. Hardware calibration resulted in the RGB settings of 49 47 50. Software calibration is stored in the ICC profile `27ud88-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ud88-w.50.icm`.
 
 ### Keyboard settings
 
@@ -258,7 +251,7 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 
 - Dell XPS 13 9310
   - Intel Core i71165G7
-  - LPDDR4x 32GB 4266MHz 
+  - LPDDR4x 32GB 4266MHz
   - M.2 NVMe PCIe 1TB
 - Samsung 850 Pro 256GB
 
