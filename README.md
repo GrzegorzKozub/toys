@@ -8,7 +8,7 @@ Hardware manifest and settings
 - Asus TUF Gaming OC GeForce RTX 3080 10GB
 - Cooler Master NR200P
 - Corsair SF750 Platinum
-- G.SKILL Trident Z Neo 32GB 3600MHz DDR4 CL16
+- G.Skill Trident Z Neo 32GB 3600MHz DDR4 CL16
 - Gigabyte B550I Aorus Pro AX (BIOS F19 AGESA 1.2.0.B)
 - Glorious PC Gaming Race Model O 2 Wireless
 - GuliKit KingKong 2 Pro NS09
