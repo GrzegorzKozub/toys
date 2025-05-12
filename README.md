@@ -7,7 +7,7 @@ Hardware manifest and settings
 - AMD Ryzen 9 5900X
 - Asus TUF Gaming OC GeForce RTX 3080 10GB
 - Cooler Master NR200P
-- Corsair SF750 Platinum
+- Corsair SF750
 - G.Skill Trident Z Neo 32GB 3600MHz DDR4 CL16
 - Gigabyte B550I Aorus Pro AX (BIOS F19 AGESA 1.2.0.B)
 - Glorious PC Gaming Race Model O 2 Wireless
@@ -179,7 +179,7 @@ Results:
 
 - Asus Dual OC V2 Radeon RX 6650 XT 8GB
 - Asus ROG Strix Z370-I Gaming
-- Corsair SF600 Platinum
+- Corsair SF600
 - Fractal Design Define Nano S
 - Glorious PC Gaming Race Model O Wireless
 - HyperX Fury Black 16GB 2133MHz DDR4 CL14
