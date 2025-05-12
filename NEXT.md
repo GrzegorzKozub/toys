@@ -13,3 +13,8 @@ Planning out the next build
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30, 33mm
 - NCase M2, CPU cooler 144, GPU 359x148x80
 
+SF1000 or SF1000L
+https://www.corsair.com/pl/en/p/psu/cp-9020257-eu/sf-series-sf1000-fully-modular-80-plus-platinum-sfx-power-supply-eu-cp-9020257-eu
+https://www.corsair.com/pl/en/p/psu/cp-9020246-eu/sf-l-series-sf1000l-fully-modular-low-noise-sfx-power-supply-cp-9020246-eu
+https://rog.asus.com/power-supply-units/rog-loki/rog-loki-1200t-sfx-l-gaming-model
+
