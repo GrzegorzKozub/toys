@@ -1,8 +1,83 @@
 # Toys
 
-Hardware manifest and settings
+PC builds, config and tweaks
 
 ## Player
+
+Core
+
+- AMD Ryzen 9 9950X3D
+- Asus ROG Strix B850-I Gaming (BIOS ... AGESA ...)
+- Asus TUF Gaming OC GeForce RTX 5090 32GB
+- Corsair SF1000
+- G.Skill Flare X5 64GB 6000MHz DDR5 CL30
+- NCase M2 1.0 Grater
+- Noctua NF-A12x15 PWM chromax.black.swap
+- Noctua NF-A12x25 PWM chromax.black.swap
+- Noctua NF-A9x14 HS-PWM chromax.black.swap
+- Noctua NH-D12L chromax.black
+- Samsung 9100 Pro 4TB
+
+Monitors
+
+- [ ] Asus PG32UCDM
+- LG 27GP950-B
+
+Peripherals
+
+- Glorious PC Gaming Race Model O 2 Wireless
+- GuliKit KingKong 2 Pro NS09
+- KBDfans D84 v2
+- Vortex Race 3
+
+### Firmware settings
+
+...
+
+TODO
+
+- https://www.techpowerup.com/forums/threads/guide-amd-am5-system-optimization.330322/
+- https://wccftech.com/asus-intros-core-tuning-config-for-gaming-feature-in-am5-bios-reduces-overall-system-latency-for-faster-performance-on-ryzen-cpus/
+
+### GPU undervolting
+
+...
+
+### Monitor settings
+
+*LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
+
+TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* profile, brightness set to 6, RGB settings at 50 48 45 and the contrast of 70.
+
+Modified and/or enabled *Asus PG32UCDM* settings:
+
+- Gaming
+  - Game Visual: User
+- Image
+  - Brightness: 42 for 120 nits, 55 for 150 nits, 75 for 200 nits or 100 for 256 nits
+  - Uniform Brightness: Enabled
+  - Contrast: 70
+  - HDR Setting: Gaming HDR or Console HDR
+- Color
+  - Display Color Space: Wide Gamut (vivid) or sRGB (clamped)
+  - Color Temp: User with RGB at 98 100 100 when Wide Gamut or 6500K when sRGB
+  - Gamma: 2.2
+
+TFT Central provided `pg32ucdm.42.icm` ICC profile was created for brightness set to 42 (120 nits), RGB settings at 98 100 100 and uniform brightness enabled.
+
+### Keyboard settings
+
+For *KBDfans D84 v2*, use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `d84v2-0.png` and `d84v2-1.png`.
+
+To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt+PrintScreen`.
+
+### Benchmarks
+
+...
+
+## Worker
+
+Core
 
 - AMD Ryzen 9 5900X
 - Asus TUF Gaming OC GeForce RTX 3080 10GB
@@ -10,15 +85,23 @@ Hardware manifest and settings
 - Corsair SF750
 - G.Skill Trident Z Neo 32GB 3600MHz DDR4 CL16
 - Gigabyte B550I Aorus Pro AX (BIOS F19 AGESA 1.2.0.B)
-- Glorious PC Gaming Race Model O 2 Wireless
-- GuliKit KingKong 2 Pro NS09
-- KBDfans D84 v2
-- LG 27GP950-B
 - Noctua NF-A12x25 PWM
 - Noctua NH-U12A
 - Samsung 850 Pro 500GB
 - Samsung 980 Pro 1TB
+
+Monitors
+
+- LG 27UD88-W
+- LG 27UL850-W
+
+Peripherals
+
+- Glorious PC Gaming Race Model O Wireless
+- Idobao ID80V3
+- Logitech C922 Pro Stream Webcam
 - Vortex Race 3
+- Zowie EC1-A
 
 ### Firmware settings
 
@@ -72,73 +155,23 @@ Hardware manifest and settings
 
 ### GPU undervolting
 
-In Afterburner, set core clock to -290MHz and drag 900mV point to 1920MHz. Could go 875mV but that causes games like Metro to crash.
+In *Afterburner*, set core clock to -290MHz and drag 900mV point to 1920MHz.
 
 ### Monitor settings
 
-LG 27GP950-B was calibrated for Gamer 1 profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
+LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
 
-TFT Central provided `27gp950-b.6.icm` ICC profile was created for Gamer 1 profile, brightness set to 6, RGB settings at 50 48 45 and the contrast of 70.
-
-Asus PG32UCDM settings which were enabled and/or modified:
-
-- Gaming
-  - Game Visual: User
-- Image
-  - Brightness: 42 for 120 nits, 55 for 150 nits, 75 for 200 nits or 100 for 256 nits
-  - Uniform Brightness: Enabled
-  - Contrast: 70
-  - HDR Setting: Gaming HDR or Console HDR
-- Color
-  - Display Color Space: Wide Gamut (vivid) or sRGB (clamped)
-  - Color Temp: User with RGB at 98 100 100 when Wide Gamut or 6500K when sRGB
-  - Gamma: 2.2
-
-TFT Central provided `pg32ucdm.42.icm` ICC profile was created for brightness set to 42 (120 nits), RGB settings at 98 100 100 and uniform brightness enabled.
-
-PG32UCDM got returned due to aggressive VRR flickering during load screens and framerate dips when G-Sync was enabled. Mitigation options were to either disable VRR or set the refresh rate to 60 Hz before launching a game.
+LG *27UD88-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 1 selected. Hardware calibration resulted in the RGB settings of 49 47 50. Software calibration is stored in the ICC profile `27ud88-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ud88-w.50.icm`.
 
 ### Keyboard settings
 
-For KBDfans D84 v2, use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `d84v2-0.png` and `d84v2-1.png`.
+For *Idobao ID80V3* and *ID80V2* follow [this guide](https://idobao.github.io/manuals/flashing/) to update the firmware and use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `id80v3-0.png` and `id80v3-1.png`.
 
-To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt+PrintScreen`.
+To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt+Fn+F10`.
 
 ### Benchmarks
 
-#### Windows 11 23H2
-
-Setup:
-
-- BIOS F19 AGESA 1.2.0.B
-- Windows 11 23H2 22631.3447
-- AMD chipset drivers not installed
-- NVIDIA 552.22
-- core isolation (memory integrity) off
-
-Results:
-
-- Cinebench 2024.0.0 (pts): multi core 1194, single core 86, GPU 12844
-- 3DMark 2.29.8256 (pts)
-  - Steel Nomad 1.0: score 4494
-  - Time Spy Extreme 1.2: score 8810, graphics score 9028, CPU score 7752
-  - Port Royal 1.3: score 11802
-  - Speed Way 1.0: score 4685
-- CrystalDiskMark 8.0.5 (MB/s)
-  - NVME 1
-    - SEQ1M Q8T1: read 6849, write 5014
-    - SEQ1M Q1T1: read 4183, write 4354
-    - RND4K Q32T1: read 592, write 449
-    - RND4K Q1T1: read 86, write 207
-  - NVME 2
-    - SEQ1M Q8T1: read 3242, write 3166
-    - SEQ1M Q1T1: read 2712, write 2898
-    - RND4K Q32T1: read 588, write 499
-    - RND4K Q1T1: read 82, write 181
-
-#### Windows 11 24H2
-
-Setup:
+Setup
 
 - BIOS F19 AGESA 1.2.0.B
 - Windows 11 24H2 26100.1882
@@ -146,7 +179,7 @@ Setup:
 - NVIDIA 565.90
 - core isolation (memory integrity) off
 
-Results:
+Results
 
 - Cinebench 2024.1.0 (pts): multi core 1195, single core 86, GPU 12978
 - 3DMark 2.29.8294 (pts)
@@ -166,33 +199,25 @@ Results:
     - RND4K Q32T1: read 560, write 438
     - RND4K Q1T1: read 78, write 171
 
-#### Conclusions
+Conclusions
 
-- Switching from Windows 10 to 11 increases the GPU performance by 3%
-- Upgrading Windows 11 from 23H2 to 24H2 decreases SSD perf by 1%
 - Enabling fTPM decreases CPU perf by 0.8% and GPU perf by 0.5%
 - Enabling core isolation (memory integrity) decreases CPU perf by 0.4% and GPU perf by 0.8%
 - Installing AMD chipset drivers does not affect any performance
-- Updating BIOS from F17c (AGESA 1.2.0.8) to F19 (AGESA 1.2.0.B) does not affect any performance
 
-## Worker
+## Sacrifice
+
+Core
 
 - Asus Dual OC V2 Radeon RX 6650 XT 8GB
-- Asus ROG Strix Z370-I Gaming
+- Asus ROG Strix Z370-I Gaming (BIOS 3005)
 - Corsair SF600
 - Fractal Design Define Nano S
-- Glorious PC Gaming Race Model O Wireless
 - HyperX Fury Black 16GB 2133MHz DDR4 CL14
-- Idobao ID80V3
 - Intel Core i9-9900K
-- LG 27UD88-W
-- LG 27UL850-W
-- Logitech C922 Pro Stream Webcam
 - Noctua NH-U9S
 - Samsung 840 Evo 500GB
 - Samsung 970 Evo 1TB
-- Vortex Race 3
-- Zowie EC1-A
 
 ### Firmware settings
 
@@ -227,42 +252,11 @@ Results:
 - POST Report: 1 sec
 - Profile Name: 4.4GHz@1.2V
 
-Settings saved with BIOS version 3005 to `worker-bios.cmo` and `worker-bios.txt` files.
+Settings saved with BIOS version 3005 to `sacrifice-bios.cmo` and `sacrifice-bios.txt` files.
 
 Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-enable).
 
 *Security Device Support* is required for Windows 11 but when it is enabled, `dmesg` reports `tpm_crb MSFT0101:00: [Firmware Bug]: ACPI region does not cover the entire command/response buffer.`
 
 *Above 4G Decoding* causes a black screen when trying to run Reflect or Windows setup.
-
-### Monitor settings
-
-LG 27UL850-W was calibrated for Custom profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
-
-LG 27UD88-W was calibrated for Custom profile, brightness set to 30 and gamma mode 1 selected. Hardware calibration resulted in the RGB settings of 49 47 50. Software calibration is stored in the ICC profile `27ud88-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ud88-w.50.icm`.
-
-### Keyboard settings
-
-For Idobao ID80V3 and ID80V2 follow [this guide](https://idobao.github.io/manuals/flashing/) to update the firmware and use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `id80v3-0.png` and `id80v3-1.png`.
-
-To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt+Fn+F10`.
-
-## Drifter
-
-- Dell XPS 13 9310
-  - Intel Core i71165G7
-  - LPDDR4x 32GB 4266MHz
-  - M.2 NVMe PCIe 1TB
-- Samsung 850 Pro 256GB
-
-## Others
-
-- Kobo Clara BW
-- KOSS Porta Pro
-- OnePlus 9 8GB 128GB
-- SanDisk Ultra Dual Drive 64GB
-- SanDisk Ultra Dual Drive Luxe 128GB
-- SanDisk Ultra Dual Drive Luxe 64GB
-- Sennheiser HD 58X Jubilee
-- Steam Deck OLED 1TB
 
