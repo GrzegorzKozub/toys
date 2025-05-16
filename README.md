@@ -45,15 +45,15 @@ Peripherals
 
 - 4 TB
   - 4 GB EFI
-  - 120 GB Windows
-  - 360 GB
-    - 120 GB `/`
-    - 240 GB `/run/media/greg/data`
-  - not encrypted
-    - 300 GB `/run/media/greg/games`
-  - 450 GB Data
-  - 700 GB Games
-  - Backup
+  - 256 GB Windows
+  - 768 GB
+    - 8 GB swap
+    - 256 GB `/`
+    - 512 GB `/run/media/greg/data`
+  - 512 GB Data
+  - 1.5 TB Games
+  - 512 GB `/run/media/greg/games`
+  - 512 GB Backup
 
 ### Monitor settings
 
@@ -175,12 +175,13 @@ In *Afterburner*, set core clock to -290MHz and drag 900mV point to 1920MHz.
   - 512 MB EFI
   - 120 GB Windows
   - 360 GB
+    - 8 GB swap
     - 120 GB `/`
-    - 240 GB `/run/media/greg/data`
+    - 230 GB `/run/media/greg/data`
   - 450 GB Data
 - 1 TB
   - 700 GB Games
-  - 300 GB `/run/media/greg/games`
+  - 230 GB `/run/media/greg/games`
 - 500 GB Backup
 
 ### Monitor settings
@@ -292,8 +293,9 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
   - 512 MB EFI
   - 120 GB Windows
   - 360 GB
+    - 8 GB swap
     - 120 GB `/`
-    - 240 GB `/run/media/greg/data`
+    - 230 GB `/run/media/greg/data`
   - 450 GB Data
 - 500 GB Backup
 
