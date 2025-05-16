@@ -4,17 +4,17 @@ PC builds, config and tweaks
 
 ## Player
 
-Core
+Box
 
 - AMD Ryzen 9 9950X3D
-- Asus ROG Strix B850-I Gaming (BIOS ... AGESA ...)
+- [ ] Asus ROG Strix B850-I Gaming (BIOS ... AGESA ...)
 - Asus TUF Gaming OC GeForce RTX 5090 32GB
 - Corsair SF1000
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
 - NCase M2 1.0 Grater
-- Noctua NF-A12x15 PWM chromax.black.swap
-- Noctua NF-A12x25 PWM chromax.black.swap
-- Noctua NF-A9x14 HS-PWM chromax.black.swap
+- [ ] Noctua NF-A12x15 PWM chromax.black.swap
+- [ ] Noctua NF-A12x25 PWM chromax.black.swap
+- [ ] Noctua NF-A9x14 HS-PWM chromax.black.swap
 - Noctua NH-D12L chromax.black
 - Samsung 9100 Pro 4TB
 
@@ -34,14 +34,26 @@ Peripherals
 
 ...
 
-TODO
-
 - https://www.techpowerup.com/forums/threads/guide-amd-am5-system-optimization.330322/
 - https://wccftech.com/asus-intros-core-tuning-config-for-gaming-feature-in-am5-bios-reduces-overall-system-latency-for-faster-performance-on-ryzen-cpus/
 
 ### GPU undervolting
 
 ...
+
+### Disk partitioning
+
+- 4 TB
+  - 4 GB EFI
+  - 120 GB Windows
+  - 360 GB
+    - 120 GB `/`
+    - 240 GB `/run/media/greg/data`
+  - not encrypted
+    - 300 GB `/run/media/greg/games`
+  - 450 GB Data
+  - 700 GB Games
+  - Backup
 
 ### Monitor settings
 
@@ -77,7 +89,7 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 
 ## Worker
 
-Core
+Box
 
 - AMD Ryzen 9 5900X
 - Asus TUF Gaming OC GeForce RTX 3080 10GB
@@ -85,10 +97,10 @@ Core
 - Corsair SF750
 - G.Skill Trident Z Neo 32GB 3600MHz DDR4 CL16
 - Gigabyte B550I Aorus Pro AX (BIOS F19 AGESA 1.2.0.B)
-- Noctua NF-A12x25 PWM
+- Noctua NF-A12x25 PWM (x4)
 - Noctua NH-U12A
 - Samsung 850 Pro 500GB
-- Samsung 980 Pro 1TB
+- Samsung 980 Pro 1TB (x2)
 
 Monitors
 
@@ -157,6 +169,20 @@ Peripherals
 
 In *Afterburner*, set core clock to -290MHz and drag 900mV point to 1920MHz.
 
+### Disk partitioning
+
+- 1 TB
+  - 512 MB EFI
+  - 120 GB Windows
+  - 360 GB
+    - 120 GB `/`
+    - 240 GB `/run/media/greg/data`
+  - 450 GB Data
+- 1 TB
+  - 700 GB Games
+  - 300 GB `/run/media/greg/games`
+- 500 GB Backup
+
 ### Monitor settings
 
 LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
@@ -179,7 +205,7 @@ Setup
 - NVIDIA 565.90
 - core isolation (memory integrity) off
 
-Results
+Results when optimized
 
 - Cinebench 2024.1.0 (pts): multi core 1195, single core 86, GPU 12978
 - 3DMark 2.29.8294 (pts)
@@ -207,7 +233,7 @@ Conclusions
 
 ## Sacrifice
 
-Core
+Box
 
 - Asus Dual OC V2 Radeon RX 6650 XT 8GB
 - Asus ROG Strix Z370-I Gaming (BIOS 3005)
@@ -259,4 +285,15 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 *Security Device Support* is required for Windows 11 but when it is enabled, `dmesg` reports `tpm_crb MSFT0101:00: [Firmware Bug]: ACPI region does not cover the entire command/response buffer.`
 
 *Above 4G Decoding* causes a black screen when trying to run Reflect or Windows setup.
+
+### Disk partitioning
+
+- 1 TB
+  - 512 MB EFI
+  - 120 GB Windows
+  - 360 GB
+    - 120 GB `/`
+    - 240 GB `/run/media/greg/data`
+  - 450 GB Data
+- 500 GB Backup
 
