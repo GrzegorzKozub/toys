@@ -1,20 +1,27 @@
 # Toys
 
-PC builds, config and tweaks
+PC builds
 
 ## Player
+
+> [!NOTE]
+> Fans, partitions, bios update, missing ROPs, basic setup, stock benchmarks and temps, undervolting, optimized benchmarks and temps.
+>
+> https://www.techpowerup.com/forums/threads/guide-amd-am5-system-optimization.330322/
+> https://wccftech.com/asus-intros-core-tuning-config-for-gaming-feature-in-am5-bios-reduces-overall-system-latency-for-faster-performance-on-ryzen-cpus/
+> https://www.reddit.com/r/UsbCHardware/comments/1jnh5qs/hagibis_mc40_a_usb4_ssd_enclosure_with_asmedia/
 
 Box
 
 - AMD Ryzen 9 9950X3D
-- [ ] Asus ROG Strix B850-I Gaming (BIOS ... AGESA ...)
-- Asus TUF Gaming OC GeForce RTX 5090 32GB
+- Asus ROG Strix B850-I Gaming (BIOS 1028 AGESA 1.2.0.3a)
+- Asus TUF Gaming GeForce RTX 5090 32GB
 - Corsair SF1000
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
 - NCase M2 1.0 Grater
-- [ ] Noctua NF-A12x15 PWM chromax.black.swap
-- [ ] Noctua NF-A12x25 PWM chromax.black.swap
-- [ ] Noctua NF-A9x14 HS-PWM chromax.black.swap
+- Noctua NF-A12x15 PWM chromax.black.swap
+- Noctua NF-A12x25 PWM chromax.black.swap
+- Noctua NF-A9x14 HS-PWM chromax.black.swap
 - Noctua NH-D12L chromax.black
 - Samsung 9100 Pro 4TB
 
@@ -27,6 +34,7 @@ Peripherals
 
 - Glorious PC Gaming Race Model O 2 Wireless
 - GuliKit KingKong 2 Pro NS09
+- Hagibis MC40 a.k.a. Qwiizlab ES40UR
 - KBDfans D84 v2
 - Vortex Race 3
 
@@ -34,14 +42,13 @@ Peripherals
 
 ...
 
-- https://www.techpowerup.com/forums/threads/guide-amd-am5-system-optimization.330322/
-- https://wccftech.com/asus-intros-core-tuning-config-for-gaming-feature-in-am5-bios-reduces-overall-system-latency-for-faster-performance-on-ryzen-cpus/
+[Firmware updates](https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-i-gaming-wifi/helpdesk_bios/)
 
-### GPU undervolting
+### GPU undervolt
 
 ...
 
-### Disk partitioning
+### Disk partitions
 
 - 4 TB
   - 4 GB EFI
@@ -55,7 +62,7 @@ Peripherals
   - 512 GB `/run/media/greg/games`
   - 512 GB Backup
 
-### Monitor settings
+### Monitor calibration and settings
 
 *LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
 
@@ -77,6 +84,8 @@ Modified and/or enabled *Asus PG32UCDM* settings:
 
 TFT Central provided `pg32ucdm.42.icm` ICC profile was created for brightness set to 42 (120 nits), RGB settings at 98 100 100 and uniform brightness enabled.
 
+[Firmware updates](https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm/helpdesk_bios/)
+
 ### Keyboard settings
 
 For *KBDfans D84 v2*, use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `d84v2-0.png` and `d84v2-1.png`.
@@ -96,7 +105,7 @@ Box
 - Cooler Master NR200P
 - Corsair SF750
 - G.Skill Trident Z Neo 32GB 3600MHz DDR4 CL16
-- Gigabyte B550I Aorus Pro AX (BIOS F19 AGESA 1.2.0.B)
+- Gigabyte B550I Aorus Pro AX 1.0 (BIOS F19 AGESA 1.2.0.B)
 - Noctua NF-A12x25 PWM (x4)
 - Noctua NH-U12A
 - Samsung 850 Pro 500GB
@@ -165,11 +174,16 @@ Peripherals
     - Secure Boot: Enabled, Active
     - Secure Boot Mode: Standard
 
-### GPU undervolting
+[Firmware updates](https://www.gigabyte.com/Motherboard/B550I-AORUS-PRO-AX-10/support#dl)
+
+### GPU undervolt
 
 In *Afterburner*, set core clock to -290MHz and drag 900mV point to 1920MHz.
 
-### Disk partitioning
+### Disk partitions
+
+> [!NOTE]
+> If possible, let's extend the EFI partition to 4 GB. This requires moving Windows and Arch partitions.
 
 - 1 TB
   - 512 MB EFI
@@ -184,7 +198,7 @@ In *Afterburner*, set core clock to -290MHz and drag 900mV point to 1920MHz.
   - 230 GB `/run/media/greg/games`
 - 500 GB Backup
 
-### Monitor settings
+### Monitor calibration and settings
 
 LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
 
@@ -204,9 +218,9 @@ Setup
 - Windows 11 24H2 26100.1882
 - AMD chipset drivers not installed
 - NVIDIA 565.90
-- core isolation (memory integrity) off
+- Core isolation (memory integrity) off
 
-Results when optimized
+Optimized results
 
 - Cinebench 2024.1.0 (pts): multi core 1195, single core 86, GPU 12978
 - 3DMark 2.29.8294 (pts)
@@ -287,7 +301,9 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 
 *Above 4G Decoding* causes a black screen when trying to run Reflect or Windows setup.
 
-### Disk partitioning
+[Firmware updates](https://rog.asus.com/motherboards/rog-strix/rog-strix-z370-i-gaming-model/helpdesk_bios/)
+
+### Disk partitions
 
 - 1 TB
   - 512 MB EFI
