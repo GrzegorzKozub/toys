@@ -223,11 +223,11 @@ Setup
 Optimized results
 
 - Cinebench 2024.1.0 (pts): multi core 1195, single core 86, GPU 12978
-- 3DMark 2.29.8294 (pts)
-  - Steel Nomad 1.0: score 4483
-  - Time Spy Extreme 1.2: score 8728, graphics score 8923, CPU score 7767
-  - Port Royal 1.3: score 12050
-  - Speed Way 1.0: score 4790
+- 3DMark 2.31.8385 (pts)
+  - Steel Nomad 1.0: score 4504, GPU temp 66, CPU temp 39
+  - Time Spy Extreme 1.2: score 8698, graphics score 8923, CPU score 7767, GPU temp 70, CPU temp 44
+  - Port Royal 1.3: score 11963, GPU temp 70, CPU temp 42
+  - Speed Way 1.1: score 4733, GPU temp 66, CPU temp 40
 - CrystalDiskMark 8.0.5 (MB/s)
   - NVME 1
     - SEQ1M Q8T1: read 6869, write 4950
@@ -245,6 +245,27 @@ Conclusions
 - Enabling fTPM decreases CPU perf by 0.8% and GPU perf by 0.5%
 - Enabling core isolation (memory integrity) decreases CPU perf by 0.4% and GPU perf by 0.8%
 - Installing AMD chipset drivers does not affect any performance
+
+### Temperatures
+
+Idle
+
+CPU 33
+GPU 28
+SSD nand 40 controller 51
+
+Benchmarks
+
+CPU 55 100%
+SSD nand 47 controller 70
+
+Gaming
+
+gpu 65 85%
+cpu 45 15%
+
+also refine temps in benchmarks
+
 
 ## Sacrifice
 
