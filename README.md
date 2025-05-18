@@ -4,13 +4,6 @@ PC builds
 
 ## Player
 
-> [!NOTE]
-> Fans, partitions, bios update, missing ROPs, basic setup, stock benchmarks and temps, undervolting, optimized benchmarks and temps.
->
-> https://www.techpowerup.com/forums/threads/guide-amd-am5-system-optimization.330322/
-> https://wccftech.com/asus-intros-core-tuning-config-for-gaming-feature-in-am5-bios-reduces-overall-system-latency-for-faster-performance-on-ryzen-cpus/
-> https://www.reddit.com/r/UsbCHardware/comments/1jnh5qs/hagibis_mc40_a_usb4_ssd_enclosure_with_asmedia/
-
 Box
 
 - AMD Ryzen 9 9950X3D
@@ -34,7 +27,7 @@ Peripherals
 
 - Glorious PC Gaming Race Model O 2 Wireless
 - GuliKit KingKong 2 Pro NS09
-- Hagibis MC40 a.k.a. Qwiizlab ES40UR
+- Hagibis MC40 / Qwiizlab ES40UR
 - KBDfans D84 v2
 - Vortex Race 3
 
@@ -45,6 +38,25 @@ Peripherals
 [Firmware updates](https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-i-gaming-wifi/helpdesk_bios/)
 
 ### GPU undervolt
+
+...
+
+### Thermals
+
+Airflow
+
+- Rear case fan rear intake NF-A9x14
+- CPU cooler rear intake NH-D12L with NF-A12x25r
+- Side case fan exhaust NF-A12x25
+- Bottom case fans intake NF-A12x25 (x2)
+- GPU fans bottom intake
+- Top case fans exhaust NF-A12x25 (x2)
+
+Temperatures (°C)
+
+...
+
+### Benchmarks
 
 ...
 
@@ -62,13 +74,13 @@ Peripherals
   - 512 GB `/run/media/greg/games`
   - 512 GB Backup
 
-### Monitor calibration and settings
+### Monitor settings
 
 *LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
 
 TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* profile, brightness set to 6, RGB settings at 50 48 45 and the contrast of 70.
 
-Modified and/or enabled *Asus PG32UCDM* settings:
+*Asus PG32UCDM* settings:
 
 - Gaming
   - Game Visual: User
@@ -91,10 +103,6 @@ TFT Central provided `pg32ucdm.42.icm` ICC profile was created for brightness se
 For *KBDfans D84 v2*, use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `d84v2-0.png` and `d84v2-1.png`.
 
 To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt+PrintScreen`.
-
-### Benchmarks
-
-...
 
 ## Worker
 
@@ -180,35 +188,21 @@ Peripherals
 
 In *Afterburner*, set core clock to -290MHz and drag 900mV point to 1920MHz.
 
-### Disk partitions
+### Thermals
 
-> [!NOTE]
-> If possible, let's extend the EFI partition to 4 GB. This requires moving Windows and Arch partitions.
+Airflow
 
-- 1 TB
-  - 512 MB EFI
-  - 120 GB Windows
-  - 360 GB
-    - 8 GB swap
-    - 120 GB `/`
-    - 230 GB `/run/media/greg/data`
-  - 450 GB Data
-- 1 TB
-  - 700 GB Games
-  - 230 GB `/run/media/greg/games`
-- 500 GB Backup
+- CPU cooler rear exhaust NH-U12A with NF-A12x25 (x2)
+- Bottom case fans intake NF-A12x25 (x2)
+- GPU fans bottom intake
+- Top case fans exhaust NF-A12x25 (x2)
 
-### Monitor calibration and settings
+Temperatures (°C)
 
-LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
-
-LG *27UD88-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 1 selected. Hardware calibration resulted in the RGB settings of 49 47 50. Software calibration is stored in the ICC profile `27ud88-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ud88-w.50.icm`.
-
-### Keyboard settings
-
-For *Idobao ID80V3* and *ID80V2* follow [this guide](https://idobao.github.io/manuals/flashing/) to update the firmware and use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `id80v3-0.png` and `id80v3-1.png`.
-
-To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt+Fn+F10`.
+- Idle: CPU 33, GPU 28, SSD NAND 40, SSD controller 51
+- Gaming: CPU 45 at 15%, GPU 65 at 85%
+- Benchmarks (at 100%): CPU 55, SSD NAND 47, SSD controller 70
+- Gaming benchmarks: CPU 39-42, GPU 66-70 at 100%
 
 ### Benchmarks
 
@@ -216,18 +210,19 @@ Setup
 
 - BIOS F19 AGESA 1.2.0.B
 - Windows 11 24H2 26100.1882
+- Core isolation (memory integrity) disabled
 - AMD chipset drivers not installed
-- NVIDIA 565.90
-- Core isolation (memory integrity) off
+- NVIDIA 576.40
+- GPU undervolt in effect
 
 Optimized results
 
 - Cinebench 2024.1.0 (pts): multi core 1195, single core 86, GPU 12978
 - 3DMark 2.31.8385 (pts)
-  - Steel Nomad 1.0: score 4504, GPU temp 66, CPU temp 39
-  - Time Spy Extreme 1.2: score 8698, graphics score 8923, CPU score 7767, GPU temp 70, CPU temp 44
-  - Port Royal 1.3: score 11963, GPU temp 70, CPU temp 42
-  - Speed Way 1.1: score 4733, GPU temp 66, CPU temp 40
+  - Steel Nomad 1.0: score 4504
+  - Time Spy Extreme 1.2: score 8698, graphics score 8923, CPU score 7767
+  - Port Royal 1.3: score 11963
+  - Speed Way 1.1: score 4733
 - CrystalDiskMark 8.0.5 (MB/s)
   - NVME 1
     - SEQ1M Q8T1: read 6869, write 4950
@@ -246,26 +241,35 @@ Conclusions
 - Enabling core isolation (memory integrity) decreases CPU perf by 0.4% and GPU perf by 0.8%
 - Installing AMD chipset drivers does not affect any performance
 
-### Temperatures
+### Disk partitions
 
-Idle
+> [!NOTE]
+> If possible, let's extend the EFI partition to 4 GB. This requires moving Windows and Arch partitions.
 
-CPU 33
-GPU 28
-SSD nand 40 controller 51
+- 1 TB
+  - 512 MB EFI
+  - 120 GB Windows
+  - 360 GB
+    - 8 GB swap
+    - 120 GB `/`
+    - 230 GB `/run/media/greg/data`
+  - 450 GB Data
+- 1 TB
+  - 700 GB Games
+  - 230 GB `/run/media/greg/games`
+- 500 GB Backup
 
-Benchmarks
+### Monitor settings
 
-CPU 55 100%
-SSD nand 47 controller 70
+LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
 
-Gaming
+LG *27UD88-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 1 selected. Hardware calibration resulted in the RGB settings of 49 47 50. Software calibration is stored in the ICC profile `27ud88-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ud88-w.50.icm`.
 
-gpu 65 85%
-cpu 45 15%
+### Keyboard settings
 
-also refine temps in benchmarks
+For *Idobao ID80V3* and *ID80V2* follow [this guide](https://idobao.github.io/manuals/flashing/) to update the firmware and use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `id80v3-0.png` and `id80v3-1.png`.
 
+To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt+Fn+F10`.
 
 ## Sacrifice
 
