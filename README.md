@@ -117,7 +117,7 @@ Box
 - Noctua NF-A12x25 PWM (x4)
 - Noctua NH-U12A
 - Samsung 850 Pro 500GB
-- Samsung 980 Pro 1TB (x2)
+- Samsung 990 Pro 2TB
 
 Monitors
 
@@ -199,9 +199,9 @@ Airflow
 
 Temperatures (°C)
 
-- Idle: CPU 33, GPU 28, SSD NAND 40, SSD controller 51
+- Idle: CPU 33, GPU 28, SSD NAND 39, SSD controller 50
 - Gaming: CPU 45 at 15%, GPU 65 at 85%
-- Benchmarks (at 100%): CPU 55, SSD NAND 47, SSD controller 70
+- Benchmarks (at 100%): CPU 55, SSD NAND 57, SSD controller 74
 - Gaming benchmarks: CPU 39-42, GPU 66-70 at 100%
 
 ### Benchmarks
@@ -209,7 +209,7 @@ Temperatures (°C)
 Setup
 
 - BIOS F19 AGESA 1.2.0.B
-- Windows 11 24H2 26100.1882
+- Windows 11 24H2 26100.4061
 - Core isolation (memory integrity) disabled
 - AMD chipset drivers not installed
 - NVIDIA 576.40
@@ -224,16 +224,10 @@ Optimized results
   - Port Royal 1.3: score 11963
   - Speed Way 1.1: score 4733
 - CrystalDiskMark 8.0.5 (MB/s)
-  - NVME 1
-    - SEQ1M Q8T1: read 6869, write 4950
-    - SEQ1M Q1T1: read 4086, write 4253
-    - RND4K Q32T1: read 564, write 394
-    - RND4K Q1T1: read 81, write 192
-  - NVME 2
-    - SEQ1M Q8T1: read 3235, write 3167
-    - SEQ1M Q1T1: read 2621, write 2862
-    - RND4K Q32T1: read 560, write 438
-    - RND4K Q1T1: read 78, write 171
+  - SEQ1M Q8T1: read 7429, write 6636
+  - SEQ1M Q1T1: read 3897, write 5596
+  - RND4K Q32T1: read 490, write 291
+  - RND4K Q1T1: read 59, write 184
 
 Conclusions
 
@@ -243,21 +237,16 @@ Conclusions
 
 ### Disk partitions
 
-> [!NOTE]
-> If possible, let's extend the EFI partition to 4 GB. This requires moving Windows and Arch partitions.
-
-- 1 TB
-  - 512 MB EFI
-  - 120 GB Windows
-  - 360 GB
+- 2 TB
+  - 4 GB EFI
+  - 128 GB Windows
+  - 776 GB
     - 8 GB swap
-    - 120 GB `/`
-    - 230 GB `/run/media/greg/data`
-  - 450 GB Data
-- 1 TB
-  - 700 GB Games
-  - 230 GB `/run/media/greg/games`
-- 500 GB Backup
+    - 256 GB `/`
+    - 512 GB `/run/media/greg/data`
+  - 476 GB Data
+  - 476 GB Games
+- 476 GB Backup
 
 ### Monitor settings
 
@@ -338,5 +327,5 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
     - 120 GB `/`
     - 230 GB `/run/media/greg/data`
   - 450 GB Data
-- 500 GB Backup
+- 476 GB Backup
 
