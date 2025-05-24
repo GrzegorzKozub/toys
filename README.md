@@ -116,7 +116,6 @@ Box
 - Gigabyte B550I Aorus Pro AX 1.0 (BIOS F19 AGESA 1.2.0.B)
 - Noctua NF-A12x25 PWM (x4)
 - Noctua NH-U12A
-- Samsung 850 Pro 500GB
 - Samsung 990 Pro 2TB
 
 Monitors
@@ -199,9 +198,9 @@ Airflow
 
 Temperatures (°C)
 
-- Idle: CPU 33, GPU 28, SSD NAND 39, SSD controller 50
+- Idle: CPU 33, GPU 28, SSD NAND 40, SSD controller 41
 - Gaming: CPU 45 at 15%, GPU 65 at 85%
-- Benchmarks (at 100%): CPU 55, SSD NAND 57, SSD controller 74
+- Benchmarks (at 100%): CPU 55, SSD NAND 50, SSD controller 62
 - Gaming benchmarks: CPU 39-42, GPU 66-70 at 100%
 
 ### Benchmarks
@@ -224,10 +223,10 @@ Optimized results
   - Port Royal 1.3: score 11963
   - Speed Way 1.1: score 4733
 - CrystalDiskMark 8.0.5 (MB/s)
-  - SEQ1M Q8T1: read 7429, write 6636
-  - SEQ1M Q1T1: read 3897, write 5596
-  - RND4K Q32T1: read 490, write 291
-  - RND4K Q1T1: read 59, write 184
+  - SEQ1M Q8T1: read 7419, write 6441
+  - SEQ1M Q1T1: read 4397, write 5624
+  - RND4K Q32T1: read 501, write 285
+  - RND4K Q1T1: read 59, write 168
 
 Conclusions
 
