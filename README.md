@@ -149,6 +149,7 @@ Peripherals
     - APP Center Download & Install Configuration
       - APP Center Download & Install: Disabled
     - SATA Configuration
+      - Chipset SATA Port Enable: Disabled
       - Chipset SATA Port Hot Plug: Disabled
   - Miscellaneous
     - LEDs in System Power On State: Off
