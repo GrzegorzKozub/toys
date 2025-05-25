@@ -11,11 +11,11 @@ Box
 - Asus TUF Gaming GeForce RTX 5090 32GB
 - Corsair SF1000
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
-- NCase M2 1.0 Grater
-- Noctua NF-A12x15 PWM chromax.black.swap
-- Noctua NF-A12x25 PWM chromax.black.swap
-- Noctua NF-A9x14 HS-PWM chromax.black.swap
-- Noctua NH-D12L chromax.black
+- Jonsbo Z20
+  - Jonsbo D32 Pro
+  - Lian Li A3-mATX
+- Noctua NF-A12x25 PWM chromax.black.swap (x4)
+- Noctua NH-U12A chromax.black
 - Samsung 9100 Pro 4TB
 
 Monitors
@@ -45,9 +45,7 @@ Peripherals
 
 Airflow
 
-- Rear case fan rear intake NF-A9x14
-- CPU cooler rear intake NH-D12L with NF-A12x25r
-- Side case fan exhaust NF-A12x25
+- CPU cooler rear intake NH-U12A with NF-A12x25 (x2)
 - Bottom case fans intake NF-A12x25 (x2)
 - GPU fans bottom intake
 - Top case fans exhaust NF-A12x25 (x2)
@@ -65,14 +63,14 @@ Temperatures (°C)
 - 4 TB
   - 4 GB EFI
   - 256 GB Windows
-  - 768 GB
+  - 776 GB
     - 8 GB swap
     - 256 GB `/`
     - 512 GB `/run/media/greg/data`
-  - 512 GB Data
-  - 1.5 TB Games
-  - 512 GB `/run/media/greg/games`
-  - 512 GB Backup
+  - 1 TB Data
+  - 1 TB Games
+  - 1 TB `/run/media/greg/games`
+- 1 TB Backup
 
 ### Monitor settings
 
@@ -117,6 +115,7 @@ Box
 - Noctua NF-A12x25 PWM (x4)
 - Noctua NH-U12A
 - Samsung 990 Pro 2TB
+- Samsung 980 Pro 1TB
 
 Monitors
 
@@ -245,7 +244,9 @@ Conclusions
     - 512 GB `/run/media/greg/data`
   - 476 GB Data
   - 476 GB Games
-- 476 GB Backup
+- 1 TB
+  - 500 GB Backup
+  - 500 GB `/run/media/greg/games`
 
 ### Monitor settings
 
