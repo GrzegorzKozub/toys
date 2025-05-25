@@ -112,10 +112,11 @@ Box
 - Corsair SF750
 - G.Skill Trident Z Neo 32GB 3600MHz DDR4 CL16
 - Gigabyte B550I Aorus Pro AX 1.0 (BIOS F19 AGESA 1.2.0.B)
-- Noctua NF-A12x25 PWM (x4)
+- Noctua NF-A12x15 PWM (x2)
+- Noctua NF-A12x25 PWM (x2)
 - Noctua NH-U12A
-- Samsung 990 Pro 2TB
 - Samsung 980 Pro 1TB
+- Samsung 990 Pro 2TB
 
 Monitors
 
@@ -191,15 +192,15 @@ In *Afterburner*, set core clock to -290MHz and drag 900mV point to 1920MHz.
 Airflow
 
 - CPU cooler rear exhaust NH-U12A with NF-A12x25 (x2)
-- Bottom case fans intake NF-A12x25 (x2)
+- Bottom case fans intake NF-A12x15 (x2)
 - GPU fans bottom intake
 - Top case fans exhaust NF-A12x25 (x2)
 
 Temperatures (°C)
 
-- Idle: CPU 33, GPU 28, SSD NAND 40, SSD controller 41
+- Idle: CPU 33, GPU 28, SSD NAND 36, SSD controller 41
 - Gaming: CPU 45 at 15%, GPU 65 at 85%
-- Benchmarks (at 100%): CPU 55, SSD NAND 50, SSD controller 62
+- Benchmarks (at 100%): CPU 55, SSD NAND 51, SSD controller 62
 - Gaming benchmarks: CPU 39-42, GPU 66-70 at 100%
 
 ### Benchmarks
