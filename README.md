@@ -20,7 +20,7 @@ Box
 
 Monitors
 
-- [ ] Asus PG32UCDM
+- [ ] Asus PG32UCDM or MSI MPG 321URX
 - LG 27GP950-B
 
 Peripherals
