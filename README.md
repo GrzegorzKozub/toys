@@ -20,7 +20,7 @@ Box
 
 Monitors
 
-- [ ] Asus PG32UCDM or MSI MPG 321URX
+- [ ] Asus PG32UCDM
 - LG 27GP950-B
 
 Peripherals
@@ -247,8 +247,8 @@ Conclusions
   - 476 GB Data
   - 476 GB Games
 - 1 TB
-  - 500 GB Backup
-  - 500 GB `/run/media/greg/games`
+  - 466 GB Backup
+  - 466 GB `/run/media/greg/games`
 
 ### Monitor settings
 
