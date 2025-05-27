@@ -20,7 +20,7 @@ Box
 
 Monitors
 
-- [ ] Asus PG32UCDM
+- [ ] Asus PG32UCDM or MSI MPG 322URX
 - LG 27GP950-B
 
 Peripherals
@@ -186,7 +186,17 @@ Peripherals
 
 ### GPU undervolt
 
-In *Afterburner*, set core clock to -290MHz and drag 900mV point to 1920MHz.
+*RTX 3080* has 1440 MHz base clock and 1710 MHz boost clock as seen in *GPU-Z*. The default frequency curve aims at 2000 MHz as seen in *Afterburner*.
+
+On stock settings, when gaming with uncapped framerate, the clock reaches 1860-1920 MHz at 993-1030 mV.
+
+In *Afterburner*, set the core clock to -290 MHz (2000 - 1710), drag the chosen voltage point to the desired clock target using the curve editor and hit apply.
+
+Results
+
+- 1920 MHz at 875 mV
+- 1920 MHz at 900 mV - does not crash *Metro Exodus*
+- 1860 MHz at 900 mV - does not crash *Lords of the Fallen*
 
 ### Thermals
 
@@ -324,10 +334,10 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 - 1 TB
   - 512 MB EFI
   - 120 GB Windows
-  - 360 GB
+  - 361 GB
     - 8 GB swap
-    - 120 GB `/`
-    - 230 GB `/run/media/greg/data`
+    - 117 GB `/`
+    - 236 GB `/run/media/greg/data`
   - 450 GB Data
-- 476 GB Backup
+- 465 GB Backup
 
