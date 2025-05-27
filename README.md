@@ -198,6 +198,26 @@ Results
 - 1920 MHz at 900 mV - does not crash *Metro Exodus*
 - 1860 MHz at 900 mV - does not crash *Lords of the Fallen*
 
+OR BETTER
+
+RTX 3080* has 1440 MHz base clock and 1710 MHz boost clock as seen in *GPU-Z*. The default frequency curve aims at 2000 MHz as seen in *Afterburner*.
+
+On stock settings, when gaming at 60 FPS, the clock reaches 1920 MHz at 1056 mV and 70C and 285W.
+
+In *Afterburner*, set the core clock to -290 MHz (2000 - 1710), drag the chosen voltage point to the desired clock target using the curve editor and hit apply.
+
+Results
+
+- 1920 MHz at 875 mV
+- 1920 MHz at 900 mV - 64C 230W
+- 1860 MHz at 900 mV - 62 225 does not crash *Lords of the Fallen*
+
+
+- Stock up to 1800 MHz at 900 mV and 325 W and 75C
+
+
+
+
 ### Thermals
 
 Airflow
