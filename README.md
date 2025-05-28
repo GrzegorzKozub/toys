@@ -186,37 +186,15 @@ Peripherals
 
 ### GPU undervolt
 
-*RTX 3080* has 1440 MHz base clock and 1710 MHz boost clock as seen in *GPU-Z*. The default frequency curve aims at 2000 MHz as seen in *Afterburner*.
+*RTX 3080* has 1440 MHz base clock and 1710 MHz boost clock. The default frequency curve allows up to 2000 MHz.
 
-On stock settings, when gaming with uncapped framerate, the clock reaches 1860-1920 MHz at 993-1030 mV.
+Undervolt was set via *Afterburner*. First, core clock was set to -290 MHz (2000 - 1710). Then, desired voltage was moved to desired clock speed using curve editor. Finally, apply button was hit and profile was saved.
 
-In *Afterburner*, set the core clock to -290 MHz (2000 - 1710), drag the chosen voltage point to the desired clock target using the curve editor and hit apply.
+Results when gaming 60 FPS cap
 
-Results
-
-- 1920 MHz at 875 mV
-- 1920 MHz at 900 mV - does not crash *Metro Exodus*
-- 1860 MHz at 900 mV - does not crash *Lords of the Fallen*
-
-OR BETTER
-
-RTX 3080* has 1440 MHz base clock and 1710 MHz boost clock as seen in *GPU-Z*. The default frequency curve aims at 2000 MHz as seen in *Afterburner*.
-
-On stock settings, when gaming at 60 FPS, the clock reaches 1920 MHz at 1056 mV and 70C and 285W.
-
-In *Afterburner*, set the core clock to -290 MHz (2000 - 1710), drag the chosen voltage point to the desired clock target using the curve editor and hit apply.
-
-Results
-
-- 1920 MHz at 875 mV
-- 1920 MHz at 900 mV - 64C 230W
-- 1860 MHz at 900 mV - 62 225 does not crash *Lords of the Fallen*
-
-
-- Stock up to 1800 MHz at 900 mV and 325 W and 75C
-
-
-
+- 1920 MHz at 1056 mV -> 285 W and 70 °C (factory settings)
+- 1920 MHz at 900 mV -> 230 W and 64 °C (main undervolt)
+- 1860 MHz at 900 mV -> 225 W and 62 °C (safe undervolt that prevents crashes in *Lords of the Fallen*)
 
 ### Thermals
 
