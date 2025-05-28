@@ -188,13 +188,9 @@ Peripherals
 
 *RTX 3080* has 1440 MHz base clock and 1710 MHz boost clock. The default frequency curve allows up to 2000 MHz.
 
-Undervolt was set via *Afterburner*. First, core clock was set to -290 MHz (2000 - 1710). Then, desired voltage was moved to desired clock speed using curve editor. Finally, apply button was hit and profile was saved.
+At stock, when gaming with 60 FPS cap, the clock reaches 1920 MHz at 1056 mV which results in 285 W and 70 °C.
 
-Results when gaming 60 FPS cap
-
-- 1920 MHz at 1056 mV -> 285 W and 70 °C (factory settings)
-- 1920 MHz at 900 mV -> 230 W and 64 °C (main undervolt)
-- 1860 MHz at 900 mV -> 225 W and 62 °C (safe undervolt that prevents crashes in *Lords of the Fallen*)
+Undervolt was done using *Afterburner*. First, core clock was set to -290 MHz (2000 - 1710). Then, 900 mV was moved to 1920 MHz using curve editor. Finally, apply button was hit and profile was saved. This results in 230 W and 64 °C.
 
 ### Thermals
 
