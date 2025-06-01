@@ -228,10 +228,16 @@ Optimized results
   - Port Royal 1.3: score 11963
   - Speed Way 1.1: score 4733
 - CrystalDiskMark 8.0.5 (MB/s)
-  - SEQ1M Q8T1: read 7419, write 6441
-  - SEQ1M Q1T1: read 4397, write 5624
-  - RND4K Q32T1: read 501, write 285
-  - RND4K Q1T1: read 59, write 168
+  - Samsung 990 Pro 2TB (PCIe x4 16 GT/s @ x4 16 GT/s)
+    - SEQ1M Q8T1: read 7419, write 6441
+    - SEQ1M Q1T1: read 4397, write 5624
+    - RND4K Q32T1: read 501, write 285
+    - RND4K Q1T1: read 59, write 168
+  - Samsung 980 Pro 1TB (PCIe x4 16 GT/s @ x4 8 GT/s)
+    - SEQ1M Q8T1: read 3192, write 3168
+    - SEQ1M Q1T1: read 2659, write 2856
+    - RND4K Q32T1: read 552, write 520
+    - RND4K Q1T1: read 77, write 167
 
 Conclusions
 
