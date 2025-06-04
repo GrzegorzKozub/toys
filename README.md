@@ -14,7 +14,8 @@ Box
 - Jonsbo Z20
   - Jonsbo D32 Pro
   - Lian Li A3-mATX
-- Noctua NF-A12x25 PWM chromax.black.swap (x4)
+- Noctua NF-A12x15 PWM chromax.black.swap (x2)
+- Noctua NF-A12x25 PWM chromax.black.swap (x2)
 - Noctua NH-U12A chromax.black
 - Samsung 9100 Pro 4TB
 
@@ -45,8 +46,8 @@ Peripherals
 
 Airflow
 
-- CPU cooler rear intake NH-U12A with NF-A12x25 (x2)
-- Bottom case fans intake NF-A12x25 (x2)
+- CPU cooler rear exhaust NH-U12A with NF-A12x25 (x2)
+- Bottom case fans intake NF-A12x15 (x2)
 - GPU fans bottom intake
 - Top case fans exhaust NF-A12x25 (x2)
 
@@ -115,8 +116,8 @@ Box
 - Noctua NF-A12x15 PWM (x2)
 - Noctua NF-A12x25 PWM (x2)
 - Noctua NH-U12A
-- Samsung 980 Pro 1TB
-- Samsung 990 Pro 2TB
+- Samsung 980 Pro 1TB (PCIe x4 16 GT/s @ x4 8 GT/s)
+- Samsung 990 Pro 2TB (PCIe x4 16 GT/s @ x4 16 GT/s)
 
 Monitors
 
@@ -228,12 +229,12 @@ Optimized results
   - Port Royal 1.3: score 11963
   - Speed Way 1.1: score 4733
 - CrystalDiskMark 8.0.5 (MB/s)
-  - Samsung 990 Pro 2TB (PCIe x4 16 GT/s @ x4 16 GT/s)
+  - Samsung 990 Pro 2TB
     - SEQ1M Q8T1: read 7419, write 6441
     - SEQ1M Q1T1: read 4397, write 5624
     - RND4K Q32T1: read 501, write 285
     - RND4K Q1T1: read 59, write 168
-  - Samsung 980 Pro 1TB (PCIe x4 16 GT/s @ x4 8 GT/s)
+  - Samsung 980 Pro 1TB
     - SEQ1M Q8T1: read 3192, write 3168
     - SEQ1M Q1T1: read 2659, write 2856
     - RND4K Q32T1: read 552, write 520
@@ -283,8 +284,8 @@ Box
 - HyperX Fury Black 16GB 2133MHz DDR4 CL14
 - Intel Core i9-9900K
 - Noctua NH-U9S
-- Samsung 840 Evo 500GB
-- Samsung 970 Evo 1TB
+- Samsung 840 Evo 500GB (SATA 6 Gb/s)
+- Samsung 970 Evo 1TB (PCIe x4 8 GT/s @ x4 8 GT/s)
 
 ### Firmware settings
 
