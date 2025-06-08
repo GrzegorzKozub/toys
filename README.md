@@ -12,8 +12,6 @@ Box
 - Corsair SF1000
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
 - Jonsbo Z20
-  - Jonsbo D32 Pro
-  - Lian Li A3-mATX
 - Noctua NF-A12x15 PWM chromax.black.swap (x2)
 - Noctua NF-A12x25 PWM chromax.black.swap (x2)
 - Noctua NH-U12A chromax.black
@@ -34,7 +32,39 @@ Peripherals
 
 ### Firmware settings
 
-...
+- Ai Tweaker
+  - Ai Overclock Tuner: EXPO I
+- Advanced
+  - SATA Configuration
+    - SATA Controller(s): Disabled
+  - Onboard Devices Configuration
+    - Wi-Fi Controller: Disabled
+    - LED Lighting
+      - When system is in working state: Stealth Mode
+  - NB Configuration
+    - Integrated Graphics: Disabled
+  - AMD CBS
+    - Global C-state Control: Enabled
+  - AMD Overclocking
+    - SOC/Uncore OC Mode: Enabled
+- Monitor
+  - Q-Fan Configuration
+    - CPU Fan Profile: Manual
+    -
+    EF_FAN: CPU
+- Boot
+  - Boot Logo Display: Disabled
+  - POST Report: 1 sec
+- Tool
+  - Full HD Setup: Enabled
+  - ASUS MyHotkey
+    - Hotkey F3: Boot from UEFI USB
+    - Hotkey F4: Disabled
+  - ASUS DriverHub
+    - Download & Install ASUS DriverHub app: Disabled
+
+
+Settings saved with BIOS version 1028 to `player-bios.cmo` and `player-bios.txt` files.
 
 [Firmware updates](https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-i-gaming-wifi/helpdesk_bios/)
 
