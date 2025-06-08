@@ -47,11 +47,6 @@ Peripherals
     - Global C-state Control: Enabled
   - AMD Overclocking
     - SOC/Uncore OC Mode: Enabled
-- Monitor
-  - Q-Fan Configuration
-    - CPU Fan Profile: Manual
-    -
-    EF_FAN: CPU
 - Boot
   - Boot Logo Display: Disabled
   - POST Report: 1 sec
@@ -62,7 +57,15 @@ Peripherals
     - Hotkey F4: Disabled
   - ASUS DriverHub
     - Download & Install ASUS DriverHub app: Disabled
-
+- Q-Fan
+  - CPU Fan
+    - Curve: 20°C 20%, 45°C 50%, 60°C 50%, 70°C 60%, 80°C 100%
+  - Chasis Gan
+    - Q-Fan Source: CPU
+    - Curve: 20°C 20%, 45°C 50%, 60°C 50%, 70°C 60%, 80°C 100% (same as CPU)
+  - Extra Flow Fan
+    - Q-Fan Source: CPU
+    - Curve: 20°C 20%, 45°C 50%, 60°C 50%, 70°C 60%, 80°C 100% (same as CPU)
 
 Settings saved with BIOS version 1028 to `player-bios.cmo` and `player-bios.txt` files.
 
@@ -192,16 +195,16 @@ Peripherals
     - SOC/Uncore OC Mode: Enabled
 - Smart Fan 5
   - CPU_FAN
-    - Curve: 0c 0%, 40c 40%, 55c 50%, 60c 60%, 70c 80%, 80c 100%
+    - Curve: 0°C 0%, 40°C 40%, 55°C 50%, 60°C 60%, 70°C 80%, 80°C 100%
     - CPU_FAN Speed Control: Manual
     - Temperature Interval: 3
   - SYS_FAN1
-    - Curve: 0c 0%, 40c 40%, 55c 50%, 60c 60%, 70c 80%, 80c 100%
+    - Curve: 0°C 0%, 40°C 40%, 55°C 50%, 60°C 60%, 70°C 80%, 80°C 100%
     - SYS_FAN1 Speed Control: Manual
     - Fan Control Use Temperature Input: System 1
     - Temperature Interval: 3
   - SYS_FAN2
-    - Curve: 0c 0%, 50c 35%, 60c 40%, 70c 60%, 75c 80%, 80c 100%
+    - Curve: 0°C 0%, 50°C 35%, 60°C 40%, 70°C 60%, 75°C 80%, 80°C 100%
     - SYS_FAN2 Speed Control: Manual
     - Fan Control Use Temperature Input: System 1
     - Temperature Interval: 3
