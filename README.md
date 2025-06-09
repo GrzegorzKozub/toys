@@ -71,6 +71,28 @@ Settings saved with BIOS version 1028 to `player-bios.cmo` and `player-bios.txt`
 
 [Firmware updates](https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-i-gaming-wifi/helpdesk_bios/)
 
+#### Ideas from Internet
+
+Medium Load Boostit: Enabled?
+
+(this was from skattbencher and chatgpt)
+https://www.youtube.com/watch?v=ETAOCjRLUt0
+https://skatterbencher.com/2025/03/11/skatterbencher-85-ryzen-9-9950x3d-overclocked-to-5900-mhz/
+https://www.techpowerup.com/forums/threads/guide-amd-am5-system-optimization.330322/ https://wccftech.com/asus-intros-core-tuning-config-for-gaming-feature-in-am5-bios-reduces-overall-system-latency-for-faster-performance-on-ryzen-cpus/
+
+Precision Boost Override: Advanced
+PBO Limits: Motherboard
+Precision Boost Overdrive Scalar Ctrl: Manual
+Precision Boost Overdrive Scalar: 10X (adds voltage, good idea?)
+Max CPU Boost Clock Override: Enabled (Positive)
+Max CPU Boost Clock Override(+): 200
+Curve Shaper - blog post
+Curve Optimizer: Per CCD, CCD0 -15, CCD1 -10
+
+Curve Shaper:
+  Med/Hi/Max Frequency - Med Temperature: -15 ( =-25)
+  Med/Hi/Max Frequency - High Temperature: -10 ( =-20)
+
 ### GPU undervolt
 
 ...
