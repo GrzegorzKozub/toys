@@ -11,6 +11,7 @@ Box
 - Asus TUF Gaming GeForce RTX 5090 32GB
 - Corsair SF1000
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
+- [ ] Jonsbo D32 Pro
 - Jonsbo Z20
 - Noctua NF-A12x15 PWM chromax.black.swap (x2)
 - Noctua NF-A12x25 PWM chromax.black.swap (x2)
@@ -31,6 +32,8 @@ Peripherals
 - Vortex Race 3
 
 ### Firmware settings
+
+...
 
 - Ai Tweaker
   - Ai Overclock Tuner: EXPO I
@@ -67,35 +70,35 @@ Peripherals
     - Q-Fan Source: CPU
     - Curve: 20°C 20%, 45°C 50%, 60°C 50%, 70°C 60%, 80°C 100% (same as CPU)
 
+> Medium Load Boostit: Enabled?
+> Precision Boost Override: Advanced
+> PBO Limits: Motherboard
+> Precision Boost Overdrive Scalar Ctrl: Manual
+> Precision Boost Overdrive Scalar: 10X (adds voltage, good idea?)
+> Max CPU Boost Clock Override: Enabled (Positive)
+> Max CPU Boost Clock Override(+): 200
+> Curve Shaper - blog post
+> Curve Optimizer: Per CCD, CCD0 -15, CCD1 -10
+> Curve Shaper:
+>   Med/Hi/Max Frequency - Med Temperature: -15 ( =-25)
+>   Med/Hi/Max Frequency - High Temperature: -10 ( =-20)
+
 Settings saved with BIOS version 1028 to `player-bios.cmo` and `player-bios.txt` files.
 
-[Firmware updates](https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-i-gaming-wifi/helpdesk_bios/)
+Links
 
-#### Ideas from Internet
-
-Medium Load Boostit: Enabled?
-
-(this was from skattbencher and chatgpt)
-https://www.youtube.com/watch?v=ETAOCjRLUt0
-https://skatterbencher.com/2025/03/11/skatterbencher-85-ryzen-9-9950x3d-overclocked-to-5900-mhz/
-https://www.techpowerup.com/forums/threads/guide-amd-am5-system-optimization.330322/ https://wccftech.com/asus-intros-core-tuning-config-for-gaming-feature-in-am5-bios-reduces-overall-system-latency-for-faster-performance-on-ryzen-cpus/
-
-Precision Boost Override: Advanced
-PBO Limits: Motherboard
-Precision Boost Overdrive Scalar Ctrl: Manual
-Precision Boost Overdrive Scalar: 10X (adds voltage, good idea?)
-Max CPU Boost Clock Override: Enabled (Positive)
-Max CPU Boost Clock Override(+): 200
-Curve Shaper - blog post
-Curve Optimizer: Per CCD, CCD0 -15, CCD1 -10
-
-Curve Shaper:
-  Med/Hi/Max Frequency - Med Temperature: -15 ( =-25)
-  Med/Hi/Max Frequency - High Temperature: -10 ( =-20)
+- [Motherboard firmware](https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-i-gaming-wifi/helpdesk_bios/)
+- Overclocking & undervolting [guide](https://skatterbencher.com/2025/03/11/skatterbencher-85-ryzen-9-9950x3d-overclocked-to-5900-mhz/) & [video](https://www.youtube.com/watch?v=v9fL8XD2v2Q)
+- [AM5 Optimization Guide](https://www.techpowerup.com/forums/threads/guide-amd-am5-system-optimization.330322/)
+- [Core Tuning Config For Gaming](https://www.reddit.com/r/Amd/comments/1h8siwi/comment/m0xt2nt/)
 
 ### GPU undervolt
 
 ...
+
+Links
+
+- Undervolting [guide](https://www.reddit.com/r/nvidia/comments/1jaz2yq/5090fe_undervolt_guide_better_than_stock_at_450w/) & [video](https://www.youtube.com/watch?v=rQn41dnZ3zc)
 
 ### Thermals
 
@@ -150,7 +153,7 @@ TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* pro
 
 TFT Central provided `pg32ucdm.42.icm` ICC profile was created for brightness set to 42 (120 nits), RGB settings at 98 100 100 and uniform brightness enabled.
 
-[Firmware updates](https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm/helpdesk_bios/)
+[Monitor firmware](https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm/helpdesk_bios/)
 
 ### Keyboard settings
 
@@ -238,7 +241,7 @@ Peripherals
     - Secure Boot: Enabled, Active
     - Secure Boot Mode: Standard
 
-[Firmware updates](https://www.gigabyte.com/Motherboard/B550I-AORUS-PRO-AX-10/support#dl)
+[Motherboard firmware](https://www.gigabyte.com/Motherboard/B550I-AORUS-PRO-AX-10/support#dl)
 
 ### GPU undervolt
 
@@ -383,7 +386,7 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 
 *Above 4G Decoding* causes a black screen when trying to run Reflect or Windows setup.
 
-[Firmware updates](https://rog.asus.com/motherboards/rog-strix/rog-strix-z370-i-gaming-model/helpdesk_bios/)
+[Motherboard firmware](https://rog.asus.com/motherboards/rog-strix/rog-strix-z370-i-gaming-model/helpdesk_bios/)
 
 ### Disk partitions
 
