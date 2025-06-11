@@ -11,8 +11,7 @@ Box
 - Asus TUF Gaming GeForce RTX 5090 32GB
 - Corsair SF1000
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
-- [ ] Jonsbo D32 Pro
-- Jonsbo Z20
+- Jonsbo D32 Pro or Jonsbo Z20
 - Noctua NF-A12x15 PWM chromax.black.swap (x2)
 - Noctua NF-A12x25 PWM chromax.black.swap (x2)
 - Noctua NH-U12A chromax.black
@@ -37,6 +36,7 @@ Peripherals
 
 - Ai Tweaker
   - Ai Overclock Tuner: EXPO I
+  - [ ] Core tunings Configuration for gaming: Level 2
 - Advanced
   - SATA Configuration
     - SATA Controller(s): Disabled
@@ -49,7 +49,21 @@ Peripherals
   - AMD CBS
     - Global C-state Control: Enabled
   - AMD Overclocking
-    - SOC/Uncore OC Mode: Enabled
+    - [ ] Precision Boost Overdrive
+      - [ ] Medium Load Boostit: Enabled
+      - Precision Boost Overdrive: Advanced
+      - PBO Limits: Motherboard
+      - Precision Boost Overdrive Scalar Ctrl: Manual
+      - Precision Boost Overdrive Scalar: 10X
+      - Max CPU Boost Clock Override: Enabled (Positive)
+      - Max CPU Boost Clock Override(+): 50
+      - Curve Optimizer
+        - Curve Optimizer: Per CCD
+        - CCD 0 Curve Optimizer Sign: Negative
+        - CCD 0 Curve Optimizer Magnitude: 25
+        - CCD 1 Curve Optimizer Sign: Negative
+        - CCD 1 Curve Optimizer Magnitude: 20
+    - SoC/Uncore OC Mode: Enabled
 - Boot
   - Boot Logo Display: Disabled
   - POST Report: 1 sec
@@ -60,7 +74,7 @@ Peripherals
     - Hotkey F4: Disabled
   - ASUS DriverHub
     - Download & Install ASUS DriverHub app: Disabled
-- Q-Fan
+- [ ] Q-Fan
   - CPU Fan
     - Curve: 20°C 20%, 45°C 50%, 60°C 50%, 70°C 60%, 80°C 100%
   - Chasis Gan
@@ -70,19 +84,6 @@ Peripherals
     - Q-Fan Source: CPU
     - Curve: 20°C 20%, 45°C 50%, 60°C 50%, 70°C 60%, 80°C 100% (same as CPU)
 
-> Medium Load Boostit: Enabled?
-> Precision Boost Override: Advanced
-> PBO Limits: Motherboard
-> Precision Boost Overdrive Scalar Ctrl: Manual
-> Precision Boost Overdrive Scalar: 10X (adds voltage, good idea?)
-> Max CPU Boost Clock Override: Enabled (Positive)
-> Max CPU Boost Clock Override(+): 200
-> Curve Shaper - blog post
-> Curve Optimizer: Per CCD, CCD0 -15, CCD1 -10
-> Curve Shaper:
->   Med/Hi/Max Frequency - Med Temperature: -15 ( =-25)
->   Med/Hi/Max Frequency - High Temperature: -10 ( =-20)
-
 Settings saved with BIOS version 1028 to `player-bios.cmo` and `player-bios.txt` files.
 
 Links
@@ -90,7 +91,7 @@ Links
 - [Motherboard firmware](https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-i-gaming-wifi/helpdesk_bios/)
 - Overclocking & undervolting [guide](https://skatterbencher.com/2025/03/11/skatterbencher-85-ryzen-9-9950x3d-overclocked-to-5900-mhz/) & [video](https://www.youtube.com/watch?v=v9fL8XD2v2Q)
 - [AM5 Optimization Guide](https://www.techpowerup.com/forums/threads/guide-amd-am5-system-optimization.330322/)
-- [Core Tuning Config For Gaming](https://www.reddit.com/r/Amd/comments/1h8siwi/comment/m0xt2nt/)
+- [Core tunings Configuration for gaming](https://www.reddit.com/r/Amd/comments/1h8siwi/comment/m0xt2nt/)
 
 ### GPU undervolt
 
