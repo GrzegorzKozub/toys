@@ -393,12 +393,12 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 ### Disk partitions
 
 - 1 TB
-  - 512 MB EFI
-  - 120 GB Windows
-  - 361 GB
+  - 4 GB EFI
+  - 128 GB Windows
+  - 392 GB
     - 8 GB swap
-    - 117 GB `/`
-    - 236 GB `/run/media/greg/data`
-  - 450 GB Data
+    - 128 GB `/`
+    - 256 GB `/run/media/greg/data`
+  - 406 GB Data
 - 465 GB Backup
 
