@@ -11,16 +11,18 @@ Box
 - Asus TUF Gaming GeForce RTX 5090 32GB
 - Corsair SF1000
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
-- Jonsbo D32 Pro or Jonsbo Z20
+- Jonsbo D32 Pro
 - Noctua NF-A12x15 PWM chromax.black.swap (x2)
 - Noctua NF-A12x25 PWM chromax.black.swap (x2)
+- [ ] Noctua NH-D15 G2 chromax.black
 - Noctua NH-U12A chromax.black
 - Samsung 9100 Pro 4TB
 
 Monitors
 
-- [ ] Asus PG32UCDM or MSI MPG 322URX
+- [ ] Asus PG32UCDM
 - LG 27GP950-B
+- [ ] MSI MPG 322URX
 
 Peripherals
 
@@ -116,6 +118,12 @@ Temperatures (°C)
 ...
 
 ### Benchmarks
+
+Setup
+
+...
+
+Optimized results
 
 ...
 
@@ -278,7 +286,7 @@ Setup
 - Core isolation (memory integrity) disabled
 - AMD chipset drivers not installed
 - NVIDIA 576.40
-- GPU undervolt in effect
+- GPU undervolted
 
 Optimized results
 
