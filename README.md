@@ -138,7 +138,7 @@ Optimized results
     - 512 GB `/run/media/greg/data`
   - 1 TB Data
   - 1 TB Games
-  - 1 TB `/run/media/greg/games`
+  - 641 GB `/run/media/greg/games`
 - 1 TB Backup
 
 ### Monitor settings
