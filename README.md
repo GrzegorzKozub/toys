@@ -16,7 +16,7 @@ Box
 - Noctua NF-A12x25 PWM chromax.black.swap (x2)
 - [ ] Noctua NH-D15 G2 chromax.black
 - Noctua NH-U12A chromax.black
-- Samsung 9100 Pro 4TB
+- Samsung 9100 Pro 4TB (PCIe x4 32 GT/s @ x4 32 GT/s)
 
 Monitors
 
