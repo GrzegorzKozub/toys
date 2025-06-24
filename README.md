@@ -12,17 +12,20 @@ Box
 - Corsair SF1000
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
 - Jonsbo D32 Pro
-- Noctua NF-A12x15 PWM chromax.black.swap (x2)
+- Noctua NF-A12x15 PWM chromax.black.swap (x3)
+  - [ ] Noctua NF-A12x15 PWM (x3)
 - Noctua NF-A12x25 PWM chromax.black.swap (x2)
-- [ ] Noctua NH-D15 G2 chromax.black
+  - [ ] Noctua NF-A12x25 G2 PWM (x2)
 - Noctua NH-U12A chromax.black
+  - [ ] Noctua NH-D15 G2
+- Samsung 980 Pro 1TB (PCIe x4 16 GT/s @ x4 16 GT/s)
 - Samsung 9100 Pro 4TB (PCIe x4 32 GT/s @ x4 32 GT/s)
 
 Monitors
 
-- [ ] Asus PG32UCDM
 - LG 27GP950-B
-- [ ] MSI MPG 322URX
+  - [ ] Asus PG32UCDM
+  - [ ] MSI MPG 322URX
 
 Peripherals
 
@@ -108,8 +111,8 @@ Links
 
 Airflow
 
-- CPU cooler rear exhaust NH-U12A with NF-A12x25 (x2)
-- Bottom case fans intake NF-A12x15 (x2)
+- CPU cooler rear intake NH-U12A with NF-A12x25 (x2)
+- Bottom case fans intake NF-A12x15 (x3)
 - GPU fans bottom intake
 - Top case fans exhaust NF-A12x25 (x2)
 
