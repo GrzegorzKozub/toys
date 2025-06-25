@@ -285,7 +285,7 @@ Temperatures (°C)
 Setup
 
 - BIOS F19 AGESA 1.2.0.B
-- Windows 11 24H2 26100.4061
+- Windows 11 24H2 26100.4351
 - Core isolation (memory integrity) disabled
 - AMD chipset drivers not installed
 - NVIDIA 576.40
@@ -293,24 +293,24 @@ Setup
 
 Optimized results
 
-- Cinebench 2024.1.0 (pts): multi core 1195, single core 86, GPU 12978
-- Geekbench 6 (pts): multi core 13094, single core 2027, GPU OpenCL 164302
+- Cinebench 2024.1.0 (pts): multi core 1195, single core 86
+- Geekbench 6 (pts): multi core 13094, single core 2027
 - 3DMark 2.31.8385 (pts)
   - Steel Nomad 1.0: score 4504
   - Time Spy Extreme 1.2: score 8698, graphics score 8923, CPU score 7767
   - Port Royal 1.3: score 11963
   - Speed Way 1.1: score 4733
-- CrystalDiskMark 8.0.5 (MB/s)
+- CrystalDiskMark 9.0.1 (MB/s)
   - Samsung 990 Pro 2TB
-    - SEQ1M Q8T1: read 7419, write 6441
-    - SEQ1M Q1T1: read 4397, write 5624
-    - RND4K Q32T1: read 501, write 285
-    - RND4K Q1T1: read 59, write 168
+    - SEQ1M Q8T1: read 7409, write 6505
+    - SEQ1M Q1T1: read 3337, write 5551
+    - RND4K Q32T1: read 470, write 289
+    - RND4K Q1T1: read 59, write 175
   - Samsung 980 Pro 1TB
-    - SEQ1M Q8T1: read 3192, write 3168
-    - SEQ1M Q1T1: read 2659, write 2856
-    - RND4K Q32T1: read 552, write 520
-    - RND4K Q1T1: read 77, write 167
+    - SEQ1M Q8T1: read 3251, write 3164
+    - SEQ1M Q1T1: read 2639, write 2812
+    - RND4K Q32T1: read 541, write 509
+    - RND4K Q1T1: read 77, write 162
 
 Conclusions
 
