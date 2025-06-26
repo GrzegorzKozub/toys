@@ -142,7 +142,7 @@ Optimized results
   - 1 TB Data
   - 1 TB Games
   - 641 GB `/run/media/greg/games`
-- 1 TB Backup
+- 932 GB Backup
 
 ### Monitor settings
 
