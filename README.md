@@ -1,6 +1,6 @@
 # Toys
 
-PC builds
+Builds
 
 ## Player
 
@@ -293,8 +293,8 @@ Setup
 
 Optimized results
 
-- Cinebench 2024.1.0 (pts): multi core 1195, single core 86
-- Geekbench 6 (pts): multi core 13094, single core 2027
+- Cinebench 2024.1.0 (pts): multicore 1195, single core 86
+- Geekbench 6 (pts): multicore 13094, single core 2027
 - 3DMark 2.31.8385 (pts)
   - Steel Nomad 1.0: score 4504
   - Time Spy Extreme 1.2: score 8698, graphics score 8923, CPU score 7767
