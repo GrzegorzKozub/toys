@@ -7,7 +7,7 @@ Builds
 Box
 
 - AMD Ryzen 9 9950X3D
-- Asus ROG Strix B850-I Gaming (BIOS 1028 AGESA 1.2.0.3a)
+- Asus ROG Strix B850-I Gaming (BIOS 1063 AGESA 1.2.0.3e)
 - Asus TUF Gaming GeForce RTX 5090 32GB
 - Corsair SF1000
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
@@ -37,11 +37,11 @@ Peripherals
 
 ### Firmware settings
 
-...
-
 - Ai Tweaker
   - Ai Overclock Tuner: EXPO I
-  - [ ] Core tunings Configuration for gaming: Level 2
+  - Precision Boost Overdrive
+    - Medium Load Boostit: Enabled
+  - Core tunings Configuration for gaming: Level 2
 - Advanced
   - SATA Configuration
     - SATA Controller(s): Disabled
@@ -54,13 +54,12 @@ Peripherals
   - AMD CBS
     - Global C-state Control: Enabled
   - AMD Overclocking
-    - [ ] Precision Boost Overdrive
-      - [ ] Medium Load Boostit: Enabled
+    - Precision Boost Overdrive
       - Precision Boost Overdrive: Advanced
       - PBO Limits: Motherboard
       - Precision Boost Overdrive Scalar Ctrl: Manual
       - Precision Boost Overdrive Scalar: 10X
-      - Max CPU Boost Clock Override: Enabled (Positive)
+      - CPU Boost Clock Override: Enabled (Positive)
       - Max CPU Boost Clock Override(+): 50
       - Curve Optimizer
         - Curve Optimizer: Per CCD
@@ -79,7 +78,7 @@ Peripherals
     - Hotkey F4: Disabled
   - ASUS DriverHub
     - Download & Install ASUS DriverHub app: Disabled
-- [ ] Q-Fan
+- Q-Fan
   - CPU Fan
     - Curve: 20°C 20%, 45°C 50%, 60°C 50%, 70°C 60%, 80°C 100%
   - Chasis Gan
@@ -94,9 +93,8 @@ Settings saved with BIOS version 1028 to `player-bios.cmo` and `player-bios.txt`
 Links
 
 - [Motherboard firmware](https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-i-gaming-wifi/helpdesk_bios/)
-- Overclocking & undervolting [guide](https://skatterbencher.com/2025/03/11/skatterbencher-85-ryzen-9-9950x3d-overclocked-to-5900-mhz/) & [video](https://www.youtube.com/watch?v=v9fL8XD2v2Q)
+- [CPU overclocking & undervolting guide](https://skatterbencher.com/2025/03/11/skatterbencher-85-ryzen-9-9950x3d-overclocked-to-5900-mhz/)
 - [AM5 Optimization Guide](https://www.techpowerup.com/forums/threads/guide-amd-am5-system-optimization.330322/)
-- [Afterburner 4.6.6 Beta 5 for RTX 5000 series](https://forums.guru3d.com/threads/msi-afterburner-4-6-6-beta-5-for-nvidia-geforce-rtx-5000-series-cards.455155/)
 - [Core tunings Configuration for gaming](https://www.reddit.com/r/Amd/comments/1h8siwi/comment/m0xt2nt/)
 
 ### GPU undervolt
@@ -105,7 +103,8 @@ Links
 
 Links
 
-- Undervolting [guide](https://www.reddit.com/r/nvidia/comments/1jaz2yq/5090fe_undervolt_guide_better_than_stock_at_450w/) & [video](https://www.youtube.com/watch?v=rQn41dnZ3zc)
+- [Afterburner 4.6.6 Beta 5 for RTX 5000 series](https://forums.guru3d.com/threads/msi-afterburner-4-6-6-beta-5-for-nvidia-geforce-rtx-5000-series-cards.455155/)
+- [GPU undervolting guide](https://www.reddit.com/r/nvidia/comments/1jaz2yq/5090fe_undervolt_guide_better_than_stock_at_450w/)
 
 ### Thermals
 
@@ -284,10 +283,7 @@ Temperatures (°C)
 
 Setup
 
-- BIOS F19 AGESA 1.2.0.B
 - Windows 11 24H2 26100.4351
-- Core isolation (memory integrity) disabled
-- AMD chipset drivers not installed
 - NVIDIA 576.40
 - GPU undervolted
 
@@ -311,12 +307,6 @@ Optimized results
     - SEQ1M Q1T1: read 2639, write 2812
     - RND4K Q32T1: read 541, write 509
     - RND4K Q1T1: read 77, write 162
-
-Conclusions
-
-- Enabling fTPM decreases CPU perf by 0.8% and GPU perf by 0.5%
-- Enabling core isolation (memory integrity) decreases CPU perf by 0.4% and GPU perf by 0.8%
-- Installing AMD chipset drivers does not affect any performance
 
 ### Disk partitions
 
