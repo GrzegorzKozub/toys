@@ -259,9 +259,9 @@ Peripherals
 
 *RTX 3080* has 1440 MHz base clock and 1710 MHz boost clock. The default frequency curve allows up to 2000 MHz.
 
-At stock, when gaming with 60 FPS cap, the clock reaches 1920 MHz at 1056 mV which results in 285 W and 70 °C.
+At stock, when gaming with 60 FPS cap, the clock reaches 1920 MHz at 1056 mV.
 
-Undervolt was done using *Afterburner*. First, core clock was set to -290 MHz (2000 - 1710). Then, 900 mV was moved to 1920 MHz using curve editor. Finally, apply button was hit and profile was saved. This results in 230 W and 64 °C.
+Undervolt was done using *Afterburner*. First, core clock was set to -290 MHz (2000 - 1710). Then, 912 mV was moved to 1890 MHz using curve editor. Finally, apply button was hit and profile was saved.
 
 ### Thermals
 
