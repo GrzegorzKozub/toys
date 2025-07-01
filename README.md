@@ -35,6 +35,11 @@ Peripherals
 - KBDfans D84 v2
 - Vortex Race 3
 
+Audio
+
+- FiiO K11 R2R
+- Sennheiser HD 58X Jubilee
+
 ### Firmware settings
 
 - Ai Tweaker
