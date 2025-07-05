@@ -122,7 +122,7 @@ Links
 
 *RTX 5090* is undervolted by applying a 1000 MHz positive offset to the frequency at the desired voltage and flattening the curve from there. Additionally, power limit can be applied.
 
-In Afterburner curve editor, the frequency was increased by 1000 MHz for the desired voltage. Apply was hit. All points above the target frequency were selected while holding `Shift`. Any of the selected points was dragged down so that all of them dropped below the target frequency. Apply was hit again.
+In Afterburner curve editor, the frequency was increased by 1000 MHz for the desired voltage. The apply button was hit. All points above the target frequency were selected while holding `Shift`. Any of the selected points was dragged down so that all of them dropped below the target frequency. The apply button was hit again.
 
 Profiles and results
 
@@ -172,10 +172,10 @@ Benchmarks with CrystalDiskMark 9.0.1 (MB/s)
 Temperatures (°C)
 
 - Samsung 9100 Pro 4TB
-  - idle: NAND 47, controller 53
+  - idle: NAND 46, controller 50
   - stress: NAND 57, controller 64
 - Samsung 980 Pro 1TB
-  - idle: NAND 51, controller 61
+  - idle: NAND 51, controller 60
   - stress: NAND 75, controller 93
 
 ### Monitors
