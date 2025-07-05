@@ -104,12 +104,14 @@ Links
 
 ### GPU undervolt
 
-...
+TO-DO can do +1000, move, apply, shift select, move down, apply, profiles list
 
 Links
 
 - [Afterburner 4.6.6 Beta 5 for RTX 5000 series](https://forums.guru3d.com/threads/msi-afterburner-4-6-6-beta-5-for-nvidia-geforce-rtx-5000-series-cards.455155/)
-- [GPU undervolting guide](https://www.reddit.com/r/nvidia/comments/1jaz2yq/5090fe_undervolt_guide_better_than_stock_at_450w/)
+- [5090FE Undervolt guide - better than stock at 450w](https://www.reddit.com/r/nvidia/comments/1jaz2yq/5090fe_undervolt_guide_better_than_stock_at_450w/)
+- [RTX 5090 FE undervolt results](https://www.reddit.com/r/nvidia/comments/1isi8ir/rtx_5090_fe_undervolt_results/)
+- [TUF Gaming 5090 Undervolt/Overclock Guide/Results](https://www.reddit.com/r/overclocking/comments/1jjlyix/tuf_gaming_5090_undervoltoverclock_guideresults/)
 
 ### Thermals
 
@@ -122,16 +124,27 @@ Airflow
 
 Temperatures (°C)
 
-...
+- Idle: CPU ..., GPU ..., SSD NAND ..., SSD controller ...
+- Gaming: CPU 64 @ 5%, GPU 58 @ 54%
+- Stress: CPU ..., SSD NAND ..., SSD controller ...
 
 ### Benchmarks
 
 Setup
 
+- Windows 11 24H2 26100.4484
+- NVIDIA 576.80
+  - Vertical sync disabled
+
+Results
+
 ...
-
-Optimized results
-
+- 3DMark 2.31.8385 Steel Nomad (pts)
+  - Stock: score 14333, GPU 74 °C, CPU 63 °C, 2680 MHz, 1005 mV, 600 W
+  - 2917 Mhz @ 900 mV: score 13964, GPU 71 °C, CPU 63 °C, 2512 MHz, 895 mV, 525 W
+  - 2572 Mhz @ 875 mV: score 13028, GPU 68 °C, CPU 63 °C, 2310 MHz, 870 mV, 445 W
+  - 2242 Mhz @ 850 mV: score 11647, GPU 63 °C, CPU 62 °C, 2025 MHz, 845 mV, 365 W
+  - 1987 Mhz @ 835 mV: score 11106, GPU 63 °C, CPU 62 °C, 1867 MHz, 830 mV, 345 W
 ...
 
 ### Disk partitions
@@ -280,9 +293,8 @@ Airflow
 Temperatures (°C)
 
 - Idle: CPU 33, GPU 28, SSD NAND 36, SSD controller 41
-- Gaming: CPU 45 at 15%, GPU 65 at 85%
-- Benchmarks (at 100%): CPU 55, SSD NAND 51, SSD controller 62
-- Gaming benchmarks: CPU 39-42, GPU 66-70 at 100%
+- Gaming: CPU 45 @ 15%, GPU 65 @ 85%
+- Stress: CPU 55, SSD NAND 51, SSD controller 62
 
 ### Benchmarks
 
@@ -290,17 +302,15 @@ Setup
 
 - Windows 11 24H2 26100.4351
 - NVIDIA 576.40
-- GPU undervolted
+  - Vertical sync disabled
 
-Optimized results
+Results
 
 - Cinebench 2024.1.0 (pts): multicore 1195, single core 86
 - Geekbench 6 (pts): multicore 13094, single core 2027
-- 3DMark 2.31.8385 (pts)
-  - Steel Nomad 1.0: score 4504
-  - Time Spy Extreme 1.2: score 8698, graphics score 8923, CPU score 7767
-  - Port Royal 1.3: score 11963
-  - Speed Way 1.1: score 4733
+- 3DMark 2.31.8385 Steel Nomad (pts)
+  - Stock:
+  - 1890 Mhz @ 912 mV: 4504, GPU 70 °C, CPU 42 °C
 - CrystalDiskMark 9.0.1 (MB/s)
   - Samsung 990 Pro 2TB
     - SEQ1M Q8T1: read 7409, write 6505
