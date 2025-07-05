@@ -8,7 +8,7 @@ Box
 
 - AMD Ryzen 9 9950X3D
 - Asus ROG Strix B850-I Gaming (BIOS 1063 AGESA 1.2.0.3e)
-- Asus TUF Gaming GeForce RTX 5090 32GB
+- Asus TUF Gaming GeForce RTX 5090 32GB (silent BIOS)
 - Corsair SF1000
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
 - Jonsbo D32 Pro
@@ -39,6 +39,13 @@ Audio
 
 - FiiO K11 R2R
 - Sennheiser HD 58X Jubilee
+
+### Airflow
+
+- CPU cooler rear intake NH-U12A with NF-A12x25 (x2)
+- Bottom case fans intake NF-A12x15 (x3)
+- GPU fans bottom intake
+- Top case fans exhaust NF-A12x25 (x2)
 
 ### Firmware settings
 
@@ -98,13 +105,37 @@ Settings saved with BIOS version 1028 to `player-bios.cmo` and `player-bios.txt`
 Links
 
 - [Motherboard firmware](https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-i-gaming-wifi/helpdesk_bios/)
-- [CPU overclocking & undervolting guide](https://skatterbencher.com/2025/03/11/skatterbencher-85-ryzen-9-9950x3d-overclocked-to-5900-mhz/)
-- [AM5 Optimization Guide](https://www.techpowerup.com/forums/threads/guide-amd-am5-system-optimization.330322/)
 - [Core tunings Configuration for gaming](https://www.reddit.com/r/Amd/comments/1h8siwi/comment/m0xt2nt/)
 
-### GPU undervolt
+### CPU
 
-TO-DO can do +1000, move, apply, shift select, move down, apply, profiles list
+Undervolted using Precision Boost Overdrive and Curve Optimizer.
+
+Benchmarks with Cinebench 2024.1.0 (pts): multicore ..., single core ...
+
+Temperatures (°C): idle 54, gaming 64 @ 5%, stress ...
+
+Links
+
+- [CPU overclocking & undervolting guide](https://skatterbencher.com/2025/03/11/skatterbencher-85-ryzen-9-9950x3d-overclocked-to-5900-mhz/)
+- [AM5 Optimization Guide](https://www.techpowerup.com/forums/threads/guide-amd-am5-system-optimization.330322/)
+
+### GPU
+
+*RTX 5090* is undervolted by applying a 1000 MHz positive offset to the frequency at the desired voltage and flattening the curve from there. Additionally, power limit can be applied.
+
+In *Afterburner* curve editor, the frequency was increased by 1000 MHz for the desired voltage. Apply was hit. All points above the target frequency were selected while holding `Shift`. Any of the selected points was dragged down so that all of them dropped below the target frequency. Apply was hit again.
+
+Profiles and results
+
+1. Stock: 2680 MHz, 1005 mV, 600 W, GPU 74 °C, CPU 63 °C, 14333 pts
+2. 2917 Mhz @ 900 mV: 2512 MHz, 895 mV, 525 W, GPU 71 °C, CPU 63 °C, 3964 pts
+3. 2572 Mhz @ 875 mV: 2310 MHz, 870 mV, 445 W, GPU 68 °C, CPU 63 °C, 3028 pts
+4. 2242 Mhz @ 850 mV: 2025 MHz, 845 mV, 365 W, GPU 63 °C, CPU 62 °C, 1647 pts (applied on startup)
+
+Benchmarked using 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4484 and NVIDIA 576.80 with vertical sync was disabled.
+
+Temperatures (°C): idle 39, gaming 58 @ 54%
 
 Links
 
@@ -113,41 +144,7 @@ Links
 - [RTX 5090 FE undervolt results](https://www.reddit.com/r/nvidia/comments/1isi8ir/rtx_5090_fe_undervolt_results/)
 - [TUF Gaming 5090 Undervolt/Overclock Guide/Results](https://www.reddit.com/r/overclocking/comments/1jjlyix/tuf_gaming_5090_undervoltoverclock_guideresults/)
 
-### Thermals
-
-Airflow
-
-- CPU cooler rear intake NH-U12A with NF-A12x25 (x2)
-- Bottom case fans intake NF-A12x15 (x3)
-- GPU fans bottom intake
-- Top case fans exhaust NF-A12x25 (x2)
-
-Temperatures (°C)
-
-- Idle: CPU ..., GPU ..., SSD NAND ..., SSD controller ...
-- Gaming: CPU 64 @ 5%, GPU 58 @ 54%
-- Stress: CPU ..., SSD NAND ..., SSD controller ...
-
-### Benchmarks
-
-Setup
-
-- Windows 11 24H2 26100.4484
-- NVIDIA 576.80
-  - Vertical sync disabled
-
-Results
-
-...
-- 3DMark 2.31.8385 Steel Nomad (pts)
-  - Stock: score 14333, GPU 74 °C, CPU 63 °C, 2680 MHz, 1005 mV, 600 W
-  - 2917 Mhz @ 900 mV: score 13964, GPU 71 °C, CPU 63 °C, 2512 MHz, 895 mV, 525 W
-  - 2572 Mhz @ 875 mV: score 13028, GPU 68 °C, CPU 63 °C, 2310 MHz, 870 mV, 445 W
-  - 2242 Mhz @ 850 mV: score 11647, GPU 63 °C, CPU 62 °C, 2025 MHz, 845 mV, 365 W
-  - 1987 Mhz @ 835 mV: score 11106, GPU 63 °C, CPU 62 °C, 1867 MHz, 830 mV, 345 W
-...
-
-### Disk partitions
+### Disks
 
 - 4 TB
   - 4 GB EFI
@@ -161,7 +158,27 @@ Results
   - 641 GB `/run/media/greg/games`
 - 932 GB Backup
 
-### Monitor settings
+Benchmarks with CrystalDiskMark 9.0.1 (MB/s)
+
+- Samsung 9100 Pro 4TB
+  - SEQ1M Q8T1: read , write
+  - SEQ1M Q1T1: read , write
+  - RND4K Q32T1: read , write
+  - RND4K Q1T1: read , write
+- Samsung 980 Pro 1TB
+  - SEQ1M Q8T1: read , write
+  - SEQ1M Q1T1: read , write
+  - RND4K Q32T1: read , write
+  - RND4K Q1T1: read , write
+
+- Samsung 9100 Pro 4TB
+  - idle: NAND 47, controller 47
+  - stress: NAND ..., controller ...
+- Samsung 980 Pro 1TB
+  - idle: NAND 51, controller 61
+  - stress: NAND ..., controller ...
+
+### Monitors
 
 *LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
 
@@ -185,7 +202,7 @@ TFT Central provided `pg32ucdm.42.icm` ICC profile was created for brightness se
 
 [Monitor firmware](https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm/helpdesk_bios/)
 
-### Keyboard settings
+### Keyboards
 
 For *KBDfans D84 v2*, use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `d84v2-0.png` and `d84v2-1.png`.
 
@@ -196,7 +213,7 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 Box
 
 - AMD Ryzen 9 5900X
-- Asus TUF Gaming OC GeForce RTX 3080 10GB
+- Asus TUF Gaming OC GeForce RTX 3080 10GB (silent BIOS)
 - Cooler Master NR200P
 - Corsair SF750
 - G.Skill Trident Z Neo 32GB 3600MHz DDR4 CL16
@@ -219,6 +236,13 @@ Peripherals
 - Logitech C922 Pro Stream Webcam
 - Vortex Race 3
 - Zowie EC1-A
+
+### Airflow
+
+- CPU cooler rear exhaust NH-U12A with NF-A12x25 (x2)
+- Bottom case fans intake NF-A12x15 (x2)
+- GPU fans bottom intake
+- Top case fans exhaust NF-A12x25 (x2)
 
 ### Firmware settings
 
@@ -272,58 +296,30 @@ Peripherals
     - Secure Boot Mode: Standard
 
 [Motherboard firmware](https://www.gigabyte.com/Motherboard/B550I-AORUS-PRO-AX-10/support#dl)
+### CPU
 
-### GPU undervolt
+Undervolted using Clock Ratio and Vcore.
 
-*RTX 3080* has 1440 MHz base clock and 1710 MHz boost clock. The default frequency curve allows up to 2000 MHz.
+Benchmarks with Cinebench 2024.1.0 (pts): multicore 1195, single core 86
 
-At stock, when gaming with 60 FPS cap, the clock reaches 1920 MHz at 1056 mV.
+Temperatures (°C): idle 33, gaming 45 @ 15%, stress 55
 
-Undervolt was done using *Afterburner*. First, core clock was set to -290 MHz (2000 - 1710). Then, 912 mV was moved to 1890 MHz using curve editor. Finally, apply button was hit and profile was saved.
+### GPU
 
-### Thermals
+*RTX 3080* has 1440 MHz base clock and 1710 MHz boost clock. The default frequency curve allows up to 2000 MHz. At stock, when gaming with 60 FPS cap, the clock reaches 1920 MHz at 1056 mV.
 
-Airflow
+In *Afterburner*, the core clock was set to -290 MHz (2000 - 1710). In curve editor, the frequency was set to 1890 Mhz at 912 mV. The apply button was hit.
 
-- CPU cooler rear exhaust NH-U12A with NF-A12x25 (x2)
-- Bottom case fans intake NF-A12x15 (x2)
-- GPU fans bottom intake
-- Top case fans exhaust NF-A12x25 (x2)
+Profiles and results
 
-Temperatures (°C)
+1. Stock: ...
+2. 1890 Mhz @ 912 mV: ..., GPU 70 °C, CPU 42 °C, 4504 pts (applied on startup)
 
-- Idle: CPU 33, GPU 28, SSD NAND 36, SSD controller 41
-- Gaming: CPU 45 @ 15%, GPU 65 @ 85%
-- Stress: CPU 55, SSD NAND 51, SSD controller 62
+Benchmarked using 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4351 and NVIDIA 576.40 with vertical sync was disabled.
 
-### Benchmarks
+Temperatures (°C): idle 28, gaming 65 @ 85%
 
-Setup
-
-- Windows 11 24H2 26100.4351
-- NVIDIA 576.40
-  - Vertical sync disabled
-
-Results
-
-- Cinebench 2024.1.0 (pts): multicore 1195, single core 86
-- Geekbench 6 (pts): multicore 13094, single core 2027
-- 3DMark 2.31.8385 Steel Nomad (pts)
-  - Stock:
-  - 1890 Mhz @ 912 mV: 4504, GPU 70 °C, CPU 42 °C
-- CrystalDiskMark 9.0.1 (MB/s)
-  - Samsung 990 Pro 2TB
-    - SEQ1M Q8T1: read 7409, write 6505
-    - SEQ1M Q1T1: read 3337, write 5551
-    - RND4K Q32T1: read 470, write 289
-    - RND4K Q1T1: read 59, write 175
-  - Samsung 980 Pro 1TB
-    - SEQ1M Q8T1: read 3251, write 3164
-    - SEQ1M Q1T1: read 2639, write 2812
-    - RND4K Q32T1: read 541, write 509
-    - RND4K Q1T1: read 77, write 162
-
-### Disk partitions
+### Disks
 
 - 2 TB
   - 4 GB EFI
@@ -338,13 +334,35 @@ Results
   - 466 GB Backup
   - 466 GB `/run/media/greg/games`
 
-### Monitor settings
+Benchmarks with CrystalDiskMark 9.0.1 (MB/s)
+
+- Samsung 990 Pro 2TB
+  - SEQ1M Q8T1: read 7409, write 6505
+  - SEQ1M Q1T1: read 3337, write 5551
+  - RND4K Q32T1: read 470, write 289
+  - RND4K Q1T1: read 59, write 175
+- Samsung 980 Pro 1TB
+  - SEQ1M Q8T1: read 3251, write 3164
+  - SEQ1M Q1T1: read 2639, write 2812
+  - RND4K Q32T1: read 541, write 509
+  - RND4K Q1T1: read 77, write 162
+
+Temperatures (°C)
+
+- Samsung 990 Pro 2TB
+  - idle: NAND 36, controller 41
+  - stress: NAND 51, controller 62
+- Samsung 980 Pro 1TB
+  - idle: NAND ..., controller ...
+  - stress: NAND ..., controller ...
+
+### Monitors
 
 LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
 
 LG *27UD88-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 1 selected. Hardware calibration resulted in the RGB settings of 49 47 50. Software calibration is stored in the ICC profile `27ud88-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ud88-w.50.icm`.
 
-### Keyboard settings
+### Keyboards
 
 For *Idobao ID80V3* and *ID80V2* follow [this guide](https://idobao.github.io/manuals/flashing/) to update the firmware and use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `id80v3-0.png` and `id80v3-1.png`.
 
@@ -407,7 +425,7 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 
 [Motherboard firmware](https://rog.asus.com/motherboards/rog-strix/rog-strix-z370-i-gaming-model/helpdesk_bios/)
 
-### Disk partitions
+### Disks
 
 - 1 TB
   - 4 GB EFI
