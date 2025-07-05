@@ -109,11 +109,9 @@ Links
 
 ### CPU
 
-Undervolted using Precision Boost Overdrive and Curve Optimizer.
+Benchmarks with Cinebench 2024.1.0 (pts): multi core 2427, single core 139
 
-Benchmarks with Cinebench 2024.1.0 (pts): multicore ..., single core ...
-
-Temperatures (°C): idle 54, gaming 64 @ 5%, stress ...
+Temperatures (°C): idle 54, gaming 64 @ 5%, stress 82
 
 Links
 
@@ -124,16 +122,16 @@ Links
 
 *RTX 5090* is undervolted by applying a 1000 MHz positive offset to the frequency at the desired voltage and flattening the curve from there. Additionally, power limit can be applied.
 
-In *Afterburner* curve editor, the frequency was increased by 1000 MHz for the desired voltage. Apply was hit. All points above the target frequency were selected while holding `Shift`. Any of the selected points was dragged down so that all of them dropped below the target frequency. Apply was hit again.
+In Afterburner curve editor, the frequency was increased by 1000 MHz for the desired voltage. Apply was hit. All points above the target frequency were selected while holding `Shift`. Any of the selected points was dragged down so that all of them dropped below the target frequency. Apply was hit again.
 
 Profiles and results
 
 1. Stock: 2680 MHz, 1005 mV, 600 W, GPU 74 °C, CPU 63 °C, 14333 pts
-2. 2917 Mhz @ 900 mV: 2512 MHz, 895 mV, 525 W, GPU 71 °C, CPU 63 °C, 3964 pts
-3. 2572 Mhz @ 875 mV: 2310 MHz, 870 mV, 445 W, GPU 68 °C, CPU 63 °C, 3028 pts
-4. 2242 Mhz @ 850 mV: 2025 MHz, 845 mV, 365 W, GPU 63 °C, CPU 62 °C, 1647 pts (applied on startup)
+2. 2917 Mhz @ 900 mV: 2512 MHz, 895 mV, 525 W, GPU 71 °C, CPU 63 °C, 13964 pts
+3. 2572 Mhz @ 875 mV: 2310 MHz, 870 mV, 445 W, GPU 68 °C, CPU 63 °C, 13028 pts
+4. 2242 Mhz @ 850 mV: 2025 MHz, 845 mV, 365 W, GPU 63 °C, CPU 62 °C, 11647 pts (applied on startup)
 
-Benchmarked using 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4484 and NVIDIA 576.80 with vertical sync was disabled.
+Benchmarked with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4484 and NVIDIA 576.80 with vertical sync was disabled.
 
 Temperatures (°C): idle 39, gaming 58 @ 54%
 
@@ -161,22 +159,24 @@ Links
 Benchmarks with CrystalDiskMark 9.0.1 (MB/s)
 
 - Samsung 9100 Pro 4TB
-  - SEQ1M Q8T1: read , write
-  - SEQ1M Q1T1: read , write
-  - RND4K Q32T1: read , write
-  - RND4K Q1T1: read , write
+  - SEQ1M Q8T1: read 14698, write 13453
+  - SEQ1M Q1T1: read 9580, write 10340
+  - RND4K Q32T1: read 865, write 743
+  - RND4K Q1T1: read 82, write 250
 - Samsung 980 Pro 1TB
-  - SEQ1M Q8T1: read , write
-  - SEQ1M Q1T1: read , write
-  - RND4K Q32T1: read , write
-  - RND4K Q1T1: read , write
+  - SEQ1M Q8T1: read 6876, write 4950
+  - SEQ1M Q1T1: read 4184, write 4265
+  - RND4K Q32T1: read 877, write 741
+  - RND4K Q1T1: read 79, write 272
+
+Temperatures (°C)
 
 - Samsung 9100 Pro 4TB
-  - idle: NAND 47, controller 47
-  - stress: NAND ..., controller ...
+  - idle: NAND 47, controller 53
+  - stress: NAND 57, controller 64
 - Samsung 980 Pro 1TB
   - idle: NAND 51, controller 61
-  - stress: NAND ..., controller ...
+  - stress: NAND 75, controller 93
 
 ### Monitors
 
@@ -296,11 +296,10 @@ Peripherals
     - Secure Boot Mode: Standard
 
 [Motherboard firmware](https://www.gigabyte.com/Motherboard/B550I-AORUS-PRO-AX-10/support#dl)
+
 ### CPU
 
-Undervolted using Clock Ratio and Vcore.
-
-Benchmarks with Cinebench 2024.1.0 (pts): multicore 1195, single core 86
+Benchmarks with Cinebench 2024.1.0 (pts): multi core 1195, single core 86
 
 Temperatures (°C): idle 33, gaming 45 @ 15%, stress 55
 
@@ -308,14 +307,14 @@ Temperatures (°C): idle 33, gaming 45 @ 15%, stress 55
 
 *RTX 3080* has 1440 MHz base clock and 1710 MHz boost clock. The default frequency curve allows up to 2000 MHz. At stock, when gaming with 60 FPS cap, the clock reaches 1920 MHz at 1056 mV.
 
-In *Afterburner*, the core clock was set to -290 MHz (2000 - 1710). In curve editor, the frequency was set to 1890 Mhz at 912 mV. The apply button was hit.
+In Afterburner, the core clock was set to -290 MHz (2000 - 1710). In curve editor, the frequency was set to 1890 Mhz at 912 mV. The apply button was hit.
 
 Profiles and results
 
 1. Stock: ...
 2. 1890 Mhz @ 912 mV: ..., GPU 70 °C, CPU 42 °C, 4504 pts (applied on startup)
 
-Benchmarked using 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4351 and NVIDIA 576.40 with vertical sync was disabled.
+Benchmarked with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4351 and NVIDIA 576.40 with vertical sync was disabled.
 
 Temperatures (°C): idle 28, gaming 65 @ 85%
 
