@@ -301,22 +301,22 @@ Peripherals
 
 Benchmarks with Cinebench 2024.1.0 (pts): multi core 1195, single core 86
 
-Temperatures (°C): idle 33, gaming 45 @ 15%, stress 55
+Temperatures (°C): idle 37, gaming 45 @ 15%, stress 55
 
 ### GPU
 
 *RTX 3080* has 1440 MHz base clock and 1710 MHz boost clock. The default frequency curve allows up to 2000 MHz. At stock, when gaming with 60 FPS cap, the clock reaches 1920 MHz at 1056 mV.
 
-In Afterburner, the core clock was set to -290 MHz (2000 - 1710). In curve editor, the frequency was set to 1890 Mhz at 912 mV. The apply button was hit.
+In Afterburner, the core clock was set to -290 MHz (2000 - 1710). In curve editor, the frequency was set to 1905 Mhz at 912 mV. The apply button was hit.
 
 Profiles and results
 
-1. Stock: ...
-2. 1890 Mhz @ 912 mV: ..., GPU 70 °C, CPU 42 °C, 4504 pts (applied on startup)
+1. Stock: 1755 MHz, 906 mV, 340 W, GPU 71 °C, CPU 42 °C, 4368 pts
+2. 1905 Mhz @ 912 mV: 1785 MHz, 893 mV, 340 W, GPU 72 °C, CPU 43 °C, 4364 pts (applied on startup)
 
-Benchmarked with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4351 and NVIDIA 576.40 with vertical sync was disabled.
+Benchmarked with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4484 and NVIDIA 576.88 with vertical sync was disabled.
 
-Temperatures (°C): idle 28, gaming 65 @ 85%
+Temperatures (°C): idle 35, gaming 65 @ 85%
 
 ### Disks
 
@@ -336,24 +336,24 @@ Temperatures (°C): idle 28, gaming 65 @ 85%
 Benchmarks with CrystalDiskMark 9.0.1 (MB/s)
 
 - Samsung 990 Pro 2TB
-  - SEQ1M Q8T1: read 7409, write 6505
-  - SEQ1M Q1T1: read 3337, write 5551
-  - RND4K Q32T1: read 470, write 289
-  - RND4K Q1T1: read 59, write 175
+  - SEQ1M Q8T1: read 7416, write 6628
+  - SEQ1M Q1T1: read 3529, write 5469
+  - RND4K Q32T1: read 392, write 275
+  - RND4K Q1T1: read 56, write 137
 - Samsung 980 Pro 1TB
-  - SEQ1M Q8T1: read 3251, write 3164
-  - SEQ1M Q1T1: read 2639, write 2812
-  - RND4K Q32T1: read 541, write 509
-  - RND4K Q1T1: read 77, write 162
+  - SEQ1M Q8T1: read 3239, write 3167
+  - SEQ1M Q1T1: read 2629, write 2810
+  - RND4K Q32T1: read 471, write 422
+  - RND4K Q1T1: read 77, write 151
 
 Temperatures (°C)
 
 - Samsung 990 Pro 2TB
-  - idle: NAND 36, controller 41
-  - stress: NAND 51, controller 62
+  - idle: NAND 42, controller 46
+  - stress: NAND 50, controller 62
 - Samsung 980 Pro 1TB
-  - idle: NAND ..., controller ...
-  - stress: NAND ..., controller ...
+  - idle: NAND 39, controller 46
+  - stress: NAND 57, controller 72
 
 ### Monitors
 
