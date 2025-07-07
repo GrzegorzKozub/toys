@@ -307,11 +307,7 @@ Peripherals
 
 Temperatures (°C): idle 33, gaming 45, stress 55
 
-<<<<<<< HEAD
-Temperatures (°C): idle 37, gaming 45 @ 15%, stress 55
-=======
-Benchmarks with Cinebench 2024.1.0 (pts): multi core 1195, single core 86
->>>>>>> damn
+Benchmarks with Cinebench 2024.1.0 on Windows 11 24H2 26100.4484 (pts): multi core 1195, single core 86
 
 ### GPU
 
@@ -324,15 +320,9 @@ Profiles and results
 1. Stock: 1755 MHz, 906 mV, 340 W, GPU 71 °C, CPU 42 °C, 4368 pts
 2. 1905 Mhz @ 912 mV: 1785 MHz, 893 mV, 340 W, GPU 72 °C, CPU 43 °C, 4364 pts (applied on startup)
 
-<<<<<<< HEAD
-Benchmarked with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4484 and NVIDIA 576.88 with vertical sync was disabled.
-
-Temperatures (°C): idle 35, gaming 65 @ 85%
-=======
 Benchmarked with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4351 and NVIDIA 576.40 with vertical sync disabled.
 
 Temperatures (°C): idle 28, gaming 65
->>>>>>> damn
 
 ### Disks
 
