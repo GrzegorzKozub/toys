@@ -38,7 +38,9 @@ Peripherals
 Audio
 
 - FiiO K11 R2R
+- Kiwi Ears Cadenza
 - Sennheiser HD 58X Jubilee
+- TRUTHEAR x Crinacle ZERO Red
 
 ### Airflow
 
@@ -65,6 +67,8 @@ Audio
     - Integrated Graphics: Disabled
   - AMD CBS
     - Global C-state Control: Enabled
+    - SMU Common Options
+      - ECO Mode: Enabled
   - AMD Overclocking
     - Precision Boost Overdrive
       - Precision Boost Overdrive: Advanced
@@ -80,6 +84,7 @@ Audio
         - CCD 1 Curve Optimizer Sign: Negative
         - CCD 1 Curve Optimizer Magnitude: 20
     - SoC/Uncore OC Mode: Enabled
+    - ECO Mode: 65 W
 - Boot
   - Boot Logo Display: Disabled
   - POST Report: 1 sec
@@ -92,13 +97,13 @@ Audio
     - Download & Install ASUS DriverHub app: Disabled
 - Q-Fan
   - CPU Fan
-    - Curve: 20°C 20%, 45°C 50%, 60°C 50%, 70°C 60%, 80°C 100%
+    - Curve: 60°C 50%, 70°C 60%, 80°C 100%
   - Chasis Gan
     - Q-Fan Source: CPU
-    - Curve: 20°C 20%, 45°C 50%, 60°C 50%, 70°C 60%, 80°C 100% (same as CPU)
+    - Curve: 60°C 50%, 70°C 60%, 80°C 100% (same as CPU Fan)
   - Extra Flow Fan
     - Q-Fan Source: CPU
-    - Curve: 20°C 20%, 45°C 50%, 60°C 50%, 70°C 60%, 80°C 100% (same as CPU)
+    - Curve: 60°C 50%, 70°C 60%, 80°C 100% (same as CPU Fan)
 
 Settings saved with BIOS version 1028 to `player-bios.cmo` and `player-bios.txt` files.
 
@@ -109,9 +114,10 @@ Links
 
 ### CPU
 
-Benchmarks with Cinebench 2024.1.0 (pts): multi core 2427, single core 139
+Temperatures (°C) and benchmarks with Cinebench 2024.1.0 on Windows 11 24H2 26100.4484 (pts)
 
-Temperatures (°C): idle 54, gaming 64 @ 5%, stress 82
+- ~Eco Mode~ disabled: idle 57, gaming 70, stress 82, multi core 2427, single core 139
+- Eco Mode enabled: idle 53, gaming 60-65, stress 62, multi core 1742, single core 133
 
 Links
 
@@ -131,9 +137,9 @@ Profiles and results
 3. 2572 Mhz @ 875 mV: 2310 MHz, 870 mV, 445 W, GPU 68 °C, CPU 63 °C, 13028 pts
 4. 2242 Mhz @ 850 mV: 2025 MHz, 845 mV, 365 W, GPU 63 °C, CPU 62 °C, 11647 pts (applied on startup)
 
-Benchmarked with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4484 and NVIDIA 576.80 with vertical sync was disabled.
+Benchmarked with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4484 and NVIDIA 576.80 with vertical sync disabled.
 
-Temperatures (°C): idle 39, gaming 58 @ 54%
+Temperatures (°C): idle 36, gaming 60-65
 
 Links
 
@@ -299,9 +305,13 @@ Peripherals
 
 ### CPU
 
-Benchmarks with Cinebench 2024.1.0 (pts): multi core 1195, single core 86
+Temperatures (°C): idle 33, gaming 45, stress 55
 
+<<<<<<< HEAD
 Temperatures (°C): idle 37, gaming 45 @ 15%, stress 55
+=======
+Benchmarks with Cinebench 2024.1.0 (pts): multi core 1195, single core 86
+>>>>>>> damn
 
 ### GPU
 
@@ -314,9 +324,15 @@ Profiles and results
 1. Stock: 1755 MHz, 906 mV, 340 W, GPU 71 °C, CPU 42 °C, 4368 pts
 2. 1905 Mhz @ 912 mV: 1785 MHz, 893 mV, 340 W, GPU 72 °C, CPU 43 °C, 4364 pts (applied on startup)
 
+<<<<<<< HEAD
 Benchmarked with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4484 and NVIDIA 576.88 with vertical sync was disabled.
 
 Temperatures (°C): idle 35, gaming 65 @ 85%
+=======
+Benchmarked with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4351 and NVIDIA 576.40 with vertical sync disabled.
+
+Temperatures (°C): idle 28, gaming 65
+>>>>>>> damn
 
 ### Disks
 
