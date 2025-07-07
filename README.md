@@ -66,9 +66,9 @@ Audio
   - NB Configuration
     - Integrated Graphics: Disabled
   - AMD CBS
-    - Global C-state Control: Enabled
     - SMU Common Options
       - ECO Mode: Enabled
+    - Global C-state Control: Enabled
   - AMD Overclocking
     - Precision Boost Overdrive
       - Precision Boost Overdrive: Advanced
@@ -84,7 +84,7 @@ Audio
         - CCD 1 Curve Optimizer Sign: Negative
         - CCD 1 Curve Optimizer Magnitude: 20
     - SoC/Uncore OC Mode: Enabled
-    - ECO Mode: 65 W
+    - ECO Mode: 65W
 - Boot
   - Boot Logo Display: Disabled
   - POST Report: 1 sec
@@ -116,8 +116,8 @@ Links
 
 Temperatures (°C) and benchmarks with Cinebench 2024.1.0 on Windows 11 24H2 26100.4484 (pts)
 
-- ~Eco Mode~ disabled: idle 57, gaming 70, stress 82, multi core 2427, single core 139
-- Eco Mode enabled: idle 53, gaming 60-65, stress 62, multi core 1742, single core 133
+- ~ECO Mode~ disabled: idle 57, gaming 70, stress 82, multi core 2427, single core 139
+- ECO Mode enabled: idle 53, gaming 60-65, stress 62, multi core 1742, single core 133
 
 Links
 
