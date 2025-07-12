@@ -37,7 +37,7 @@ Peripherals
 
 Audio
 
-- FiiO K11 R2R
+- [ ] FiiO K11
 - Kiwi Ears Cadenza
 - Sennheiser HD 58X Jubilee
 - TRUTHEAR x Crinacle ZERO Red
@@ -126,9 +126,9 @@ Links
 
 ### GPU
 
-*RTX 5090* is undervolted by applying a 1000 MHz positive offset to the frequency at the desired voltage and flattening the curve from there. Additionally, power limit can be applied.
+*RTX 5090* is undervolted by applying a 1000 MHz positive offset to the core frequency at the desired voltage and flattening the curve from there. Additionally, power limit can be applied.
 
-In Afterburner curve editor, the frequency was increased by 1000 MHz for the desired voltage. The apply button was hit. All points above the target frequency were selected while holding `Shift`. Any of the selected points was dragged down so that all of them dropped below the target frequency. The apply button was hit again.
+In Afterburner curve editor, the core frequency was increased by 1000 MHz for the desired voltage. The apply button was hit. All points above the target frequency were selected while holding `Shift`. Any of the selected points was dragged down so that all of them dropped below the target frequency. The apply button was hit again. Memory clock was raised by 1000 Mhz.
 
 Profiles and results
 
@@ -139,7 +139,10 @@ Profiles and results
 
 Benchmarked with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4484 and NVIDIA 576.80 with vertical sync disabled.
 
-Temperatures (°C): idle 36, gaming 60-65
+Temperatures (°C)
+
+- idle: core 36, memory 48
+- gaming: core 60-65, memory 80
 
 Links
 
