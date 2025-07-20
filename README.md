@@ -13,22 +13,23 @@ Box
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
 - Jonsbo D32 Pro
 - Noctua NF-A12x15 PWM chromax.black.swap (x3)
-  - [ ] Noctua NF-A12x15 PWM (x3)
 - Noctua NF-A12x25 PWM chromax.black.swap (x2)
-  - [ ] Noctua NF-A12x25 G2 PWM (x2)
 - Noctua NH-U12A chromax.black
-  - [ ] Noctua NH-D15 G2
-- Samsung 980 Pro 1TB (PCIe x4 16 GT/s @ x4 16 GT/s)
 - Samsung 9100 Pro 4TB (PCIe x4 32 GT/s @ x4 32 GT/s)
+- Samsung 980 Pro 1TB (PCIe x4 16 GT/s @ x4 16 GT/s)
+- [ ] Noctua NF-A12x15 PWM (x3)
+- [ ] Noctua NF-A12x25 G2 PWM (x2)
+- [ ] Noctua NH-D15 G2
 
 Monitors
 
 - LG 27GP950-B
-  - [ ] Asus PG32UCDMR ~PG32UCDM~
-  - [ ] MSI MPG 322URX ~321URX~
+- MSI MPG 321URX
+- [ ] Asus PG32UCDMR
 
 Peripherals
 
+- Fnatic x Lamzu MAYA X 8K
 - Glorious PC Gaming Race Model O 2 Wireless
 - GuliKit KingKong 2 Pro NS09
 - Hagibis MC40 / Qwiizlab ES40UR
@@ -37,10 +38,13 @@ Peripherals
 
 Audio
 
-- [ ] FiiO K11
 - Kiwi Ears Cadenza
+- Schiit Magni Unity
 - Sennheiser HD 58X Jubilee
 - TRUTHEAR x Crinacle ZERO Red
+- [ ] FiiO K11 R2R
+- [ ] Schiit GUNNR
+- [ ] Topping DX3 Pro+
 
 ### Airflow
 
@@ -189,11 +193,19 @@ Temperatures (°C)
 
 ### Monitors
 
+*MSI MPG 321URX* settings
+
+- ...
+
+TFT Central provided `mpg321urx.34.icm` ICC profile was created for brightness set to 34, RGB settings at 97 99 100 and the contrast of 70.
+
+RTINGS provided `mpg321urx.27.icm` ICC profile was created for brightness set to 27, RGB settings at 96 98 100 and the contrast of 70.
+
 *LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
 
 TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* profile, brightness set to 6, RGB settings at 50 48 45 and the contrast of 70.
 
-*Asus PG32UCDM* settings:
+*Asus PG32UCDM* settings
 
 - Gaming
   - Game Visual: User
@@ -245,6 +257,10 @@ Peripherals
 - Logitech C922 Pro Stream Webcam
 - Vortex Race 3
 - Zowie EC1-A
+
+Audio
+
+- Creative Pebble Pro
 
 ### Airflow
 
