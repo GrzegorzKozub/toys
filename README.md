@@ -199,11 +199,26 @@ Temperatures (°C)
 
 *MSI MPG 321URX* settings
 
-- ...
+- Gaming
+  - Adaptive-Sync: ON
+- Professional
+  - Pro Mode: User (vivid) or sRGB (clamped)
+- Image
+  - Brightness: 34 (about 120 nits)
+  - Color Temperature: RGB 97 99 100
+  - DisplayHDR: Peak 1000 nits (when HDR enabled)
+- Settings
+  - Transparency: 0
+  - OSD Time out: 5
+  - RGB LED: OFF
+  - Power LED: OFF
+- MSI OLED Care
+  - Statis Screen Detection: OFF
+  - Multi Logo Detection: OFF
 
-TFT Central provided `mpg321urx.34.icm` ICC profile was created for brightness set to 34, RGB settings at 97 99 100 and the contrast of 70.
+TFT Central provided `mpg321urx.34.icm` ICC profile was created for brightness set to 34 (about 120 nits), RGB settings at 97 99 100 and the contrast of 70.
 
-RTINGS provided `mpg321urx.27.icm` ICC profile was created for brightness set to 27, RGB settings at 96 98 100 and the contrast of 70.
+RTINGS provided `mpg321urx.27.icm` ICC profile was created for brightness set to 27 (about 100 nits), RGB settings at 96 98 100 and the contrast of 70.
 
 *LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
 
