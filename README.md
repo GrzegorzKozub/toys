@@ -220,8 +220,6 @@ Temperatures (°C)
 
 TFT Central provided `mpg321urx.34.icm` ICC profile was created for brightness set to 34 (about 120 nits), RGB settings at 97 99 100 and the contrast of 70.
 
-RTINGS provided `mpg321urx.27.icm` ICC profile was created for brightness set to 27 (about 100 nits), RGB settings at 96 98 100 and the contrast of 70.
-
 *LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
 
 TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* profile, brightness set to 6, RGB settings at 50 48 45 and the contrast of 70.
