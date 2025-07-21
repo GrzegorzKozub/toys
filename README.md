@@ -207,6 +207,8 @@ Temperatures (°C)
   - Brightness: 34 (about 120 nits)
   - Color Temperature: RGB 97 99 100
   - DisplayHDR: Peak 1000 nits (when HDR enabled)
+- Navi Key
+  - Up/Down/Left/Right: Brightness
 - Settings
   - Transparency: 0
   - OSD Time out: 5
