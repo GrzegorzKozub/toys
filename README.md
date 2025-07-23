@@ -220,6 +220,13 @@ Temperatures (°C)
 
 TFT Central provided `mpg321urx.34.icm` ICC profile was created for brightness set to 34 (about 120 nits), RGB settings at 97 99 100 and the contrast of 70.
 
+Working VRR flickering mitigations for *MSI MPG 321URX*
+
+- Use a stronger Afterburner profile to lock 120 FPS
+- Decrease refresh rate to 120 Hz
+- Disable DSC which limits DisplayPort 1.4a to 120 Hz with 4k
+- Increase the lower VRR range imit from 48 to 80 Hz using CRU
+
 *LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
 
 TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* profile, brightness set to 6, RGB settings at 50 48 45 and the contrast of 70.
@@ -240,7 +247,8 @@ TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* pro
 
 TFT Central provided `pg32ucdm.42.icm` ICC profile was created for brightness set to 42 (120 nits), RGB settings at 98 100 100 and uniform brightness enabled.
 
-[Monitor firmware](https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm/helpdesk_bios/)
+[Asus PG32UCDM firmware](https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm/helpdesk_bios/)
+[MSI MPG 321URX firmware](https://www.msi.com/Monitor/MPG-321URX-QD-OLED/support#firmware)
 
 ### Keyboards
 
