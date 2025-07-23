@@ -204,7 +204,7 @@ Temperatures (°C)
 - Professional
   - Pro Mode: User (vivid) or sRGB (clamped)
 - Image
-  - Brightness: 34 (about 120 nits)
+  - Brightness: 17 (recommended 34, about 120 nits, is too bright)
   - Color Temperature: RGB 97 99 100
   - DisplayHDR: Peak 1000 nits (when HDR enabled)
 - Navi Key
