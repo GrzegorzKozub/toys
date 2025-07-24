@@ -224,7 +224,6 @@ Working VRR flickering mitigations for *MSI MPG 321URX*
 
 - Use a stronger Afterburner profile to lock 120 FPS
 - Decrease refresh rate to 120 Hz
-- Disable DSC which limits DisplayPort 1.4a to 120 Hz with 4k
 - Increase the lower VRR range imit from 48 to 80 Hz using CRU
 
 *LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
