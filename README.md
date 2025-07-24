@@ -222,8 +222,7 @@ TFT Central provided `mpg321urx.34.icm` ICC profile was created for brightness s
 
 Working VRR flickering mitigations for *MSI MPG 321URX*
 
-- Use a stronger Afterburner profile to lock 120 FPS
-- Decrease refresh rate to 120 Hz
+- Decrease refresh rate to 120 Hz and try to lock 120 FPS
 - Increase the lower VRR range imit from 48 to 80 Hz using CRU
 
 *LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
