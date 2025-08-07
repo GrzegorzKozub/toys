@@ -41,15 +41,11 @@ Audio
 - JCALLY JM20 Max (CS43131 DAC & SGM8262 OP AMP)
 - Kiwi Ears Cadenza
 - KOSS Porta Pro Wireless
-- KOSS Porta Pro Wireless 2.0
 - Schiit Magni Unity
 - Sennheiser HD 58X Jubilee
 - TRUTHEAR x Crinacle ZERO Red
-- [ ] FiiO K11
 - [ ] FiiO K11 R2R
 - [ ] FiiO KA17
-- [ ] Schiit GUNNR
-- [ ] Topping DX3 Pro+
 
 ### Airflow
 
