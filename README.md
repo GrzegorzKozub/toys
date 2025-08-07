@@ -138,7 +138,7 @@ In Afterburner curve editor, the core frequency was increased by 1000 MHz for th
 Profiles and results
 
 1. Stock: 2680 MHz, 1005 mV, 600 W, GPU 74 °C, CPU 63 °C, 14333 pts
-2. 2917 Mhz @ 900 mV: 2512 MHz, 895 mV, 525 W, GPU 71 °C, CPU 63 °C, 13964 pts
+2. 2835 Mhz @ 900 mV
 3. 2572 Mhz @ 875 mV: 2310 MHz, 870 mV, 445 W, GPU 68 °C, CPU 63 °C, 13028 pts
 4. 2242 Mhz @ 850 mV: 2025 MHz, 845 mV, 365 W, GPU 63 °C, CPU 62 °C, 11647 pts (applied on startup)
 
