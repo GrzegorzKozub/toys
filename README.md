@@ -200,7 +200,7 @@ Temperatures (°C)
 - Professional
   - Pro Mode: User (vivid) or sRGB (clamped)
 - Image
-  - Brightness: 34 ≈ 120 nits, 28 ≈ 100 nits or 23 ≈ 80 nits
+  - Brightness: 34 for 120 nits, 28 for 100 nits or 23 for 80 nits
   - Color Temperature: RGB 97 99 100
   - DisplayHDR: Peak 1000 nits (when HDR enabled)
 - Navi Key
@@ -243,6 +243,7 @@ TFT Central provided `pg32ucdm.42.icm` ICC profile was created for brightness se
 
 [Asus PG32UCDM firmware](https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm/helpdesk_bios/)
 [MSI MPG 321URX firmware](https://www.msi.com/Monitor/MPG-321URX-QD-OLED/support#firmware)
+[Wide Gamut](https://www.wide-gamut.com/)
 
 ### Keyboards
 
