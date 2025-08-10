@@ -30,7 +30,6 @@ Monitors
 Peripherals
 
 - Fnatic x Lamzu MAYA X 8K
-- Glorious PC Gaming Race Model O 2 Wireless
 - GuliKit KingKong 2 Pro NS09
 - Hagibis MC40 / Qwiizlab ES40UR
 - KBDfans D84 v2
@@ -201,7 +200,7 @@ Temperatures (°C)
 - Professional
   - Pro Mode: User (vivid) or sRGB (clamped)
 - Image
-  - Brightness: 17 (recommended 34, about 120 nits, is too bright)
+  - Brightness: 34 ≈ 120 nits, 28 ≈ 100 nits or 23 ≈ 80 nits
   - Color Temperature: RGB 97 99 100
   - DisplayHDR: Peak 1000 nits (when HDR enabled)
 - Navi Key
