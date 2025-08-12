@@ -23,7 +23,6 @@ Box
 
 Monitors
 
-- LG 27GP950-B
 - MSI MPG 321URX
 - [ ] Asus PG32UCDMR
 
@@ -43,6 +42,7 @@ Audio
 - Schiit Magni Unity
 - Sennheiser HD 58X Jubilee
 - TRUTHEAR x Crinacle ZERO Red
+- [ ] Fiio FT1
 - [ ] FiiO K11 R2R
 - [ ] FiiO KA17
 
@@ -221,10 +221,6 @@ Working VRR flickering mitigations for *MSI MPG 321URX*
 - Decrease refresh rate to 120 Hz and try to lock 120 FPS
 - Increase the lower VRR range imit from 48 to 80 Hz using CRU
 
-*LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
-
-TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* profile, brightness set to 6, RGB settings at 50 48 45 and the contrast of 70.
-
 *Asus PG32UCDM* settings
 
 - Gaming
@@ -269,7 +265,7 @@ Box
 
 Monitors
 
-- LG 27UD88-W
+- LG 27GP950-B
 - LG 27UL850-W
 
 Peripherals
@@ -406,9 +402,11 @@ Temperatures (°C)
 
 ### Monitors
 
-LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
+*LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
 
-LG *27UD88-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 1 selected. Hardware calibration resulted in the RGB settings of 49 47 50. Software calibration is stored in the ICC profile `27ud88-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ud88-w.50.icm`.
+TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* profile, brightness set to 6, RGB settings at 50 48 45 and the contrast of 70.
+
+LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
 
 ### Keyboards
 
@@ -484,4 +482,8 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
     - 256 GB `/run/media/greg/data`
   - 406 GB Data
 - 465 GB Backup
+
+### Monitors
+
+LG *27UD88-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 1 selected. Hardware calibration resulted in the RGB settings of 49 47 50. Software calibration is stored in the ICC profile `27ud88-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ud88-w.50.icm`.
 
