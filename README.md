@@ -221,23 +221,6 @@ Working VRR flickering mitigations for *MSI MPG 321URX*
 - Decrease refresh rate to 120 Hz and try to lock 120 FPS
 - Increase the lower VRR range imit from 48 to 80 Hz using CRU
 
-*Asus PG32UCDM* settings
-
-- Gaming
-  - Game Visual: User
-- Image
-  - Brightness: 42 for 120 nits, 55 for 150 nits, 75 for 200 nits or 100 for 256 nits
-  - Uniform Brightness: Enabled
-  - Contrast: 70
-  - HDR Setting: Gaming HDR or Console HDR
-- Color
-  - Display Color Space: Wide Gamut (vivid) or sRGB (clamped)
-  - Color Temp: User with RGB at 98 100 100 when Wide Gamut or 6500K when sRGB
-  - Gamma: 2.2
-
-TFT Central provided `pg32ucdm.42.icm` ICC profile was created for brightness set to 42 (120 nits), RGB settings at 98 100 100 and uniform brightness enabled.
-
-[Asus PG32UCDM firmware](https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm/helpdesk_bios/)
 [MSI MPG 321URX firmware](https://www.msi.com/Monitor/MPG-321URX-QD-OLED/support#firmware)
 [Wide Gamut](https://www.wide-gamut.com/)
 
