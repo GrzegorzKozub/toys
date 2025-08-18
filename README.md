@@ -121,7 +121,12 @@ Links
 Temperatures (°C) and benchmarks with Cinebench 2024.1.0 on Windows 11 24H2 26100.4484 (pts)
 
 - ~ECO Mode~ disabled: idle 57, gaming 70, stress 82, multi core 2427, single core 139
-- ECO Mode enabled: idle 53, gaming 60-65, stress 62, multi core 1742, single core 133
+- ECO Mode enabled: idle 51, gaming 63, stress 59, multi core 1742, single core 133
+
+Component temperatures (°C)
+
+- idle: memory 40, motherboard 34, chipset 63
+- gaming: memory 56, motherboard 46, chipset 80
 
 Links
 
@@ -145,8 +150,8 @@ Benchmarked with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4484 and 
 
 Temperatures (°C)
 
-- idle: core 36, memory 48
-- gaming: core 60-65, memory 80
+- idle: core 33, memory 44
+- gaming: core 61, memory 76
 
 Links
 
@@ -185,11 +190,11 @@ Benchmarks with CrystalDiskMark 9.0.1 (MB/s)
 Temperatures (°C)
 
 - Samsung 9100 Pro 4TB
-  - idle: NAND 46, controller 50
-  - stress: NAND 57, controller 64
+  - idle: NAND 45, controller 52
+  - stress: NAND 50, controller 58
 - Samsung 980 Pro 1TB
-  - idle: NAND 51, controller 60
-  - stress: NAND 75, controller 93
+  - idle: NAND 47, controller 55
+  - stress: NAND 71, controller 87
 
 ### Monitors
 
