@@ -53,6 +53,8 @@ Audio
 - GPU fans bottom intake
 - Top case fans exhaust NF-A12x25 (x2)
 
+CPU cooler rear exhaust increases the CPU temperature under load by 5-10 °C.
+
 ### Firmware settings
 
 - Ai Tweaker
@@ -118,15 +120,16 @@ Links
 
 ### CPU
 
-Temperatures (°C) and benchmarks with Cinebench 2024.1.0 on Windows 11 24H2 26100.4484 (pts)
+Temperatures (°C), benchmarks with Cinebench 2024.1.0 (pts) and stress with Prime95 30.19 build 20 Blend test on Windows 11 24H2 26100.4946
 
 - ~ECO Mode~ disabled: idle 57, gaming 70, stress 82, multi core 2427, single core 139
-- ECO Mode enabled: idle 51, gaming 63, stress 59, multi core 1742, single core 133
+- ECO Mode enabled: idle 51, gaming 64, benchmark 60, stress 62, multi core 1768, single core 140
 
-Component temperatures (°C)
+Temperatures (°C)
 
-- idle: memory 40, motherboard 34, chipset 63
+- idle: memory 39, motherboard 34, chipset 62
 - gaming: memory 56, motherboard 46, chipset 80
+- stress: memory 63, motherboard 40, chipset 69
 
 Links
 
@@ -139,19 +142,17 @@ Links
 
 In Afterburner curve editor, the core frequency was increased by 1000 MHz for the desired voltage. The apply button was hit. All points above the target frequency were selected while holding `Shift`. Any of the selected points was dragged down so that all of them dropped below the target frequency. The apply button was hit again. Memory clock was raised by 1000 Mhz.
 
-Profiles and results
+Profiles, results and benchmarks with 3DMark 2.32.8426 Steel Nomad on Windows 11 24H2 26100.4946 and NVIDIA 581.08 with vertical sync disabled
 
-1. Stock: 2680 MHz, 1005 mV, 600 W, GPU 74 °C, CPU 63 °C, 14333 pts
-2. 2835 Mhz @ 900 mV
-3. 2572 Mhz @ 875 mV: 2310 MHz, 870 mV, 445 W, GPU 68 °C, CPU 63 °C, 13028 pts
-4. 2242 Mhz @ 850 mV: 2025 MHz, 845 mV, 365 W, GPU 63 °C, CPU 62 °C, 11647 pts (applied on startup)
-
-Benchmarked with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4484 and NVIDIA 576.80 with vertical sync disabled.
+1. Stock: 2680 MHz, 1005 mV, 600 W, GPU 74 °C, CPU 60 °C, 14373 pts
+2. 2835 Mhz @ 900 mV: 2505 MHz, 895 mV, 520 W, GPU 69 °C, CPU 62 °C, 14086 pts
+3. 2572 Mhz @ 875 mV: 2310 MHz, 870 mV, 445 W, GPU 65 °C, CPU 59 °C, 13301 pts
+4. 2242 Mhz @ 850 mV: 2025 MHz, 845 mV, 365 W, GPU 58 °C, CPU 60 °C, 11940 pts (applied on startup)
 
 Temperatures (°C)
 
-- idle: core 33, memory 44
-- gaming: core 61, memory 76
+- idle: core 34, memory 46
+- gaming: core 62, memory 72
 
 Links
 
@@ -191,10 +192,10 @@ Temperatures (°C)
 
 - Samsung 9100 Pro 4TB
   - idle: NAND 45, controller 52
-  - stress: NAND 50, controller 58
+  - benchmark: NAND 50, controller 58
 - Samsung 980 Pro 1TB
   - idle: NAND 47, controller 55
-  - stress: NAND 71, controller 87
+  - benchmark: NAND 71, controller 87
 
 ### Monitors
 
@@ -332,9 +333,9 @@ Audio
 
 ### CPU
 
-Temperatures (°C): idle 33, gaming 45, stress 55
+Temperatures (°C): idle 33, gaming 45, benchmark 55
 
-Benchmarks with Cinebench 2024.1.0 on Windows 11 24H2 26100.4484 (pts): multi core 1195, single core 86
+Benchmarks with Cinebench 2024.1.0 (pts) on Windows 11 24H2 26100.4484: multi core 1195, single core 86
 
 ### GPU
 
@@ -342,12 +343,10 @@ Benchmarks with Cinebench 2024.1.0 on Windows 11 24H2 26100.4484 (pts): multi co
 
 In Afterburner, the core clock was set to -290 MHz (2000 - 1710). In curve editor, the frequency was set to 1905 Mhz at 912 mV. The apply button was hit.
 
-Profiles and results
+Profiles, results and benchmarks with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4351 and NVIDIA 576.40 with vertical sync disabled
 
 1. Stock: 1755 MHz, 906 mV, 340 W, GPU 71 °C, CPU 42 °C, 4368 pts
 2. 1905 Mhz @ 912 mV: 1785 MHz, 893 mV, 340 W, GPU 72 °C, CPU 43 °C, 4364 pts (applied on startup)
-
-Benchmarked with 3DMark 2.31.8385 Steel Nomad on Windows 11 24H2 26100.4351 and NVIDIA 576.40 with vertical sync disabled.
 
 Temperatures (°C): idle 28, gaming 65
 
@@ -383,10 +382,10 @@ Temperatures (°C)
 
 - Samsung 990 Pro 2TB
   - idle: NAND 42, controller 46
-  - stress: NAND 50, controller 62
+  - benchmark: NAND 50, controller 62
 - Samsung 980 Pro 1TB
   - idle: NAND 39, controller 46
-  - stress: NAND 57, controller 72
+  - benchmark: NAND 57, controller 72
 
 ### Monitors
 
