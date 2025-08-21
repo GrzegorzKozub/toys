@@ -120,16 +120,16 @@ Links
 
 ### CPU
 
-Temperatures (°C), benchmarks with Cinebench 2024.1.0 (pts) and stress with Prime95 30.19 build 20 Blend test on Windows 11 24H2 26100.4946
+Temperatures (°C) and benchmarks with Cinebench 2024.1.0 (pts) on Windows 11 24H2 26100.4946
 
-- ~ECO Mode~ disabled: idle 57, gaming 70, stress 82, multi core 2427, single core 139
-- ECO Mode enabled: idle 51, gaming 64, benchmark 60, stress 62, multi core 1768, single core 140
+- ~ECO Mode~ disabled: idle 52, gaming 70, benchmark 80, multi core 2405, single core 139
+- ECO Mode enabled: idle 51, gaming 64, benchmark 60, multi core 1768, single core 140
 
 Temperatures (°C)
 
 - idle: memory 39, motherboard 34, chipset 62
 - gaming: memory 56, motherboard 46, chipset 80
-- stress: memory 63, motherboard 40, chipset 69
+- benchmark: memory 63, motherboard 40, chipset 69
 
 Links
 
