@@ -7,7 +7,7 @@ Builds
 Box
 
 - AMD Ryzen 9 9950X3D
-- Asus ROG Strix B850-I Gaming (BIOS 1063 AGESA 1.2.0.3e)
+- Asus ROG Strix B850-I Gaming (BIOS 1078 AGESA 1.2.0.3f)
 - Asus TUF Gaming GeForce RTX 5090 32GB (silent BIOS)
 - Corsair SF1000
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
@@ -99,8 +99,8 @@ CPU cooler rear exhaust increases the CPU temperature under load by 5-10 °C.
   - ASUS MyHotkey
     - Hotkey F3: Boot from UEFI USB
     - Hotkey F4: Disabled
-  - ASUS DriverHub
-    - Download & Install ASUS DriverHub app: Disabled
+  - Auto Install ASUS Utilities
+    - Auto Install ASUS Utilities: Disabled
 - Q-Fan
   - CPU Fan
     - Curve: 60°C 50%, 70°C 60%, 80°C 100%
@@ -111,7 +111,7 @@ CPU cooler rear exhaust increases the CPU temperature under load by 5-10 °C.
     - Q-Fan Source: CPU
     - Curve: 60°C 50%, 70°C 60%, 80°C 100% (same as CPU Fan)
 
-Settings saved with BIOS version 1028 to `player-bios.cmo` and `player-bios.txt` files.
+Settings saved with BIOS version 1078 to `player-bios.cmo` and `player-bios.txt` files.
 
 Links
 
