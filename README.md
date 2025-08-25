@@ -144,10 +144,10 @@ In Afterburner curve editor, the core frequency was increased by 1000 MHz for th
 
 Profiles, results and benchmarks with 3DMark 2.32.8426 Steel Nomad on Windows 11 24H2 26100.4946 and NVIDIA 581.08 with vertical sync disabled
 
-1. Stock: 2680 MHz, 1005 mV, 600 W, GPU 74 °C, CPU 60 °C, 14373 pts
-2. 2835 Mhz @ 900 mV: 2505 MHz, 895 mV, 520 W, GPU 69 °C, CPU 62 °C, 14086 pts
-3. 2572 Mhz @ 875 mV: 2310 MHz, 870 mV, 445 W, GPU 65 °C, CPU 59 °C, 13301 pts
-4. 2242 Mhz @ 850 mV: 2025 MHz, 845 mV, 365 W, GPU 58 °C, CPU 60 °C, 11940 pts (applied on startup)
+1. Stock: 2680 MHz, 1005 mV, 600 W, core 74 °C, 14373 pts
+2. 2835 Mhz @ 900 mV: 2505 MHz, 895 mV, 520 W, core 69 °C, 14086 pts
+3. 2572 Mhz @ 875 mV: 2310 MHz, 870 mV, 445 W, core 65 °C, 13301 pts
+4. 2242 Mhz @ 850 mV: 2025 MHz, 845 mV, 365 W, core 58 °C, 11940 pts (applied on startup)
 
 Temperatures (°C)
 
