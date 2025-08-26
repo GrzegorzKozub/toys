@@ -103,13 +103,20 @@ CPU cooler rear exhaust increases the CPU temperature under load by 5-10 °C.
     - Auto Install ASUS Utilities: Disabled
 - Q-Fan
   - CPU Fan
-    - Curve: 60°C 50%, 70°C 60%, 80°C 100%
-  - Chasis Gan
-    - Q-Fan Source: CPU
-    - Curve: 60°C 50%, 70°C 60%, 80°C 100% (same as CPU Fan)
+    - Q-Fan Source: CPU Package
+    - Step Up: Level 3
+    - Step Down: Level 3
+    - Curve: 50°C 50%, 65°C 70%, 80°C 100%
+  - Chasis Fan
+    - Q-Fan Source: MotherBoard
+    - Step Up: Level 3
+    - Step Down: Level 3
+    - Curve: 35°C 50%, 50°C 70%, 80°C 100%
   - Extra Flow Fan
-    - Q-Fan Source: CPU
-    - Curve: 60°C 50%, 70°C 60%, 80°C 100% (same as CPU Fan)
+    - Q-Fan Source: MotherBoard
+    - Step Up: Level 3
+    - Step Down: Level 3
+    - Curve: 35°C 50%, 50°C 70%, 80°C 100%
 
 Settings saved with BIOS version 1078 to `player-bios.cmo` and `player-bios.txt` files.
 
@@ -122,14 +129,13 @@ Links
 
 Temperatures (°C) and benchmarks with Cinebench 2024.1.0 (pts) on Windows 11 24H2 26100.4946
 
-- ~ECO Mode~ disabled: idle 52, gaming 70, benchmark 80, multi core 2405, single core 139
-- ECO Mode enabled: idle 51, gaming 64, benchmark 60, multi core 1768, single core 140
+- ~ECO Mode~ disabled: idle 49, gaming 63, benchmark 78, multi core 2405, single core 139
+- ECO Mode enabled: idle 49, gaming 60, benchmark 57, multi core 1768, single core 140
 
 Temperatures (°C)
 
-- idle: memory 39, motherboard 34, chipset 62
-- gaming: memory 56, motherboard 46, chipset 80
-- benchmark: memory 63, motherboard 40, chipset 69
+- idle: memory 40, motherboard 34, chipset 65
+- gaming: memory 52, motherboard 43, chipset 77
 
 Links
 
@@ -151,7 +157,7 @@ Profiles, results and benchmarks with 3DMark 2.32.8426 Steel Nomad on Windows 11
 
 Temperatures (°C)
 
-- idle: core 34, memory 46
+- idle: core 33, memory 44
 - gaming: core 62, memory 72
 
 Links
