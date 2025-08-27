@@ -24,7 +24,7 @@ Box
 Monitors
 
 - MSI MPG 321URX
-- [ ] Asus PG32UCDMR
+- [ ] Calibrite Display Plus HL
 
 Peripherals
 
@@ -33,6 +33,9 @@ Peripherals
 - Hagibis MC40 / Qwiizlab ES40UR
 - KBDfans D84 v2
 - Vortex Race 3
+- [ ] Crush 80
+- [ ] Rainy 75
+- [ ] Wooting 80HE
 
 Audio
 
