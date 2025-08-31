@@ -35,6 +35,7 @@ Peripherals
 - Vortex Race 3
 - [ ] Crush 80
 - [ ] Rainy 75
+- [ ] UniFi 10G Ethernet Adapter
 - [ ] Wooting 80HE
 
 Audio
