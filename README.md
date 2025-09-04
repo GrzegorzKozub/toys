@@ -29,7 +29,7 @@ Monitors
 
 Peripherals
 
-- Fnatic x Lamzu MAYA X 8K
+- Fnatic x Lamzu Maya X 8K
 - GuliKit KingKong 2 Pro NS09
 - Hagibis MC40 / Qwiizlab ES40UR
 - KBDfans D84 v2
