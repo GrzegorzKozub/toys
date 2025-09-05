@@ -270,11 +270,10 @@ Monitors
 
 Peripherals
 
-- Glorious PC Gaming Race Model O Wireless
+- Hitscan Hyperlight
 - Idobao ID80V3
 - Logitech C922 Pro Stream Webcam
 - Vortex Race 3
-- Zowie EC1-A
 
 Audio
 
