@@ -47,7 +47,7 @@ Audio
 - Schiit Magni Unity
 - Sennheiser HD 58X Jubilee
 - TRUTHEAR x Crinacle ZERO Red
-- [ ] Fiio FT1
+- [ ] FiiO FT1
 - [ ] FiiO K11 R2R
 - [ ] FiiO KA17
 
@@ -78,7 +78,7 @@ CPU cooler rear exhaust increases the CPU temperature under load by 5-10 °C.
     - Integrated Graphics: Disabled
   - AMD CBS
     - SMU Common Options
-      - ECO Mode: Disabled
+      - ECO Mode: Enabled
     - Global C-state Control: Enabled
   - AMD Overclocking
     - Precision Boost Overdrive
@@ -134,13 +134,14 @@ Links
 
 Temperatures (°C) and benchmarks with Cinebench 2024.1.0 (pts) on Windows 11 24H2 26100.4946
 
-- ~ECO Mode~ disabled: idle 49, gaming 63, benchmark 78, multi core 2405, single core 139
-- ECO Mode enabled: idle 49, gaming 60, benchmark 57, multi core 1768, single core 140
+- ~ECO Mode~ disabled: idle 51, gaming 66, benchmark 78, multi core 2405, single core 139
+- ECO Mode 105 W: idle 51, gaming 66, benchmark 66, multi core 2236, single core 140
+- ECO Mode 65 W: idle 51, gaming 62, benchmark 59, multi core 1768, single core 140
 
 Temperatures (°C)
 
-- idle: memory 40, motherboard 34, chipset 65
-- gaming: memory 52, motherboard 43, chipset 77
+- idle: memory 40, motherboard 37, chipset 69
+- gaming: memory 53, motherboard 44, chipset 80
 
 Links
 
@@ -162,8 +163,8 @@ Profiles, results and benchmarks with 3DMark 2.32.8426 Steel Nomad on Windows 11
 
 Temperatures (°C)
 
-- idle: core 33, memory 44
-- gaming: core 62, memory 72
+- idle: core 37, memory 50
+- gaming: core 60, memory 72
 
 Links
 
