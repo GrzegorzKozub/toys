@@ -17,7 +17,7 @@ Box
 - Noctua NH-U12A chromax.black
 - Samsung 9100 Pro 4TB (PCIe x4 32 GT/s @ x4 32 GT/s)
 - Samsung 980 Pro 1TB (PCIe x4 16 GT/s @ x4 16 GT/s)
-- [ ] NCase M3 Grater
+- [ ] NCase M3
 - [ ] Noctua NF-A12x15 PWM (x3)
 - [ ] Noctua NF-A12x25 G2 PWM (x2)
 - [ ] Noctua NH-D15 G2
@@ -48,7 +48,7 @@ Audio
 - Sennheiser HD 58X Jubilee
 - TRUTHEAR x Crinacle ZERO Red
 - [ ] FiiO FT1
-- [ ] FiiO K11 R2R
+- [ ] FiiO K11 or K13 R2R
 - [ ] FiiO KA17
 
 ### Airflow
