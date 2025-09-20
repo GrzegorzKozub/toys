@@ -33,6 +33,7 @@ Peripherals
 - GuliKit KingKong 2 Pro NS09
 - Hagibis MC40 / Qwiizlab ES40UR
 - KBDfans D84 v2
+- Orange Funbox 10
 - Vortex Race 3
 - [ ] Crush 80
 - [ ] Rainy 75
@@ -48,7 +49,7 @@ Audio
 - Sennheiser HD 58X Jubilee
 - TRUTHEAR x Crinacle ZERO Red
 - [ ] FiiO FT1
-- [ ] FiiO K11 or K13 R2R
+- [ ] FiiO K13 R2R
 - [ ] FiiO KA17
 
 ### Airflow
