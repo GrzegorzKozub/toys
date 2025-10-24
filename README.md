@@ -98,6 +98,8 @@ CPU cooler rear exhaust increases the CPU temperature under load by 5-10 °C.
     - SoC/Uncore OC Mode: Enabled
     - ECO Mode: 65W
 - Boot
+  - Secure Boot
+    - Secure Boot Mode: Custom
   - Boot Logo Display: Disabled
   - POST Report: 1 sec
 - Tool
