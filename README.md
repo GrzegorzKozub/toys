@@ -17,6 +17,7 @@ Box
 - Noctua NH-U12A chromax.black
 - Samsung 9100 Pro 4TB (PCIe x4 32 GT/s @ x4 32 GT/s)
 - Samsung 980 Pro 1TB (PCIe x4 16 GT/s @ x4 16 GT/s)
+- [ ] Asus ROG Strix X870-I Gaming
 - [ ] NCase M3
 - [ ] Noctua NF-A12x15 PWM (x3)
 - [ ] Noctua NF-A12x25 G2 PWM (x2)
@@ -34,6 +35,7 @@ Peripherals
 - Hagibis MC40 / Qwiizlab ES40UR
 - KBDfans D84 v2
 - Orange Funbox 10
+- UniFi 5G Ethernet Adapter
 - Vortex Race 3
 - [ ] Crush 80
 - [ ] Rainy 75
