@@ -81,7 +81,7 @@ CPU cooler rear exhaust increases the CPU temperature under load by 5-10 °C.
     - Integrated Graphics: Disabled
   - AMD CBS
     - SMU Common Options
-      - ECO Mode: Enabled
+      - ECO Mode: Disabled
     - Global C-state Control: Enabled
   - AMD Overclocking
     - Precision Boost Overdrive
@@ -114,18 +114,18 @@ CPU cooler rear exhaust increases the CPU temperature under load by 5-10 °C.
 - Q-Fan
   - CPU Fan
     - Q-Fan Source: CPU Package
-    - Step Up: Level 3
-    - Step Down: Level 3
+    - Step Up: Level 5
+    - Step Down: Level 5
     - Curve: 55°C 50%, 60°C 60%, 70°C 60%, 80°C 100%
   - Chasis Fan
     - Q-Fan Source: CPU Package
-    - Step Up: Level 3
-    - Step Down: Level 3
+    - Step Up: Level 5
+    - Step Down: Level 5
     - Curve: 55°C 50%, 60°C 60%, 70°C 60%, 80°C 100%
   - Extra Flow Fan
     - Q-Fan Source: CPU Package
-    - Step Up: Level 3
-    - Step Down: Level 3
+    - Step Up: Level 5
+    - Step Down: Level 5
     - Curve: 55°C 40%, 60°C 50%, 70°C 50%, 80°C 100%
 
 Settings saved with BIOS version 1078 to `player-bios.cmo` and `player-bios.txt` files.
