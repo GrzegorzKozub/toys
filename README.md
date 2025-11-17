@@ -7,7 +7,7 @@ Builds
 Box
 
 - AMD Ryzen 9 9950X3D
-- Asus ROG Strix B850-I Gaming (BIOS 1078 AGESA 1.2.0.3f)
+- Asus ROG Strix B850-I Gaming (BIOS 1087 AGESA 1.2.0.3g)
 - Asus TUF Gaming GeForce RTX 5090 32GB (silent BIOS)
 - Corsair SF1000
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
@@ -81,7 +81,7 @@ CPU cooler rear exhaust increases the CPU temperature under load by 5-10 °C.
     - Integrated Graphics: Disabled
   - AMD CBS
     - SMU Common Options
-      - ECO Mode: Disabled
+      - ECO Mode: Enabled
     - Global C-state Control: Enabled
   - AMD Overclocking
     - Precision Boost Overdrive
@@ -116,19 +116,19 @@ CPU cooler rear exhaust increases the CPU temperature under load by 5-10 °C.
     - Q-Fan Source: CPU Package
     - Step Up: Level 5
     - Step Down: Level 5
-    - Curve: 55°C 50%, 60°C 60%, 70°C 60%, 80°C 100%
+    - Curve: 70°C 50%, 80°C 100%
   - Chasis Fan
     - Q-Fan Source: CPU Package
     - Step Up: Level 5
     - Step Down: Level 5
-    - Curve: 55°C 50%, 60°C 60%, 70°C 60%, 80°C 100%
+    - Curve: 70°C 50%, 80°C 100%
   - Extra Flow Fan
     - Q-Fan Source: CPU Package
     - Step Up: Level 5
     - Step Down: Level 5
-    - Curve: 55°C 40%, 60°C 50%, 70°C 50%, 80°C 100%
+    - Curve: 70°C 50%, 80°C 100%
 
-Settings saved with BIOS version 1078 to `player-bios.cmo` and `player-bios.txt` files.
+Settings saved to `player-bios.cmo` and `player-bios.txt` files.
 
 Links
 
@@ -469,7 +469,7 @@ Box
 - POST Report: 1 sec
 - Profile Name: 4.4GHz@1.2V
 
-Settings saved with BIOS version 3005 to `sacrifice-bios.cmo` and `sacrifice-bios.txt` files.
+Settings saved to `sacrifice-bios.cmo` and `sacrifice-bios.txt` files.
 
 Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-enable).
 
