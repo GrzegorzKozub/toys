@@ -126,7 +126,7 @@ CPU cooler rear exhaust increases the CPU temperature under load by 5-10 °C.
     - Q-Fan Source: CPU Package
     - Step Up: Level 5
     - Step Down: Level 5
-    - Curve: 70°C 50%, 80°C 100%
+    - Curve: 70°C 40%, 80°C 100%
 
 Settings saved to `player-bios.cmo` and `player-bios.txt` files.
 
