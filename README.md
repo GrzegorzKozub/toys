@@ -44,15 +44,13 @@ Peripherals
 
 Audio
 
+- FiiO FT1
 - JCALLY JM20 Max (CS43131 DAC & SGM8262 OP AMP)
 - Kiwi Ears Cadenza
 - KOSS Porta Pro Wireless
 - Schiit Magni Unity
-- Sennheiser HD 58X Jubilee
 - TRUTHEAR x Crinacle ZERO Red
-- [ ] FiiO FT1
 - [ ] FiiO K13 R2R
-- [ ] FiiO KA17
 
 ### Airflow
 
@@ -286,6 +284,7 @@ Audio
 - Creative Pebble Pro
 - JCALLY JM6 Pro (CX31993 DAC)
 - KOSS Porta Pro
+- Sennheiser HD 58X Jubilee
 
 ### Airflow
 
