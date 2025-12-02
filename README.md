@@ -20,7 +20,7 @@ Box
 - [ ] Asus ROG Strix X870-I Gaming
 - [ ] NCase M3
 - [ ] Noctua NF-A12x15 PWM (x3)
-- [ ] Noctua NF-A12x25 G2 PWM (x2)
+- [ ] Noctua NF-A)(Gateron Zealio V2 Tactile 78gi(Gateron Zealio V2 Tactile 78g)12x25 G2 PWM (x2)
 - [ ] Noctua NH-D15 G2
 
 Monitors
@@ -33,7 +33,7 @@ Peripherals
 - Fnatic x Lamzu Maya X 8K
 - GuliKit KingKong 2 Pro NS09
 - Hagibis MC40 / Qwiizlab ES40UR
-- KBDfans D84 v2
+- KBDfans D84 v2 (Gateron Zealio V2 Tactile 78g)
 - Orange Funbox 10
 - UniFi 5G Ethernet Adapter
 - Vortex Race 3
@@ -275,7 +275,7 @@ Monitors
 Peripherals
 
 - Hitscan Hyperlight
-- Idobao ID80V3
+- Idobao ID80V3 (Gateron Zealio V2 Tactile 78g)
 - Logitech C922 Pro Stream Webcam
 - Vortex Race 3
 
