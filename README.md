@@ -26,7 +26,7 @@ Box
 Monitors
 
 - MSI MPG 321URX
-- [ ] Calibrite Display Plus HL
+- Calibrite Display Plus HL
 
 Peripherals
 
@@ -37,10 +37,10 @@ Peripherals
 - Orange Funbox 10
 - UniFi 5G Ethernet Adapter
 - Vortex Race 3
-- [ ] Crush 80
-- [ ] Rainy 75
+- [ ] WOBKEY Crush 80 Reboot Pro (Kailh Cocoa)
+- [ ] WOBKEY Rainy 75 Non-flex Cut (Kailh Cocoa)
 - [ ] UniFi 10G Ethernet Adapter
-- [ ] Wooting 80HE
+- [ ] Wooting 60HE v2 (Lekker Tikken Medium)
 
 Audio
 
