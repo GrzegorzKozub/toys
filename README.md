@@ -7,7 +7,7 @@ Builds
 Box
 
 - AMD Ryzen 9 9950X3D
-- Asus ROG Strix B850-I Gaming (BIOS 1087 AGESA 1.2.0.3g)
+- Asus ROG Strix B850-I Gaming (BIOS 1402 AGESA 1.2.7.0)
 - Asus TUF Gaming GeForce RTX 5090 32GB (silent BIOS)
 - Corsair SF1000
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
@@ -20,7 +20,7 @@ Box
 - [ ] Asus ROG Strix X870-I Gaming
 - [ ] NCase M3
 - [ ] Noctua NF-A12x15 PWM (x3)
-- [ ] Noctua NF-A)(Gateron Zealio V2 Tactile 78gi(Gateron Zealio V2 Tactile 78g)12x25 G2 PWM (x2)
+- [ ] Noctua NF-A12x25 G2 PWM (x2)
 - [ ] Noctua NH-D15 G2
 
 Monitors
