@@ -155,7 +155,7 @@ Links
 
 *RTX 5090* is undervolted by applying a 1000 MHz positive offset to the core frequency at the desired voltage and flattening the curve from there. Additionally, power limit can be applied.
 
-In Afterburner curve editor, the core frequency was increased by 1000 MHz for the desired voltage. The apply button was hit. All points above the target frequency were selected while holding `Shift`. Any of the selected points was dragged down so that all of them dropped below the target frequency. The apply button was hit again. Memory clock was raised by 1000 Mhz.
+In Afterburner curve editor, the core frequency was increased by 1000 MHz for the desired voltage. The apply button was hit. All points above the target frequency were selected while holding `Shift`. Any of the selected points was dragged down so that all of them dropped below the target frequency. The apply button was hit again. Memory clock was raised by 1000 MHz.
 
 Profiles, results and benchmarks with 3DMark 2.32.8426 Steel Nomad on Windows 11 24H2 26100.4946 and NVIDIA 581.08 with vertical sync disabled
 
