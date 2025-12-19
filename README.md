@@ -323,18 +323,19 @@ Audio
     - SOC/Uncore OC Mode: Enabled
 - Smart Fan 5
   - CPU_FAN
-    - Curve: 0°C 0%, 40°C 40%, 55°C 50%, 60°C 60%, 70°C 80%, 80°C 100%
+    - Curve: 0°C 0%, 30°C 50%, 40°C 50%, 50°C 50%, 60°C 50%, 80°C 100%
     - CPU_FAN Speed Control: Manual
+    - Fan Control Use Temperature Input: CPU
     - Temperature Interval: 3
   - SYS_FAN1
-    - Curve: 0°C 0%, 40°C 40%, 55°C 50%, 60°C 60%, 70°C 80%, 80°C 100%
+    - Curve: 0°C 0%, 30°C 50%, 40°C 50%, 50°C 50%, 60°C 50%, 80°C 100%
     - SYS_FAN1 Speed Control: Manual
-    - Fan Control Use Temperature Input: System 1
+    - Fan Control Use Temperature Input: CPU
     - Temperature Interval: 3
   - SYS_FAN2
-    - Curve: 0°C 0%, 50°C 35%, 60°C 40%, 70°C 60%, 75°C 80%, 80°C 100%
+    - Curve: 0°C 0%, 30°C 40%, 40°C 40%, 50°C 40%, 60°C 40%, 80°C 100%
     - SYS_FAN2 Speed Control: Manual
-    - Fan Control Use Temperature Input: System 1
+    - Fan Control Use Temperature Input: CPU
     - Temperature Interval: 3
 - Boot
   - Full Screen LOGO Show: Disabled
@@ -344,7 +345,9 @@ Audio
     - Secure Boot: Enabled, Active
     - Secure Boot Mode: Standard
 
-[Motherboard firmware](https://www.gigabyte.com/Motherboard/B550I-AORUS-PRO-AX-10/support#dl)
+Settings saved to `worker-bios.cmo` file.
+
+[Motherboard firmware](https://www.gigabyte.com/Motherboard/B550I-AORUS-PRO-AX-rev-10/support#Support-Bios)
 
 ### CPU
 
