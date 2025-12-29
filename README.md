@@ -36,7 +36,6 @@ Peripherals
 - KBDfans D84 v2 (Gateron Zealio V2 Tactile 78g)
 - Orange Funbox 10
 - UniFi 5G Ethernet Adapter
-- Vortex Race 3
 - WOBKEY Crush 80 Reboot Pro (Kailh Cocoa)
 - WOBKEY Rainy 75 Non-flex Cut (Kailh Cocoa)
 - Wooting 60HE v2 (Lekker Tikken Medium)
@@ -282,7 +281,6 @@ Peripherals
 - Hitscan Hyperlight
 - Idobao ID80V3 (Gateron Zealio V2 Tactile 78g)
 - Logitech C922 Pro Stream Webcam
-- Vortex Race 3
 
 Audio
 
