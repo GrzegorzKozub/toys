@@ -25,8 +25,8 @@ Box
 
 Monitors
 
-- MSI MPG 321URX
 - Calibrite Display Plus HL
+- MSI MPG 321URX
 
 Peripherals
 
@@ -37,10 +37,10 @@ Peripherals
 - Orange Funbox 10
 - UniFi 5G Ethernet Adapter
 - Vortex Race 3
-- [ ] WOBKEY Crush 80 Reboot Pro (Kailh Cocoa)
-- [ ] WOBKEY Rainy 75 Non-flex Cut (Kailh Cocoa)
+- WOBKEY Crush 80 Reboot Pro (Kailh Cocoa)
+- WOBKEY Rainy 75 Non-flex Cut (Kailh Cocoa)
+- Wooting 60HE v2 (Lekker Tikken Medium)
 - [ ] UniFi 10G Ethernet Adapter
-- [ ] Wooting 60HE v2 (Lekker Tikken Medium)
 
 Audio
 
@@ -50,6 +50,7 @@ Audio
 - KOSS Porta Pro Wireless
 - Schiit Magni Unity
 - TRUTHEAR x Crinacle ZERO Red
+- [ ] FIFINE AmpliGame AM8
 - [ ] FiiO K13 R2R
 
 ### Airflow
@@ -247,7 +248,11 @@ Working VRR flickering mitigations for *MSI MPG 321URX*
 
 ### Keyboards
 
-For *KBDfans D84 v2*, use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `d84v2-0.png` and `d84v2-1.png`.
+For *WOBKEY Crush 80 Reboot Pro*, use [VIA](https://www.usevia.app/) to program the keyboard. Manufacturer provided definitions are in `crush80.json`. Current settings are in `crush80-0.png` and `crush80-1.png`.
+
+For *WOBKEY Rainy 75 Non-flex Cut*, use [VIA](https://www.usevia.app/) to program the keyboard. Manufacturer provided definitions are in `rainy75.json`. Current settings are in `rainy75-0.png` and `rainy75-1.png`.
+
+For *KBDfans D84 v2*, use [VIA](https://www.usevia.app/) to program the keyboard. Current settings are in `d84v2-0.png` and `d84v2-1.png`.
 
 To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt+PrintScreen`.
 
@@ -420,7 +425,7 @@ LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gam
 
 ### Keyboards
 
-For *Idobao ID80V3* and *ID80V2* follow [this guide](https://idobao.github.io/manuals/flashing/) to update the firmware and use [VIA](https://www.caniusevia.com/) to program the keyboard. Current settings are in `id80v3-0.png` and `id80v3-1.png`.
+For *Idobao ID80V3* and *ID80V2* use [VIA](https://www.usevia.app/) to program the keyboard. Current settings are in `id80v3-0.png` and `id80v3-1.png`.
 
 To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt+Fn+F10`.
 
