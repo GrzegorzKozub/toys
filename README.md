@@ -36,8 +36,8 @@ Peripherals
 - KBDfans D84 v2 (Gateron Zealio V2 Tactile 78g)
 - Orange Funbox 10
 - UniFi 5G Ethernet Adapter
-- WOBKEY Crush 80 Reboot Pro (Kailh Cocoa)
-- WOBKEY Rainy 75 Non-flex Cut (Kailh Cocoa)
+- WOBKEY Crush 80 Reboot Pro (Kailh Cocoa Linear 45g)
+- WOBKEY Rainy 75 Non-flex Cut (Kailh Cocoa Linear 45g)
 - Wooting 60HE v2 (Lekker Tikken Medium)
 - [ ] UniFi 10G Ethernet Adapter
 
