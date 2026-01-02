@@ -509,6 +509,7 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 - [Gateron Oil King](https://kbd.news/switch/gateron-oil-king-switch-13.html) - linear, actuation 55g @ 2 mm, bottom-out 65 g @ 4 mm
 - [Gateron Zealio V2](https://zealpc.net/products/zealio?variant=6502846147) - tactile, bottom out 78 g
 - [Kailh Cocoa](https://kbd.news/switch/Kailh-Cocoa-switch-183.html) - linear, actuation 45g @ 2 mm, bottom-out 45 g @ 3.6 mm
+- [MMD Holy Panda V3](https://kbd.news/switch/MMD-Holy-Panda-V3-switch-245.html) - tactile, actuation 45g @ 2.2 mm, bottom-out 60 g @ 3.2 mm
 - [Sillyworks x Gateron Type R](https://kbd.news/switch/Sillyworks-x-Gateron-Type-R-switch-223.html) - tactile, actuation 55 g @ 2.2 mm, bottom-out 60 g @ 3 mm
 - [Wooting Lekker Tikken Medium](https://wooting.io/product/wooting-lekker-tikken-medium-switch) - linear, actuation 42 g, bottom-out 54 g @ 4 mm
 
