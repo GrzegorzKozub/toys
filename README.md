@@ -28,6 +28,12 @@ Monitors
 - Calibrite Display Plus HL
 - MSI MPG 321URX
 
+Keyboards
+
+- WOBKEY Crush 80 Reboot Pro (Kailh Cocoa)
+- WOBKEY Rainy 75 Non-flex Cut (Gateron Oil King)
+- Wooting 60HE v2 (Lekker Tikken Medium)
+
 Peripherals
 
 - Fnatic x Lamzu Maya X 8K
@@ -36,20 +42,17 @@ Peripherals
 - KBDfans D84 v2 (Gateron Zealio V2 Tactile 78g)
 - Orange Funbox 10
 - UniFi 5G Ethernet Adapter
-- WOBKEY Crush 80 Reboot Pro (Kailh Cocoa Linear 45g)
-- WOBKEY Rainy 75 Non-flex Cut (Kailh Cocoa Linear 45g)
-- Wooting 60HE v2 (Lekker Tikken Medium)
 - [ ] UniFi 10G Ethernet Adapter
 
 Audio
 
+- FIFINE AmpliGame AM8 with BM88
 - FiiO FT1
 - JCALLY JM20 Max (CS43131 DAC & SGM8262 OP AMP)
 - Kiwi Ears Cadenza
 - KOSS Porta Pro Wireless
 - Schiit Magni Unity
 - TRUTHEAR x Crinacle ZERO Red
-- [ ] FIFINE AmpliGame AM8
 - [ ] FiiO K13 R2R
 
 ### Airflow
@@ -212,49 +215,6 @@ Temperatures (°C)
   - idle: NAND 47, controller 55
   - benchmark: NAND 71, controller 87
 
-### Monitors
-
-*MSI MPG 321URX* settings
-
-- Gaming
-  - Adaptive-Sync: ON
-- Professional
-  - Pro Mode: User (vivid) or sRGB (clamped)
-- Image
-  - Brightness: 34 for 120 nits, 28 for 100 nits or 23 for 80 nits
-  - Color Temperature: RGB 97 99 100
-  - DisplayHDR: Peak 1000 nits (when HDR enabled)
-- Navi Key
-  - Up/Down/Left/Right: Brightness
-- Settings
-  - Transparency: 0
-  - OSD Time out: 5
-  - RGB LED: OFF
-  - Power LED: OFF
-- MSI OLED Care
-  - Statis Screen Detection: OFF
-  - Multi Logo Detection: OFF
-
-TFT Central provided `mpg321urx.34.icm` ICC profile was created for brightness set to 34 (about 120 nits), RGB settings at 97 99 100 and the contrast of 70.
-
-Working VRR flickering mitigations for *MSI MPG 321URX*
-
-- Decrease refresh rate to 120 Hz and try to lock 120 FPS
-- Increase the lower VRR range imit from 48 to 80 Hz using CRU
-
-[MSI MPG 321URX firmware](https://www.msi.com/Monitor/MPG-321URX-QD-OLED/support#firmware)
-[Wide Gamut](https://www.wide-gamut.com/)
-
-### Keyboards
-
-For *WOBKEY Crush 80 Reboot Pro*, use [VIA](https://www.usevia.app/) to program the keyboard. Manufacturer provided definitions are in `crush80.json`. Current settings are in `crush80-0.png` and `crush80-1.png`.
-
-For *WOBKEY Rainy 75 Non-flex Cut*, use [VIA](https://www.usevia.app/) to program the keyboard. Manufacturer provided definitions are in `rainy75.json`. Current settings are in `rainy75-0.png` and `rainy75-1.png`.
-
-For *KBDfans D84 v2*, use [VIA](https://www.usevia.app/) to program the keyboard. Current settings are in `d84v2-0.png` and `d84v2-1.png`.
-
-To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt+PrintScreen`.
-
 ## Worker
 
 Box
@@ -276,10 +236,13 @@ Monitors
 - LG 27GP950-B
 - LG 27UL850-W
 
+Keyboards
+
+- Idobao ID80V3 (Gateron Zealio V2)
+
 Peripherals
 
 - Hitscan Hyperlight
-- Idobao ID80V3 (Gateron Zealio V2 Tactile 78g)
 - Logitech C922 Pro Stream Webcam
 
 Audio
@@ -408,25 +371,6 @@ Temperatures (°C)
   - idle: NAND 39, controller 46
   - benchmark: NAND 57, controller 72
 
-### Monitors
-
-*LG 27GP950-B* settings
-
-- Picture Adjust
-  - Brightness: 14 for 150 nits, 12 for 140 nits, 10 for 130 nits or 6 for 120 nits
-
-*LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
-
-TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* profile, brightness set to 6 (about 120 nits), RGB settings at 50 48 45 and the contrast of 70.
-
-LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
-
-### Keyboards
-
-For *Idobao ID80V3* and *ID80V2* use [VIA](https://www.usevia.app/) to program the keyboard. Current settings are in `id80v3-0.png` and `id80v3-1.png`.
-
-To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt+Fn+F10`.
-
 ## Sacrifice
 
 Box
@@ -496,7 +440,87 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
   - 406 GB Data
 - 465 GB Backup
 
-### Monitors
+## Monitors
+
+*MSI MPG 321URX* settings
+
+- Gaming
+  - Adaptive-Sync: ON
+- Professional
+  - Pro Mode: User (vivid) or sRGB (clamped)
+- Image
+  - Brightness: 34 for 120 nits, 28 for 100 nits or 23 for 80 nits
+  - Color Temperature: RGB 97 99 100
+  - DisplayHDR: Peak 1000 nits (when HDR enabled)
+- Navi Key
+  - Up/Down/Left/Right: Brightness
+- Settings
+  - Transparency: 0
+  - OSD Time out: 5
+  - RGB LED: OFF
+  - Power LED: OFF
+- MSI OLED Care
+  - Statis Screen Detection: OFF
+  - Multi Logo Detection: OFF
+
+TFT Central provided `mpg321urx.34.icm` ICC profile was created for brightness set to 34 (about 120 nits), RGB settings at 97 99 100 and the contrast of 70.
+
+Working VRR flickering mitigations for *MSI MPG 321URX*
+
+- Decrease refresh rate to 120 Hz and try to lock 120 FPS
+- Increase the lower VRR range imit from 48 to 80 Hz using CRU
+
+*LG 27GP950-B* settings
+
+- Picture Adjust
+  - Brightness: 14 for 150 nits, 12 for 140 nits, 10 for 130 nits or 6 for 120 nits
+
+*LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
+
+TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* profile, brightness set to 6 (about 120 nits), RGB settings at 50 48 45 and the contrast of 70.
+
+LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
 
 LG *27UD88-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 1 selected. Hardware calibration resulted in the RGB settings of 49 47 50. Software calibration is stored in the ICC profile `27ud88-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ud88-w.50.icm`.
+
+Links
+
+- [MSI MPG 321URX firmware](https://www.msi.com/Monitor/MPG-321URX-QD-OLED/support#firmware)
+- [Wide Gamut](https://www.wide-gamut.com/)
+
+## Keyboards
+
+[VIA](https://www.usevia.app/) was used to program the keyboards.
+
+*WOBKEY Crush 80 Reboot Pro* manufacturer provided definitions are in `crush80.json` and current settings in `crush80-0.png` and `crush80-1.png`.
+
+*WOBKEY Rainy 75 Non-flex Cut* manufacturer provided definitions are in `rainy75.json` and current settings in `rainy75-0.png` and `rainy75-1.png`.
+
+*KBDfans D84 v2* current settings are in `d84v2-0.png` and `d84v2-1.png`.
+
+*Idobao ID80V3* and *ID80V2* current settings are in `id80v3-0.png` and `id80v3-1.png`.
+
+To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt+PrintScreen`.
+
+### Switches
+
+- [ ] [Akko V5 Creamy Blue Pro](https://kbd.news/switch/Akko-Cream-Blue-Pro-V5-switch-370.html) - tactile, actuation 45 g @ 2 mm, bottom-out 55 g @ 3.3 mm
+- [Cherry MX Clear](https://www.cherry.de/en-gb/product/mx-clear) - tactile, bottom-out 65 g
+- [Gateron Oil King](https://kbd.news/switch/gateron-oil-king-switch-13.html) - linear, actuation 55g @ 2 mm, bottom-out 65 g @ 4 mm
+- [Gateron Zealio V2](https://zealpc.net/products/zealio?variant=6502846147) - tactile, bottom out 78 g
+- [Kailh Cocoa](https://kbd.news/switch/Kailh-Cocoa-switch-183.html) - linear, actuation 45g @ 2 mm, bottom-out 45 g @ 3.6 mm
+- [Sillyworks x Gateron Type R](https://kbd.news/switch/Sillyworks-x-Gateron-Type-R-switch-223.html) - tactile, actuation 55 g @ 2.2 mm, bottom-out 60 g @ 3 mm
+- [Wooting Lekker Tikken Medium](https://wooting.io/product/wooting-lekker-tikken-medium-switch) - linear, actuation 42 g, bottom-out 54 g @ 4 mm
+
+### Keycaps
+
+- [Drop DCX Skiidata](https://drop.com/buy/drop-dcx-skiidata-keycap-set)
+- [Drop MT3 Skiidata](https://drop.com/buy/drop-mt3-skiidata-keycap-set)
+- [DYIKEYCAP Double shot PBT Red Samurai](https://diykeycap.com/products/double-shot-pbt-red-samurai)
+- [ ] [GMK CYL ADA](https://www.gmk.net/shop/en/gmk-cyl-ada-keycaps/gmk10060)
+- [ ] [GMK CYL Dolch R5X](https://oblotzky.industries/products/gmk-cyl-dolch-r5x)
+- [ ] [GMK MTNU 800 OS2.0](https://oblotzky.industries/products/gmk-mtnu-800-os2-0)
+- [ ] [Kinetic Labs Coffee Shop V2](https://kineticlabs.com/keycaps/polycaps/coffee-shop-pbt)
+- [PBTFans Bow](https://kbdfans.com/products/pbtfans-bow)
+- [PBTFans Twist](https://kbdfans.com/products/pbtfans-doubleshot-twist)
 
