@@ -520,6 +520,7 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 - [DYIKEYCAP Double shot PBT Red Samurai](https://diykeycap.com/products/double-shot-pbt-red-samurai)
 - [ ] [GMK CYL ADA](https://www.gmk.net/shop/en/gmk-cyl-ada-keycaps/gmk10060)
 - [ ] [GMK CYL Dolch R5X](https://oblotzky.industries/products/gmk-cyl-dolch-r5x)
+- [ ] [GMK CYL Oblivion V3.1](https://oblotzky.industries/products/gmk-cyl-oblivion-v3-1)
 - [ ] [GMK MTNU 800 OS2.0](https://oblotzky.industries/products/gmk-mtnu-800-os2-0)
 - [ ] [Kinetic Labs Coffee Shop V2](https://kineticlabs.com/keycaps/polycaps/coffee-shop-pbt)
 - [PBTFans Bow](https://kbdfans.com/products/pbtfans-bow)
