@@ -46,7 +46,6 @@ Peripherals
 
 Audio
 
-- FIFINE AmpliGame AM8 with BM88
 - FiiO FT1
 - JCALLY JM20 Max (CS43131 DAC & SGM8262 OP AMP)
 - Kiwi Ears Cadenza
