@@ -47,6 +47,7 @@ Peripherals
 Audio
 
 - FiiO FT1
+- Hollyland Lark M2
 - JCALLY JM20 Max (CS43131 DAC & SGM8262 OP AMP)
 - Kiwi Ears Cadenza
 - KOSS Porta Pro Wireless
