@@ -504,7 +504,6 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 
 ### Switches
 
-- [ ] [Akko V5 Creamy Blue Pro](https://kbd.news/switch/Akko-Cream-Blue-Pro-V5-switch-370.html) - tactile, actuation 45 g @ 2 mm, bottom-out 55 g @ 3.3 mm
 - [Cherry MX Clear](https://www.cherry.de/en-gb/product/mx-clear) - tactile, bottom-out 65 g
 - [Gateron Oil King](https://kbd.news/switch/gateron-oil-king-switch-13.html) - linear, actuation 55g @ 2 mm, bottom-out 65 g @ 4 mm
 - [Gateron Zealio V2](https://zealpc.net/products/zealio?variant=6502846147) - tactile, bottom out 78 g
@@ -512,17 +511,17 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 - [MMD Holy Panda V3](https://kbd.news/switch/MMD-Holy-Panda-V3-switch-245.html) - tactile, actuation 45g @ 2.2 mm, bottom-out 60 g @ 3.2 mm
 - [Sillyworks x Gateron Type R](https://kbd.news/switch/Sillyworks-x-Gateron-Type-R-switch-223.html) - tactile, actuation 55 g @ 2.2 mm, bottom-out 60 g @ 3 mm
 - [Wooting Lekker Tikken Medium](https://wooting.io/product/wooting-lekker-tikken-medium-switch) - linear, actuation 42 g, bottom-out 54 g @ 4 mm
+- [ ] [Akko V5 Creamy Blue Pro](https://kbd.news/switch/Akko-Cream-Blue-Pro-V5-switch-370.html) - tactile, actuation 45 g @ 2 mm, bottom-out 55 g @ 3.3 mm
 
 ### Keycaps
 
 - [Drop DCX Skiidata](https://drop.com/buy/drop-dcx-skiidata-keycap-set)
 - [Drop MT3 Skiidata](https://drop.com/buy/drop-mt3-skiidata-keycap-set)
 - [DYIKEYCAP Double shot PBT Red Samurai](https://diykeycap.com/products/double-shot-pbt-red-samurai)
-- [ ] [GMK CYL ADA](https://www.gmk.net/shop/en/gmk-cyl-ada-keycaps/gmk10060)
-- [ ] [GMK CYL Dolch R5X](https://oblotzky.industries/products/gmk-cyl-dolch-r5x)
-- [ ] [GMK CYL Oblivion V3.1](https://oblotzky.industries/products/gmk-cyl-oblivion-v3-1)
-- [ ] [GMK MTNU 800 OS2.0](https://oblotzky.industries/products/gmk-mtnu-800-os2-0)
-- [ ] [Kinetic Labs Coffee Shop V2](https://kineticlabs.com/keycaps/polycaps/coffee-shop-pbt)
+- [GMK CYL Oblivion V3.1](https://oblotzky.industries/products/gmk-cyl-oblivion-v3-1)
 - [PBTFans Bow](https://kbdfans.com/products/pbtfans-bow)
 - [PBTFans Twist](https://kbdfans.com/products/pbtfans-doubleshot-twist)
+- [ ] [GMK CYL ADA](https://www.gmk.net/shop/en/gmk-cyl-ada-keycaps/gmk10060)
+- [ ] [GMK MTNU 800 OS2.0](https://oblotzky.industries/products/gmk-mtnu-800-os2-0)
+- [ ] [Kinetic Labs Coffee Shop V2](https://kineticlabs.com/keycaps/polycaps/coffee-shop-pbt)
 
