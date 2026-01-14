@@ -48,7 +48,6 @@ Peripherals
 Audio
 
 - FiiO FT1
-- Hollyland Lark M2
 - JCALLY JM20 Max (CS43131 DAC & SGM8262 OP AMP)
 - Kiwi Ears Cadenza
 - KOSS Porta Pro Wireless
@@ -249,6 +248,7 @@ Peripherals
 Audio
 
 - Creative Pebble Pro
+- Hollyland Lark M2
 - JCALLY JM6 Pro (CX31993 DAC)
 - KOSS Porta Pro
 - Sennheiser HD 58X Jubilee
@@ -516,7 +516,6 @@ To access the [SysRq](<https://wiki.archlinux.org/title/keyboard_shortcuts#Kerne
 - [Sillyworks x Gateron Type R](https://kbd.news/switch/Sillyworks-x-Gateron-Type-R-switch-223.html) - tactile, actuation 55 g @ 2.2 mm, bottom-out 60 g @ 3 mm
 - [Womier Full POM](https://womierkeyboard.com/products/womier-full-pom-switches?variant=41099591942215) - linear, actuation 55g @ 2 mm, bottom-out 65 g @ 3.8 mm
 - [Wooting Lekker Tikken Medium](https://wooting.io/product/wooting-lekker-tikken-medium-switch) - linear, actuation 42 g, bottom-out 54 g @ 4 mm
-- [ ] [Akko V5 Creamy Blue Pro](https://kbd.news/switch/Akko-Cream-Blue-Pro-V5-switch-370.html) - tactile, actuation 45 g @ 2 mm, bottom-out 55 g @ 3.3 mm
 
 ### Keycaps
 
