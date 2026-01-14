@@ -32,6 +32,7 @@ Keyboards
 
 - WOBKEY Crush 80 Reboot Pro (Kailh Cocoa)
 - WOBKEY Rainy 75 Non-flex Cut (Gateron Oil King)
+- Womier RD75 Pro (Womier Full POM)
 - Wooting 60HE v2 (Lekker Tikken Medium)
 
 Peripherals
@@ -156,7 +157,7 @@ Links
 
 ### GPU
 
-*RTX 5090* is undervolted by applying a 1000 MHz positive offset to the core frequency at the desired voltage and flattening the curve from there. Additionally, power limit can be applied.
+_RTX 5090_ is undervolted by applying a 1000 MHz positive offset to the core frequency at the desired voltage and flattening the curve from there. Additionally, power limit can be applied.
 
 In Afterburner curve editor, the core frequency was increased by 1000 MHz for the desired voltage. The apply button was hit. All points above the target frequency were selected while holding `Shift`. Any of the selected points was dragged down so that all of them dropped below the target frequency. The apply button was hit again. Memory clock was raised by 1000 MHz.
 
@@ -323,7 +324,7 @@ Benchmarks with Cinebench 2024.1.0 (pts) on Windows 11 24H2 26100.4484: multi co
 
 ### GPU
 
-*RTX 3080* has 1440 MHz base clock and 1710 MHz boost clock. The default frequency curve allows up to 2000 MHz. At stock, when gaming with 60 FPS cap, the clock reaches 1920 MHz at 1056 mV.
+_RTX 3080_ has 1440 MHz base clock and 1710 MHz boost clock. The default frequency curve allows up to 2000 MHz. At stock, when gaming with 60 FPS cap, the clock reaches 1920 MHz at 1056 mV.
 
 In Afterburner, the core clock was set to -290 MHz (2000 - 1710). In curve editor, the frequency was set to 1905 Mhz at 912 mV. The apply button was hit.
 
@@ -422,9 +423,9 @@ Settings saved to `sacrifice-bios.cmo` and `sacrifice-bios.txt` files.
 
 Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-enable).
 
-*Security Device Support* is required for Windows 11 but when it is enabled, `dmesg` reports `tpm_crb MSFT0101:00: [Firmware Bug]: ACPI region does not cover the entire command/response buffer.`
+_Security Device Support_ is required for Windows 11 but when it is enabled, `dmesg` reports `tpm_crb MSFT0101:00: [Firmware Bug]: ACPI region does not cover the entire command/response buffer.`
 
-*Above 4G Decoding* causes a black screen when trying to run Reflect or Windows setup.
+_Above 4G Decoding_ causes a black screen when trying to run Reflect or Windows setup.
 
 [Motherboard firmware](https://rog.asus.com/motherboards/rog-strix/rog-strix-z370-i-gaming-model/helpdesk_bios/)
 
@@ -442,7 +443,7 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 
 ## Monitors
 
-*MSI MPG 321URX* settings
+_MSI MPG 321URX_ settings
 
 - Gaming
   - Adaptive-Sync: ON
@@ -465,23 +466,23 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 
 TFT Central provided `mpg321urx.34.icm` ICC profile was created for brightness set to 34 (about 120 nits), RGB settings at 97 99 100 and the contrast of 70.
 
-Working VRR flickering mitigations for *MSI MPG 321URX*
+Working VRR flickering mitigations for _MSI MPG 321URX_
 
 - Decrease refresh rate to 120 Hz and try to lock 120 FPS
 - Increase the lower VRR range imit from 48 to 80 Hz using CRU
 
-*LG 27GP950-B* settings
+_LG 27GP950-B_ settings
 
 - Picture Adjust
   - Brightness: 14 for 150 nits, 12 for 140 nits, 10 for 130 nits or 6 for 120 nits
 
-*LG 27GP950-B* was calibrated for *Gamer 1* profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
+_LG 27GP950-B_ was calibrated for _Gamer 1_ profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
 
-TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* profile, brightness set to 6 (about 120 nits), RGB settings at 50 48 45 and the contrast of 70.
+TFT Central provided `27gp950-b.6.icm` ICC profile was created for _Gamer 1_ profile, brightness set to 6 (about 120 nits), RGB settings at 50 48 45 and the contrast of 70.
 
-LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
+LG _27UL850-W_ was calibrated for _Custom_ profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
 
-LG *27UD88-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 1 selected. Hardware calibration resulted in the RGB settings of 49 47 50. Software calibration is stored in the ICC profile `27ud88-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ud88-w.50.icm`.
+LG _27UD88-W_ was calibrated for _Custom_ profile, brightness set to 30 and gamma mode 1 selected. Hardware calibration resulted in the RGB settings of 49 47 50. Software calibration is stored in the ICC profile `27ud88-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ud88-w.50.icm`.
 
 Links
 
@@ -492,24 +493,28 @@ Links
 
 [VIA](https://www.usevia.app/) was used to program the keyboards.
 
-*WOBKEY Crush 80 Reboot Pro* manufacturer provided definitions are in `crush80.json` and current settings in `crush80-0.png` and `crush80-1.png`.
+_WOBKEY Crush 80 Reboot Pro_ manufacturer provided definitions are in `crush80.json` and current settings in `crush80-0.png` and `crush80-1.png`.
 
-*WOBKEY Rainy 75 Non-flex Cut* manufacturer provided definitions are in `rainy75.json` and current settings in `rainy75-0.png` and `rainy75-1.png`.
+_WOBKEY Rainy 75 Non-flex Cut_ manufacturer provided definitions are in `rainy75.json` and current settings in `rainy75-0.png` and `rainy75-1.png`.
 
-*KBDfans D84 v2* current settings are in `d84v2-0.png` and `d84v2-1.png`.
+_Womier RD75 Pro_ manufacturer provided definitions are in `rd75.json`.
 
-*Idobao ID80V3* and *ID80V2* current settings are in `id80v3-0.png` and `id80v3-1.png`.
+_KBDfans D84 v2_ current settings are in `d84v2-0.png` and `d84v2-1.png`.
 
-To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)) key use `Alt+PrintScreen`.
+_Idobao ID80V3_ and _ID80V2_ current settings are in `id80v3-0.png` and `id80v3-1.png`.
+
+To access the [SysRq](<https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)>) key use `Alt+PrintScreen`.
 
 ### Switches
 
+- [Akko V5 Creamy Blue Pro](https://kbd.news/switch/Akko-Cream-Blue-Pro-V5-switch-370.html) - tactile, actuation 45 g @ 2 mm, bottom-out 55 g @ 3.3 mm
 - [Cherry MX Clear](https://www.cherry.de/en-gb/product/mx-clear) - tactile, bottom-out 65 g
 - [Gateron Oil King](https://kbd.news/switch/gateron-oil-king-switch-13.html) - linear, actuation 55g @ 2 mm, bottom-out 65 g @ 4 mm
 - [Gateron Zealio V2](https://zealpc.net/products/zealio?variant=6502846147) - tactile, bottom out 78 g
 - [Kailh Cocoa](https://kbd.news/switch/Kailh-Cocoa-switch-183.html) - linear, actuation 45g @ 2 mm, bottom-out 45 g @ 3.6 mm
 - [MMD Holy Panda V3](https://kbd.news/switch/MMD-Holy-Panda-V3-switch-245.html) - tactile, actuation 45g @ 2.2 mm, bottom-out 60 g @ 3.2 mm
 - [Sillyworks x Gateron Type R](https://kbd.news/switch/Sillyworks-x-Gateron-Type-R-switch-223.html) - tactile, actuation 55 g @ 2.2 mm, bottom-out 60 g @ 3 mm
+- [Womier Full POM](https://womierkeyboard.com/products/womier-full-pom-switches?variant=41099591942215) - linear, actuation 55g @ 2 mm, bottom-out 65 g @ 3.8 mm
 - [Wooting Lekker Tikken Medium](https://wooting.io/product/wooting-lekker-tikken-medium-switch) - linear, actuation 42 g, bottom-out 54 g @ 4 mm
 - [ ] [Akko V5 Creamy Blue Pro](https://kbd.news/switch/Akko-Cream-Blue-Pro-V5-switch-370.html) - tactile, actuation 45 g @ 2 mm, bottom-out 55 g @ 3.3 mm
 
@@ -524,4 +529,3 @@ To access the [SysRq](https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel
 - [ ] [GMK CYL ADA](https://www.gmk.net/shop/en/gmk-cyl-ada-keycaps/gmk10060)
 - [ ] [GMK MTNU 800 OS2.0](https://oblotzky.industries/products/gmk-mtnu-800-os2-0)
 - [ ] [Kinetic Labs Coffee Shop V2](https://kineticlabs.com/keycaps/polycaps/coffee-shop-pbt)
-
