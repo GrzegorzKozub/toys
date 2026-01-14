@@ -491,7 +491,7 @@ Links
 
 ## Keyboards
 
-[VIA](https://www.usevia.app/) was used to program the keyboards.
+[VIA](https://www.usevia.app/) was used to program the keyboards. [File System Access API](brave://flags/#file-system-access-api) was temporarily enabled to fix saving the settings to JSON files.
 
 _WOBKEY Crush 80 Reboot Pro_ manufacturer provided definitions are in `crush80.json` and current settings in `crush80-0.png` and `crush80-1.png`.
 
