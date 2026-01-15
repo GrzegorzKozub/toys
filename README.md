@@ -493,15 +493,15 @@ Links
 
 [VIA](https://www.usevia.app/) was used to program the keyboards. [File System Access API](brave://flags/#file-system-access-api) was temporarily enabled to fix saving the settings to JSON files.
 
-_WOBKEY Crush 80 Reboot Pro_ manufacturer provided definitions are in `crush80.json` and current settings in `crush80-0.png` and `crush80-1.png`.
+_WOBKEY Crush 80 Reboot Pro_ manufacturer provided definitions are in `crush80-definition.json` and current settings in `crush80-layout.json`, `crush80-0.png` and `crush80-1.png`.
 
-_WOBKEY Rainy 75 Non-flex Cut_ manufacturer provided definitions are in `rainy75.json` and current settings in `rainy75-0.png` and `rainy75-1.png`.
+_WOBKEY Rainy 75 Non-flex Cut_ manufacturer provided definitions are in `rainy75-definition.json` and current settings in `rainy75-layout.json`, `rainy75-0.png` and `rainy75-1.png`.
 
-_Womier RD75 Pro_ manufacturer provided definitions are in `rd75.json`.
+_Womier RD75 Pro_ manufacturer provided definitions are in `rd75-definition.json` and current settings in `rd75-layout.json`, `rd75-0.png`, `rd75-1.png` and `rd75-2.png`.
 
-_KBDfans D84 v2_ current settings are in `d84v2-0.png` and `d84v2-1.png`.
+_KBDfans D84 v2_ current settings are in `d84v2-layout.json`, `d84v2-0.png` and `d84v2-1.png`.
 
-_Idobao ID80V3_ and _ID80V2_ current settings are in `id80v3-0.png` and `id80v3-1.png`.
+_Idobao ID80V3_ and _ID80V2_ current settings are in `id80v3-layout.json`, `id80v3-0.png` and `id80v3-1.png`.
 
 To access the [SysRq](<https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)>) key use `Alt+PrintScreen`.
 
@@ -525,6 +525,7 @@ To access the [SysRq](<https://wiki.archlinux.org/title/keyboard_shortcuts#Kerne
 - [GMK CYL Oblivion V3.1](https://oblotzky.industries/products/gmk-cyl-oblivion-v3-1)
 - [PBTFans Bow](https://kbdfans.com/products/pbtfans-bow)
 - [PBTFans Twist](https://kbdfans.com/products/pbtfans-doubleshot-twist)
+- [Womier Nostalgia Cherry Profile Double Shot PBT](https://womierkeyboard.com/products/nostalgia-keycap-sets?variant=41230524579911)
 - [ ] [GMK CYL ADA](https://www.gmk.net/shop/en/gmk-cyl-ada-keycaps/gmk10060)
 - [ ] [GMK MTNU 800 OS2.0](https://oblotzky.industries/products/gmk-mtnu-800-os2-0)
 - [ ] [Kinetic Labs Coffee Shop V2](https://kineticlabs.com/keycaps/polycaps/coffee-shop-pbt)
