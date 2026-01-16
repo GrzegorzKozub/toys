@@ -491,7 +491,7 @@ Links
 
 ## Keyboards
 
-[VIA](https://www.usevia.app/) was used to program the keyboards. [File System Access API](brave://flags/#file-system-access-api) was temporarily enabled to fix saving the settings to JSON files.
+[VIA](https://www.usevia.app/) is used to program the keyboards. [File System Access API](brave://flags/#file-system-access-api) is temporarily enabled to fix saving the settings to JSON files. On Linux, non-root user access to HID devices is granted with `sudo chmod 666 /dev/hidraw*` for the current session.
 
 _WOBKEY Crush 80 Reboot Pro_ manufacturer provided definitions are in `crush80-definition.json` and current settings in `crush80-layout.json`, `crush80-0.png` and `crush80-1.png`.
 
@@ -502,8 +502,6 @@ _Womier RD75 Pro_ manufacturer provided definitions are in `rd75-definition.json
 _KBDfans D84 v2_ current settings are in `d84v2-layout.json`, `d84v2-0.png` and `d84v2-1.png`.
 
 _Idobao ID80V3_ current settings are in `id80v3-layout.json`, `id80v3-0.png` and `id80v3-1.png`.
-
-To access the [SysRq](<https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)>) key use `Alt+PrintScreen`.
 
 ### Switches
 
