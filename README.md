@@ -237,6 +237,7 @@ Monitors
 
 Keyboards
 
+- Idobao ID80V3 (Gateron Zealio V2)
 - WOBKEY Crush 80 Reboot Pro (Akko V5 Creamy Blue Pro)
 
 Peripherals
@@ -499,6 +500,8 @@ _WOBKEY Rainy 75 Non-flex Cut_ manufacturer provided definitions are in `rainy75
 _Womier RD75 Pro_ manufacturer provided definitions are in `rd75-definition.json` and current settings in `rd75-layout.json`, `rd75-0.png`, `rd75-1.png` and `rd75-2.png`.
 
 _KBDfans D84 v2_ current settings are in `d84v2-layout.json`, `d84v2-0.png` and `d84v2-1.png`.
+
+_Idobao ID80V3_ current settings are in `id80v3-layout.json`, `id80v3-0.png` and `id80v3-1.png`.
 
 To access the [SysRq](<https://wiki.archlinux.org/title/keyboard_shortcuts#Kernel_(SysRq)>) key use `Alt+PrintScreen`.
 
