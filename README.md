@@ -513,7 +513,7 @@ _Womier RD75 Pro_ manufacturer provided definitions are in `rd75-definition.json
 ### Keycaps
 
 - [Drop DCX Skiidata](https://drop.com/buy/drop-dcx-skiidata-keycap-set)
-- [Drop MT3 Skiidata](https://drop.com/buy/drop-mt3-skiidata-keycap-set)
+<!-- - [Drop MT3 Skiidata](https://drop.com/buy/drop-mt3-skiidata-keycap-set) -->
 - [DYIKEYCAP Double shot PBT Red Samurai](https://diykeycap.com/products/double-shot-pbt-red-samurai)
 - [GMK CYL Oblivion V3.1](https://oblotzky.industries/products/gmk-cyl-oblivion-v3-1)
 - [PBTFans Bow](https://kbdfans.com/products/pbtfans-bow)
