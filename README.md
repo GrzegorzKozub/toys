@@ -31,7 +31,6 @@ Monitors
 Keyboards
 
 - WOBKEY Rainy 75 Non-flex Cut (Gateron Oil King)
-- Womier RD75 Pro (Womier Full POM)
 - Wooting 60HE v2 (Lekker Tikken Medium)
 
 Peripherals
@@ -237,7 +236,7 @@ Monitors
 
 Keyboards
 
-- WOBKEY Crush 80 Reboot Pro (Akko V5 Creamy Blue Pro)
+- Womier RD75 Pro (Akko V5 Creamy Blue Pro)
 
 Peripherals
 
@@ -492,8 +491,6 @@ Links
 
 [VIA](https://www.usevia.app/) is used to program the keyboards. [File System Access API](brave://flags/#file-system-access-api) is temporarily enabled to fix saving the settings to JSON files. On Linux, non-root user access to HID devices is granted with `sudo chmod 666 /dev/hidraw*` for the current session.
 
-_WOBKEY Crush 80 Reboot Pro_ manufacturer provided definitions are in `crush80-definition.json` and current settings in `crush80-layout.json`, `crush80-0.png` and `crush80-1.png`.
-
 _WOBKEY Rainy 75 Non-flex Cut_ manufacturer provided definitions are in `rainy75-definition.json` and current settings in `rainy75-layout.json`, `rainy75-0.png` and `rainy75-1.png`.
 
 _Womier RD75 Pro_ manufacturer provided definitions are in `rd75-definition.json` and current settings in `rd75-layout.json`, `rd75-0.png`, `rd75-1.png` and `rd75-2.png`.
@@ -504,7 +501,7 @@ _Womier RD75 Pro_ manufacturer provided definitions are in `rd75-definition.json
 - [Cherry MX Clear](https://www.cherry.de/en-gb/product/mx-clear) - tactile, bottom-out 65 g
 - [Gateron Oil King](https://kbd.news/switch/gateron-oil-king-switch-13.html) - linear, actuation 55g @ 2 mm, bottom-out 65 g @ 4 mm
 - [Gateron Zealio V2](https://zealpc.net/products/zealio?variant=6502846147) - tactile, bottom out 78 g
-- [Kailh Cocoa](https://kbd.news/switch/Kailh-Cocoa-switch-183.html) - linear, actuation 45g @ 2 mm, bottom-out 45 g @ 3.6 mm
+<!-- - [Kailh Cocoa](https://kbd.news/switch/Kailh-Cocoa-switch-183.html) - linear, actuation 45g @ 2 mm, bottom-out 45 g @ 3.6 mm -->
 - [MMD Holy Panda V3](https://kbd.news/switch/MMD-Holy-Panda-V3-switch-245.html) - tactile, actuation 45g @ 2.2 mm, bottom-out 60 g @ 3.2 mm
 - [Sillyworks x Gateron Type R](https://kbd.news/switch/Sillyworks-x-Gateron-Type-R-switch-223.html) - tactile, actuation 55 g @ 2.2 mm, bottom-out 60 g @ 3 mm
 - [Womier Full POM](https://womierkeyboard.com/products/womier-full-pom-switches?variant=41099591942215) - linear, actuation 55g @ 2 mm, bottom-out 65 g @ 3.8 mm
