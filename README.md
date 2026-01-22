@@ -44,7 +44,7 @@ Peripherals
 
 Audio
 
-- Edifier e25HD
+- Edifier MR5
 - FiiO FT1
 - JCALLY JM20 Max (CS43131 DAC & SGM8262 OP AMP)
 - Kiwi Ears Cadenza
@@ -52,6 +52,8 @@ Audio
 - Schiit Magni Unity
 - TRUTHEAR x Crinacle ZERO Red
 - [ ] FiiO K13 R2R
+- [ ] Kanto Ora4
+<!-- - Edifier e25HD -->
 
 ### Airflow
 
@@ -245,7 +247,7 @@ Peripherals
 
 Audio
 
-- Creative Pebble Pro
+- Edifier M60
 - Hollyland Lark M2
 - JCALLY JM6 Pro (CX31993 DAC)
 - KOSS Porta Pro
@@ -501,16 +503,15 @@ _Womier RD75 Pro_ manufacturer provided definitions are in `rd75-definition.json
 - [Cherry MX Clear](https://www.cherry.de/en-gb/product/mx-clear) - tactile, bottom-out 65 g
 - [Gateron Oil King](https://kbd.news/switch/gateron-oil-king-switch-13.html) - linear, actuation 55g @ 2 mm, bottom-out 65 g @ 4 mm
 - [Gateron Zealio V2](https://zealpc.net/products/zealio?variant=6502846147) - tactile, bottom out 78 g
-<!-- - [Kailh Cocoa](https://kbd.news/switch/Kailh-Cocoa-switch-183.html) - linear, actuation 45g @ 2 mm, bottom-out 45 g @ 3.6 mm -->
 - [MMD Holy Panda V3](https://kbd.news/switch/MMD-Holy-Panda-V3-switch-245.html) - tactile, actuation 45g @ 2.2 mm, bottom-out 60 g @ 3.2 mm
 - [Sillyworks x Gateron Type R](https://kbd.news/switch/Sillyworks-x-Gateron-Type-R-switch-223.html) - tactile, actuation 55 g @ 2.2 mm, bottom-out 60 g @ 3 mm
 - [Womier Full POM](https://womierkeyboard.com/products/womier-full-pom-switches?variant=41099591942215) - linear, actuation 55g @ 2 mm, bottom-out 65 g @ 3.8 mm
 - [Wooting Lekker Tikken Medium](https://wooting.io/product/wooting-lekker-tikken-medium-switch) - linear, actuation 42 g, bottom-out 54 g @ 4 mm
+<!-- - [Kailh Cocoa](https://kbd.news/switch/Kailh-Cocoa-switch-183.html) - linear, actuation 45g @ 2 mm, bottom-out 45 g @ 3.6 mm -->
 
 ### Keycaps
 
 - [Drop DCX Skiidata](https://drop.com/buy/drop-dcx-skiidata-keycap-set)
-<!-- - [Drop MT3 Skiidata](https://drop.com/buy/drop-mt3-skiidata-keycap-set) -->
 - [DYIKEYCAP Double shot PBT Red Samurai](https://diykeycap.com/products/double-shot-pbt-red-samurai)
 - [GMK CYL Oblivion V3.1](https://oblotzky.industries/products/gmk-cyl-oblivion-v3-1)
 - [PBTFans Bow](https://kbdfans.com/products/pbtfans-bow)
@@ -519,3 +520,5 @@ _Womier RD75 Pro_ manufacturer provided definitions are in `rd75-definition.json
 - [ ] [GMK CYL ADA](https://www.gmk.net/shop/en/gmk-cyl-ada-keycaps/gmk10060)
 - [ ] [GMK MTNU 800 OS2.0](https://oblotzky.industries/products/gmk-mtnu-800-os2-0)
 - [ ] [Kinetic Labs Coffee Shop V2](https://kineticlabs.com/keycaps/polycaps/coffee-shop-pbt)
+<!-- - [Drop MT3 Skiidata](https://drop.com/buy/drop-mt3-skiidata-keycap-set) -->
+
