@@ -517,7 +517,6 @@ _Womier RD75 Pro_ manufacturer provided definitions are in `rd75-definition.json
 - [PBTFans Bow](https://kbdfans.com/products/pbtfans-bow)
 - [PBTFans Twist](https://kbdfans.com/products/pbtfans-doubleshot-twist)
 - [Womier Nostalgia Cherry Profile Double Shot PBT](https://womierkeyboard.com/products/nostalgia-keycap-sets?variant=41230524579911)
-- [ ] [GMK CYL ADA](https://www.gmk.net/shop/en/gmk-cyl-ada-keycaps/gmk10060)
 - [ ] [GMK MTNU 800 OS2.0](https://oblotzky.industries/products/gmk-mtnu-800-os2-0)
 - [ ] [Kinetic Labs Coffee Shop V2](https://kineticlabs.com/keycaps/polycaps/coffee-shop-pbt)
 <!-- - [Drop MT3 Skiidata](https://drop.com/buy/drop-mt3-skiidata-keycap-set) -->
