@@ -250,7 +250,6 @@ Audio
 - Edifier M60
 - Hollyland Lark M2
 - JCALLY JM6 Pro (CX31993 DAC)
-- KOSS Porta Pro
 - Sennheiser HD 58X Jubilee
 
 ### Airflow
