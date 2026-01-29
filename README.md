@@ -32,6 +32,7 @@ Keyboards
 
 - WOBKEY Rainy 75 Non-flex Cut (Gateron Oil King)
 - Wooting 60HE v2 (Lekker Tikken Medium)
+- [ ] Shortcut Studio Bridge 75 Plus
 
 Peripherals
 
@@ -51,6 +52,7 @@ Audio
 - KOSS Porta Pro Wireless
 - Schiit Magni Unity
 - TRUTHEAR x Crinacle ZERO Red
+- [ ] FiiO EH11
 - [ ] FiiO K13 R2R
 - [ ] Kanto Ora4
 <!-- - Edifier e25HD -->
@@ -517,6 +519,5 @@ _Womier RD75 Pro_ manufacturer provided definitions are in `rd75-definition.json
 - [PBTFans Twist](https://kbdfans.com/products/pbtfans-doubleshot-twist)
 - [Womier Nostalgia Cherry Profile Double Shot PBT](https://womierkeyboard.com/products/nostalgia-keycap-sets?variant=41230524579911)
 - [ ] [GMK MTNU 800 OS2.0](https://oblotzky.industries/products/gmk-mtnu-800-os2-0)
-- [ ] [Kinetic Labs Coffee Shop V2](https://kineticlabs.com/keycaps/polycaps/coffee-shop-pbt)
 <!-- - [Drop MT3 Skiidata](https://drop.com/buy/drop-mt3-skiidata-keycap-set) -->
 
