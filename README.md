@@ -475,7 +475,7 @@ Working VRR flickering mitigations for _MSI MPG 321URX_
 _LG 27GP950-B_ settings
 
 - Picture Adjust
-  - Brightness: 14 for 150 nits, 12 for 140 nits, 10 for 130 nits or 6 for 120 nits
+  - Brightness: 25 for ~190 nits, 16 for ~160 nits, 10 for ~130 nits or 6 for ~100 nits
 
 _LG 27GP950-B_ was calibrated for _Gamer 1_ profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
 
