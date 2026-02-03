@@ -475,15 +475,13 @@ Working VRR flickering mitigations for _MSI MPG 321URX_
 _LG 27GP950-B_ settings
 
 - Picture Adjust
-  - Brightness: 25 for ~190 nits, 16 for ~160 nits, 10 for ~130 nits or 6 for ~100 nits
+  - Brightness: 25 for 190 nits, 16 for 160 nits, 10 for 130 nits or 6 for 100 nits
 
 _LG 27GP950-B_ was calibrated for _Gamer 1_ profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
 
 TFT Central provided `27gp950-b.6.icm` ICC profile was created for _Gamer 1_ profile, brightness set to 6 (about 120 nits), RGB settings at 50 48 45 and the contrast of 70.
 
 LG _27UL850-W_ was calibrated for _Custom_ profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
-
-LG _27UD88-W_ was calibrated for _Custom_ profile, brightness set to 30 and gamma mode 1 selected. Hardware calibration resulted in the RGB settings of 49 47 50. Software calibration is stored in the ICC profile `27ud88-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ud88-w.50.icm`.
 
 Links
 
