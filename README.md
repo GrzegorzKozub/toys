@@ -48,14 +48,15 @@ Audio
 - Edifier MR5
 - FiiO FT1
 - JCALLY JM20 Max (CS43131 DAC & SGM8262 OP AMP)
+- Kanto S6
 - Kiwi Ears Cadenza
 - KOSS Porta Pro Wireless
 - Schiit Magni Unity
 - TRUTHEAR x Crinacle ZERO Red
 - [ ] FiiO EH11
 - [ ] FiiO K13 R2R
-- [ ] Kanto Ora4
-<!-- - Edifier e25HD -->
+- [ ] Kanto SE6
+- [ ] Kanto SP6HD
 
 ### Airflow
 
