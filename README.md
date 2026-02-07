@@ -26,6 +26,7 @@ Box
 Monitors
 
 - Calibrite Display Plus HL
+- Ergotron LX Pro
 - MSI MPG 321URX
 
 Keyboards
@@ -56,7 +57,6 @@ Audio
 - [ ] FiiO EH11
 - [ ] FiiO K13 R2R
 - [ ] Kanto SE6
-- [ ] Kanto SP6HD
 
 ### Airflow
 
