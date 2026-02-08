@@ -26,7 +26,6 @@ Box
 Monitors
 
 - Calibrite Display Plus HL
-- Ergotron LX Pro
 - MSI MPG 321URX
 
 Keyboards
@@ -49,14 +48,20 @@ Audio
 - Edifier MR5
 - FiiO FT1
 - JCALLY JM20 Max (CS43131 DAC & SGM8262 OP AMP)
-- Kanto S6
 - Kiwi Ears Cadenza
 - KOSS Porta Pro Wireless
 - Schiit Magni Unity
 - TRUTHEAR x Crinacle ZERO Red
 - [ ] FiiO EH11
 - [ ] FiiO K13 R2R
+
+Furniture
+
+- Ergotron LX Pro
+- Kanto S6
+- Oakywood Desk Mounted Speaker Shelf
 - [ ] Kanto SE6
+- [ ] Oakywood Standing Desk Pro
 
 ### Airflow
 
