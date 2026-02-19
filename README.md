@@ -59,7 +59,7 @@ Furniture
 
 - Ergotron LX Pro
 - Kanto SE6
-- Oakywood Desk Mounted Speaker Shelf
+- [ ] Oakywood Desk Mounted Speaker Shelf
 - [ ] Oakywood Standing Desk Pro
 
 ### Airflow
