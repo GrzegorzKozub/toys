@@ -32,6 +32,7 @@ Keyboards
 
 - WOBKEY Rainy 75 Non-flex Cut (Gateron Oil King)
 - Wooting 60HE v2 (Lekker Tikken Medium)
+- [ ] PMOKEY Wave 75 Pro
 - [ ] Shortcut Studio Bridge 75 Plus
 
 Peripherals
@@ -46,13 +47,13 @@ Peripherals
 Audio
 
 - Edifier MR5
+- FiiO EH11
 - FiiO FT1
 - JCALLY JM20 Max (CS43131 DAC & SGM8262 OP AMP)
-- Kiwi Ears Cadenza
 - KOSS Porta Pro Wireless
+- Kiwi Ears Cadenza
 - Schiit Magni Unity
 - TRUTHEAR x Crinacle ZERO Red
-- [ ] FiiO EH11
 - [ ] FiiO K13 R2R
 
 Furniture
