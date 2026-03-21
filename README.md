@@ -47,7 +47,6 @@ Peripherals
 Audio
 
 - Edifier MR5
-- FiiO EH11
 - FiiO FT1
 - JCALLY JM20 Max (CS43131 DAC & SGM8262 OP AMP)
 - KOSS Porta Pro Wireless
