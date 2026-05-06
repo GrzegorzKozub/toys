@@ -17,7 +17,7 @@ Box
 - Noctua NH-U12A chromax.black
 - Samsung 9100 Pro 4TB (PCIe x4 32 GT/s @ x4 32 GT/s)
 - Samsung 980 Pro 1TB (PCIe x4 16 GT/s @ x4 16 GT/s)
-- [ ] Asus ROG Strix X870-I Gaming
+- [ ] ~Asus ROG Strix X870-I Gaming~
 - [ ] NCase M3
 - [ ] Noctua NF-A12x15 PWM (x3)
 - [ ] Noctua NF-A12x25 G2 PWM (x2)
@@ -42,7 +42,8 @@ Peripherals
 - Hagibis MC40 / Qwiizlab ES40UR
 - Orange Funbox 10
 - UniFi 5G Ethernet Adapter
-- [ ] UniFi 10G Ethernet Adapter
+- WisdPi 10G Ethernet Adapter (Realtek RTL8159)
+- [ ] ~UniFi 10G Ethernet Adapter~
 
 Audio
 
@@ -59,8 +60,6 @@ Furniture
 
 - Ergotron LX Pro
 - Kanto SE6
-- [ ] Oakywood Desk Mounted Speaker Shelf
-- [ ] Oakywood Standing Desk Pro
 
 ### Airflow
 
@@ -141,6 +140,7 @@ Settings saved to `player-bios.cmo` and `player-bios.txt` files.
 Links
 
 - [Motherboard firmware](https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-i-gaming-wifi/helpdesk_bios/)
+- [Realtek RTL8159 drivers](https://www.realtek.com/Download/List?cate_id=585)
 - [Core tunings Configuration for gaming](https://www.reddit.com/r/Amd/comments/1h8siwi/comment/m0xt2nt/)
 
 ### CPU
@@ -163,7 +163,7 @@ Links
 
 ### GPU
 
-_RTX 5090_ is undervolted by applying a 1000 MHz positive offset to the core frequency at the desired voltage and flattening the curve from there. Additionally, power limit can be applied.
+*RTX 5090* is undervolted by applying a 1000 MHz positive offset to the core frequency at the desired voltage and flattening the curve from there. Additionally, power limit can be applied.
 
 In Afterburner curve editor, the core frequency was increased by 1000 MHz for the desired voltage. The apply button was hit. All points above the target frequency were selected while holding `Shift`. Any of the selected points was dragged down so that all of them dropped below the target frequency. The apply button was hit again. Memory clock was raised by 1000 MHz.
 
@@ -330,7 +330,7 @@ Benchmarks with Cinebench 2024.1.0 (pts) on Windows 11 24H2 26100.4484: multi co
 
 ### GPU
 
-_RTX 3080_ has 1440 MHz base clock and 1710 MHz boost clock. The default frequency curve allows up to 2000 MHz. At stock, when gaming with 60 FPS cap, the clock reaches 1920 MHz at 1056 mV.
+*RTX 3080* has 1440 MHz base clock and 1710 MHz boost clock. The default frequency curve allows up to 2000 MHz. At stock, when gaming with 60 FPS cap, the clock reaches 1920 MHz at 1056 mV.
 
 In Afterburner, the core clock was set to -290 MHz (2000 - 1710). In curve editor, the frequency was set to 1905 Mhz at 912 mV. The apply button was hit.
 
@@ -429,9 +429,9 @@ Settings saved to `sacrifice-bios.cmo` and `sacrifice-bios.txt` files.
 
 Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-enable).
 
-_Security Device Support_ is required for Windows 11 but when it is enabled, `dmesg` reports `tpm_crb MSFT0101:00: [Firmware Bug]: ACPI region does not cover the entire command/response buffer.`
+*Security Device Support* is required for Windows 11 but when it is enabled, `dmesg` reports `tpm_crb MSFT0101:00: [Firmware Bug]: ACPI region does not cover the entire command/response buffer.`
 
-_Above 4G Decoding_ causes a black screen when trying to run Reflect or Windows setup.
+*Above 4G Decoding* causes a black screen when trying to run Reflect or Windows setup.
 
 [Motherboard firmware](https://rog.asus.com/motherboards/rog-strix/rog-strix-z370-i-gaming-model/helpdesk_bios/)
 
@@ -449,7 +449,7 @@ _Above 4G Decoding_ causes a black screen when trying to run Reflect or Windows 
 
 ## Monitors
 
-_MSI MPG 321URX_ settings
+*MSI MPG 321URX* settings
 
 - Gaming
   - Adaptive-Sync: ON
@@ -472,21 +472,21 @@ _MSI MPG 321URX_ settings
 
 TFT Central provided `mpg321urx.34.icm` ICC profile was created for brightness set to 34 (about 120 nits), RGB settings at 97 99 100 and the contrast of 70.
 
-Working VRR flickering mitigations for _MSI MPG 321URX_
+Working VRR flickering mitigations for *MSI MPG 321URX*
 
 - Decrease refresh rate to 120 Hz and try to lock 120 FPS
 - Increase the lower VRR range imit from 48 to 80 Hz using CRU
 
-_LG 27GP950-B_ settings
+*LG 27GP950-B* settings
 
 - Picture Adjust
   - Brightness: 25 for 190 nits, 16 for 160 nits, 10 for 130 nits or 6 for 100 nits
 
-_LG 27GP950-B_ was calibrated for _Gamer 1_ profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
+*LG 27GP950-B* was calibrated for _Gamer 1_ profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
 
-TFT Central provided `27gp950-b.6.icm` ICC profile was created for _Gamer 1_ profile, brightness set to 6 (about 120 nits), RGB settings at 50 48 45 and the contrast of 70.
+TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* profile, brightness set to 6 (about 120 nits), RGB settings at 50 48 45 and the contrast of 70.
 
-LG _27UL850-W_ was calibrated for _Custom_ profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
+LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
 
 Links
 
@@ -497,9 +497,9 @@ Links
 
 [VIA](https://www.usevia.app/) is used to program the keyboards. [File System Access API](brave://flags/#file-system-access-api) is temporarily enabled to fix saving the settings to JSON files. On Linux, non-root user access to HID devices is granted with `sudo chmod 666 /dev/hidraw*` for the current session.
 
-_WOBKEY Rainy 75 Non-flex Cut_ manufacturer provided definitions are in `rainy75-definition.json` and current settings in `rainy75-layout.json`, `rainy75-0.png` and `rainy75-1.png`.
+*WOBKEY Rainy 75 Non-flex Cut* manufacturer provided definitions are in `rainy75-definition.json` and current settings in `rainy75-layout.json`, `rainy75-0.png` and `rainy75-1.png`.
 
-_Womier RD75 Pro_ manufacturer provided definitions are in `rd75-definition.json` and current settings in `rd75-layout.json`, `rd75-0.png`, `rd75-1.png` and `rd75-2.png`.
+*Womier RD75 Pro* manufacturer provided definitions are in `rd75-definition.json` and current settings in `rd75-layout.json`, `rd75-0.png`, `rd75-1.png` and `rd75-2.png`.
 
 ### Switches
 
