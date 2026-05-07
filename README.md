@@ -42,7 +42,7 @@ Peripherals
 - Hagibis MC40 / Qwiizlab ES40UR
 - Orange Funbox 10
 - UniFi 5G Ethernet Adapter
-- WisdPi 10G Ethernet Adapter (Realtek RTL8159)
+- WisdPi 10G Ethernet Adapter WP-UT9 (Realtek RTL8159)
 - [ ] ~UniFi 10G Ethernet Adapter~
 
 Audio
