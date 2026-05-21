@@ -378,6 +378,26 @@ Temperatures (°C)
   - idle: NAND 39, controller 46
   - benchmark: NAND 57, controller 72
 
+## Drifter
+
+Dell XPS 13 9310 laptop
+
+- 32GB 2133MHz LPDDR4x
+- Intel Core i7-1165G7
+- Intel Iris Xe Graphics G7 96EU
+- Western Digital PC SN730 1TB (PCIe x4 8 GT/s @ x4 8 GT/s)
+
+### Disks
+
+- 1 TB
+  - 4 GB EFI
+  - 128 GB Windows
+  - 392 GB
+    - 8 GB swap
+    - 128 GB `/`
+    - 256 GB `/run/media/greg/data`
+  - 429 GB Data
+
 ## Sacrifice
 
 Box
