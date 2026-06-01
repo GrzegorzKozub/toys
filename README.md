@@ -12,13 +12,13 @@ Box
 - Corsair SF1000
 - G.Skill Flare X5 64GB 6000MHz DDR5 CL30
 - Jonsbo D32 Pro
+- NCase M3 Grater Cosmic Orange
 - Noctua NF-A12x15 PWM chromax.black.swap (x3)
 - Noctua NF-A12x25 PWM chromax.black.swap (x2)
 - Noctua NH-U12A chromax.black
 - Samsung 9100 Pro 4TB (PCIe x4 32 GT/s @ x4 32 GT/s)
 - Samsung 980 Pro 1TB (PCIe x4 16 GT/s @ x4 16 GT/s)
 - [ ] ~Asus ROG Strix X870-I Gaming~
-- [ ] NCase M3
 - [ ] Noctua NF-A12x15 PWM (x3)
 - [ ] Noctua NF-A12x25 G2 PWM (x2)
 - [ ] Noctua NH-D15 G2
@@ -59,7 +59,8 @@ Audio
 Furniture
 
 - Ergotron LX Pro
-- Kanto SE6
+- ~Kanto SE6~
+- [ ] Kanto S6
 
 ### Airflow
 
