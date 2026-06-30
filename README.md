@@ -41,7 +41,7 @@ Peripherals
 - GuliKit KingKong 2 Pro NS09
 - Hagibis MC40 / Qwiizlab ES40UR
 - Orange Funbox 10
-- UniFi 5G Ethernet Adapter
+- ~UniFi 5G Ethernet Adapter~
 - WisdPi 10G Ethernet Adapter WP-UT9 (Realtek RTL8159)
 - [ ] ~UniFi 10G Ethernet Adapter~
 
@@ -59,8 +59,8 @@ Audio
 Furniture
 
 - Ergotron LX Pro
+- Kanto S6
 - ~Kanto SE6~
-- [ ] Kanto S6
 
 ### Airflow
 
