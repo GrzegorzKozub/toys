@@ -18,10 +18,10 @@ Box
 - Noctua NH-U12A chromax.black
 - Samsung 9100 Pro 4TB (PCIe x4 32 GT/s @ x4 32 GT/s)
 - Samsung 980 Pro 1TB (PCIe x4 16 GT/s @ x4 16 GT/s)
-- [ ] ~Asus ROG Strix X870-I Gaming~
 - [ ] Noctua NF-A12x15 PWM (x3)
 - [ ] Noctua NF-A12x25 G2 PWM (x2)
 - [ ] Noctua NH-D15 G2
+- [ ] ~Asus ROG Strix X870-I Gaming~
 
 Monitors
 
@@ -41,9 +41,10 @@ Peripherals
 - GuliKit KingKong 2 Pro NS09
 - Hagibis MC40 / Qwiizlab ES40UR
 - Orange Funbox 10
-- ~UniFi 5G Ethernet Adapter~
+- WD Black SN7100 2TB (USB 3.2 Gen2x2 20 Gbps)
 - WisdPi 10G Ethernet Adapter WP-UT9 (Realtek RTL8159)
 - [ ] ~UniFi 10G Ethernet Adapter~
+- ~UniFi 5G Ethernet Adapter~
 
 Audio
 
@@ -213,6 +214,11 @@ Benchmarks with CrystalDiskMark 9.0.1 (MB/s)
   - SEQ1M Q1T1: read 4184, write 4265
   - RND4K Q32T1: read 877, write 741
   - RND4K Q1T1: read 79, write 272
+- WD Black SN7100 2TB
+  - SEQ1M Q8T1: read 2146, write 2139
+  - SEQ1M Q1T1: read 1699, write 1760
+  - RND4K Q32T1: read 417, write 394
+  - RND4K Q1T1: read 40, write 74
 
 Temperatures (°C)
 
@@ -222,6 +228,9 @@ Temperatures (°C)
 - Samsung 980 Pro 1TB
   - idle: NAND 47, controller 55
   - benchmark: NAND 71, controller 87
+- WD Black SN7100 2TB *summer*
+  - idle: NAND 52, controller 67
+  - benchmark: NAND 60, controller 82
 
 ## Worker
 
