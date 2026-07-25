@@ -1,6 +1,6 @@
 # MSI MPG 321URX calibration
 
-Tools: Calibrite Display Plus HL, DisplayCAL, HCFR, Windows 11.
+Tools: Calibrite Display Plus HL, [DisplayCAL](https://displaycal.net/) ([ArgyllCMS Windows download](https://www.argyllcms.com/downloadwin.html)), HCFR, Windows 11.
 
 Room: bright, white walls, window with sunlight hitting the room (ambient only, not direct glare on the panel). Preference for lower overall brightness; occasional dim-evening gaming.
 
