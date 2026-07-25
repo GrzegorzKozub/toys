@@ -497,7 +497,7 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
   - RGB LED: OFF
   - Power LED: OFF
 - MSI OLED Care
-  - Statis Screen Detection: OFF
+  - Static Screen Detection: OFF
   - Multi Logo Detection: OFF
 
 TFT Central provided `mpg321urx.34.icm` ICC profile was created for brightness set to 34 (about 120 nits), RGB settings at 97 99 100 and the contrast of 70.
