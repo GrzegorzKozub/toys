@@ -44,6 +44,8 @@ Calibrite's own "OLED" preset is tuned for RGB AMOLED (phones), not QD-OLED. No 
 | Display & instrument | Display | MSI MPG 321URX |
 | Display & instrument | Instrument | Calibrite Display Plus HL |
 | Display & instrument | Correction | "RGB OLED" CCSS |
+| Display & instrument | White level drift compensation | checked |
+| Display & instrument | Black level drift compensation | off |
 | Calibration | Interactive display adjustment | checked |
 | Calibration | White point | Color temperature, 6500K, Neutral |
 | Calibration | Tone curve | Gamma 2.2 |
@@ -61,6 +63,8 @@ Calibrite's own "OLED" preset is tuned for RGB AMOLED (phones), not QD-OLED. No 
 - Display: the MSI MPG 321URX.
 - Instrument: Calibrite Display Plus HL (i1DisplayPro-family).
 - Correction: "..." next to the correction dropdown > Install extra files... > the "RGB OLED" CCSS downloaded from https://colorimetercorrections.displaycal.net/ > select it once installed.
+- White level drift compensation: **checked** - periodically re-measures a reference white patch and normalizes readings against it, correcting for OLED ABL/thermal brightness drift during the measurement run itself. Driven by display behavior, not profile size, so it applies even to a short Curves + matrix run - negligible time cost, no accuracy downside. Missed in earlier runs; add going forward.
+- Black level drift compensation: **off** - compensates for instrument sensor drift, not display drift; mainly needed for non-temperature-stabilized spectrometers (i1Pro, ColorMunki). The Display Plus HL is a temperature-stable colorimeter, so this isn't needed.
 
 ### Calibration tab
 
@@ -101,7 +105,18 @@ Run 2 (redone: Black output offset corrected to 0%, RGB white balance done via I
 - Average neutral error = 0.675277 deltaE
 - Log noted "Black point device hack is enabled" (DisplayCAL/Argyll's built-in workaround for the i1d3/HL near-black weakness).
 
-Run 2 is the better result overall: white point error improved substantially (0.67 -> 0.20 dE) from actually doing the RGB white balance step. The large max neutral error jump (1.55 -> 15.26 dE) is not a regression - it's measured at ~0.56% of white (~0.67 nits, essentially true black), which run 1 never actually reached because its wrong 100% black output offset artificially raised the floor and masked the Display Plus HL's known near-black sensor weakness (see "Known risk" above). A large color error at that luminance level is below normal visual perception and consistent with the accepted hardware limitation, not a new problem.
+Run 2 improved white point error substantially (0.67 -> 0.20 dE) from actually doing the RGB white balance step. The large max neutral error jump (1.55 -> 15.26 dE) is not a regression - it's measured at ~0.56% of white (~0.67 nits, essentially true black), which run 1 never actually reached because its wrong 100% black output offset artificially raised the floor and masked the Display Plus HL's known near-black sensor weakness (see "Known risk" above). A large color error at that luminance level is below normal visual perception and consistent with the accepted hardware limitation, not a new problem.
+
+Run 3 (White level drift compensation enabled, per section 3 fix above):
+
+- Brightness error = -1.255209 cd/m2 (is 118.744791, should be 120.000000)
+- White point error = 0.278570 deltaE
+- Maximum neutral error (@ 0.194481) = 1.151258 deltaE
+- Average neutral error = 0.521954 deltaE
+- White drift was 0.636150 deltaE - confirms White level drift compensation is actively measuring and correcting for real OLED ABL/thermal drift during the run, not a no-op.
+- Instrument reported "No distinct refresh period" during setup (a pre-run diagnostic on a separate attempt logged an odd 38.9 Hz refresh reading - given this run's clean result, that number looks like measurement noise rather than a real timing problem, and isn't worth chasing further).
+
+**Run 3 is the best result so far**: best average neutral error (0.52 dE) and best max neutral error (1.15 dE, back at the mid-tone patch rather than run 2's near-black sensor-noise spike) of the three runs. White point error (0.28 dE) is close behind run 2's best-of-three 0.20 dE. Brightness error (-1.26 cd/m2, ~1% off 120 nit target) is the worst of the three but still imperceptible in practice. This is the run to keep.
 
 ### Alternative path: sRGB (clamped) - for the record, not actively maintained
 

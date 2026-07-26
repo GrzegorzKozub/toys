@@ -486,9 +486,10 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 - Professional
   - Pro Mode: User (vivid) or sRGB (clamped)
 - Image
-  - ❗Brightness: 34 for 120 nits, 28 for 100 nits or 23 for 80 nits
-  - ❗Color Temperature: RGB 97 99 100
-  - DisplayHDR: Peak 1000 nits (when HDR enabled)
+  - Brightness: 34 for 120 cd/m²
+  - Contrast: 70
+  - Color Temperature: RGB 96 99 99 for 120 cd/m²
+  - DisplayHDR: Peak 1000 cd/m² (when HDR enabled)
 - Navi Key
   - Up/Down/Left/Right: Brightness
 - Settings
@@ -500,9 +501,7 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
   - Static Screen Detection: OFF
   - Multi Logo Detection: OFF
 
-*MSI MPG 321URX* was calibrated for *User* Pro Mode, targeting 120 nits brightness. Hardware measurement for this target resulted in Brightness setting of 34 and RGB settings of 96 99 99. Contrast was left at the factory setting of 70. Software calibration is stored in the ICC profile `mpg321urx.120-sdr.icm` for SDR and in `mpg321urx.120-hdr.icm` for HDR. See calibration procedure below.
-
-TFT Central provided `mpg321urx.120-sdr.tftcentral.icm` ICC profile was created for 120 nits brightness and uses Brightness set to 34, RGB set to 97 99 100 and the factory Contrast of 70.
+*MSI MPG 321URX* was calibrated for *User* Pro Mode targeting 120 cd/m². Measurement gave Brightness 34 and RGB 96 99 99. Software calibration is stored in the ICC profile `mpg321urx.120-sdr.icm` for SDR and in `mpg321urx.120-hdr.icc` for HDR.
 
 Working VRR flickering mitigations for *MSI MPG 321URX*
 
@@ -512,13 +511,12 @@ Working VRR flickering mitigations for *MSI MPG 321URX*
 *LG 27GP950-B* settings
 
 - Picture Adjust
-  - ❗Brightness: 25 for 190 nits, 16 for 160 nits, 10 for 130 nits or 6 for 100 nits
+  - Brightness: 10 for 130 cd/m²
+  - Contrast: 70
 
-❗*LG 27GP950-B* was calibrated for *Gamer 1* Profile and *Mode 2* Gamma, targeting 130 nits brightness. Hardware measurement for this target resulted in Brightness setting of 10 and RGB settings of 50 50 47. Not relevant for calibration, contrast looks best at 70. Software calibration is stored in the ICC profile `27gp950-b.130.icm`.
+*LG 27GP950-B* was calibrated for *Gamer 1* Profile and *Mode 2* Gamma targeting 130 cd/m². Measurement gave Brightness 10 and RGB 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.130.icm`.
 
-TFT Central provided `27gp950-b.120.tftcentral.icm` ICC profile was created using *Gamer 1* Profile and *Mode 2* settings for 120 nits brightness and uses Brightness set to 6, RGB set to 50 48 45 and Contrast of 70.
-
-❗*LG 27UL850-W* was calibrated for *Custom* Profile and *Mode 2* Gamma, targeting 130 nits brightness. Hardware measurement for this target resulted in Brightness setting of 50 and RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.130.icm`.
+*LG 27UL850-W* was calibrated for *Custom* Profile and *Mode 2* Gamma targeting 130 cd/m². Measurement gave Brightness 50 and RGB 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.130.icm`.
 
 Links
 
@@ -529,25 +527,52 @@ Links
 
 Preparation
 
-- Update monitor firmware and GPU drivers
-- Ensure Dynamic Range is set to *Full* in NVIDIA App
 - Darken the room for the calibration irrelevant of the target lighting conditions
+- Update monitor firmware and GPU drivers
+- Reset the monitor settings and disable any post-processing or OLED care features
+- Ensure *Output Dynamic Range* is set to *Full* in NVIDIA App
+- Unassign any color profile and disable HDR in Windows
 - Let the display warm up for at least 30 minutes before the calibration
 
 SDR Calibration
 
-1. Install [DisplayCAL](https://displaycal.net/) and [ArgyllCMS](https://www.argyllcms.com/downloadwin.html)
-2. Unassign any color profile and disable HDR in Windows
-3. Reset the monitor settings and disable any post-processing or OLED care features
-4. ❗contrast finetuning
-5. Setup DisplayCAL
-  - Display & instrument tab
-    - Select *i1 DisplayPro, ...* instrument (for Calibrite Display Plus HL)
-    - ❗white/black level drift compensation?
-    - Use the Correction downloaded from [Colorimeter Corrections Database](https://colorimetercorrections.displaycal.net/), `mpg321urx.ccss`
-  - Calibration tab
-    - ...
-    - ❗different oled
+Uses [DisplayCAL](https://displaycal.net/) and [ArgyllCMS](https://www.argyllcms.com/downloadwin.html)
+
+1. Start DisplayCAL and enable Options > Show advanced options
+2. Setup *Display & instrument* tab
+  - Select *i1 DisplayPro* instrument
+  - Set *Mode* to *Refresh (generic)* on OLED and *LCD (generic)* on LCD
+  - Enable *White level drift compensation*
+  - For the *Correction* option, use the world icon or download a file from [Colorimeter Corrections Database](https://colorimetercorrections.displaycal.net/). Prefer spectral with finer resolution and i1 Pro 3 or 2 reference instrument, in that priority order.
+    - `MSI 321URX (i1 Pro 2, CIE 1931 2°).ccss` - spectral, 3.33nm, i1 Pro 2 (better)
+    - `MSI MPG 321URXWW (i1 Pro 3).ccss` - spectral, 10nm, i1 Pro 3
+3. Setup *Calibration* tab
+  - Enable *Interactive display adjustment*
+  - Set *Whitepoint* to *Color temperature* of *6500 K*
+  - Set *White level* to *Custom* and enter target brightness, e.g. *120 cd/m²*
+  - Leave *Black level* at *As measured*
+  - Set *Tone curve* to *Gamma 2.2*
+  - Set *Black output offset* to *0 %*
+  - Set *Black point correction* to *0 %* on OLED and *100 %* on LCD
+4. Setup *Profiling* tab
+  - Set *Profile type* to *Curves + matrix* on OLED and *XYZ LUT + matrix* on LCD
+    - Set *Profile quality* to *Medium* for *Curves + matrix* and *High* for *XYZ LUT + matrix*
+  - Disable *Black point compensation*
+  - Leave *Test chart* at *Auto-optimized*
+5. Run *Calibrate & profile*. During the measurement, adjust the monitor RGB levels and brightness to to match the desired whitepoint, e.g. 120 cd/m². The created ICC profile should be used with the resulting hardware settings.
+
+HDR Calibration
+
+Uses [Windows HDR Calibration](https://apps.microsoft.com/detail/9n7f2sm5d1lr)
+
+```ps1
+winget install "Windows HDR Calibration" --accept-package-agreements
+```
+
+1. Keep the SDR calibration hardware settings and ICC profile applied
+2. Enable HDR in Windows
+3. Calibrate using Windows HDR Calibration
+4. Retrieve the ICC profile from `C:\Windows\System32\spool\drivers\color\`
 
 ## Keyboards
 
