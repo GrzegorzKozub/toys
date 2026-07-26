@@ -486,8 +486,8 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 - Professional
   - Pro Mode: User (vivid) or sRGB (clamped)
 - Image
-  - Brightness: 34 for 120 nits, 28 for 100 nits or 23 for 80 nits
-  - Color Temperature: RGB 97 99 100
+  - ❗Brightness: 34 for 120 nits, 28 for 100 nits or 23 for 80 nits
+  - ❗Color Temperature: RGB 97 99 100
   - DisplayHDR: Peak 1000 nits (when HDR enabled)
 - Navi Key
   - Up/Down/Left/Right: Brightness
@@ -500,28 +500,54 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
   - Static Screen Detection: OFF
   - Multi Logo Detection: OFF
 
-TFT Central provided `mpg321urx.34.icm` ICC profile was created for brightness set to 34 (about 120 nits), RGB settings at 97 99 100 and the contrast of 70.
+*MSI MPG 321URX* was calibrated for *User* Pro Mode, targeting 120 nits brightness. Hardware measurement for this target resulted in Brightness setting of 34 and RGB settings of 96 99 99. Contrast was left at the factory setting of 70. Software calibration is stored in the ICC profile `mpg321urx.120-sdr.icm` for SDR and in `mpg321urx.120-hdr.icm` for HDR. See calibration procedure below.
+
+TFT Central provided `mpg321urx.120-sdr.tftcentral.icm` ICC profile was created for 120 nits brightness and uses Brightness set to 34, RGB set to 97 99 100 and the factory Contrast of 70.
 
 Working VRR flickering mitigations for *MSI MPG 321URX*
 
 - Decrease refresh rate to 120 Hz and try to lock 120 FPS
-- Increase the lower VRR range imit from 48 to 80 Hz using CRU
+- Increase the lower VRR range limit from 48 to 80 Hz using CRU
 
 *LG 27GP950-B* settings
 
 - Picture Adjust
-  - Brightness: 25 for 190 nits, 16 for 160 nits, 10 for 130 nits or 6 for 100 nits
+  - ❗Brightness: 25 for 190 nits, 16 for 160 nits, 10 for 130 nits or 6 for 100 nits
 
-*LG 27GP950-B* was calibrated for _Gamer 1_ profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
+❗*LG 27GP950-B* was calibrated for *Gamer 1* Profile and *Mode 2* Gamma, targeting 130 nits brightness. Hardware measurement for this target resulted in Brightness setting of 10 and RGB settings of 50 50 47. Not relevant for calibration, contrast looks best at 70. Software calibration is stored in the ICC profile `27gp950-b.130.icm`.
 
-TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* profile, brightness set to 6 (about 120 nits), RGB settings at 50 48 45 and the contrast of 70.
+TFT Central provided `27gp950-b.120.tftcentral.icm` ICC profile was created using *Gamer 1* Profile and *Mode 2* settings for 120 nits brightness and uses Brightness set to 6, RGB set to 50 48 45 and Contrast of 70.
 
-LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
+❗*LG 27UL850-W* was calibrated for *Custom* Profile and *Mode 2* Gamma, targeting 130 nits brightness. Hardware measurement for this target resulted in Brightness setting of 50 and RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.130.icm`.
 
 Links
 
 - [MSI MPG 321URX firmware](https://www.msi.com/Monitor/MPG-321URX-QD-OLED/support#firmware)
 - [Wide Gamut](https://www.wide-gamut.com/)
+
+### Calibration procedure
+
+Preparation
+
+- Update monitor firmware and GPU drivers
+- Ensure Dynamic Range is set to *Full* in NVIDIA App
+- Darken the room for the calibration irrelevant of the target lighting conditions
+- Let the display warm up for at least 30 minutes before the calibration
+
+SDR Calibration
+
+1. Install [DisplayCAL](https://displaycal.net/) and [ArgyllCMS](https://www.argyllcms.com/downloadwin.html)
+2. Unassign any color profile and disable HDR in Windows
+3. Reset the monitor settings and disable any post-processing or OLED care features
+4. ❗contrast finetuning
+5. Setup DisplayCAL
+  - Display & instrument tab
+    - Select *i1 DisplayPro, ...* instrument (for Calibrite Display Plus HL)
+    - ❗white/black level drift compensation?
+    - Use the Correction downloaded from [Colorimeter Corrections Database](https://colorimetercorrections.displaycal.net/), `mpg321urx.ccss`
+  - Calibration tab
+    - ...
+    - ❗different oled
 
 ## Keyboards
 
