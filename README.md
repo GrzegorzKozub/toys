@@ -482,12 +482,12 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 *MSI MPG 321URX* settings
 
 - Gaming
-  - Adaptive-Sync: ON
+  - Adaptive-Sync: ON (factory)
 - Professional
   - Pro Mode: User (vivid) or sRGB (clamped)
 - Image
-  - Brightness: 34 for 120 cd/m²
-  - Contrast: 70
+  - Brightness: 35 for 120 cd/m²
+  - Contrast: 70 (factory)
   - Color Temperature: RGB 96 99 99 for 120 cd/m²
   - DisplayHDR: Peak 1000 cd/m² (when HDR enabled)
 - Navi Key
@@ -501,7 +501,7 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
   - Static Screen Detection: OFF
   - Multi Logo Detection: OFF
 
-*MSI MPG 321URX* was calibrated for *User* Pro Mode targeting 120 cd/m². Measurement gave Brightness 34 and RGB 96 99 99. Software calibration is stored in the ICC profile `mpg321urx-sdr.icm` for SDR and in `mpg321urx-hdr.icc` for HDR.
+*MSI MPG 321URX* was calibrated for *User* Pro Mode targeting 120 cd/m². Measurement gave Brightness 35 and RGB 96 99 99. Software calibration is stored in the ICC profile `mpg321urx-sdr.icm` for SDR and in `mpg321urx-hdr.icc` for HDR.
 
 Working VRR flickering mitigations for *MSI MPG 321URX*
 
@@ -532,18 +532,25 @@ Links
 - Unassign any color profile and disable HDR in Windows
 - Let the display warm up for at least 30 minutes before the calibration
 
+> The Calibrite Display Plus HL's sensor loses accuracy near true black on OLED (reads close to 0 nits), which can show up as a large neutral error spike concentrated at the bottom few percent of the luminance range during verification. This is a known sensor limitation, not a failed calibration - white point, gamma, and overall brightness remain accurate.
+
+Install [DisplayCAL](https://displaycal.net/) and [ArgyllCMS](https://www.argyllcms.com/downloadwin.html)
+
+#### Contrast
+
+In DisplayCAL, run Tools -> Report on uncalibrated display and note *Black level*, *White level* and *Aprox. gamma*. Raise Contrast by 10 and repeat the report. Compare against the previous reading. Keep the increase only if *White level* rises meaningfully while *Black level* stays at (near) 0 and *Aprox. gamma* doesn't drift further from the target. Repeat incrementally until *White level* stops improving or *Black level* or *Aprox. gamma* start degrading, then revert to the last good value and lock Contrast there.
+
 #### SDR
 
-1. Install [DisplayCAL](https://displaycal.net/) and [ArgyllCMS](https://www.argyllcms.com/downloadwin.html)
-2. Start DisplayCAL and enable Options > Show advanced options
-3. Setup *Display & instrument* tab
+1. In DisplayCAL, enable Options -> Show advanced options
+2. Setup *Display & instrument* tab
   - Select *i1 DisplayPro* instrument
   - Set *Mode* to *Refresh (generic)* on OLED and *LCD (generic)* on LCD
   - Enable *White level drift compensation*
   - For the *Correction* option, use the world icon or download a file from [Colorimeter Corrections Database](https://colorimetercorrections.displaycal.net/). Prefer spectral with finer resolution and i1 Pro 3 or 2 reference instrument, in that priority order.
     - `MSI 321URX (i1 Pro 2, CIE 1931 2°).ccss` - spectral, 3.33nm, i1 Pro 2 (better)
     - `MSI MPG 321URXWW (i1 Pro 3).ccss` - spectral, 10nm, i1 Pro 3
-4. Setup *Calibration* tab
+3. Setup *Calibration* tab
   - Enable *Interactive display adjustment*
   - Set *Whitepoint* to *Color temperature* of *6500 K*
   - Set *White level* to *Custom* and enter target brightness, e.g. *120 cd/m²*
@@ -551,12 +558,12 @@ Links
   - Set *Tone curve* to *Gamma 2.2*
   - Set *Black output offset* to *0 %*
   - Set *Black point correction* to *0 %* on OLED and *100 %* on LCD
-5. Setup *Profiling* tab
+4. Setup *Profiling* tab
   - Set *Profile type* to *Curves + matrix* on OLED and *XYZ LUT + matrix* on LCD
     - Set *Profile quality* to *Medium* for *Curves + matrix* and *High* for *XYZ LUT + matrix*
   - Disable *Black point compensation*
   - Leave *Test chart* at *Auto-optimized*
-6. Run *Calibrate & profile*. During the measurement, adjust the monitor RGB levels and brightness to to match the desired whitepoint, e.g. 120 cd/m². The created ICC profile should be used with the resulting hardware settings.
+5. Run *Calibrate & profile*. During the measurement, adjust the monitor RGB levels and brightness to to match the desired whitepoint, e.g. 120 cd/m². The created ICC profile should be used with the resulting hardware settings.
 
 #### HDR
 
