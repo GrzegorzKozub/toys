@@ -510,11 +510,20 @@ Working VRR flickering mitigations for *MSI MPG 321URX*
 
 *LG 27GP950-B* settings
 
+- Game Mode: Gamer 1 (factory)
 - Picture Adjust
-  - Brightness: 10 for 130 cd/m²
-  - Contrast: 70
+  - Brightness: 14 for 140 cd/m²
+  - Contrast: 70 (factory)
+  - Gamma: Mode 2 (factory)
+  - R/G/B: 50 49 46
+- General
+  - Waves MaxxAudio: Off
+  - SMART ENERGY SAVING: Off
+  - Deep Sleep Mode: Off
+  - Automatic Standby: 8H
+  - Buzzer: Off
 
-*LG 27GP950-B* was calibrated for *Gamer 1* Profile and *Mode 2* Gamma targeting 130 cd/m². Measurement gave Brightness 10 and RGB 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.icm`.
+*LG 27GP950-B* was calibrated for *Gamer 1* Profile and *Mode 2* Gamma targeting 140 cd/m². Measurement gave Brightness 14 and RGB 50 49 46. Software calibration is stored in the ICC profile `27gp950-b.icm`.
 
 *LG 27UL850-W* was calibrated for *Custom* Profile and *Mode 2* Gamma targeting 130 cd/m². Measurement gave Brightness 50 and RGB 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.icm`.
 
@@ -550,18 +559,19 @@ In DisplayCAL, run Tools -> Report on uncalibrated display and note *Black level
   - For the *Correction* option, use the world icon or download a file from [Colorimeter Corrections Database](https://colorimetercorrections.displaycal.net/). Prefer spectral with finer resolution and i1 Pro 3 or 2 reference instrument, in that priority order.
     - `MSI 321URX (i1 Pro 2, CIE 1931 2°).ccss` - spectral, 3.33nm, i1 Pro 2 (better)
     - `MSI MPG 321URXWW (i1 Pro 3).ccss` - spectral, 10nm, i1 Pro 3
+    - `LG 27GP950-B by 4KM (i1 Pro 2).ccss` - spectral, 10nm, i1 Pro 2
 3. Setup *Calibration* tab
-  - Enable *Interactive display adjustment*
+  - Leave *Interactive display adjustment* enabled
   - Set *Whitepoint* to *Color temperature* of *6500 K*
   - Set *White level* to *Custom* and enter target brightness, e.g. *120 cd/m²*
   - Leave *Black level* at *As measured*
-  - Set *Tone curve* to *Gamma 2.2*
+  - Leave *Tone curve* at *Gamma 2.2*
   - Set *Black output offset* to *0 %*
   - Set *Black point correction* to *0 %* on OLED and *100 %* on LCD
 4. Setup *Profiling* tab
   - Set *Profile type* to *Curves + matrix* on OLED and *XYZ LUT + matrix* on LCD
     - Set *Profile quality* to *Medium* for *Curves + matrix* and *High* for *XYZ LUT + matrix*
-  - Disable *Black point compensation*
+  - Leave *Black point compensation* disabled
   - Leave *Test chart* at *Auto-optimized*
 5. Run *Calibrate & profile*. During the measurement, adjust the monitor RGB levels and brightness to to match the desired whitepoint, e.g. 120 cd/m². The created ICC profile should be used with the resulting hardware settings.
 
