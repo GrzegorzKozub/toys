@@ -549,17 +549,28 @@ Install [DisplayCAL](https://displaycal.net/) and [ArgyllCMS](https://www.argyll
 
 In DisplayCAL, run Tools -> Report on uncalibrated display and note *Black level*, *White level* and *Aprox. gamma*. Raise Contrast by 10 and repeat the report. Compare against the previous reading. Keep the increase only if *White level* rises meaningfully while *Black level* stays at (near) 0 and *Aprox. gamma* doesn't drift further from the target. Repeat incrementally until *White level* stops improving or *Black level* or *Aprox. gamma* start degrading, then revert to the last good value and lock Contrast there.
 
+#### Colorimeter correction file
+
+Find the best colorimeter correction file on [Colorimeter Corrections Database](https://colorimetercorrections.displaycal.net/). The `DESCRIPTOR` field should reassemble the monitor model and the `DEVICE` property must match how the monitor appears in DisplayCAL and the operating system.
+
+- *MSI MPG 321URX* - `MPG321UX OLED`
+- *LG 27GP950-B* - `LG ULTRAGEAR+`
+- *LG 27UL850-W* - `LG HDR 4K`
+
+Prefer spectral with finer resolution and i1 Pro 3 or 2 reference instrument, in that priority order. Best results as of July 2026:
+
+- `MSI 321URX (i1 Pro 2, CIE 1931 2°).ccss` - spectral, 3.33nm, i1 Pro 2
+- `LG ULTRAGEAR+ 27gm950b_full white (i1 Pro 2).ccss` - spectral, 3.33nm, i1 Pro 2
+- `LG 27UL850W by 4KM (i1 Pro 2).ccss` - spectral, 3.3nm, i1 Pro 2
+
 #### SDR
 
 1. In DisplayCAL, enable Options -> Show advanced options
 2. Setup *Display & instrument* tab
   - Select *i1 DisplayPro* instrument
-  - Set *Mode* to *Refresh (generic)* on OLED and *LCD (generic)* on LCD
+  - Set *Mode* to *Refresh (generic)* on OLED and *LCD (generic)* on LCD (overwritten by the correction file property `DISPLAY_TYPE_REFRESH`)
   - Enable *White level drift compensation*
-  - For the *Correction* option, use the world icon or download a file from [Colorimeter Corrections Database](https://colorimetercorrections.displaycal.net/). Prefer spectral with finer resolution and i1 Pro 3 or 2 reference instrument, in that priority order.
-    - `MSI 321URX (i1 Pro 2, CIE 1931 2°).ccss` - spectral, 3.33nm, i1 Pro 2
-    - `LG ULTRAGEAR+ 27gm950b_full white (i1 Pro 2).ccss` - spectral, 3.33nm, i1 Pro 2
-    - `LG 27UL850W by 4KM (i1 Pro 2).ccss` - spectral, 3.3nm, i1 Pro 2
+  - Select the *Correction* file obtained above
 3. Setup *Calibration* tab
   - Leave *Interactive display adjustment* enabled
   - Set *Whitepoint* to *Color temperature* of *6500 K*
@@ -570,7 +581,7 @@ In DisplayCAL, run Tools -> Report on uncalibrated display and note *Black level
   - Set *Black point correction* to *0 %* on OLED and *100 %* on LCD
 4. Setup *Profiling* tab
   - Set *Profile type* to *Curves + matrix* on OLED and *XYZ LUT + matrix* on LCD
-    - Set *Profile quality* to *Medium* for *Curves + matrix* and *High* for *XYZ LUT + matrix*
+  - Set *Profile quality* to *Medium* for *Curves + matrix* and *High* for *XYZ LUT + matrix*
   - Leave *Black point compensation* disabled
   - Leave *Test chart* at *Auto-optimized*
 5. Run *Calibrate & profile*. During the measurement, adjust the monitor RGB levels and brightness to to match the desired whitepoint, e.g. 120 cd/m². The created ICC profile should be used with the resulting hardware settings.
