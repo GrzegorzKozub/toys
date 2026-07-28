@@ -559,6 +559,7 @@ In DisplayCAL, run Tools -> Report on uncalibrated display and note *Black level
   - For the *Correction* option, use the world icon or download a file from [Colorimeter Corrections Database](https://colorimetercorrections.displaycal.net/). Prefer spectral with finer resolution and i1 Pro 3 or 2 reference instrument, in that priority order.
     - `MSI 321URX (i1 Pro 2, CIE 1931 2°).ccss` - spectral, 3.33nm, i1 Pro 2
     - `LG ULTRAGEAR+ 27gm950b_full white (i1 Pro 2).ccss` - spectral, 3.33nm, i1 Pro 2
+    - `LG 27UL850W by 4KM (i1 Pro 2).ccss` - spectral, 3.3nm, i1 Pro 2
 3. Setup *Calibration* tab
   - Leave *Interactive display adjustment* enabled
   - Set *Whitepoint* to *Color temperature* of *6500 K*
