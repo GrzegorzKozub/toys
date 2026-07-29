@@ -512,10 +512,10 @@ Working VRR flickering mitigations for *MSI MPG 321URX*
 
 - Game Mode: Gamer 1 (factory)
 - Picture Adjust
-  - Brightness: 14 for 140 cd/m²
+  - Brightness: 9 for 120 cd/m²
   - Contrast: 70 (factory)
   - Gamma: Mode 2 (factory)
-  - R/G/B: 50 49 46
+  - R/G/B: 50 49 47
 - General
   - Waves MaxxAudio: Off
   - SMART ENERGY SAVING: Off
@@ -523,9 +523,32 @@ Working VRR flickering mitigations for *MSI MPG 321URX*
   - Automatic Standby: 8H
   - Buzzer: Off
 
-*LG 27GP950-B* was calibrated for *Gamer 1* Profile and *Mode 2* Gamma targeting 140 cd/m². Measurement gave Brightness 14 and RGB 50 49 46. Software calibration is stored in the ICC profile `27gp950-b.icm`.
+*LG 27GP950-B* was calibrated for *Gamer 1* Profile and *Mode 2* Gamma targeting 120 cd/m². Measurement gave Brightness 9 and RGB 50 49 47. Software calibration is stored in the ICC profile `27gp950-b.icm`.
 
-*LG 27UL850-W* was calibrated for *Custom* Profile and *Mode 2* Gamma targeting 130 cd/m². Measurement gave Brightness 50 and RGB 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.icm`.
+*LG 27UL850-W* settings
+
+- Picture
+  - Picture Adjust
+    - Brightness: 18 for 120 cd/m²
+    - Contrast: 70 (factory)
+  - Game Adjust
+    - Free Sync: Extended
+  - Color Adjust
+    - Gamma: Mode 2 (factory)
+    - Red: 47
+    - Green: 46
+    - Blue: 50
+- Sound
+  - Volume: 0
+  - Maax Audio: Off
+- General
+  - SMART ENERGY SAVING: Off
+  - Automatic Standby: 8H
+  - Buzzer: Off
+  - OSD Size: Large
+  - Deep Sleep Mode: Off
+
+*LG 27UL850-W* was calibrated for *Custom* Profile and *Mode 2* Gamma targeting 120 cd/m². Measurement gave Brightness 18 and RGB 47 46 50. Software calibration is stored in the ICC profile `27ul850-w.icm`.
 
 Links
 
