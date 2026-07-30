@@ -395,6 +395,7 @@ Dell XPS 13 9310 laptop
 - 32GB 2133MHz LPDDR4x
 - Intel Core i7-1165G7
 - Intel Iris Xe Graphics G7 96EU
+- SHP14FA (display)
 - Western Digital PC SN730 1TB (PCIe x4 8 GT/s @ x4 8 GT/s)
 
 ### Disks
@@ -579,12 +580,14 @@ Find the best colorimeter correction file on [Colorimeter Corrections Database](
 - *MSI MPG 321URX* - `MPG321UX OLED`
 - *LG 27GP950-B* - `LG ULTRAGEAR+`
 - *LG 27UL850-W* - `LG HDR 4K`
+- *SHP14FA* - `F40HY-LQ134R1`
 
 Prefer spectral with finer resolution and i1 Pro 3 or 2 reference instrument, in that priority order. Best results as of July 2026:
 
 - `MSI 321URX (i1 Pro 2, CIE 1931 2°).ccss` - spectral, 3.33nm, i1 Pro 2
 - `LG ULTRAGEAR+ 27gm950b_full white (i1 Pro 2).ccss` - spectral, 3.33nm, i1 Pro 2
 - `LG 27UL850W by 4KM (i1 Pro 2).ccss` - spectral, 3.3nm, i1 Pro 2
+- `XPS13 Korrektur (i1 Pro 2).ccmx` - matrix, i1 Pro 2
 
 #### SDR
 
