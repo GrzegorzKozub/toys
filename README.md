@@ -395,7 +395,7 @@ Dell XPS 13 9310 laptop
 - 32GB 2133MHz LPDDR4x
 - Intel Core i7-1165G7
 - Intel Iris Xe Graphics G7 96EU
-- SHP14FA (display)
+- Sharp SHP14FA
 - Western Digital PC SN730 1TB (PCIe x4 8 GT/s @ x4 8 GT/s)
 
 ### Disks
@@ -551,6 +551,8 @@ Working VRR flickering mitigations for *MSI MPG 321URX*
 
 *LG 27UL850-W* was calibrated for *Custom* Profile and *Mode 2* Gamma targeting 120 cd/m². Measurement gave Brightness 18 and RGB 47 46 50. Software calibration is stored in the ICC profile `27ul850-w.icm`.
 
+*Sharp SHP14FA* was calibrated targeting 80 cd/m², roughly 25% brightness. Software calibration is stored in the ICC profile `shp14fa.icm`.
+
 Links
 
 - [MSI MPG 321URX firmware](https://www.msi.com/Monitor/MPG-321URX-QD-OLED/support#firmware)
@@ -580,7 +582,7 @@ Find the best colorimeter correction file on [Colorimeter Corrections Database](
 - *MSI MPG 321URX* - `MPG321UX OLED`
 - *LG 27GP950-B* - `LG ULTRAGEAR+`
 - *LG 27UL850-W* - `LG HDR 4K`
-- *SHP14FA* - `F40HY-LQ134R1`
+- *Sharp SHP14FA* - `F40HY-LQ134R1`
 
 Prefer spectral with finer resolution and i1 Pro 3 or 2 reference instrument, in that priority order. Best results as of July 2026:
 
@@ -598,7 +600,7 @@ Prefer spectral with finer resolution and i1 Pro 3 or 2 reference instrument, in
   - Enable *White level drift compensation*
   - Select the *Correction* file obtained above
 3. Setup *Calibration* tab
-  - Leave *Interactive display adjustment* enabled
+  - Enable *Interactive display adjustment*
   - Set *Whitepoint* to *Color temperature* of *6500 K*
   - Set *White level* to *Custom* and enter target brightness, e.g. *120 cd/m²*
   - Leave *Black level* at *As measured*
