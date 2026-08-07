@@ -187,6 +187,35 @@ Three runs on the LG 27GP950-B, hardware settings unchanged throughout:
 
 - Recalibrate every 3-6 months, or after firmware updates.
 
+## 7. Dell XPS 13 9310 laptop display (Sharp SHP14FA panel, DisplayCAL/EDID device name `F40HY-LQ134R1`)
+
+Two calibration sessions compared, both 80 cd/m2 target, D6500 neutral, gamma 2.2, XYZ LUT + matrix profile type:
+
+Session 1 (2026-08-02 20:55, storage folder `...F-S XYZLUT+MTX`):
+
+- Report (pre-run): Black level 0.0897 cd/m2, White level 75.50 cd/m2 (target 80, ~5.6% low), gamma 2.16, contrast ratio 842:1, white chromaticity DE to daylight locus 1.3
+- Verify: Brightness error -4.381449 cd/m2 (is 75.618551, should be 80.000000), White point error 0.842340 deltaE, Maximum neutral error (@ 0.807631) 4.268616 deltaE, Average neutral error 1.696932 deltaE, White drift 4.114311 deltaE
+
+Session 2 (2026-08-07 23:11, storage folder `...F-S XYZLUT+MTX`):
+
+- Report (pre-run): Black level 0.1017 cd/m2, White level 76.52 cd/m2 (target 80, ~4.3% low), gamma 2.15, contrast ratio 753:1, white chromaticity DE to daylight locus 0.1
+- Verify: Brightness error -3.474393 cd/m2 (is 76.525607, should be 80.000000), White point error 0.151650 deltaE, Maximum neutral error (@ 0.739526) 4.014006 deltaE, Average neutral error 1.859250 deltaE, White drift 4.786826 deltaE
+
+No clean winner between the two - session 2 has a much better white point error (0.15 vs 0.84 dE) and brightness error, but a worse average neutral error and worse white drift than session 1. Unlike the MSI comparisons, this isn't just noise deciding a winner between otherwise-good runs - both sessions share a bigger, unresolved problem: **white drift of 4.1-4.8 deltaE on both sessions**, an order of magnitude higher than anything seen on the MSI (0.2-0.7 dE) or LG monitors. Neither profile should be treated as a trustworthy final result yet.
+
+### Root cause: Intel Display Power Saving Technology (DPST)
+
+Windows' own ambient-light-sensor adaptive brightness was already confirmed disabled and is not the cause. The actual likely cause is **Intel DPST**, a separate driver/firmware-level feature on Intel integrated GPUs (Iris Xe / 11th gen "Tiger Lake", present in this laptop) that analyzes on-screen content per frame and dynamically adjusts backlight and gamma to save power - independent of and not controlled by the Windows ambient light toggle. It ships enabled by default. Because it reacts to displayed content, it would actively fight a colorimeter measurement pass that shows a constantly-changing sequence of color patches, producing exactly this kind of persistent drift during both the native-response baseline and the final verification pass. This is a documented, standard gotcha in laptop calibration guides, not a novel guess.
+
+Disable before recalibrating:
+
+1. Intel Graphics Command Center -> Settings -> System -> Power -> disable *Display Power Saving* / *Adaptive Brightness* (exact label varies by driver version).
+2. Older Intel Graphics Control Panel -> Power -> uncheck *Display Power-Saving Technology*.
+3. If the toggle doesn't stick (a known Intel driver issue): registry fallback, `FeatureTestControl` DWORD under `HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\000x`, set bit 5 (OR with 0x10). The open-source tool [dpst-control](https://github.com/orev/dpst-control) automates this safely.
+4. Also check the BIOS for a related *Dynamic Backlight Control* setting some OEMs expose separately.
+
+Recalibrate only after confirming DPST is off - neither existing profile (`shp14fa.icm` variants) should be assumed final until a session with white drift back down in the sub-1 dE range like the desktop monitors confirms the fix actually worked.
+
 ## Sources / notes
 
 - TFT Central best-settings guide page (https://tftcentral.co.uk/best-settings/best-settings-guide-for-the-msi-mpg-321urx) has no public brightness/nits table; specific figures live in their linked video or Patreon-gated ICC database, so any brightness-to-nits mapping should be independently measured rather than trusted from secondhand notes.
