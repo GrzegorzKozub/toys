@@ -1,0 +1,21 @@
+22:59:41,643 Setting up the instrument
+22:59:41,643 Product Name:      i1Display3
+22:59:41,643 Serial Number:     C8-25.D-02.043739.10
+22:59:41,643 Hardware Rev.:     D-02
+22:59:41,643 Firmware Version:  v2.30
+22:59:41,643 Firmware Date:     08Apr21
+22:59:41,643 Measured display update delay of 39 msec, using delay of 152 msec & 0 msec     ↲
+             ↳ inst reaction
+22:59:41,643 Quantizing to 0.083910 msec
+22:59:41,643 Current calibration response:
+22:59:41,643 Black level = 0.0897 cd/m^2
+22:59:41,643 50%   level = 16.87 cd/m^2
+22:59:41,643 White level = 75.50 cd/m^2
+22:59:41,643 Aprox. gamma = 2.16
+22:59:41,643 Contrast ratio = 842:1
+22:59:41,643 White chromaticity coordinates 0.3132, 0.3312
+22:59:41,643 White    Correlated Color Temperature = 6459K, DE 2K to locus =  5.7
+22:59:41,643 White Correlated Daylight Temperature = 6460K, DE 2K to locus =  1.3
+22:59:41,643 White        Visual Color Temperature = 6258K, DE 2K to locus =  5.5
+22:59:41,643 White     Visual Daylight Temperature = 6419K, DE 2K to locus =  1.2
+22:59:41,643 White drift was 0.000000 DE

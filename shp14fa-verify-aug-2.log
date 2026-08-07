@@ -1,0 +1,20 @@
+23:08:19,147 Setting up the instrument
+23:08:19,147 Product Name:      i1Display3
+23:08:19,147 Serial Number:     C8-25.D-02.043739.10
+23:08:19,147 Hardware Rev.:     D-02
+23:08:19,147 Firmware Version:  v2.30
+23:08:19,147 Firmware Date:     08Apr21
+23:08:19,147 Commencing display verification
+23:08:19,147 Switching to native response for base measurements
+23:08:19,147 Measured display update delay of 36 msec, using delay of 148 msec & 0 msec     ↲
+             ↳ inst reaction
+23:08:19,147 No distict refresh period
+23:08:19,147 Switching back to calibration being verified
+23:08:19,147 Doing verify pass 1/1 with 100 sample points
+23:08:19,147 Verification results:
+23:08:19,147 Brightness error = -4.381449 cd/m^2 (is 75.618551, should be 80.000000)
+23:08:19,147 White point error = 0.842340 deltaE
+23:08:19,147 Maximum neutral error (@ 0.807631) = 4.268616 deltaE
+23:08:19,147 Average neutral error = 1.696932 deltaE
+23:08:19,147 Number of measurements taken = 100
+23:08:19,147 White drift was 4.114311 DE
