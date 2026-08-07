@@ -611,7 +611,7 @@ Prefer spectral with finer resolution and i1 Pro 3 or 2 reference instrument, in
 4. Setup *Profiling* tab
   - Set *Profile type* to *Curves + matrix* on OLED and *XYZ LUT + matrix* on LCD
   - Set *Profile quality* to *Medium* for *Curves + matrix* and *High* for *XYZ LUT + matrix*
-  - Leave *Black point compensation* disabled
+  - Disable *Black point compensation* on OLED and enable on LCD
   - Leave *Test chart* at *Auto-optimized*
 5. Run *Calibrate & profile*. During the measurement, adjust the monitor RGB levels and brightness to to match the desired whitepoint, e.g. 120 cd/m². The created ICC profile should be used with the resulting hardware settings.
 

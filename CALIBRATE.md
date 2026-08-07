@@ -118,6 +118,27 @@ Run 3 (White level drift compensation enabled, per section 3 fix above):
 
 **Run 3 is the best result so far**: best average neutral error (0.52 dE) and best max neutral error (1.15 dE, back at the mid-tone patch rather than run 2's near-black sensor-noise spike) of the three runs. White point error (0.28 dE) is close behind run 2's best-of-three 0.20 dE. Brightness error (-1.26 cd/m2, ~1% off 120 nit target) is the worst of the three but still imperceptible in practice. This is the run to keep.
 
+Run 4 (2026-07-27 21:56, storage folder `...F-M 3xCurve+MTX`):
+
+- Brightness error = -11.155863 cd/m2 (is 108.844137, should be 120.000000)
+- White point error = 0.528927 deltaE
+- Maximum neutral error (@ 0.950471) = 3.826842 deltaE
+- Average neutral error = 1.458987 deltaE
+- White drift was 0.388721 deltaE
+
+Worst result recorded so far, and a different failure signature than the earlier near-black sensor-noise issue: the max neutral error landed near *white* (0.95), not near black, and the pre-run "Current calibration response" check showed White level at only 108.60 cd/m2 against the 120 target (~9.3% low) before profiling even started. This points to the OSD hardware brightness not actually being dialed to the target during Interactive display adjustment that session, not a profiling-quality or sensor problem - profiling quality/patch count cannot fix a mis-set hardware target.
+
+Run 5 (2026-08-07 22:38, storage folder `...F-S 3xCurve+MTX`, Profiling quality set to High instead of Medium):
+
+- Brightness error = 0.424965 cd/m2 (is 120.424965, should be 120.000000)
+- White point error = 0.222741 deltaE
+- Maximum neutral error (@ 0.143258) = 1.549901 deltaE
+- Average neutral error = 0.620931 deltaE
+- White drift was 0.709270 deltaE
+- Pre-run check: White level 120.05 cd/m2 (essentially exact) and white chromaticity DE to daylight locus = 0.0 (essentially perfect D65) - confirms the hardware brightness/white balance was correctly dialed in this time, unlike run 4.
+
+**Run 5 is the best result overall**, beating even run 3 on every metric except brightness error being effectively tied (both imperceptible). However, this is not a clean A/B test of Profiling quality (Medium vs High): the hardware brightness target was also fixed between run 4 and run 5, so the improvement can't be fully attributed to quality alone - unlike the earlier isolated contrast sweep. The quality setting plausibly contributed to the tighter neutral-error tracking (more patches better constraining the curve/matrix fit), but a real isolated test would require re-running at Medium quality with this same correctly-dialed hardware state before crediting High quality specifically.
+
 ### Ambient light level adjustment (viewing conditions)
 
 Separate from black point/black output offset. DisplayCAL's *Ambient light level* field (Calibration tab, `dispcal -A <lux>`) reshapes the tone curve to compensate for the actual room brightness the display is viewed in - distinct from and independent of the *Whitepoint* chromaticity setting, which stays fixed at *Color temperature 6500K, Neutral* regardless. Do not point the whitepoint target at the ambient reading's color: room lighting here is a variable, non-neutral mix of daylight and indoor light, and chasing it away from D65 would undermine every color-managed app's assumption of a standard reference white for no real benefit.
