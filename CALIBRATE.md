@@ -118,6 +118,31 @@ Run 3 (White level drift compensation enabled, per section 3 fix above):
 
 **Run 3 is the best result so far**: best average neutral error (0.52 dE) and best max neutral error (1.15 dE, back at the mid-tone patch rather than run 2's near-black sensor-noise spike) of the three runs. White point error (0.28 dE) is close behind run 2's best-of-three 0.20 dE. Brightness error (-1.26 cd/m2, ~1% off 120 nit target) is the worst of the three but still imperceptible in practice. This is the run to keep.
 
+### Ambient light level adjustment (viewing conditions)
+
+Separate from black point/black output offset. DisplayCAL's *Ambient light level* field (Calibration tab, `dispcal -A <lux>`) reshapes the tone curve to compensate for the actual room brightness the display is viewed in - distinct from and independent of the *Whitepoint* chromaticity setting, which stays fixed at *Color temperature 6500K, Neutral* regardless. Do not point the whitepoint target at the ambient reading's color: room lighting here is a variable, non-neutral mix of daylight and indoor light, and chasing it away from D65 would undermine every color-managed app's assumption of a standard reference white for no real benefit.
+
+Measure ambient under the room's actual normal-use lighting, not the darkened room used for the calibration patches themselves - the two are unrelated requirements. Either use DisplayCAL's "Measure" button next to the field (instrument flipped to its ambient/diffuser mode, held beside the screen facing outward, not at the panel) before darkening the room, or the `dispcal` console's "6) Measure and set ambient for viewing condition adjustment" menu option, then proceed to darken the room and take the actual patch measurements as normal. A reading taken while the room was still dark/dim is not valid - one such stray reading came in at 21 lux, far below two independent readings of this room's real daytime ambient (100 and 105 lux, a week+ apart), and was discarded rather than used.
+
+Comparison on the LG 27GP950-B (hardware settings unchanged between runs): a run with `-a105.0` vs. an otherwise-identical run with the flag omitted produced substantially different curves (e.g. input 0.40 mapped to output ~0.33 with the ambient adjustment vs. ~0.40 without - the non-adjusted run reads visibly brighter in mid/shadow tones). The ambient-adjusted run also verified with better average/max neutral (grayscale) error and a higher realized contrast ratio, at the cost of marginally larger (still sub-perceptible) brightness and white point error. Caveat: the non-adjusted comparison run had a leftover ICC profile applied during measurement rather than a reset/linear VCGT, so the size of that gap isn't fully clean - but the curve-reshaping mechanism itself is confirmed directly from the `dispcal` command line and calibration curve data regardless of that confound.
+
+Always confirm the ICC profile is unassigned and the video card gamma table is reset to linear (see Prep) before *every* calibration run, including retries - not just the first-ever setup pass on a given display.
+
+Three runs on the LG 27GP950-B, hardware settings unchanged throughout:
+
+| Metric | `-a105` | no `-a` | `-a500` |
+|---|---|---|---|
+| Viewing conditions power | 1.222 | - | 0.968 |
+| Brightness error | 0.59 cd/m2 | 0.30 cd/m2 | 0.38 cd/m2 |
+| White point error | 0.18 dE | 0.16 dE | 0.55 dE |
+| Max neutral error | 1.24 dE | 1.44 dE | 1.50 dE |
+| Average neutral error | 0.58 dE | 0.75 dE | 0.82 dE |
+| White drift (verify) | 0.98 DE | 0.49 DE | 0.63 DE |
+| Realized contrast ratio (report) | 836:1 | 594:1 | 516:1 |
+| Measured black level (report) | 0.1444 cd/m2 | 0.2026 cd/m2 | 0.2332 cd/m2 |
+
+`-a105` remains the best result: best contrast ratio by a wide margin and best average/max neutral error, at the cost of a still-imperceptible brightness/white point error. The `-a500` run is the worst result of the three on nearly every metric (white point error alone is 3x worse than either other run), because 500 lux doesn't correspond to any real measurement of this room - it was a typed/leftover field value, not a fresh reading, and roughly 5x the two independently confirmed readings of this room's actual daytime ambient (100 and 105 lux). Lesson: a wrong ambient value is worse than no ambient adjustment at all - always confirm the lux figure being fed to `-a` against a real, fresh measurement of the room before starting the run, don't trust a value already sitting in the field.
+
 ### Alternative path: sRGB (clamped) - for the record, not actively maintained
 
 - Same calibration procedure (D65, gamma 2.2, 120 nits, matrix-only, RGB OLED CCSS, DisplayCAL black-level contrast test), just with OSD Pro Mode set to sRGB instead of User.

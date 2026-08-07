@@ -524,7 +524,7 @@ Working VRR flickering mitigations for *MSI MPG 321URX*
   - Automatic Standby: 8H
   - Buzzer: Off
 
-*LG 27GP950-B* was calibrated for *Gamer 1* Profile and *Mode 2* Gamma targeting 120 cd/m². Measurement gave Brightness 9 and RGB 50 49 47. Software calibration is stored in the ICC profile `27gp950-b.icm`.
+*LG 27GP950-B* was calibrated for *Gamer 1* Profile and *Mode 2* Gamma targeting 120 cd/m² with the measured ambient light level adjustment 100 Lux. Measurement gave Brightness 9 and RGB 50 49 47. Software calibration is stored in the ICC profile `27gp950-b.icm`.
 
 *LG 27UL850-W* settings
 
@@ -549,7 +549,7 @@ Working VRR flickering mitigations for *MSI MPG 321URX*
   - OSD Size: Large
   - Deep Sleep Mode: Off
 
-*LG 27UL850-W* was calibrated for *Custom* Profile and *Mode 2* Gamma targeting 120 cd/m². Measurement gave Brightness 18 and RGB 47 46 50. Software calibration is stored in the ICC profile `27ul850-w.icm`.
+*LG 27UL850-W* was calibrated for *Custom* Profile and *Mode 2* Gamma targeting 120 cd/m² with the measured ambient light level adjustment 100 Lux. Measurement gave Brightness 18 and RGB 47 46 50. Software calibration is stored in the ICC profile `27ul850-w.icm`.
 
 *Sharp SHP14FA* was calibrated targeting 80 cd/m², roughly 25% brightness. Software calibration is stored in the ICC profile `shp14fa.icm`.
 
@@ -606,6 +606,7 @@ Prefer spectral with finer resolution and i1 Pro 3 or 2 reference instrument, in
   - Leave *Black level* at *As measured*
   - Leave *Tone curve* at *Gamma 2.2*
   - Set *Black output offset* to *0 %*
+  - Set *Ambient light level adjustment* to the measured value
   - Set *Black point correction* to *0 %* on OLED and *100 %* on LCD
 4. Setup *Profiling* tab
   - Set *Profile type* to *Curves + matrix* on OLED and *XYZ LUT + matrix* on LCD
