@@ -504,6 +504,8 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 
 *MSI MPG 321URX* was calibrated for *User* Pro Mode targeting 120 cd/m². Measurement gave Brightness 35 and RGB 96 99 99. Software calibration is stored in the ICC profile `mpg321urx-sdr.icm` for SDR and in `mpg321urx-hdr.icc` for HDR.
 
+> Verified: brightness error 0.42 cd/m², white point error 0.22 ΔE, average neutral error 0.62 ΔE, max neutral error 1.55 ΔE.
+
 Working VRR flickering mitigations for *MSI MPG 321URX*
 
 - Decrease refresh rate to 120 Hz and try to lock 120 FPS
@@ -524,7 +526,7 @@ Working VRR flickering mitigations for *MSI MPG 321URX*
   - Automatic Standby: 8H
   - Buzzer: Off
 
-*LG 27GP950-B* was calibrated for *Gamer 1* Profile and *Mode 2* Gamma targeting 120 cd/m² with the measured ambient light level adjustment 100 Lux. Measurement gave Brightness 9 and RGB 50 49 47. Software calibration is stored in the ICC profile `27gp950-b.icm`.
+*LG 27GP950-B* was calibrated for *Gamer 1* Profile and *Mode 2* Gamma targeting 120 cd/m². Measurement gave Brightness 9 and RGB 50 49 47. Software calibration is stored in the ICC profile `27gp950-b.icm`.
 
 *LG 27UL850-W* settings
 
@@ -549,7 +551,7 @@ Working VRR flickering mitigations for *MSI MPG 321URX*
   - OSD Size: Large
   - Deep Sleep Mode: Off
 
-*LG 27UL850-W* was calibrated for *Custom* Profile and *Mode 2* Gamma targeting 120 cd/m² with the measured ambient light level adjustment 100 Lux. Measurement gave Brightness 18 and RGB 47 46 50. Software calibration is stored in the ICC profile `27ul850-w.icm`.
+*LG 27UL850-W* was calibrated for *Custom* Profile and *Mode 2* Gamma targeting 120 cd/m². Measurement gave Brightness 18 and RGB 47 46 50. Software calibration is stored in the ICC profile `27ul850-w.icm`.
 
 *Sharp SHP14FA* was calibrated targeting 80 cd/m², roughly 25% brightness. Software calibration is stored in the ICC profile `shp14fa.icm`.
 
@@ -563,11 +565,14 @@ Links
 - Darken the room for the calibration irrelevant of the target lighting conditions
 - Update monitor firmware and GPU drivers
 - Reset the monitor settings and disable any post-processing or OLED care features
-- Ensure *Output Dynamic Range* is set to *Full* in NVIDIA App
 - Unassign any color profile and disable HDR in Windows
 - Let the display warm up for at least 30 minutes before the calibration
+- On NVIDIA, ensure *Output Dynamic Range* is set to *Full* in NVIDIA App
+- On Intel, ensure *Enhanced Power Saving*, *Panel Self Refresh* and *Lighting Aware Contrast Enhancement* are disabled in Intel Graphics Software
 
 > The Calibrite Display Plus HL's sensor loses accuracy near true black on OLED (reads close to 0 nits), which can show up as a large neutral error spike concentrated at the bottom few percent of the luminance range during verification. This is a known sensor limitation, not a failed calibration - white point, gamma, and overall brightness remain accurate.
+
+> DisplayCAL developer advised NOT to use *Ambient light level adjustment* as it causes unexpectedly steep gamma/contrast results even at modest Lux values.
 
 Install [DisplayCAL](https://displaycal.net/) and [ArgyllCMS](https://www.argyllcms.com/downloadwin.html)
 
@@ -594,26 +599,27 @@ Prefer spectral with finer resolution and i1 Pro 3 or 2 reference instrument, in
 #### SDR
 
 1. In DisplayCAL, enable Options -> Show advanced options
-2. Setup *Display & instrument* tab
+2. Start from *Default (Gamma 2.2)* settings
+3. Setup *Display & instrument* tab
   - Select *i1 DisplayPro* instrument
   - Set *Mode* to *Refresh (generic)* on OLED and *LCD (generic)* on LCD (overwritten by the correction file property `DISPLAY_TYPE_REFRESH`)
   - Enable *White level drift compensation*
   - Select the *Correction* file obtained above
-3. Setup *Calibration* tab
-  - Enable *Interactive display adjustment*
+4. Setup *Calibration* tab
+  - Leave *Interactive display adjustment* enabled (can't set RGB on laptops)
   - Set *Whitepoint* to *Color temperature* of *6500 K*
   - Set *White level* to *Custom* and enter target brightness, e.g. *120 cd/m²*
   - Leave *Black level* at *As measured*
   - Leave *Tone curve* at *Gamma 2.2*
   - Set *Black output offset* to *0 %*
-  - Set *Ambient light level adjustment* to the measured value
+  - Leave *Ambient light level adjustment* disabled (see above)
   - Set *Black point correction* to *0 %* on OLED and *100 %* on LCD
-4. Setup *Profiling* tab
+5. Setup *Profiling* tab
   - Set *Profile type* to *Curves + matrix* on OLED and *XYZ LUT + matrix* on LCD
-  - Set *Profile quality* to *Medium* for *Curves + matrix* and *High* for *XYZ LUT + matrix*
-  - Disable *Black point compensation* on OLED and enable on LCD
+  - Disable *Black point compensation* on OLED and enable it on LCD
+  - Set *Profile quality* to *High*
   - Leave *Test chart* at *Auto-optimized*
-5. Run *Calibrate & profile*. During the measurement, adjust the monitor RGB levels and brightness to to match the desired whitepoint, e.g. 120 cd/m². The created ICC profile should be used with the resulting hardware settings.
+6. Run *Calibrate & profile*. During the measurement, adjust the monitor RGB levels and brightness to to match the desired whitepoint, e.g. 120 cd/m². The created ICC profile should be used with the resulting hardware settings.
 
 #### HDR
 

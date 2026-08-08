@@ -141,7 +141,7 @@ Run 5 (2026-08-07 22:38, storage folder `...F-S 3xCurve+MTX`, Profiling quality 
 
 ### Ambient light level adjustment (viewing conditions)
 
-Separate from black point/black output offset. DisplayCAL's *Ambient light level* field (Calibration tab, `dispcal -A <lux>`) reshapes the tone curve to compensate for the actual room brightness the display is viewed in - distinct from and independent of the *Whitepoint* chromaticity setting, which stays fixed at *Color temperature 6500K, Neutral* regardless. Do not point the whitepoint target at the ambient reading's color: room lighting here is a variable, non-neutral mix of daylight and indoor light, and chasing it away from D65 would undermine every color-managed app's assumption of a standard reference white for no real benefit.
+Separate from black point/black output offset. DisplayCAL's *Ambient light level* field (Calibration tab, `dispcal -a <lux>`, lowercase - not `-A`, an unrelated black-point blend-rate flag) reshapes the tone curve to compensate for the actual room brightness the display is viewed in - distinct from and independent of the *Whitepoint* chromaticity setting, which stays fixed at *Color temperature 6500K, Neutral* regardless. Do not point the whitepoint target at the ambient reading's color: room lighting here is a variable, non-neutral mix of daylight and indoor light, and chasing it away from D65 would undermine every color-managed app's assumption of a standard reference white for no real benefit.
 
 Measure ambient under the room's actual normal-use lighting, not the darkened room used for the calibration patches themselves - the two are unrelated requirements. Either use DisplayCAL's "Measure" button next to the field (instrument flipped to its ambient/diffuser mode, held beside the screen facing outward, not at the panel) before darkening the room, or the `dispcal` console's "6) Measure and set ambient for viewing condition adjustment" menu option, then proceed to darken the room and take the actual patch measurements as normal. A reading taken while the room was still dark/dim is not valid - one such stray reading came in at 21 lux, far below two independent readings of this room's real daytime ambient (100 and 105 lux, a week+ apart), and was discarded rather than used.
 
@@ -163,6 +163,20 @@ Three runs on the LG 27GP950-B, hardware settings unchanged throughout:
 | Measured black level (report) | 0.1444 cd/m2 | 0.2026 cd/m2 | 0.2332 cd/m2 |
 
 `-a105` remains the best result: best contrast ratio by a wide margin and best average/max neutral error, at the cost of a still-imperceptible brightness/white point error. The `-a500` run is the worst result of the three on nearly every metric (white point error alone is 3x worse than either other run), because 500 lux doesn't correspond to any real measurement of this room - it was a typed/leftover field value, not a fresh reading, and roughly 5x the two independently confirmed readings of this room's actual daytime ambient (100 and 105 lux). Lesson: a wrong ambient value is worse than no ambient adjustment at all - always confirm the lux figure being fed to `-a` against a real, fresh measurement of the room before starting the run, don't trust a value already sitting in the field.
+
+### Known issues - treat this feature with suspicion, not just caution
+
+A separate incident on the MSI 321URX: the UI-displayed lux value did not match what was actually passed to Argyll, off by roughly a factor of 5x, and produced a bad calibration. No independently documented bug matching that exact symptom was found, but several separate, real problems with this feature were - together they're reason enough to distrust it by default rather than treat the LG result above as settled proof it's safe:
+
+- DisplayCAL's own developer (Florian Höch) has repeatedly advised leaving this disabled unless there's a specific need - multiple forum threads report unexpectedly steep gamma/contrast results even at modest lux values, described by the dev himself as "screwball."
+- Colorimeter-measured ambient lux can be wildly wrong independent of any UI bug - one report found a colorimeter's own ambient reading roughly 36x off from a reference spectrometer. This alone could produce a bad calibration that looks like a UI/CLI mismatch without actually being one.
+- A confirmed code defect exists in DisplayCAL's "Measure ambient" workflow (a crash bug on at least one fork/version) - a real, distinct issue in that code path, separate from any value-mismatch concern.
+
+Practical guidance going forward:
+
+- Don't use this by default. Only use it with a real, dedicated lux meter reading (not the instrument's own "measure ambient" mode, given the reference-spectrometer discrepancy above) and a specific reason viewing-condition adjustment matters.
+- If used, always check DisplayCAL's log for the actual generated `dispcal` command line and confirm the `-a` value matches intent before running the full session - do not trust the UI field alone, given the MSI incident above.
+- The LG comparison table above still stands as a real, measured result for that specific session, but should not be read as proof the feature is generally safe - it's one data point from one session, sitting alongside a documented bad outcome from another.
 
 ### Alternative path: sRGB (clamped) - for the record, not actively maintained
 
@@ -203,18 +217,31 @@ Session 2 (2026-08-07 23:11, storage folder `...F-S XYZLUT+MTX`):
 
 No clean winner between the two - session 2 has a much better white point error (0.15 vs 0.84 dE) and brightness error, but a worse average neutral error and worse white drift than session 1. Unlike the MSI comparisons, this isn't just noise deciding a winner between otherwise-good runs - both sessions share a bigger, unresolved problem: **white drift of 4.1-4.8 deltaE on both sessions**, an order of magnitude higher than anything seen on the MSI (0.2-0.7 dE) or LG monitors. Neither profile should be treated as a trustworthy final result yet.
 
-### Root cause: Intel Display Power Saving Technology (DPST)
+### Root cause: Intel Display Power Saving Technologies (DPST, PSR, LACE)
 
-Windows' own ambient-light-sensor adaptive brightness was already confirmed disabled and is not the cause. The actual likely cause is **Intel DPST**, a separate driver/firmware-level feature on Intel integrated GPUs (Iris Xe / 11th gen "Tiger Lake", present in this laptop) that analyzes on-screen content per frame and dynamically adjusts backlight and gamma to save power - independent of and not controlled by the Windows ambient light toggle. It ships enabled by default. Because it reacts to displayed content, it would actively fight a colorimeter measurement pass that shows a constantly-changing sequence of color patches, producing exactly this kind of persistent drift during both the native-response baseline and the final verification pass. This is a documented, standard gotcha in laptop calibration guides, not a novel guess.
+Windows' own ambient-light-sensor adaptive brightness was already confirmed disabled and is not the cause. There is a whole family of Intel driver/firmware-level features, independent of and not controlled by that Windows toggle, that are documented causes of exactly this kind of drift on laptops - notably including this same laptop model (a DisplayCAL forum thread titled "Inconsistent calibration results (Dell XPS 13 & Spyder 5)" independently reports the identical problem):
 
-Disable before recalibrating:
+- **DPST** (Display Power Saving Technology, labelled *Enhanced power saving* on this driver version, already found and disabled): analyzes on-screen content per frame and dynamically adjusts backlight and gamma to save power. Ships enabled by default. Because it reacts to displayed content, it actively fights a colorimeter measurement pass showing a constantly-changing sequence of color patches.
+- **LACE** (Lighting Aware Contrast Enhancement): a genuine local tone-mapping algorithm, not just backlight dimming - dynamically remaps luminance/contrast/gamma using the laptop's ambient light sensor. The colorimeter puck sitting on/near the screen can itself interfere with the ambient sensor reading, and any room-light drift during a multi-minute measurement pass can trigger it to reapply different curves mid-session, corrupting patch-to-patch consistency. A strong suspect, arguably bigger than DPST. Disable it too.
+- **PSR** (Panel Self Refresh): a link/timing power-saving feature (the panel caches the last frame so the source can idle the link on static content) - does not alter color values directly, but Intel's own i915 driver has acknowledged bugs around PSR-exit synchronization causing stale or partially-updated frames to display. A colorimeter could sample a stale/transitional frame rather than the intended one. Disable as a precaution against sync glitches even though it's not a color-value mechanism.
 
-1. Intel Graphics Command Center -> Settings -> System -> Power -> disable *Display Power Saving* / *Adaptive Brightness* (exact label varies by driver version).
+Disable all three before recalibrating:
+
+1. Intel Graphics Command Center -> Settings -> System -> Power -> disable *Enhanced power saving* / *Display Power Saving* / *Adaptive Brightness* (DPST, exact label varies by driver version), *Lighting Aware Contrast Enhancement*, and *Panel Self Refresh*.
 2. Older Intel Graphics Control Panel -> Power -> uncheck *Display Power-Saving Technology*.
-3. If the toggle doesn't stick (a known Intel driver issue): registry fallback, `FeatureTestControl` DWORD under `HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\000x`, set bit 5 (OR with 0x10). The open-source tool [dpst-control](https://github.com/orev/dpst-control) automates this safely.
+3. If a toggle doesn't stick (a known Intel driver issue, reported for DPST specifically): registry fallback, `FeatureTestControl` DWORD under `HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\000x`, set bit 5 (OR with 0x10). The open-source tool [dpst-control](https://github.com/orev/dpst-control) automates this safely.
 4. Also check the BIOS for a related *Dynamic Backlight Control* setting some OEMs expose separately.
 
-Recalibrate only after confirming DPST is off - neither existing profile (`shp14fa.icm` variants) should be assumed final until a session with white drift back down in the sub-1 dE range like the desktop monitors confirms the fix actually worked.
+Recalibrate only after confirming all three are off - neither existing profile (`shp14fa.icm` variants) should be assumed final until a session with white drift back down in the sub-1 dE range like the desktop monitors confirms the fix actually worked.
+
+### Windows Intel driver RGB setting - not used, on purpose
+
+Intel Graphics Command Center also exposes an RGB adjustment. Not used for this panel, for two reasons:
+
+- Unlike external monitor OSD RGB gain (true hardware/firmware, panel-side, OS-independent), this is a Windows/Intel-driver-side software adjustment applied to the outgoing signal before the fixed physical panel - functionally similar in kind to what DisplayCAL's own VCGT already does, not a true hardware pre-correction. It doesn't carry the bit-depth-preservation benefit that made doing OSD RGB gain first worthwhile on the MSI/LG monitors.
+- It's stored in Windows' own driver configuration, not in any shared hardware memory - it will not exist in a Linux boot on the same hardware, which uses a completely separate driver stack (i915/Mesa) with no visibility into Windows' settings. No cross-OS persistence benefit.
+
+Left at neutral/default; DisplayCAL's Interactive display adjustment + VCGT handles white balance correction entirely in software instead, the same as any panel without true hardware OSD controls.
 
 ## Sources / notes
 
