@@ -1,0 +1,842 @@
+2026-08-14 13:14:24,612 DisplayCAL: luminance: None
+2026-08-14 13:14:24,615 --------------------------------------------------------------------------------
+2026-08-14 13:14:24,615 Working directory:
+2026-08-14 13:14:24,615   C:\
+2026-08-14 13:14:24,615    Users\
+2026-08-14 13:14:24,615     Greg\
+2026-08-14 13:14:24,615      AppData\
+2026-08-14 13:14:24,615       Local\
+2026-08-14 13:14:24,615        Temp\
+2026-08-14 13:14:24,615         DisplayCAL-pqcx1esi\
+2026-08-14 13:14:24,615 
+2026-08-14 13:14:24,615 Command line:
+2026-08-14 13:14:24,615   D:\Apps\ArgyllCMS\bin\dispcal.exe
+2026-08-14 13:14:24,615     -v2
+2026-08-14 13:14:24,615     -d2
+2026-08-14 13:14:24,615     -c1
+2026-08-14 13:14:24,615     -yr
+2026-08-14 13:14:24,615     "-P0.5,0.5,1.0"
+2026-08-14 13:14:24,615     -X
+2026-08-14 13:14:24,615     "LG 27UL850W by 4KM (i1 Pro 2).ccss"
+2026-08-14 13:14:24,615     -ql
+2026-08-14 13:14:24,615     -t6500
+2026-08-14 13:14:24,615     -g2.2
+2026-08-14 13:14:24,615     -f1.0
+2026-08-14 13:14:24,615     -A4.0
+2026-08-14 13:14:24,615     "HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX"
+2026-08-14 13:14:24,615 
+2026-08-14 13:14:24,923 DisplayCAL: Starting interaction with subprocess
+2026-08-14 13:14:24,923 Setting up the instrument
+2026-08-14 13:14:24,923 Setting up the instrument
+2026-08-14 13:14:26,011 Product Name:      i1Display3
+2026-08-14 13:14:26,011 Product Name:      i1Display3
+2026-08-14 13:14:26,011 Serial Number:     C8-25.D-02.043739.10
+2026-08-14 13:14:26,011 Serial Number:     C8-25.D-02.043739.10
+2026-08-14 13:14:26,011 Hardware Rev.:     D-02
+2026-08-14 13:14:26,011 Hardware Rev.:     D-02
+2026-08-14 13:14:26,011 Firmware Version:  v2.30
+2026-08-14 13:14:26,011 Firmware Version:  v2.30
+2026-08-14 13:14:26,011 Firmware Date:     08Apr21
+2026-08-14 13:14:26,011 Firmware Date:     08Apr21
+2026-08-14 13:14:26,328 Place instrument on test window.
+2026-08-14 13:14:26,328 Place instrument on test window.
+2026-08-14 13:14:26,329 DisplayCAL: Detected instrument placement (screen/spot) message
+2026-08-14 13:14:26,330 DisplayCAL: Waiting for send buffer
+2026-08-14 13:14:27,853 DisplayCAL: Skipping place instrument on screen message...
+2026-08-14 13:14:27,890 DisplayCAL: Send buffer received:
+2026-08-14 13:14:27,890 DisplayCAL: Sending buffer:
+2026-08-14 13:14:27,941 Hit Esc or Q to give up, any other key to continue:
+2026-08-14 13:14:27,941 Hit Esc or Q to give up, any other key to continue:
+2026-08-14 13:14:27,941 Display type is 'r'
+2026-08-14 13:14:27,941 Display type is 'r'
+2026-08-14 13:14:27,941 Target white = 6500.000000 degrees kelvin Daylight spectrum
+2026-08-14 13:14:27,941 Target white = 6500.000000 degrees kelvin Daylight spectrum
+2026-08-14 13:14:27,941 Target white brightness = native brightness
+2026-08-14 13:14:27,941 Target white brightness = native brightness
+2026-08-14 13:14:27,941 Target black brightness = native brightness
+2026-08-14 13:14:27,941 Target black brightness = native brightness
+2026-08-14 13:14:27,944 Target advertised gamma = 2.200000
+2026-08-14 13:14:27,944 Target advertised gamma = 2.200000
+2026-08-14 13:14:27,945 Display adjustment menu:
+2026-08-14 13:14:27,945 Display adjustment menu:
+2026-08-14 13:14:27,945 Press 1 .. 7
+2026-08-14 13:14:27,945 Press 1 .. 7
+2026-08-14 13:14:27,945 1) Black level (CRT: Offset/Brightness)
+2026-08-14 13:14:27,945 1) Black level (CRT: Offset/Brightness)
+2026-08-14 13:14:27,945 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2026-08-14 13:14:27,945 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2026-08-14 13:14:27,945 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2026-08-14 13:14:27,945 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2026-08-14 13:14:27,945 4) Black point (R,G,B, Offset/Brightness)
+2026-08-14 13:14:27,945 4) Black point (R,G,B, Offset/Brightness)
+2026-08-14 13:14:27,945 5) Check all
+2026-08-14 13:14:27,945 5) Check all
+2026-08-14 13:14:27,945 6) Measure and set ambient for viewing condition adjustment
+2026-08-14 13:14:27,945 6) Measure and set ambient for viewing condition adjustment
+2026-08-14 13:14:27,945 7) Continue on to calibration
+2026-08-14 13:14:27,945 7) Continue on to calibration
+2026-08-14 13:14:27,945 8) Exit
+2026-08-14 13:14:27,945 8) Exit
+2026-08-14 13:14:27,947 DisplayCAL: Waiting for send buffer
+2026-08-14 13:14:37,817 DisplayCAL: Send buffer received: 2
+2026-08-14 13:14:37,817 DisplayCAL: Sending buffer: 2
+2026-08-14 13:14:37,867 Doing some initial measurements
+2026-08-14 13:14:37,867 Doing some initial measurements
+2026-08-14 13:14:40,493 Measured display update delay of 8 msec, using delay of 110 msec & 0 msec inst reaction
+2026-08-14 13:14:40,493 Measured display update delay of 8 msec, using delay of 110 msec & 0 msec inst reaction
+2026-08-14 13:14:49,514 Red   = XYZ 53.153 27.244  1.527
+2026-08-14 13:14:49,514 Red   = XYZ 53.153 27.244  1.527
+2026-08-14 13:14:49,514 Green = XYZ 35.921 82.193  8.629
+2026-08-14 13:14:49,514 Green = XYZ 35.921 82.193  8.629
+2026-08-14 13:14:49,514 Blue  = XYZ 22.810  8.696 116.956
+2026-08-14 13:14:49,514 Blue  = XYZ 22.810  8.696 116.956
+2026-08-14 13:14:50,145 White = XYZ 112.085 118.268 127.692
+2026-08-14 13:14:50,145 White = XYZ 112.085 118.268 127.692
+2026-08-14 13:14:50,145 Adjust R,G & B gain to get target x,y. Press space when done.
+2026-08-14 13:14:50,145 Adjust R,G & B gain to get target x,y. Press space when done.
+2026-08-14 13:14:50,145    Target Br 118.27, x 0.3128 , y 0.3292
+2026-08-14 13:14:50,145    Target Br 118.27, x 0.3128 , y 0.3292
+2026-08-14 13:18:25,807 DisplayCAL: Sending buffer:
+2026-08-14 13:18:25,938 \ Current Br 118.78, x 0.3136-, y 0.3298-  DE  0.4  R-- G-  B+
+2026-08-14 13:18:25,938 \ Current Br 118.78, x 0.3136-, y 0.3298-  DE  0.4  R-- G-  B+
+2026-08-14 13:18:25,938 Press 1 .. 7
+2026-08-14 13:18:25,938 Press 1 .. 7
+2026-08-14 13:18:25,938 1) Black level (CRT: Offset/Brightness)
+2026-08-14 13:18:25,938 1) Black level (CRT: Offset/Brightness)
+2026-08-14 13:18:25,938 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2026-08-14 13:18:25,938 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2026-08-14 13:18:25,938 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2026-08-14 13:18:25,938 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2026-08-14 13:18:25,938 4) Black point (R,G,B, Offset/Brightness)
+2026-08-14 13:18:25,938 4) Black point (R,G,B, Offset/Brightness)
+2026-08-14 13:18:25,938 5) Check all
+2026-08-14 13:18:25,938 5) Check all
+2026-08-14 13:18:25,938 6) Measure and set ambient for viewing condition adjustment
+2026-08-14 13:18:25,938 6) Measure and set ambient for viewing condition adjustment
+2026-08-14 13:18:25,938 7) Continue on to calibration
+2026-08-14 13:18:25,938 7) Continue on to calibration
+2026-08-14 13:18:25,938 8) Exit
+2026-08-14 13:18:25,938 8) Exit
+2026-08-14 13:18:25,942 DisplayCAL: Waiting for send buffer
+2026-08-14 13:18:31,177 DisplayCAL: Send buffer received: 7
+2026-08-14 13:18:31,177 DisplayCAL: Sending buffer: 7
+2026-08-14 13:18:31,227 Commencing display calibration
+2026-08-14 13:18:31,227 Commencing display calibration
+2026-08-14 13:19:09,269 Patch 9 of 9
+2026-08-14 13:19:09,269 Patch 9 of 9
+2026-08-14 13:19:09,269 Black = XYZ 0.1402 0.1387 0.2589
+2026-08-14 13:19:09,269 Black = XYZ 0.1402 0.1387 0.2589
+2026-08-14 13:19:09,269 Red   = XYZ 54.038 27.703  1.573
+2026-08-14 13:19:09,269 Red   = XYZ 54.038 27.703  1.573
+2026-08-14 13:19:09,269 Green = XYZ 35.959 82.286  8.658
+2026-08-14 13:19:09,269 Green = XYZ 35.959 82.286  8.658
+2026-08-14 13:19:09,269 Blue  = XYZ 22.940  8.729 117.630
+2026-08-14 13:19:09,269 Blue  = XYZ 22.940  8.729 117.630
+2026-08-14 13:19:09,269 White = XYZ 113.037 118.816 128.424
+2026-08-14 13:19:09,269 White = XYZ 113.037 118.816 128.424
+2026-08-14 13:19:09,269 Automatic black point hue correction level = 0.35
+2026-08-14 13:19:09,269 Automatic black point hue correction level = 0.35
+2026-08-14 13:23:05,881 Patch 48 of 48
+2026-08-14 13:23:05,881 Patch 48 of 48
+2026-08-14 13:23:05,938 Initial native brightness target = 118.816474 cd/m^2
+2026-08-14 13:23:05,938 Initial native brightness target = 118.816474 cd/m^2
+2026-08-14 13:23:05,938 Had to scale brightness from 118.816474 to 118.027735 to fit within gamut,
+2026-08-14 13:23:05,938 Had to scale brightness from 118.816474 to 118.027735 to fit within gamut,
+2026-08-14 13:23:05,938 corresponding to aprox. RGB 0.992172 0.997304 1.000000
+2026-08-14 13:23:05,938 corresponding to aprox. RGB 0.992172 0.997304 1.000000
+2026-08-14 13:23:05,938 Target white value is XYZ 112.146617 118.027735 128.358299 [xy 0.312793 0.329197]
+2026-08-14 13:23:05,938 Target white value is XYZ 112.146617 118.027735 128.358299 [xy 0.312793 0.329197]
+2026-08-14 13:23:05,938 Adjusted target black XYZ 0.1373 0.1387 0.2212, Lab 1.061 0.192 -0.854
+2026-08-14 13:23:05,938 Adjusted target black XYZ 0.1373 0.1387 0.2212, Lab 1.061 0.192 -0.854
+2026-08-14 13:23:05,938 Target black after min adjust: XYZ 0.1607 0.1623 0.2589, Lab 1.242 0.224 -0.999
+2026-08-14 13:23:05,938 Target black after min adjust: XYZ 0.1607 0.1623 0.2589, Lab 1.242 0.224 -0.999
+2026-08-14 13:23:05,938 Gamma curve input offset = 0.000000, output offset = 0.001375, power = 2.207160
+2026-08-14 13:23:05,938 Gamma curve input offset = 0.000000, output offset = 0.001375, power = 2.207160
+2026-08-14 13:23:05,938 Total Iteration 2, Final Samples = 32 Final Repeat threshold = 0.900000
+2026-08-14 13:23:05,938 Total Iteration 2, Final Samples = 32 Final Repeat threshold = 0.900000
+2026-08-14 13:23:05,938 Creating initial calibration curves...
+2026-08-14 13:23:05,938 Creating initial calibration curves...
+2026-08-14 13:23:05,963 Doing iteration 1/2 with 16 sample points and repeat threshold of 1.272792 DE
+2026-08-14 13:23:05,963 Doing iteration 1/2 with 16 sample points and repeat threshold of 1.272792 DE
+2026-08-14 13:23:06,341 Patch 1 of 16 DE 0.508693, W.DE 0.508693, OK ( < 1.272792)
+2026-08-14 13:23:06,341 Patch 1 of 16 DE 0.508693, W.DE 0.508693, OK ( < 1.272792)
+2026-08-14 13:23:06,803 Patch 2 of 16 DE 2.395871, W.DE 2.395871, Repeat
+2026-08-14 13:23:06,803 Patch 2 of 16 DE 2.395871, W.DE 2.395871, Repeat
+2026-08-14 13:23:07,267 Patch 2 of 16 DE 0.305405, W.DE 0.305405, OK ( < 1.272792)
+2026-08-14 13:23:07,267 Patch 2 of 16 DE 0.305405, W.DE 0.305405, OK ( < 1.272792)
+2026-08-14 13:23:07,733 Patch 3 of 16 DE 1.815952, W.DE 1.815952, Repeat
+2026-08-14 13:23:07,733 Patch 3 of 16 DE 1.815952, W.DE 1.815952, Repeat
+2026-08-14 13:23:08,177 Patch 3 of 16 DE 0.388287, W.DE 0.388287, OK ( < 1.272792)
+2026-08-14 13:23:08,177 Patch 3 of 16 DE 0.388287, W.DE 0.388287, OK ( < 1.272792)
+2026-08-14 13:23:08,627 Patch 4 of 16 DE 1.790901, W.DE 1.790901, Repeat
+2026-08-14 13:23:08,627 Patch 4 of 16 DE 1.790901, W.DE 1.790901, Repeat
+2026-08-14 13:23:09,040 Patch 4 of 16 DE 0.161464, W.DE 0.161464, OK ( < 1.272792)
+2026-08-14 13:23:09,040 Patch 4 of 16 DE 0.161464, W.DE 0.161464, OK ( < 1.272792)
+2026-08-14 13:23:09,487 Patch 5 of 16 DE 1.620782, W.DE 1.620782, Repeat
+2026-08-14 13:23:09,487 Patch 5 of 16 DE 1.620782, W.DE 1.620782, Repeat
+2026-08-14 13:23:09,902 Patch 5 of 16 DE 0.197645, W.DE 0.197645, OK ( < 1.272792)
+2026-08-14 13:23:09,902 Patch 5 of 16 DE 0.197645, W.DE 0.197645, OK ( < 1.272792)
+2026-08-14 13:23:10,590 Patch 6 of 16 DE 0.905838, W.DE 0.905838, OK ( < 1.272792)
+2026-08-14 13:23:10,590 Patch 6 of 16 DE 0.905838, W.DE 0.905838, OK ( < 1.272792)
+2026-08-14 13:23:11,375 Patch 7 of 16 DE 1.366218, W.DE 1.366218, Repeat
+2026-08-14 13:23:11,375 Patch 7 of 16 DE 1.366218, W.DE 1.366218, Repeat
+2026-08-14 13:23:12,131 Patch 7 of 16 DE 0.372503, W.DE 0.372503, OK ( < 1.272792)
+2026-08-14 13:23:12,131 Patch 7 of 16 DE 0.372503, W.DE 0.372503, OK ( < 1.272792)
+2026-08-14 13:23:13,084 Patch 8 of 16 DE 1.141714, W.DE 1.141714, OK ( < 1.272792)
+2026-08-14 13:23:13,085 Patch 8 of 16 DE 1.141714, W.DE 1.141714, OK ( < 1.272792)
+2026-08-14 13:23:14,354 Patch 9 of 16 DE 0.635837, W.DE 0.635837, OK ( < 1.272792)
+2026-08-14 13:23:14,354 Patch 9 of 16 DE 0.635837, W.DE 0.635837, OK ( < 1.272792)
+2026-08-14 13:23:16,224 Patch 10 of 16 DE 0.960911, W.DE 0.960911, OK ( < 1.272792)
+2026-08-14 13:23:16,224 Patch 10 of 16 DE 0.960911, W.DE 0.960911, OK ( < 1.272792)
+2026-08-14 13:23:19,594 Patch 11 of 16 DE 2.048419, W.DE 2.048419, Repeat
+2026-08-14 13:23:19,594 Patch 11 of 16 DE 2.048419, W.DE 2.048419, Repeat
+2026-08-14 13:23:22,692 Patch 11 of 16 DE 0.141271, W.DE 0.141271, OK ( < 1.272792)
+2026-08-14 13:23:22,692 Patch 11 of 16 DE 0.141271, W.DE 0.141271, OK ( < 1.272792)
+2026-08-14 13:23:29,195 Patch 12 of 16 DE 2.906261, W.DE 2.906261, Repeat
+2026-08-14 13:23:29,195 Patch 12 of 16 DE 2.906261, W.DE 2.906261, Repeat
+2026-08-14 13:23:35,608 Patch 12 of 16 DE 0.690637, W.DE 0.690637, OK ( < 1.272792)
+2026-08-14 13:23:35,608 Patch 12 of 16 DE 0.690637, W.DE 0.690637, OK ( < 1.272792)
+2026-08-14 13:23:42,235 Patch 13 of 16 DE 1.873561, W.DE 1.873561, Repeat
+2026-08-14 13:23:42,235 Patch 13 of 16 DE 1.873561, W.DE 1.873561, Repeat
+2026-08-14 13:23:48,877 Patch 13 of 16 DE 0.732915, W.DE 0.732915, OK ( < 1.272792)
+2026-08-14 13:23:48,877 Patch 13 of 16 DE 0.732915, W.DE 0.732915, OK ( < 1.272792)
+2026-08-14 13:23:55,542 Patch 14 of 16 DE 0.823339, W.DE 0.823339, OK ( < 1.272792)
+2026-08-14 13:23:55,542 Patch 14 of 16 DE 0.823339, W.DE 0.823339, OK ( < 1.272792)
+2026-08-14 13:24:02,271 Patch 15 of 16 DE 0.410416, W.DE 0.410416, OK ( < 1.272792)
+2026-08-14 13:24:02,271 Patch 15 of 16 DE 0.410416, W.DE 0.410416, OK ( < 1.272792)
+2026-08-14 13:24:08,916 Patch 16 of 16 DE 0.379887, W.DE 0.379887, OK ( < 1.272792)
+2026-08-14 13:24:08,916 Patch 16 of 16 DE 0.379887, W.DE 0.379887, OK ( < 1.272792)
+2026-08-14 13:24:08,916 Brightness error = 0.693352 cd/m^2 (is 118.721086, should be 118.027735)
+2026-08-14 13:24:08,916 Brightness error = 0.693352 cd/m^2 (is 118.721086, should be 118.027735)
+2026-08-14 13:24:08,916 White point error = 0.454495 deltaE
+2026-08-14 13:24:08,916 White point error = 0.454495 deltaE
+2026-08-14 13:24:08,916 Maximum neutral error (@ 0.365761) = 1.141714 deltaE
+2026-08-14 13:24:08,916 Maximum neutral error (@ 0.365761) = 1.141714 deltaE
+2026-08-14 13:24:08,916 Average neutral error = 0.547298 deltaE
+2026-08-14 13:24:08,916 Average neutral error = 0.547298 deltaE
+2026-08-14 13:24:08,916 Number of measurements taken = 24
+2026-08-14 13:24:08,916 Number of measurements taken = 24
+2026-08-14 13:24:08,916 Computing update to calibration curves...
+2026-08-14 13:24:08,916 Computing update to calibration curves...
+2026-08-14 13:24:08,925 Doing iteration 2/2 with 32 sample points and repeat threshold of 0.900000 DE
+2026-08-14 13:24:08,925 Doing iteration 2/2 with 32 sample points and repeat threshold of 0.900000 DE
+2026-08-14 13:24:09,551 Patch 1 of 32 DE 0.508693, W.DE 0.508693, W.peqDE 0.508693, OK ( < 0.900000)
+2026-08-14 13:24:09,551 Patch 1 of 32 DE 0.508693, W.DE 0.508693, W.peqDE 0.508693, OK ( < 0.900000)
+2026-08-14 13:24:09,997 Patch 2 of 32 DE 0.812936, W.DE 0.812936, W.peqDE 0.463771, OK ( < 0.900000)
+2026-08-14 13:24:09,997 Patch 2 of 32 DE 0.812936, W.DE 0.812936, W.peqDE 0.463771, OK ( < 0.900000)
+2026-08-14 13:24:10,444 Patch 3 of 32 DE 0.196819, W.DE 0.196819, W.peqDE 0.877806, OK ( < 0.900000)
+2026-08-14 13:24:10,444 Patch 3 of 32 DE 0.196819, W.DE 0.196819, W.peqDE 0.877806, OK ( < 0.900000)
+2026-08-14 13:24:10,877 Patch 4 of 32 DE 0.396931, W.DE 0.396931, W.peqDE 0.474801, OK ( < 0.900000)
+2026-08-14 13:24:10,877 Patch 4 of 32 DE 0.396931, W.DE 0.396931, W.peqDE 0.474801, OK ( < 0.900000)
+2026-08-14 13:24:11,309 Patch 5 of 32 DE 0.413205, W.DE 0.413205, W.peqDE 0.123651, OK ( < 0.900000)
+2026-08-14 13:24:11,309 Patch 5 of 32 DE 0.413205, W.DE 0.413205, W.peqDE 0.123651, OK ( < 0.900000)
+2026-08-14 13:24:11,741 Patch 6 of 32 DE 0.340223, W.DE 0.340223, W.peqDE 0.379296, OK ( < 0.900000)
+2026-08-14 13:24:11,741 Patch 6 of 32 DE 0.340223, W.DE 0.340223, W.peqDE 0.379296, OK ( < 0.900000)
+2026-08-14 13:24:12,186 Patch 7 of 32 DE 0.335719, W.DE 0.335719, W.peqDE 0.272204, OK ( < 0.900000)
+2026-08-14 13:24:12,186 Patch 7 of 32 DE 0.335719, W.DE 0.335719, W.peqDE 0.272204, OK ( < 0.900000)
+2026-08-14 13:24:12,622 Patch 8 of 32 DE 0.208364, W.DE 0.208364, W.peqDE 0.156962, OK ( < 0.900000)
+2026-08-14 13:24:12,623 Patch 8 of 32 DE 0.208364, W.DE 0.208364, W.peqDE 0.156962, OK ( < 0.900000)
+2026-08-14 13:24:13,053 Patch 9 of 32 DE 0.458849, W.DE 0.458849, W.peqDE 0.284451, OK ( < 0.900000)
+2026-08-14 13:24:13,053 Patch 9 of 32 DE 0.458849, W.DE 0.458849, W.peqDE 0.284451, OK ( < 0.900000)
+2026-08-14 13:24:13,484 Patch 10 of 32 DE 0.447563, W.DE 0.447563, W.peqDE 0.640242, OK ( < 0.900000)
+2026-08-14 13:24:13,484 Patch 10 of 32 DE 0.447563, W.DE 0.447563, W.peqDE 0.640242, OK ( < 0.900000)
+2026-08-14 13:24:14,145 Patch 11 of 32 DE 0.998149, W.DE 0.998149, peqDE 0.720208, Repeat
+2026-08-14 13:24:14,145 Patch 11 of 32 DE 0.998149, W.DE 0.998149, peqDE 0.720208, Repeat
+2026-08-14 13:24:14,762 Patch 11 of 32 DE 0.167794, W.DE 0.167794, W.peqDE 0.268463, OK ( < 0.900000)
+2026-08-14 13:24:14,762 Patch 11 of 32 DE 0.167794, W.DE 0.167794, W.peqDE 0.268463, OK ( < 0.900000)
+2026-08-14 13:24:15,473 Patch 12 of 32 DE 0.578374, W.DE 0.578374, W.peqDE 0.470517, OK ( < 0.900000)
+2026-08-14 13:24:15,473 Patch 12 of 32 DE 0.578374, W.DE 0.578374, W.peqDE 0.470517, OK ( < 0.900000)
+2026-08-14 13:24:16,229 Patch 13 of 32 DE 0.562486, W.DE 0.562486, W.peqDE 0.364016, OK ( < 0.900000)
+2026-08-14 13:24:16,229 Patch 13 of 32 DE 0.562486, W.DE 0.562486, W.peqDE 0.364016, OK ( < 0.900000)
+2026-08-14 13:24:17,050 Patch 14 of 32 DE 0.537862, W.DE 0.537862, W.peqDE 0.788587, OK ( < 0.900000)
+2026-08-14 13:24:17,050 Patch 14 of 32 DE 0.537862, W.DE 0.537862, W.peqDE 0.788587, OK ( < 0.900000)
+2026-08-14 13:24:17,953 Patch 15 of 32 DE 0.897304, W.DE 0.897304, peqDE 0.948906, Repeat
+2026-08-14 13:24:17,953 Patch 15 of 32 DE 0.897304, W.DE 0.897304, peqDE 0.948906, Repeat
+2026-08-14 13:24:18,831 Patch 15 of 32 DE 0.265338, W.DE 0.265338, W.peqDE 0.137640, OK ( < 0.900000)
+2026-08-14 13:24:18,831 Patch 15 of 32 DE 0.265338, W.DE 0.265338, W.peqDE 0.137640, OK ( < 0.900000)
+2026-08-14 13:24:19,838 Patch 16 of 32 DE 1.030222, W.DE 1.030222, peqDE 1.159362, Repeat
+2026-08-14 13:24:19,838 Patch 16 of 32 DE 1.030222, W.DE 1.030222, peqDE 1.159362, Repeat
+2026-08-14 13:24:20,830 Patch 16 of 32 DE 0.449576, W.DE 0.449576, W.peqDE 0.648366, OK ( < 0.900000)
+2026-08-14 13:24:20,830 Patch 16 of 32 DE 0.449576, W.DE 0.449576, W.peqDE 0.648366, OK ( < 0.900000)
+2026-08-14 13:24:21,972 Patch 17 of 32 DE 0.736957, W.DE 0.736957, W.peqDE 0.891225, OK ( < 0.900000)
+2026-08-14 13:24:21,972 Patch 17 of 32 DE 0.736957, W.DE 0.736957, W.peqDE 0.891225, OK ( < 0.900000)
+2026-08-14 13:24:23,318 Patch 18 of 32 DE 0.554510, W.DE 0.554510, W.peqDE 0.579594, OK ( < 0.900000)
+2026-08-14 13:24:23,318 Patch 18 of 32 DE 0.554510, W.DE 0.554510, W.peqDE 0.579594, OK ( < 0.900000)
+2026-08-14 13:24:24,951 Patch 19 of 32 DE 0.976824, W.DE 0.976824, peqDE 0.807610, Repeat
+2026-08-14 13:24:24,951 Patch 19 of 32 DE 0.976824, W.DE 0.976824, peqDE 0.807610, Repeat
+2026-08-14 13:24:26,548 Patch 19 of 32 DE 0.294106, W.DE 0.294106, W.peqDE 0.123626, OK ( < 0.900000)
+2026-08-14 13:24:26,548 Patch 19 of 32 DE 0.294106, W.DE 0.294106, W.peqDE 0.123626, OK ( < 0.900000)
+2026-08-14 13:24:28,575 Patch 20 of 32 DE 1.120961, W.DE 1.120961, peqDE 0.823297, Repeat
+2026-08-14 13:24:28,575 Patch 20 of 32 DE 1.120961, W.DE 1.120961, peqDE 0.823297, Repeat
+2026-08-14 13:24:30,569 Patch 20 of 32 DE 0.076095, W.DE 0.076095, W.peqDE 0.297071, OK ( < 0.900000)
+2026-08-14 13:24:30,569 Patch 20 of 32 DE 0.076095, W.DE 0.076095, W.peqDE 0.297071, OK ( < 0.900000)
+2026-08-14 13:24:33,125 Patch 21 of 32 DE 0.318302, W.DE 0.318302, W.peqDE 0.336389, OK ( < 0.900000)
+2026-08-14 13:24:33,125 Patch 21 of 32 DE 0.318302, W.DE 0.318302, W.peqDE 0.336389, OK ( < 0.900000)
+2026-08-14 13:24:36,560 Patch 22 of 32 DE 0.268299, W.DE 0.268299, W.peqDE 0.149180, OK ( < 0.900000)
+2026-08-14 13:24:36,560 Patch 22 of 32 DE 0.268299, W.DE 0.268299, W.peqDE 0.149180, OK ( < 0.900000)
+2026-08-14 13:24:41,419 Patch 23 of 32 DE 0.442555, W.DE 0.442555, W.peqDE 0.241931, OK ( < 0.900000)
+2026-08-14 13:24:41,419 Patch 23 of 32 DE 0.442555, W.DE 0.442555, W.peqDE 0.241931, OK ( < 0.900000)
+2026-08-14 13:24:47,899 Patch 24 of 32 DE 0.779905, W.DE 0.779905, W.peqDE 0.731300, OK ( < 0.900000)
+2026-08-14 13:24:47,899 Patch 24 of 32 DE 0.779905, W.DE 0.779905, W.peqDE 0.731300, OK ( < 0.900000)
+2026-08-14 13:24:54,401 Patch 25 of 32 DE 0.825833, W.DE 0.825833, W.peqDE 0.621619, OK ( < 0.900000)
+2026-08-14 13:24:54,401 Patch 25 of 32 DE 0.825833, W.DE 0.825833, W.peqDE 0.621619, OK ( < 0.900000)
+2026-08-14 13:25:00,976 Patch 26 of 32 DE 0.723826, W.DE 0.723826, peqDE 0.815323, Repeat
+2026-08-14 13:25:00,976 Patch 26 of 32 DE 0.723826, W.DE 0.723826, peqDE 0.815323, Repeat
+2026-08-14 13:25:07,513 Patch 26 of 32 DE 0.271408, W.DE 0.271408, W.peqDE 0.458076, OK ( < 0.649147)
+2026-08-14 13:25:07,513 Patch 26 of 32 DE 0.271408, W.DE 0.271408, W.peqDE 0.458076, OK ( < 0.649147)
+2026-08-14 13:25:14,110 Patch 27 of 32 DE 0.661047, W.DE 0.661047, peqDE 0.752472, Repeat
+2026-08-14 13:25:14,110 Patch 27 of 32 DE 0.661047, W.DE 0.661047, peqDE 0.752472, Repeat
+2026-08-14 13:25:20,707 Patch 27 of 32 DE 0.269983, W.DE 0.269983, W.peqDE 0.243155, OK ( < 0.392072)
+2026-08-14 13:25:20,707 Patch 27 of 32 DE 0.269983, W.DE 0.269983, W.peqDE 0.243155, OK ( < 0.392072)
+2026-08-14 13:25:27,313 Patch 28 of 32 DE 0.486614, W.DE 0.486614, peqDE 0.601738, Repeat
+2026-08-14 13:25:27,313 Patch 28 of 32 DE 0.486614, W.DE 0.486614, peqDE 0.601738, Repeat
+2026-08-14 13:25:33,964 Patch 28 of 32 DE 0.334023, W.DE 0.334023, peqDE 0.484843, Repeat
+2026-08-14 13:25:33,964 Patch 28 of 32 DE 0.334023, W.DE 0.334023, peqDE 0.484843, Repeat
+2026-08-14 13:25:40,587 Patch 28 of 32 DE 0.164074, W.DE 0.164074, peqDE 0.330079, Repeat
+2026-08-14 13:25:40,587 Patch 28 of 32 DE 0.164074, W.DE 0.164074, peqDE 0.330079, Repeat
+2026-08-14 13:25:47,138 Patch 28 of 32 DE 0.063896, W.DE 0.063896, W.peqDE 0.141608, OK ( < 0.250000)
+2026-08-14 13:25:47,138 Patch 28 of 32 DE 0.063896, W.DE 0.063896, W.peqDE 0.141608, OK ( < 0.250000)
+2026-08-14 13:25:53,851 Patch 29 of 32 DE 0.509642, W.DE 0.509642, peqDE 0.601974, Repeat
+2026-08-14 13:25:53,851 Patch 29 of 32 DE 0.509642, W.DE 0.509642, peqDE 0.601974, Repeat
+2026-08-14 13:26:00,459 Patch 29 of 32 DE 0.378895, W.DE 0.378895, peqDE 0.475761, Repeat
+2026-08-14 13:26:00,459 Patch 29 of 32 DE 0.378895, W.DE 0.378895, peqDE 0.475761, Repeat
+2026-08-14 13:26:07,023 Patch 29 of 32 DE 0.257579, W.DE 0.257579, peqDE 0.352090, Repeat
+2026-08-14 13:26:07,024 Patch 29 of 32 DE 0.257579, W.DE 0.257579, peqDE 0.352090, Repeat
+2026-08-14 13:26:13,548 Patch 29 of 32 DE 0.168159, W.DE 0.168159, peqDE 0.268117, Repeat
+2026-08-14 13:26:13,548 Patch 29 of 32 DE 0.168159, W.DE 0.168159, peqDE 0.268117, Repeat
+2026-08-14 13:26:20,116 Patch 29 of 32 DE 0.099454, W.DE 0.099454, W.peqDE 0.202243, OK ( < 0.250000)
+2026-08-14 13:26:20,116 Patch 29 of 32 DE 0.099454, W.DE 0.099454, W.peqDE 0.202243, OK ( < 0.250000)
+2026-08-14 13:26:26,862 Patch 30 of 32 DE 0.405624, W.DE 0.405624, peqDE 0.354945, Repeat
+2026-08-14 13:26:26,862 Patch 30 of 32 DE 0.405624, W.DE 0.405624, peqDE 0.354945, Repeat
+2026-08-14 13:26:53,553 Patch 30 of 32 DE 0.365190, W.DE 0.365190, peqDE 0.313199, Repeat
+2026-08-14 13:26:53,553 Patch 30 of 32 DE 0.365190, W.DE 0.365190, peqDE 0.313199, Repeat
+2026-08-14 13:27:00,228 Patch 30 of 32 DE 0.270532, W.DE 0.270532, peqDE 0.218909, Repeat
+2026-08-14 13:27:00,228 Patch 30 of 32 DE 0.270532, W.DE 0.270532, peqDE 0.218909, Repeat
+2026-08-14 13:27:06,841 Patch 30 of 32 DE 0.267536, W.DE 0.267536, peqDE 0.219378, Repeat
+2026-08-14 13:27:06,841 Patch 30 of 32 DE 0.267536, W.DE 0.267536, peqDE 0.219378, Repeat
+2026-08-14 13:27:13,436 Patch 30 of 32 DE 0.248818, W.DE 0.248818, W.peqDE 0.199184, OK ( < 0.250000)
+2026-08-14 13:27:13,436 Patch 30 of 32 DE 0.248818, W.DE 0.248818, W.peqDE 0.199184, OK ( < 0.250000)
+2026-08-14 13:27:20,091 Patch 31 of 32 DE 0.512680, W.DE 0.512680, peqDE 0.321390, Repeat
+2026-08-14 13:27:20,091 Patch 31 of 32 DE 0.512680, W.DE 0.512680, peqDE 0.321390, Repeat
+2026-08-14 13:27:46,996 Patch 31 of 32 DE 0.438489, W.DE 0.438489, peqDE 0.251503, Repeat
+2026-08-14 13:27:46,996 Patch 31 of 32 DE 0.438489, W.DE 0.438489, peqDE 0.251503, Repeat
+2026-08-14 13:27:53,716 Patch 31 of 32 DE 0.328081, W.DE 0.328081, peqDE 0.147950, Repeat
+2026-08-14 13:27:53,716 Patch 31 of 32 DE 0.328081, W.DE 0.328081, peqDE 0.147950, Repeat
+2026-08-14 13:28:00,384 Patch 31 of 32 DE 0.242022, W.DE 0.242022, W.peqDE 0.081500, OK ( < 0.250000)
+2026-08-14 13:28:00,384 Patch 31 of 32 DE 0.242022, W.DE 0.242022, W.peqDE 0.081500, OK ( < 0.250000)
+2026-08-14 13:28:07,105 Patch 32 of 32 DE 0.497470, W.DE 0.497470, peqDE 0.293161, Repeat
+2026-08-14 13:28:07,105 Patch 32 of 32 DE 0.497470, W.DE 0.497470, peqDE 0.293161, Repeat
+2026-08-14 13:28:33,998 Patch 32 of 32 DE 0.456803, W.DE 0.456803, peqDE 0.254014, Repeat
+2026-08-14 13:28:33,998 Patch 32 of 32 DE 0.456803, W.DE 0.456803, peqDE 0.254014, Repeat
+2026-08-14 13:28:40,690 Patch 32 of 32 DE 0.346285, W.DE 0.346285, peqDE 0.140047, Repeat
+2026-08-14 13:28:40,690 Patch 32 of 32 DE 0.346285, W.DE 0.346285, peqDE 0.140047, Repeat
+2026-08-14 13:28:47,362 Patch 32 of 32 DE 0.224558, W.DE 0.224558, W.peqDE 0.033895, OK ( < 0.250000)
+2026-08-14 13:28:47,362 Patch 32 of 32 DE 0.224558, W.DE 0.224558, W.peqDE 0.033895, OK ( < 0.250000)
+2026-08-14 13:28:47,362 Brightness error = 0.693352 cd/m^2 (is 118.721086, should be 118.027735)
+2026-08-14 13:28:47,362 Brightness error = 0.693352 cd/m^2 (is 118.721086, should be 118.027735)
+2026-08-14 13:28:47,362 White point error = 0.454495 deltaE
+2026-08-14 13:28:47,362 White point error = 0.454495 deltaE
+2026-08-14 13:28:47,362 Maximum neutral error (@ 0.092465) = 0.825833 deltaE
+2026-08-14 13:28:47,362 Maximum neutral error (@ 0.092465) = 0.825833 deltaE
+2026-08-14 13:28:47,362 Average neutral error = 0.387420 deltaE
+2026-08-14 13:28:47,362 Average neutral error = 0.387420 deltaE
+2026-08-14 13:28:47,362 Number of measurements taken = 65
+2026-08-14 13:28:47,362 Number of measurements taken = 65
+2026-08-14 13:28:47,362 Computing update to calibration curves...
+2026-08-14 13:28:47,362 Computing update to calibration curves...
+2026-08-14 13:28:47,380 The instrument can be removed from the screen.
+2026-08-14 13:28:47,380 The instrument can be removed from the screen.
+2026-08-14 13:28:47,477 Written calibration file 'HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.cal'
+2026-08-14 13:28:47,477 Written calibration file 'HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.cal'
+2026-08-14 13:28:47,580 DisplayCAL: Reached EOF (OK)
+2026-08-14 13:28:47,580 dispcal exitcode: 0
+2026-08-14 13:28:47,620 --------------------------------------------------------------------------------
+2026-08-14 13:28:47,620 Working directory:
+2026-08-14 13:28:47,620   C:\
+2026-08-14 13:28:47,620    Users\
+2026-08-14 13:28:47,620     Greg\
+2026-08-14 13:28:47,620      AppData\
+2026-08-14 13:28:47,620       Local\
+2026-08-14 13:28:47,620        Temp\
+2026-08-14 13:28:47,620         DisplayCAL-pqcx1esi\
+2026-08-14 13:28:47,620 
+2026-08-14 13:28:47,620 Command line:
+2026-08-14 13:28:47,620   D:\Apps\ArgyllCMS\bin\dispread.exe
+2026-08-14 13:28:47,620     -v
+2026-08-14 13:28:47,620     -d2
+2026-08-14 13:28:47,620     -c1
+2026-08-14 13:28:47,620     -yr
+2026-08-14 13:28:47,620     "-P0.5,0.5,1.0"
+2026-08-14 13:28:47,620     -X
+2026-08-14 13:28:47,620     "LG 27UL850W by 4KM (i1 Pro 2).ccss"
+2026-08-14 13:28:47,620     -k
+2026-08-14 13:28:47,620     "HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.cal"
+2026-08-14 13:28:47,620     "HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX"
+2026-08-14 13:28:47,620 
+2026-08-14 13:28:47,927 DisplayCAL: Starting interaction with subprocess
+2026-08-14 13:28:47,927 Number of patches = 175
+2026-08-14 13:28:47,927 Number of patches = 175
+2026-08-14 13:28:47,927 Setting up the instrument
+2026-08-14 13:28:47,927 Setting up the instrument
+2026-08-14 13:28:49,019 Product Name:      i1Display3
+2026-08-14 13:28:49,019 Product Name:      i1Display3
+2026-08-14 13:28:49,019 Serial Number:     C8-25.D-02.043739.10
+2026-08-14 13:28:49,019 Serial Number:     C8-25.D-02.043739.10
+2026-08-14 13:28:49,019 Hardware Rev.:     D-02
+2026-08-14 13:28:49,019 Hardware Rev.:     D-02
+2026-08-14 13:28:49,019 Firmware Version:  v2.30
+2026-08-14 13:28:49,019 Firmware Version:  v2.30
+2026-08-14 13:28:49,019 Firmware Date:     08Apr21
+2026-08-14 13:28:49,019 Firmware Date:     08Apr21
+2026-08-14 13:28:49,345 Place instrument on test window.
+2026-08-14 13:28:49,345 Place instrument on test window.
+2026-08-14 13:28:49,346 DisplayCAL: Detected instrument placement (screen/spot) message
+2026-08-14 13:28:49,346 DisplayCAL: Waiting for send buffer
+2026-08-14 13:28:50,855 DisplayCAL: Skipping place instrument on screen message...
+2026-08-14 13:28:50,855 DisplayCAL: Send buffer received:
+2026-08-14 13:28:50,855 DisplayCAL: Sending buffer:
+2026-08-14 13:28:50,906 Hit Esc or Q to give up, any other key to continue:
+2026-08-14 13:28:50,906 Hit Esc or Q to give up, any other key to continue:
+2026-08-14 13:28:53,542 Measured display update delay of 33 msec, using delay of 144 msec & 0 msec inst reaction
+2026-08-14 13:28:53,542 Measured display update delay of 33 msec, using delay of 144 msec & 0 msec inst reaction
+2026-08-14 13:34:04,765 Patch 175 of 175
+2026-08-14 13:34:04,765 Patch 175 of 175
+2026-08-14 13:34:04,765 The instrument can be removed from the screen.
+2026-08-14 13:34:04,765 The instrument can be removed from the screen.
+2026-08-14 13:34:04,926 Written 'HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.ti3'
+2026-08-14 13:34:04,926 Written 'HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.ti3'
+2026-08-14 13:34:05,029 DisplayCAL: Reached EOF (OK)
+2026-08-14 13:34:05,029 dispread exitcode: 0
+2026-08-14 13:34:05,188 Preparing ChromaticityType tag from TI3 colorants
+2026-08-14 13:34:05,194 Storing settings in TI3
+2026-08-14 13:34:05,220 Extracting neutrals from C:\Users\Greg\AppData\Local\Temp\DisplayCAL-pqcx1esi\HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.ti3
+2026-08-14 13:34:05,226 Applying 0% black point correction to TI3
+2026-08-14 13:34:05,288 Extracting neutrals from C:\Users\Greg\AppData\Local\Temp\DisplayCAL-pqcx1esi\HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.ti3
+2026-08-14 13:34:05,303 R=G=B (>= 1% luminance) dE*00 avg 0.32708693193691024 peak 1.0647264782870205
+2026-08-14 13:34:05,303 Got high quality calibration, using single device to PCS shaper curve for cLUT
+2026-08-14 13:34:06,640 Black relative luminance = 0.001274
+2026-08-14 13:34:06,643 Black output offset = 1.00
+2026-08-14 13:34:06,643 Calibration gamma = 2.20 relative
+2026-08-14 13:34:06,643 Calibration effective gamma = 2.20
+2026-08-14 13:34:06,973 Effective gamma = 2.19
+2026-08-14 13:34:06,973 Got good match (+-2%)
+2026-08-14 13:34:06,973 Using calibration transfer function
+2026-08-14 13:34:07,323 Effective gamma = 2.19
+2026-08-14 13:34:07,323 Got good match (+-2%)
+2026-08-14 13:34:07,323 Using calibration transfer function
+2026-08-14 13:34:07,633 Effective gamma = 2.19
+2026-08-14 13:34:07,633 Got good match (+-2%)
+2026-08-14 13:34:07,633 Using calibration transfer function
+2026-08-14 13:34:08,017 Using transfer function for R: Gamma 2.21 100%
+2026-08-14 13:34:08,017 Effective gamma = 2.20
+2026-08-14 13:34:08,428 Using transfer function for G: Gamma 2.21 100%
+2026-08-14 13:34:08,428 Effective gamma = 2.20
+2026-08-14 13:34:08,870 Using transfer function for B: Gamma 2.21 100%
+2026-08-14 13:34:08,872 Effective gamma = 2.20
+2026-08-14 13:34:08,883 Initial cLUT resolution 5x5x5
+2026-08-14 13:34:08,883 cLUT input curve segments: 5
+2026-08-14 13:34:08,906 #1 X prev 0.045252 next 0.208882 clip  
+2026-08-14 13:34:08,931 #2 X prev 0.208882 next 0.511060 clip  
+2026-08-14 13:34:08,947 #3 X prev 0.511060 next 0.964200 clip  
+2026-08-14 13:34:09,031 #1 Y prev 0.046932 next 0.216638 clip  
+2026-08-14 13:34:09,053 #2 Y prev 0.216638 next 0.530035 clip  
+2026-08-14 13:34:09,083 #3 Y prev 0.530035 next 1.000000 clip  
+2026-08-14 13:34:09,155 #1 Z prev 0.038714 next 0.178704 clip  
+2026-08-14 13:34:09,173 #2 Z prev 0.178704 next 0.437226 clip  
+2026-08-14 13:34:09,200 #3 Z prev 0.437226 next 0.824900 clip  
+2026-08-14 13:34:11,877 cLUT input curve segments: 33
+2026-08-14 13:34:11,881 #1 X prev 0.000460 next 0.002124 clip  
+2026-08-14 13:34:11,883 #2 X prev 0.002124 next 0.005196 clip  
+2026-08-14 13:34:11,887 #3 X prev 0.005196 next 0.009803 clip  
+2026-08-14 13:34:11,887 #4 X prev 0.009803 next 0.016040 clip  
+2026-08-14 13:34:11,893 #5 X prev 0.016040 next 0.023985 clip  
+2026-08-14 13:34:11,893 #6 X prev 0.023985 next 0.033703 clip  
+2026-08-14 13:34:11,897 #7 X prev 0.033703 next 0.045252 clip  
+2026-08-14 13:34:11,897 #8 X prev 0.045252 next 0.058683 clip  
+2026-08-14 13:34:11,903 #9 X prev 0.058683 next 0.074043 clip  
+2026-08-14 13:34:11,903 #10 X prev 0.074043 next 0.091373 clip  
+2026-08-14 13:34:11,908 #11 X prev 0.091373 next 0.110715 clip  
+2026-08-14 13:34:11,908 #12 X prev 0.110715 next 0.132103 clip  
+2026-08-14 13:34:11,908 #13 X prev 0.132103 next 0.155573 clip  
+2026-08-14 13:34:11,913 #14 X prev 0.155573 next 0.181156 clip  
+2026-08-14 13:34:11,915 #15 X prev 0.181156 next 0.208882 clip  
+2026-08-14 13:34:11,919 #16 X prev 0.208882 next 0.238781 clip  
+2026-08-14 13:34:11,921 #17 X prev 0.238781 next 0.270880 clip  
+2026-08-14 13:34:11,923 #18 X prev 0.270880 next 0.305205 clip  
+2026-08-14 13:34:11,925 #19 X prev 0.305205 next 0.341780 clip  
+2026-08-14 13:34:11,927 #20 X prev 0.341780 next 0.380631 clip  
+2026-08-14 13:34:11,931 #21 X prev 0.380631 next 0.421780 clip  
+2026-08-14 13:34:11,933 #22 X prev 0.421780 next 0.465249 clip  
+2026-08-14 13:34:11,937 #23 X prev 0.465249 next 0.511060 clip  
+2026-08-14 13:34:11,939 #24 X prev 0.511060 next 0.559233 clip  
+2026-08-14 13:34:11,941 #25 X prev 0.559233 next 0.609789 clip  
+2026-08-14 13:34:11,944 #26 X prev 0.609789 next 0.662746 clip  
+2026-08-14 13:34:11,947 #27 X prev 0.662746 next 0.718124 clip  
+2026-08-14 13:34:11,949 #28 X prev 0.718124 next 0.775941 clip  
+2026-08-14 13:34:11,951 #29 X prev 0.775941 next 0.836215 clip  
+2026-08-14 13:34:11,953 #30 X prev 0.836215 next 0.898962 clip  
+2026-08-14 13:34:11,955 #31 X prev 0.898962 next 0.964200 clip  
+2026-08-14 13:34:11,987 #1 Y prev 0.000477 next 0.002203 clip  
+2026-08-14 13:34:11,989 #2 Y prev 0.002203 next 0.005389 clip  
+2026-08-14 13:34:11,991 #3 Y prev 0.005389 next 0.010167 clip  
+2026-08-14 13:34:11,993 #4 Y prev 0.010167 next 0.016636 clip  
+2026-08-14 13:34:11,993 #5 Y prev 0.016636 next 0.024876 clip  
+2026-08-14 13:34:11,993 #6 Y prev 0.024876 next 0.034954 clip  
+2026-08-14 13:34:12,003 #7 Y prev 0.034954 next 0.046932 clip  
+2026-08-14 13:34:12,003 #8 Y prev 0.046932 next 0.060862 clip  
+2026-08-14 13:34:12,007 #9 Y prev 0.060862 next 0.076792 clip  
+2026-08-14 13:34:12,007 #10 Y prev 0.076792 next 0.094766 clip  
+2026-08-14 13:34:12,013 #11 Y prev 0.094766 next 0.114826 clip  
+2026-08-14 13:34:12,016 #12 Y prev 0.114826 next 0.137008 clip  
+2026-08-14 13:34:12,016 #13 Y prev 0.137008 next 0.161349 clip  
+2026-08-14 13:34:12,016 #14 Y prev 0.161349 next 0.187882 clip  
+2026-08-14 13:34:12,016 #15 Y prev 0.187882 next 0.216638 clip  
+2026-08-14 13:34:12,023 #16 Y prev 0.216638 next 0.247647 clip  
+2026-08-14 13:34:12,023 #17 Y prev 0.247647 next 0.280937 clip  
+2026-08-14 13:34:12,023 #18 Y prev 0.280937 next 0.316537 clip  
+2026-08-14 13:34:12,023 #19 Y prev 0.316537 next 0.354470 clip  
+2026-08-14 13:34:12,034 #20 Y prev 0.354470 next 0.394764 clip  
+2026-08-14 13:34:12,034 #21 Y prev 0.394764 next 0.437440 clip  
+2026-08-14 13:34:12,034 #22 Y prev 0.437440 next 0.482523 clip  
+2026-08-14 13:34:12,034 #23 Y prev 0.482523 next 0.530035 clip  
+2026-08-14 13:34:12,044 #24 Y prev 0.530035 next 0.579997 clip  
+2026-08-14 13:34:12,044 #25 Y prev 0.579997 next 0.632430 clip  
+2026-08-14 13:34:12,044 #26 Y prev 0.632430 next 0.687353 clip  
+2026-08-14 13:34:12,053 #27 Y prev 0.687353 next 0.744788 clip  
+2026-08-14 13:34:12,053 #28 Y prev 0.744788 next 0.804751 clip  
+2026-08-14 13:34:12,053 #29 Y prev 0.804751 next 0.867263 clip  
+2026-08-14 13:34:12,059 #30 Y prev 0.867263 next 0.932340 clip  
+2026-08-14 13:34:12,059 #31 Y prev 0.932340 next 1.000000 clip  
+2026-08-14 13:34:12,093 #1 Z prev 0.000394 next 0.001817 clip  
+2026-08-14 13:34:12,093 #2 Z prev 0.001817 next 0.004445 clip  
+2026-08-14 13:34:12,098 #3 Z prev 0.004445 next 0.008387 clip  
+2026-08-14 13:34:12,098 #4 Z prev 0.008387 next 0.013723 clip  
+2026-08-14 13:34:12,103 #5 Z prev 0.013723 next 0.020520 clip  
+2026-08-14 13:34:12,103 #6 Z prev 0.020520 next 0.028834 clip  
+2026-08-14 13:34:12,107 #7 Z prev 0.028834 next 0.038714 clip  
+2026-08-14 13:34:12,107 #8 Z prev 0.038714 next 0.050205 clip  
+2026-08-14 13:34:12,113 #9 Z prev 0.050205 next 0.063345 clip  
+2026-08-14 13:34:12,116 #10 Z prev 0.063345 next 0.078173 clip  
+2026-08-14 13:34:12,116 #11 Z prev 0.078173 next 0.094720 clip  
+2026-08-14 13:34:12,116 #12 Z prev 0.094720 next 0.113018 clip  
+2026-08-14 13:34:12,123 #13 Z prev 0.113018 next 0.133097 clip  
+2026-08-14 13:34:12,123 #14 Z prev 0.133097 next 0.154984 clip  
+2026-08-14 13:34:12,123 #15 Z prev 0.154984 next 0.178704 clip  
+2026-08-14 13:34:12,128 #16 Z prev 0.178704 next 0.204284 clip  
+2026-08-14 13:34:12,128 #17 Z prev 0.204284 next 0.231745 clip  
+2026-08-14 13:34:12,133 #18 Z prev 0.231745 next 0.261111 clip  
+2026-08-14 13:34:12,133 #19 Z prev 0.261111 next 0.292403 clip  
+2026-08-14 13:34:12,139 #20 Z prev 0.292403 next 0.325641 clip  
+2026-08-14 13:34:12,139 #21 Z prev 0.325641 next 0.360845 clip  
+2026-08-14 13:34:12,144 #22 Z prev 0.360845 next 0.398034 clip  
+2026-08-14 13:34:12,144 #23 Z prev 0.398034 next 0.437226 clip  
+2026-08-14 13:34:12,144 #24 Z prev 0.437226 next 0.478440 clip  
+2026-08-14 13:34:12,144 #25 Z prev 0.478440 next 0.521691 clip  
+2026-08-14 13:34:12,153 #26 Z prev 0.521691 next 0.566998 clip  
+2026-08-14 13:34:12,155 #27 Z prev 0.566998 next 0.614375 clip  
+2026-08-14 13:34:12,155 #28 Z prev 0.614375 next 0.663839 clip  
+2026-08-14 13:34:12,155 #29 Z prev 0.663839 next 0.715405 clip  
+2026-08-14 13:34:12,163 #30 Z prev 0.715405 next 0.769087 clip  
+2026-08-14 13:34:12,163 #31 Z prev 0.769087 next 0.824900 clip  
+2026-08-14 13:34:12,243 Final interpolated cLUT resolution 33x33x33
+2026-08-14 13:34:12,244 --------------------------------------------------------------------------------
+2026-08-14 13:34:12,244 Creating matrix from primaries
+2026-08-14 13:34:12,244 Using chromatic adaptation transform matrix: Bradford
+2026-08-14 13:34:12,363 Generating A2B1 by copying A2B0
+2026-08-14 13:34:12,395 Making distinct A2B0
+2026-08-14 13:34:12,411 Applying black point compensation to A2B0: L*a*b* 0.000000 0.000000 0.000000
+2026-08-14 13:34:16,988 --------------------------------------------------------------------------------
+2026-08-14 13:34:16,988 Generating B2A1 table by inverting A2B1 table
+2026-08-14 13:34:16,988 Generating B2A1 table by inverting A2B1 table
+2026-08-14 13:34:16,988 Using chromatic adaptation transform matrix: Bradford
+2026-08-14 13:34:17,016 Black XYZ: 0.0012 0.0013 0.0010
+2026-08-14 13:34:17,016 Black XYZ: 0.0012 0.0013 0.0010
+2026-08-14 13:34:17,016 White XYZ: 0.9642 1.0000 0.8249
+2026-08-14 13:34:17,016 White XYZ: 0.9642 1.0000 0.8249
+2026-08-14 13:34:17,016 R XYZ: 0.4847 0.2459 0.0094
+2026-08-14 13:34:17,016 R XYZ: 0.4847 0.2459 0.0094
+2026-08-14 13:34:17,016 G XYZ: 0.3310 0.6957 0.0627
+2026-08-14 13:34:17,016 G XYZ: 0.3310 0.6957 0.0627
+2026-08-14 13:34:17,016 B XYZ: 0.1566 0.0624 0.7548
+2026-08-14 13:34:17,016 B XYZ: 0.1566 0.0624 0.7548
+2026-08-14 13:34:17,016 Generating input curve PCS values...
+2026-08-14 13:34:17,016 Generating input curve PCS values...
+2026-08-14 13:34:17,163 Looking up input curve RGB values...
+2026-08-14 13:34:17,163 Looking up input curve RGB values...
+2026-08-14 13:34:17,163 Setting up matrix
+2026-08-14 13:34:17,163 Setting up matrix
+2026-08-14 13:34:17,163 Increasing saturation of actual primaries for PCS candidate to 104%...
+2026-08-14 13:34:17,163 Increasing saturation of actual primaries for PCS candidate to 104%...
+2026-08-14 13:34:17,163 R xy 0.654956 0.332302 -> 0.667326 0.331253
+2026-08-14 13:34:17,163 R xy 0.654956 0.332302 -> 0.667326 0.331253
+2026-08-14 13:34:17,163 G xy 0.303807 0.638597 -> 0.302131 0.649799
+2026-08-14 13:34:17,163 G xy 0.303807 0.638597 -> 0.302131 0.649799
+2026-08-14 13:34:17,163 B xy 0.160832 0.064089 -> 0.153437 0.052310
+2026-08-14 13:34:17,163 B xy 0.160832 0.064089 -> 0.153437 0.052310
+2026-08-14 13:34:17,163 Checking for suitable PCS candidate...
+2026-08-14 13:34:17,163 Checking for suitable PCS candidate...
+2026-08-14 13:34:17,163 Skipping PCS candidate based on actual primaries because it does not encompass Rec. 709 blue
+2026-08-14 13:34:17,163 Skipping PCS candidate based on actual primaries because it does not encompass Rec. 709 blue
+2026-08-14 13:34:17,163 Rec709-encompassing, variant 1 fit: 0.85 (area: 89.32%)
+2026-08-14 13:34:17,163 Rec709-encompassing, variant 1 fit: 0.85 (area: 89.32%)
+2026-08-14 13:34:17,163 Rec709-encompassing, variant 2 fit: 0.81 (area: 91.70%)
+2026-08-14 13:34:17,163 Rec709-encompassing, variant 2 fit: 0.81 (area: 91.70%)
+2026-08-14 13:34:17,163 Rec709-encompassing, variant 3 fit: 0.81 (area: 88.71%)
+2026-08-14 13:34:17,163 Rec709-encompassing, variant 3 fit: 0.81 (area: 88.71%)
+2026-08-14 13:34:17,163 Rec709-encompassing, variant 4 fit: 0.98 (area: 90.46%)
+2026-08-14 13:34:17,163 Rec709-encompassing, variant 4 fit: 0.98 (area: 90.46%)
+2026-08-14 13:34:17,169 SMPTE-431-2/DCI-P3-encompassing, variant 1 fit: 1.03 (area: 74.96%)
+2026-08-14 13:34:17,169 SMPTE-431-2/DCI-P3-encompassing, variant 1 fit: 1.03 (area: 74.96%)
+2026-08-14 13:34:17,169 Using primaries: SMPTE-431-2/DCI-P3-encompassing, variant 1
+2026-08-14 13:34:17,169 Using primaries: SMPTE-431-2/DCI-P3-encompassing, variant 1
+2026-08-14 13:34:17,169 Using R XYZ: 0.5489 0.2444 -0.0012
+2026-08-14 13:34:17,169 Using R XYZ: 0.5489 0.2444 -0.0012
+2026-08-14 13:34:17,169 Using G XYZ: 0.2881 0.7092 0.0156
+2026-08-14 13:34:17,169 Using G XYZ: 0.2881 0.7092 0.0156
+2026-08-14 13:34:17,169 Using B XYZ: 0.1272 0.0464 0.8105
+2026-08-14 13:34:17,169 Using B XYZ: 0.1272 0.0464 0.8105
+2026-08-14 13:34:17,169 R+G+B XYZ: 0.9642 1.0000 0.8249
+2026-08-14 13:34:17,169 R+G+B XYZ: 0.9642 1.0000 0.8249
+2026-08-14 13:34:17,169 Correction factors: 1.0000 1.0000 1.0000
+2026-08-14 13:34:17,169 Correction factors: 1.0000 1.0000 1.0000
+2026-08-14 13:34:17,169 Matrix 1:
+2026-08-14 13:34:17,169 Matrix 1:
+2026-08-14 13:34:17,169 [2.2198859741624184, -0.8953627177836478, -0.297067933693485]
+2026-08-14 13:34:17,169 [2.2198859741624184, -0.8953627177836478, -0.297067933693485]
+2026-08-14 13:34:17,169 [-0.7663035271756803, 1.7209534070307546, 0.021719546456584367]
+2026-08-14 13:34:17,169 [-0.7663035271756803, 1.7209534070307546, 0.021719546456584367]
+2026-08-14 13:34:17,169 [0.018015950217344243, -0.03437729645356804, 1.2328843705346162]
+2026-08-14 13:34:17,169 [0.018015950217344243, -0.03437729645356804, 1.2328843705346162]
+2026-08-14 13:34:17,169 Matrix 2:
+2026-08-14 13:34:17,169 Matrix 2:
+2026-08-14 13:34:17,169 [2.21986527977595, -0.895354370966592, -0.29706516434465413]
+2026-08-14 13:34:17,169 [2.21986527977595, -0.895354370966592, -0.29706516434465413]
+2026-08-14 13:34:17,169 [-0.7663053824844512, 1.7209575736564287, 0.021719599042098595]
+2026-08-14 13:34:17,169 [-0.7663053824844512, 1.7209575736564287, 0.021719599042098595]
+2026-08-14 13:34:17,169 [0.018016168291422188, -0.034377712573569245, 1.2328992939840635]
+2026-08-14 13:34:17,169 [0.018016168291422188, -0.034377712573569245, 1.2328992939840635]
+2026-08-14 13:34:17,169 Matrix 3:
+2026-08-14 13:34:17,169 Matrix 3:
+2026-08-14 13:34:17,169 [1.999969482421875, 0, 0]
+2026-08-14 13:34:17,169 [1.999969482421875, 0, 0]
+2026-08-14 13:34:17,169 [0, 1.999969482421875, 0]
+2026-08-14 13:34:17,169 [0, 1.999969482421875, 0]
+2026-08-14 13:34:17,169 [0, 0, 1.999969482421875]
+2026-08-14 13:34:17,169 [0, 0, 1.999969482421875]
+2026-08-14 13:34:17,169 Final matrix:
+2026-08-14 13:34:17,169 Final matrix:
+2026-08-14 13:34:17,169 [4.439662814639798, -1.7906814178862185, -0.5941212629799472]
+2026-08-14 13:34:17,169 [4.439662814639798, -1.7906814178862185, -0.5941212629799472]
+2026-08-14 13:34:17,169 [-1.5325873791845248, 3.4418626278556532, 0.043438535254636576]
+2026-08-14 13:34:17,169 [-1.5325873791845248, 3.4418626278556532, 0.043438535254636576]
+2026-08-14 13:34:17,169 [0.036031786773021025, -0.06875437602260927, 2.4657609628676025]
+2026-08-14 13:34:17,169 [0.036031786773021025, -0.06875437602260927, 2.4657609628676025]
+2026-08-14 13:34:17,169 Applying matrix to input curve XYZ values...
+2026-08-14 13:34:17,169 Applying matrix to input curve XYZ values...
+2026-08-14 13:34:17,175 Generating input curves...
+2026-08-14 13:34:17,175 Generating input curves...
+2026-08-14 13:34:19,898 100%
+2026-08-14 13:34:19,898 100%
+2026-08-14 13:34:19,898 Generating A2B1 table lookup input values...
+2026-08-14 13:34:19,898 Generating A2B1 table lookup input values...
+2026-08-14 13:34:19,898 cLUT grid res: 33
+2026-08-14 13:34:19,898 cLUT grid res: 33
+2026-08-14 13:34:19,898 Looking up input values through A2B1 table (18 workers)...
+2026-08-14 13:34:19,898 Looking up input values through A2B1 table (18 workers)...
+2026-08-14 13:34:19,898 Using CAM Jab for clipping
+2026-08-14 13:34:19,898 Using CAM Jab for clipping
+2026-08-14 13:34:34,613 100%
+2026-08-14 13:34:34,613 100%
+2026-08-14 13:34:34,613 Input black XYZ: 0.001221 0.001282 0.001038
+2026-08-14 13:34:34,613 Input black XYZ: 0.001221 0.001282 0.001038
+2026-08-14 13:34:34,613 Input white XYZ: 0.964203 1.000000 0.824890
+2026-08-14 13:34:34,613 Input white XYZ: 0.964203 1.000000 0.824890
+2026-08-14 13:34:34,627 Output black RGB: 0.0000 0.0000 0.0004
+2026-08-14 13:34:34,627 Output black RGB: 0.0000 0.0000 0.0004
+2026-08-14 13:34:34,627 Output white RGB: 100.0000 100.0000 100.0000
+2026-08-14 13:34:34,627 Output white RGB: 100.0000 100.0000 100.0000
+2026-08-14 13:34:34,638 Filling cLUT...
+2026-08-14 13:34:34,638 Filling cLUT...
+2026-08-14 13:34:34,680 100%
+2026-08-14 13:34:34,680 100%
+2026-08-14 13:34:34,733 Generating output curves...
+2026-08-14 13:34:34,733 Generating output curves...
+2026-08-14 13:34:34,839 Setting curve entry #0 (0.000000 0.000000 0.000000) to black because it got clipped
+2026-08-14 13:34:34,839 Setting curve entry #1 (0.000000 0.000000 0.000004) to black because it got clipped
+2026-08-14 13:34:34,839 Setting curve entry #4095 (1.000000 1.000000 1.000000) to white because it got clipped
+2026-08-14 13:34:34,898 Smoothing B2A1...
+2026-08-14 13:34:34,898 Smoothing B2A1...
+2026-08-14 13:34:35,844 Generating B2A0 table by inverting A2B0 table
+2026-08-14 13:34:35,844 Generating B2A0 table by inverting A2B0 table
+2026-08-14 13:34:35,844 Using chromatic adaptation transform matrix: Bradford
+2026-08-14 13:34:35,875 Black XYZ: 0.0000 0.0000 0.0000
+2026-08-14 13:34:35,875 Black XYZ: 0.0000 0.0000 0.0000
+2026-08-14 13:34:35,875 White XYZ: 0.9642 1.0000 0.8249
+2026-08-14 13:34:35,875 White XYZ: 0.9642 1.0000 0.8249
+2026-08-14 13:34:35,875 R XYZ: 0.4835 0.2453 0.0094
+2026-08-14 13:34:35,875 R XYZ: 0.4835 0.2453 0.0094
+2026-08-14 13:34:35,875 G XYZ: 0.3301 0.6939 0.0626
+2026-08-14 13:34:35,875 G XYZ: 0.3301 0.6939 0.0626
+2026-08-14 13:34:35,875 B XYZ: 0.1562 0.0623 0.7529
+2026-08-14 13:34:35,875 B XYZ: 0.1562 0.0623 0.7529
+2026-08-14 13:34:35,875 Generating input curve PCS values...
+2026-08-14 13:34:35,875 Generating input curve PCS values...
+2026-08-14 13:34:35,939 Looking up input curve RGB values...
+2026-08-14 13:34:35,939 Looking up input curve RGB values...
+2026-08-14 13:34:35,969 R+G+B XYZ: 0.9667 1.0026 0.8270
+2026-08-14 13:34:35,969 R+G+B XYZ: 0.9667 1.0026 0.8270
+2026-08-14 13:34:35,969 Correction factors: 0.9974 0.9974 0.9974
+2026-08-14 13:34:35,969 Correction factors: 0.9974 0.9974 0.9974
+2026-08-14 13:34:35,969 Matrix 1:
+2026-08-14 13:34:35,969 Matrix 1:
+2026-08-14 13:34:35,969 [2.2208304519092255, -0.8975163057820641, -0.29867218113851834]
+2026-08-14 13:34:35,969 [2.2208304519092255, -0.8975163057820641, -0.29867218113851834]
+2026-08-14 13:34:35,969 [-0.7691726168845702, 1.722153374256648, 0.02052170582090553]
+2026-08-14 13:34:35,969 [-0.7691726168845702, 1.722153374256648, 0.02052170582090553]
+2026-08-14 13:34:35,969 [0.01615552037795768, -0.03543468288971585, 1.2332558105742968]
+2026-08-14 13:34:35,969 [0.01615552037795768, -0.03543468288971585, 1.2332558105742968]
+2026-08-14 13:34:35,969 Matrix 2:
+2026-08-14 13:34:35,969 Matrix 2:
+2026-08-14 13:34:35,971 [2.2265235063560866, -0.8998170708816104, -0.29943782130142343]
+2026-08-14 13:34:35,971 [2.2265235063560866, -0.8998170708816104, -0.29943782130142343]
+2026-08-14 13:34:35,971 [-0.771144375504502, 1.7265680799884886, 0.020574312803343323]
+2026-08-14 13:34:35,971 [-0.771144375504502, 1.7265680799884886, 0.020574312803343323]
+2026-08-14 13:34:35,971 [0.01619693473133617, -0.03552551899060999, 1.2364172371795883]
+2026-08-14 13:34:35,971 [0.01619693473133617, -0.03552551899060999, 1.2364172371795883]
+2026-08-14 13:34:35,971 Matrix 3:
+2026-08-14 13:34:35,971 Matrix 3:
+2026-08-14 13:34:35,971 [1.999969482421875, 0, 0]
+2026-08-14 13:34:35,971 [1.999969482421875, 0, 0]
+2026-08-14 13:34:35,971 [0, 1.999969482421875, 0]
+2026-08-14 13:34:35,971 [0, 1.999969482421875, 0]
+2026-08-14 13:34:35,971 [0, 0, 1.999969482421875]
+2026-08-14 13:34:35,971 [0, 0, 1.999969482421875]
+2026-08-14 13:34:35,971 Final matrix:
+2026-08-14 13:34:35,971 Final matrix:
+2026-08-14 13:34:35,971 [4.452979064607121, -1.799606681525462, -0.5988665044857417]
+2026-08-14 13:34:35,971 [4.452979064607121, -1.799606681525462, -0.5988665044857417]
+2026-08-14 13:34:35,971 [-1.542265217550279, 3.453083469300708, 0.0411479977284883]
+2026-08-14 13:34:35,971 [-1.542265217550279, 3.453083469300708, 0.0411479977284883]
+2026-08-14 13:34:35,971 [0.032393375171451286, -0.07104995382841875, 2.472796741899546]
+2026-08-14 13:34:35,971 [0.032393375171451286, -0.07104995382841875, 2.472796741899546]
+2026-08-14 13:34:35,971 Applying matrix to input curve XYZ values...
+2026-08-14 13:34:35,971 Applying matrix to input curve XYZ values...
+2026-08-14 13:34:35,973 Generating input curves...
+2026-08-14 13:34:35,973 Generating input curves...
+2026-08-14 13:34:38,737 100%
+2026-08-14 13:34:38,737 100%
+2026-08-14 13:34:38,737 --------------------------------------------------------------------------------
+2026-08-14 13:34:38,737 Creating shaper tags in separate step
+2026-08-14 13:34:38,737 Using chromatic adaptation transform matrix: Bradford
+2026-08-14 13:34:38,745 Extracting neutrals from C:\Users\Greg\AppData\Local\Temp\DisplayCAL-pqcx1esi\HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.ti3
+2026-08-14 13:34:38,753 {0: {'SAMPLE_ID': 1, 'RGB_R': 0.0, 'RGB_G': 0.0, 'RGB_B': 0.0, 'XYZ_X': 0.12099, 'XYZ_Y': 0.127436, 'XYZ_Z': 0.138335}, 1: {'SAMPLE_ID': 5, 'RGB_R': 1.9608, 'RGB_G': 1.9608, 'RGB_B': 1.9608, 'XYZ_X': 0.14947, 'XYZ_Y': 0.158792, 'XYZ_Z': 0.161686}, 2: {'SAMPLE_ID': 18, 'RGB_R': 3.9216, 'RGB_G': 3.9216, 'RGB_B': 3.9216, 'XYZ_X': 0.210232, 'XYZ_Y': 0.224878, 'XYZ_Z': 0.226739}, 3: {'SAMPLE_ID': 19, 'RGB_R': 5.8824, 'RGB_G': 5.8824, 'RGB_B': 5.8824, 'XYZ_X': 0.304882, 'XYZ_Y': 0.327492, 'XYZ_Z': 0.354899}, 4: {'SAMPLE_ID': 20, 'RGB_R': 7.8431, 'RGB_G': 7.8431, 'RGB_B': 7.8431, 'XYZ_X': 0.451095, 'XYZ_Y': 0.483104, 'XYZ_Z': 0.531073}, 5: {'SAMPLE_ID': 21, 'RGB_R': 9.8039, 'RGB_G': 9.8039, 'RGB_B': 9.8039, 'XYZ_X': 0.655507, 'XYZ_Y': 0.697323, 'XYZ_Z': 0.769708}, 6: {'SAMPLE_ID': 22, 'RGB_R': 11.765, 'RGB_G': 11.765, 'RGB_B': 11.765, 'XYZ_X': 0.929024, 'XYZ_Y': 0.988938, 'XYZ_Z': 1.082505}, 7: {'SAMPLE_ID': 23, 'RGB_R': 13.726, 'RGB_G': 13.726, 'RGB_B': 13.726, 'XYZ_X': 1.279494, 'XYZ_Y': 1.350617, 'XYZ_Z': 1.500808}, 8: {'SAMPLE_ID': 24, 'RGB_R': 15.686, 'RGB_G': 15.686, 'RGB_B': 15.686, 'XYZ_X': 1.732765, 'XYZ_Y': 1.827929, 'XYZ_Z': 2.001023}, 9: {'SAMPLE_ID': 25, 'RGB_R': 17.647, 'RGB_G': 17.647, 'RGB_B': 17.647, 'XYZ_X': 2.254178, 'XYZ_Y': 2.362976, 'XYZ_Z': 2.616619}, 10: {'SAMPLE_ID': 26, 'RGB_R': 19.608, 'RGB_G': 19.608, 'RGB_B': 19.608, 'XYZ_X': 2.806755, 'XYZ_Y': 2.954331, 'XYZ_Z': 3.267159}, 11: {'SAMPLE_ID': 27, 'RGB_R': 21.569, 'RGB_G': 21.569, 'RGB_B': 21.569, 'XYZ_X': 3.430779, 'XYZ_Y': 3.613534, 'XYZ_Z': 3.977767}, 12: {'SAMPLE_ID': 28, 'RGB_R': 23.529, 'RGB_G': 23.529, 'RGB_B': 23.529, 'XYZ_X': 4.081719, 'XYZ_Y': 4.282728, 'XYZ_Z': 4.753608}, 13: {'SAMPLE_ID': 29, 'RGB_R': 25.49, 'RGB_G': 25.49, 'RGB_B': 25.49, 'XYZ_X': 4.864219, 'XYZ_Y': 5.130761, 'XYZ_Z': 5.609667}, 14: {'SAMPLE_ID': 30, 'RGB_R': 27.451, 'RGB_G': 27.451, 'RGB_B': 27.451, 'XYZ_X': 5.784923, 'XYZ_Y': 6.114436, 'XYZ_Z': 6.662609}, 15: {'SAMPLE_ID': 31, 'RGB_R': 29.412, 'RGB_G': 29.412, 'RGB_B': 29.412, 'XYZ_X': 6.733243, 'XYZ_Y': 7.111595, 'XYZ_Z': 7.766137}, 16: {'SAMPLE_ID': 32, 'RGB_R': 31.373, 'RGB_G': 31.373, 'RGB_B': 31.373, 'XYZ_X': 7.711091, 'XYZ_Y': 8.093167, 'XYZ_Z': 8.858454}, 17: {'SAMPLE_ID': 33, 'RGB_R': 33.333, 'RGB_G': 33.333, 'RGB_B': 33.333, 'XYZ_X': 8.734257, 'XYZ_Y': 9.193762, 'XYZ_Z': 9.976263}, 18: {'SAMPLE_ID': 34, 'RGB_R': 35.294, 'RGB_G': 35.294, 'RGB_B': 35.294, 'XYZ_X': 9.76546, 'XYZ_Y': 10.28155, 'XYZ_Z': 11.24841}, 19: {'SAMPLE_ID': 35, 'RGB_R': 37.255, 'RGB_G': 37.255, 'RGB_B': 37.255, 'XYZ_X': 10.95975, 'XYZ_Y': 11.50376, 'XYZ_Z': 12.62609}, 20: {'SAMPLE_ID': 36, 'RGB_R': 39.216, 'RGB_G': 39.216, 'RGB_B': 39.216, 'XYZ_X': 12.33099, 'XYZ_Y': 12.99952, 'XYZ_Z': 14.16825}, 21: {'SAMPLE_ID': 37, 'RGB_R': 41.176, 'RGB_G': 41.176, 'RGB_B': 41.176, 'XYZ_X': 13.70085, 'XYZ_Y': 14.37248, 'XYZ_Z': 15.70646}, 22: {'SAMPLE_ID': 38, 'RGB_R': 43.137, 'RGB_G': 43.137, 'RGB_B': 43.137, 'XYZ_X': 15.23505, 'XYZ_Y': 16.06115, 'XYZ_Z': 17.41703}, 23: {'SAMPLE_ID': 39, 'RGB_R': 45.098, 'RGB_G': 45.098, 'RGB_B': 45.098, 'XYZ_X': 16.68243, 'XYZ_Y': 17.59192, 'XYZ_Z': 19.04996}, 24: {'SAMPLE_ID': 40, 'RGB_R': 47.059, 'RGB_G': 47.059, 'RGB_B': 47.059, 'XYZ_X': 18.26532, 'XYZ_Y': 19.26984, 'XYZ_Z': 20.95028}, 25: {'SAMPLE_ID': 41, 'RGB_R': 49.02, 'RGB_G': 49.02, 'RGB_B': 49.02, 'XYZ_X': 19.90472, 'XYZ_Y': 21.0011, 'XYZ_Z': 22.75665}, 26: {'SAMPLE_ID': 42, 'RGB_R': 50.98, 'RGB_G': 50.98, 'RGB_B': 50.98, 'XYZ_X': 21.74493, 'XYZ_Y': 22.88674, 'XYZ_Z': 24.75717}, 27: {'SAMPLE_ID': 43, 'RGB_R': 52.941, 'RGB_G': 52.941, 'RGB_B': 52.941, 'XYZ_X': 23.5383, 'XYZ_Y': 24.74578, 'XYZ_Z': 26.81461}, 28: {'SAMPLE_ID': 44, 'RGB_R': 54.902, 'RGB_G': 54.902, 'RGB_B': 54.902, 'XYZ_X': 25.3887, 'XYZ_Y': 26.73959, 'XYZ_Z': 29.02631}, 29: {'SAMPLE_ID': 45, 'RGB_R': 56.863, 'RGB_G': 56.863, 'RGB_B': 56.863, 'XYZ_X': 27.52041, 'XYZ_Y': 28.94581, 'XYZ_Z': 31.37002}, 30: {'SAMPLE_ID': 46, 'RGB_R': 58.824, 'RGB_G': 58.824, 'RGB_B': 58.824, 'XYZ_X': 29.49545, 'XYZ_Y': 31.07751, 'XYZ_Z': 33.6998}, 31: {'SAMPLE_ID': 47, 'RGB_R': 60.784, 'RGB_G': 60.784, 'RGB_B': 60.784, 'XYZ_X': 31.71925, 'XYZ_Y': 33.39486, 'XYZ_Z': 36.18458}, 32: {'SAMPLE_ID': 48, 'RGB_R': 62.745, 'RGB_G': 62.745, 'RGB_B': 62.745, 'XYZ_X': 33.87248, 'XYZ_Y': 35.77913, 'XYZ_Z': 38.82523}, 33: {'SAMPLE_ID': 49, 'RGB_R': 64.706, 'RGB_G': 64.706, 'RGB_B': 64.706, 'XYZ_X': 36.53767, 'XYZ_Y': 38.34256, 'XYZ_Z': 41.61831}, 34: {'SAMPLE_ID': 50, 'RGB_R': 66.667, 'RGB_G': 66.667, 'RGB_B': 66.667, 'XYZ_X': 38.74702, 'XYZ_Y': 40.85204, 'XYZ_Z': 44.26066}, 35: {'SAMPLE_ID': 51, 'RGB_R': 68.627, 'RGB_G': 68.627, 'RGB_B': 68.627, 'XYZ_X': 41.34164, 'XYZ_Y': 43.48239, 'XYZ_Z': 47.20961}, 36: {'SAMPLE_ID': 52, 'RGB_R': 70.588, 'RGB_G': 70.588, 'RGB_B': 70.588, 'XYZ_X': 43.99238, 'XYZ_Y': 46.23795, 'XYZ_Z': 50.16026}, 37: {'SAMPLE_ID': 53, 'RGB_R': 72.549, 'RGB_G': 72.549, 'RGB_B': 72.549, 'XYZ_X': 46.53958, 'XYZ_Y': 49.05936, 'XYZ_Z': 53.11305}, 38: {'SAMPLE_ID': 54, 'RGB_R': 74.51, 'RGB_G': 74.51, 'RGB_B': 74.51, 'XYZ_X': 49.36851, 'XYZ_Y': 52.06749, 'XYZ_Z': 56.37457}, 39: {'SAMPLE_ID': 55, 'RGB_R': 76.471, 'RGB_G': 76.471, 'RGB_B': 76.471, 'XYZ_X': 52.19743, 'XYZ_Y': 55.07561, 'XYZ_Z': 59.63609}, 40: {'SAMPLE_ID': 56, 'RGB_R': 78.431, 'RGB_G': 78.431, 'RGB_B': 78.431, 'XYZ_X': 55.40179, 'XYZ_Y': 58.32767, 'XYZ_Z': 62.89846}, 41: {'SAMPLE_ID': 57, 'RGB_R': 80.392, 'RGB_G': 80.392, 'RGB_B': 80.392, 'XYZ_X': 58.47487, 'XYZ_Y': 61.59052, 'XYZ_Z': 66.7783}, 42: {'SAMPLE_ID': 58, 'RGB_R': 82.353, 'RGB_G': 82.353, 'RGB_B': 82.353, 'XYZ_X': 61.449, 'XYZ_Y': 64.85014, 'XYZ_Z': 70.19696}, 43: {'SAMPLE_ID': 59, 'RGB_R': 84.314, 'RGB_G': 84.314, 'RGB_B': 84.314, 'XYZ_X': 64.73785, 'XYZ_Y': 68.29756, 'XYZ_Z': 74.07807}, 44: {'SAMPLE_ID': 60, 'RGB_R': 86.275, 'RGB_G': 86.275, 'RGB_B': 86.275, 'XYZ_X': 68.24247, 'XYZ_Y': 71.92954, 'XYZ_Z': 77.96046}, 45: {'SAMPLE_ID': 61, 'RGB_R': 88.235, 'RGB_G': 88.235, 'RGB_B': 88.235, 'XYZ_X': 71.65339, 'XYZ_Y': 75.50432, 'XYZ_Z': 82.15074}, 46: {'SAMPLE_ID': 62, 'RGB_R': 90.196, 'RGB_G': 90.196, 'RGB_B': 90.196, 'XYZ_X': 75.52884, 'XYZ_Y': 79.44931, 'XYZ_Z': 86.49729}, 47: {'SAMPLE_ID': 63, 'RGB_R': 92.157, 'RGB_G': 92.157, 'RGB_B': 92.157, 'XYZ_X': 79.04215, 'XYZ_Y': 83.39756, 'XYZ_Z': 90.38524}, 48: {'SAMPLE_ID': 64, 'RGB_R': 94.118, 'RGB_G': 94.118, 'RGB_B': 94.118, 'XYZ_X': 82.86032, 'XYZ_Y': 87.65667, 'XYZ_Z': 94.42989}, 49: {'SAMPLE_ID': 65, 'RGB_R': 96.078, 'RGB_G': 96.078, 'RGB_B': 96.078, 'XYZ_X': 86.62354, 'XYZ_Y': 91.35124, 'XYZ_Z': 98.77303}, 50: {'SAMPLE_ID': 87, 'RGB_R': 98.039, 'RGB_G': 98.039, 'RGB_B': 98.039, 'XYZ_X': 90.47008, 'XYZ_Y': 95.6805, 'XYZ_Z': 103.4347}, 51: {'SAMPLE_ID': 142, 'RGB_R': 100.0, 'RGB_G': 100.0, 'RGB_B': 100.0, 'XYZ_X': 94.94197, 'XYZ_Y': 100.0, 'XYZ_Z': 108.5525}}
+2026-08-14 13:34:38,753 --------------------------------------------------------------------------------
+2026-08-14 13:34:39,879 Black relative luminance = 0.001274
+2026-08-14 13:34:39,881 Black output offset = 1.00
+2026-08-14 13:34:39,881 Calibration gamma = 2.20 relative
+2026-08-14 13:34:39,881 Calibration effective gamma = 2.20
+2026-08-14 13:34:39,908 Effective gamma = 2.19
+2026-08-14 13:34:39,908 Got good match (+-2%)
+2026-08-14 13:34:39,908 Using calibration transfer function
+2026-08-14 13:34:39,938 Effective gamma = 2.19
+2026-08-14 13:34:39,938 Got good match (+-2%)
+2026-08-14 13:34:39,938 Using calibration transfer function
+2026-08-14 13:34:39,968 Effective gamma = 2.19
+2026-08-14 13:34:39,968 Got good match (+-2%)
+2026-08-14 13:34:39,968 Using calibration transfer function
+2026-08-14 13:34:39,995 Using transfer function for R: Gamma 2.20 100%
+2026-08-14 13:34:39,995 Effective gamma = 2.19
+2026-08-14 13:34:40,023 Using transfer function for G: Gamma 2.20 100%
+2026-08-14 13:34:40,023 Effective gamma = 2.19
+2026-08-14 13:34:40,048 Using transfer function for B: Gamma 2.20 100%
+2026-08-14 13:34:40,048 Effective gamma = 2.19
+2026-08-14 13:34:40,048 Adding rTRC from interpolation to HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX
+2026-08-14 13:34:40,048 Adding gTRC from interpolation to HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX
+2026-08-14 13:34:40,048 Adding bTRC from interpolation to HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX
+2026-08-14 13:34:40,539 --------------------------------------------------------------------------------
+2026-08-14 13:34:40,539 Working directory:
+2026-08-14 13:34:40,539   C:\
+2026-08-14 13:34:40,539    Users\
+2026-08-14 13:34:40,539     Greg\
+2026-08-14 13:34:40,539      AppData\
+2026-08-14 13:34:40,539       Local\
+2026-08-14 13:34:40,539        Temp\
+2026-08-14 13:34:40,539         DisplayCAL-pqcx1esi\
+2026-08-14 13:34:40,539 
+2026-08-14 13:34:40,539 Command line:
+2026-08-14 13:34:40,539   D:\Apps\ArgyllCMS\bin\profcheck.exe
+2026-08-14 13:34:40,539     "HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.ti3"
+2026-08-14 13:34:40,539     "HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.icm"
+2026-08-14 13:34:40,539 
+2026-08-14 13:34:40,558 Profile check complete, errors: max. = 1.613324, avg. = 0.135139, RMS = 0.284003
+2026-08-14 13:34:40,558 profcheck exitcode: 0
+2026-08-14 13:34:40,558 --------------------------------------------------------------------------------
+2026-08-14 13:34:40,558 Generating gamut views...
+2026-08-14 13:34:41,309 --------------------------------------------------------------------------------
+2026-08-14 13:34:41,309 Working directory:
+2026-08-14 13:34:41,309   C:\
+2026-08-14 13:34:41,309    Users\
+2026-08-14 13:34:41,309     Greg\
+2026-08-14 13:34:41,309      AppData\
+2026-08-14 13:34:41,309       Local\
+2026-08-14 13:34:41,309        Temp\
+2026-08-14 13:34:41,309         DisplayCAL-pqcx1esi\
+2026-08-14 13:34:41,309 
+2026-08-14 13:34:41,309 Command line:
+2026-08-14 13:34:41,309   D:\Apps\ArgyllCMS\bin\iccgamut.exe
+2026-08-14 13:34:41,309     -v
+2026-08-14 13:34:41,309     -w
+2026-08-14 13:34:41,309     -ir
+2026-08-14 13:34:41,309     -ff
+2026-08-14 13:34:41,309     -on
+2026-08-14 13:34:41,309     -d10.00
+2026-08-14 13:34:41,309     "HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.icm"
+2026-08-14 13:34:41,309 
+2026-08-14 13:34:41,651 Header:Profile size    = 942744 bytesCMM             = 'argl'Version         = 2.2.0Device Class    = DisplayColor Space     = RGBConn. Space     = XYZUTC Date&Time   = 14 Aug 2026, 13:34:05Local Date&Time = 14 Aug 2026, 14:34:05Platform        = MicrosoftFlags           = Not Embedded Profile, Use anywhereDev. Mnfctr.    = 0x0Dev. Model      = 0x0Dev. Attrbts    = Reflective, Glossy, Positive, ColorRndrng Intnt    = PerceptualIlluminant      = 0.96420288, 1.00000000, 0.82490540    [Lab 100.000000, 0.000000, 0.000000]Creator         = 'DCAL'Colorspace white/black are 100.000000 0.000000 0.000000, 1.157522 -0.046789 0.003342Gamut white/black are      100.000000 0.000000 0.000000, 1.157789 -0.046788 0.003342Total volume of gamut is 982584.270400 cubic colorspace units
+2026-08-14 13:34:41,651 iccgamut exitcode: 0
+2026-08-14 13:34:42,319 --------------------------------------------------------------------------------
+2026-08-14 13:34:42,319 Command line:
+2026-08-14 13:34:42,319   D:\Apps\ArgyllCMS\bin\viewgam.exe
+2026-08-14 13:34:42,319     -cw
+2026-08-14 13:34:42,319     -t0
+2026-08-14 13:34:42,319     -w
+2026-08-14 13:34:42,319     "C:\Program Files\DisplayCAL\ref\sRGB.gam"
+2026-08-14 13:34:42,319     -cn
+2026-08-14 13:34:42,319     -t.3
+2026-08-14 13:34:42,319     -s
+2026-08-14 13:34:42,319     "HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.gam"
+2026-08-14 13:34:42,319     -i
+2026-08-14 13:34:42,319     "HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX vs sRGB.wrl"
+2026-08-14 13:34:42,319 
+2026-08-14 13:34:42,319 Intersecting volume = 827417.5 cubic units'C:\Program Files\DisplayCAL\ref\sRGB.gam' volume = 833675.1 cubic units, intersect = 99.25%'HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.gam' volume = 982584.3 cubic units, intersect = 84.21%
+2026-08-14 13:34:42,572 --------------------------------------------------------------------------------
+2026-08-14 13:34:42,572 Command line:
+2026-08-14 13:34:42,572   D:\Apps\ArgyllCMS\bin\viewgam.exe
+2026-08-14 13:34:42,572     -cw
+2026-08-14 13:34:42,572     -t0
+2026-08-14 13:34:42,572     -w
+2026-08-14 13:34:42,572     "C:\Program Files\DisplayCAL\ref\ClayRGB1998.gam"
+2026-08-14 13:34:42,572     -cn
+2026-08-14 13:34:42,572     -t.3
+2026-08-14 13:34:42,572     -s
+2026-08-14 13:34:42,572     "HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.gam"
+2026-08-14 13:34:42,572     -i
+2026-08-14 13:34:42,572     "HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX vs ClayRGB1998.wrl"
+2026-08-14 13:34:42,572 
+2026-08-14 13:34:42,572 Intersecting volume = 952970.6 cubic units'C:\Program Files\DisplayCAL\ref\ClayRGB1998.gam' volume = 1209985.9 cubic units, intersect = 78.76%'HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.gam' volume = 982584.3 cubic units, intersect = 96.99%
+2026-08-14 13:34:42,572 --------------------------------------------------------------------------------
+2026-08-14 13:34:42,572 Command line:
+2026-08-14 13:34:42,572   D:\Apps\ArgyllCMS\bin\viewgam.exe
+2026-08-14 13:34:42,573     -cw
+2026-08-14 13:34:42,573     -t0
+2026-08-14 13:34:42,573     -w
+2026-08-14 13:34:42,573     "C:\Program Files\DisplayCAL\ref\SMPTE431_P3.gam"
+2026-08-14 13:34:42,573     -cn
+2026-08-14 13:34:42,573     -t.3
+2026-08-14 13:34:42,573     -s
+2026-08-14 13:34:42,573     "HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.gam"
+2026-08-14 13:34:42,573     -i
+2026-08-14 13:34:42,573     "HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX vs SMPTE431_P3.wrl"
+2026-08-14 13:34:42,573 
+2026-08-14 13:34:42,573 Intersecting volume = 982099.9 cubic units'C:\Program Files\DisplayCAL\ref\SMPTE431_P3.gam' volume = 1176953.5 cubic units, intersect = 83.44%'HDR_4K_#2_2026-08-14_13-14_D6500_2.2_F-S_XYZLUT+MTX.gam' volume = 982584.3 cubic units, intersect = 99.95%
+2026-08-14 13:34:42,673 --------------------------------------------------------------------------------

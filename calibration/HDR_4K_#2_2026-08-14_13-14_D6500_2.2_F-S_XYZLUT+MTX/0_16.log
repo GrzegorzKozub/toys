@@ -1,0 +1,60 @@
+2026-08-14 13:14:04,515 --------------------------------------------------------------------------------
+2026-08-14 13:14:04,515 Working directory:
+2026-08-14 13:14:04,515   C:\
+2026-08-14 13:14:04,515    Users\
+2026-08-14 13:14:04,520     Greg\
+2026-08-14 13:14:04,520      AppData\
+2026-08-14 13:14:04,520       Local\
+2026-08-14 13:14:04,520        Temp\
+2026-08-14 13:14:04,520         DisplayCAL-pqcx1esi\
+2026-08-14 13:14:04,520 
+2026-08-14 13:14:04,520 Command line:
+2026-08-14 13:14:04,520   D:\Apps\ArgyllCMS\bin\dispread.exe
+2026-08-14 13:14:04,520     -v
+2026-08-14 13:14:04,520     -k
+2026-08-14 13:14:04,520     "\"C:\Program Files\DisplayCAL\linear.cal\""
+2026-08-14 13:14:04,520     -d2
+2026-08-14 13:14:04,520     -c1
+2026-08-14 13:14:04,522     -yr
+2026-08-14 13:14:04,522     "-P0.5,0.5,1.0"
+2026-08-14 13:14:04,522     -X
+2026-08-14 13:14:04,522     "LG 27UL850W by 4KM (i1 Pro 2).ccss"
+2026-08-14 13:14:04,522     0_16
+2026-08-14 13:14:04,522 
+2026-08-14 13:14:04,890 DisplayCAL: Starting interaction with subprocess
+2026-08-14 13:14:04,890 Number of patches = 3
+2026-08-14 13:14:04,890 Number of patches = 3
+2026-08-14 13:14:04,890 Setting up the instrument
+2026-08-14 13:14:04,890 Setting up the instrument
+2026-08-14 13:14:06,004 Product Name:      i1Display3
+2026-08-14 13:14:06,004 Product Name:      i1Display3
+2026-08-14 13:14:06,004 Serial Number:     C8-25.D-02.043739.10
+2026-08-14 13:14:06,004 Serial Number:     C8-25.D-02.043739.10
+2026-08-14 13:14:06,004 Hardware Rev.:     D-02
+2026-08-14 13:14:06,004 Hardware Rev.:     D-02
+2026-08-14 13:14:06,004 Firmware Version:  v2.30
+2026-08-14 13:14:06,004 Firmware Version:  v2.30
+2026-08-14 13:14:06,004 Firmware Date:     08Apr21
+2026-08-14 13:14:06,004 Firmware Date:     08Apr21
+2026-08-14 13:14:06,316 Place instrument on test window.
+2026-08-14 13:14:06,316 Place instrument on test window.
+2026-08-14 13:14:06,317 DisplayCAL: Detected instrument placement (screen/spot) message
+2026-08-14 13:14:06,317 DisplayCAL: Waiting for send buffer
+2026-08-14 13:14:07,821 DisplayCAL: Skipping place instrument on screen message...
+2026-08-14 13:14:07,828 DisplayCAL: Send buffer received:
+2026-08-14 13:14:07,828 DisplayCAL: Sending buffer:
+2026-08-14 13:14:07,880 Hit Esc or Q to give up, any other key to continue:
+2026-08-14 13:14:07,880 Hit Esc or Q to give up, any other key to continue:
+2026-08-14 13:14:10,520 Measured display update delay of 18 msec, using delay of 124 msec & 0 msec inst reaction
+2026-08-14 13:14:10,520 Measured display update delay of 18 msec, using delay of 124 msec & 0 msec inst reaction
+2026-08-14 13:14:24,416 Patch 3 of 3
+2026-08-14 13:14:24,416 Patch 3 of 3
+2026-08-14 13:14:24,416 The instrument can be removed from the screen.
+2026-08-14 13:14:24,416 The instrument can be removed from the screen.
+2026-08-14 13:14:24,502 Written '0_16.ti3'
+2026-08-14 13:14:24,502 Written '0_16.ti3'
+2026-08-14 13:14:24,606 DisplayCAL: Reached EOF (OK)
+2026-08-14 13:14:24,606 dispread exitcode: 0
+2026-08-14 13:14:24,606 RGB level 0 is 0.137928 cd/m2
+2026-08-14 13:14:24,606 RGB level 16 is 0.393000 cd/m2
+2026-08-14 13:14:24,606 Assuming full range output levels

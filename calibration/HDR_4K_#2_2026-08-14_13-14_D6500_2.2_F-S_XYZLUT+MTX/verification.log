@@ -1,0 +1,11 @@
+13:44:16,893 Setting up the instrumentProduct Name:      i1Display3Serial Number:           ↲
+             ↳ C8-25.D-02.043739.10Hardware Rev.:     D-02Firmware Version:  v2.30Firmware  ↲
+             ↳ Date:     08Apr21Commencing display verificationSwitching to native response ↲
+             ↳ for base measurementsMeasured display update delay of 18 msec, using delay   ↲
+             ↳ of 124 msec & 0 msec inst reactionSwitching back to calibration being        ↲
+             ↳ verifiedAutomatic black point hue correction level = 0.35Initial native      ↲
+             ↳ brightness target = 119.082192 cd/m^2Doing verify pass 1/1 with 100 sample   ↲
+             ↳ pointsVerification results:Brightness error = -0.658209 cd/m^2 (is           ↲
+             ↳ 118.423984, should be 119.082192)White point error = 0.203231 deltaEMaximum  ↲
+             ↳ neutral error (@ 0.926061) = 1.159503 deltaEAverage neutral error = 0.411570 ↲
+             ↳ deltaENumber of measurements taken = 100

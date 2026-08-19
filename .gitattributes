@@ -1,5 +1,9 @@
 * text eol=lf
 *.cmo binary
+*.cmos binary
+*.gz binary
+*.icc binary
 *.icm binary
 *.pdf binary
 *.png binary
+*.wrz binary

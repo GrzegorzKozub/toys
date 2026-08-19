@@ -38,7 +38,6 @@ Keyboards
 Peripherals
 
 - Fnatic x Lamzu Maya X 8K
-- GuliKit KingKong 2 Pro NS09
 - Hagibis MC40 / Qwiizlab ES40UR
 - Orange Funbox 10
 - WD Black SN7100 2TB (USB 3.2 Gen2x2 20 Gbps)
@@ -228,7 +227,7 @@ Temperatures (°C)
 - Samsung 980 Pro 1TB
   - idle: NAND 47, controller 55
   - benchmark: NAND 71, controller 87
-- WD Black SN7100 2TB *summer*
+- WD Black SN7100 2TB *(summer)*
   - idle: NAND 52, controller 67
   - benchmark: NAND 60, controller 82
 
@@ -395,6 +394,7 @@ Dell XPS 13 9310 laptop
 - 32GB 2133MHz LPDDR4x
 - Intel Core i7-1165G7
 - Intel Iris Xe Graphics G7 96EU
+- Sharp SHP14FA
 - Western Digital PC SN730 1TB (PCIe x4 8 GT/s @ x4 8 GT/s)
 
 ### Disks
@@ -482,13 +482,14 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
 *MSI MPG 321URX* settings
 
 - Gaming
-  - Adaptive-Sync: ON
+  - Adaptive-Sync: ON (factory)
 - Professional
   - Pro Mode: User (vivid) or sRGB (clamped)
 - Image
-  - Brightness: 34 for 120 nits, 28 for 100 nits or 23 for 80 nits
-  - Color Temperature: RGB 97 99 100
-  - DisplayHDR: Peak 1000 nits (when HDR enabled)
+  - Brightness: 34 for 120 cd/m²
+  - Contrast: 70 (factory)
+  - Color Temperature: RGB 96 99 99
+  - DisplayHDR: Peak 1000 cd/m² (when HDR enabled)
 - Navi Key
   - Up/Down/Left/Right: Brightness
 - Settings
@@ -497,31 +498,155 @@ Enabled SGX using [sgx-software-enable](https://github.com/intel/sgx-software-en
   - RGB LED: OFF
   - Power LED: OFF
 - MSI OLED Care
-  - Statis Screen Detection: OFF
+  - Static Screen Detection: OFF
   - Multi Logo Detection: OFF
 
-TFT Central provided `mpg321urx.34.icm` ICC profile was created for brightness set to 34 (about 120 nits), RGB settings at 97 99 100 and the contrast of 70.
+*MSI MPG 321URX* was calibrated for *User* Pro Mode at 120 cd/m². Measurement gave Brightness 34 and RGB 96 99 99. Software calibration is stored in the ICC profile `mpg321urx-sdr.icm` for SDR and in `mpg321urx-hdr.icc` for HDR.
+
+> Verified: brightness 106.27 cd/m², contrast inf:1, white point error 0.16 ΔE, average neutral error 0.52 ΔE, max neutral error 1.39 ΔE, white drift 0.30 ΔE.
 
 Working VRR flickering mitigations for *MSI MPG 321URX*
 
 - Decrease refresh rate to 120 Hz and try to lock 120 FPS
-- Increase the lower VRR range imit from 48 to 80 Hz using CRU
+- Increase the lower VRR range limit from 48 to 80 Hz using CRU
 
 *LG 27GP950-B* settings
 
+- Game Mode: Gamer 1 (factory)
 - Picture Adjust
-  - Brightness: 25 for 190 nits, 16 for 160 nits, 10 for 130 nits or 6 for 100 nits
+  - Brightness: 9 for 120 cd/m²
+  - Contrast: 70 (factory)
+  - Gamma: Mode 2 (factory)
+  - R/G/B: 50 49 47
+- General
+  - Waves MaxxAudio: Off
+  - SMART ENERGY SAVING: Off
+  - Deep Sleep Mode: Off
+  - Automatic Standby: 8H
+  - Buzzer: Off
 
-*LG 27GP950-B* was calibrated for _Gamer 1_ profile, brightness set to 10 (about 130 nits) and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 50 47. Software calibration is stored in the ICC profile `27gp950-b.10.icm`. Not relevant for calibration, contrast looks best at 70.
+*LG 27GP950-B* was calibrated for *Gamer 1* Profile and *Mode 2* Gamma at 120 cd/m². Measurement gave Brightness 9 and RGB 50 49 47. Software calibration is stored in the ICC profile `27gp950-b.icm`.
 
-TFT Central provided `27gp950-b.6.icm` ICC profile was created for *Gamer 1* profile, brightness set to 6 (about 120 nits), RGB settings at 50 48 45 and the contrast of 70.
+> Verified: brightness 120.91 cd/m², contrast 925:1, white point error 0.76 ΔE, average neutral error 0.76 ΔE, max neutral error 1.52 ΔE.
 
-LG *27UL850-W* was calibrated for *Custom* profile, brightness set to 30 and gamma mode 2 selected. Hardware calibration resulted in the RGB settings of 50 49 50. Software calibration is stored in the ICC profile `27ul850-w.30.icm`. Brightness set to 50 resulted in the same hardware settings and `27ul850-w.50.icm`.
+*LG 27UL850-W* settings
+
+- Picture
+  - Picture Adjust
+    - Brightness: 18 for 120 cd/m²
+    - Contrast: 70 (factory)
+  - Game Adjust
+    - Free Sync: Extended
+  - Color Adjust
+    - Gamma: Mode 2 (factory)
+    - Red: 49
+    - Green: 46
+    - Blue: 50
+- Sound
+  - Volume: 0
+  - Maxx Audio: Off
+- General
+  - SMART ENERGY SAVING: Off
+  - Automatic Standby: 8H
+  - Buzzer: Off
+  - OSD Size: Large
+  - Deep Sleep Mode: Off
+
+*LG 27UL850-W* was calibrated for *Custom* Profile and *Mode 2* Gamma 120 cd/m². Measurement gave Brightness 18 and RGB 49 46 50. Software calibration is stored in the ICC profile `27ul850-w.icm`.
+
+> Verified: brightness 118.42 cd/m², contrast 783:1, white point error 0.20 ΔE, average neutral error 0.41 ΔE, max neutral error 1.16 ΔE.
+
+*Sharp SHP14FA* was calibrated at 120 cd/m². Measurement gave roughly 40% brightness. Software calibration is stored in the ICC profile `shp14fa.icm`.
+
+> Verified: brightness 113.43 cd/m², contrast 1303:1, white point error 0.14 ΔE, average neutral error 1.15 ΔE, max neutral error 2.64 ΔE.
 
 Links
 
 - [MSI MPG 321URX firmware](https://www.msi.com/Monitor/MPG-321URX-QD-OLED/support#firmware)
 - [Wide Gamut](https://www.wide-gamut.com/)
+
+### Calibration
+
+- Darken the room for the calibration irrelevant of the target lighting conditions
+- Update monitor firmware and GPU drivers
+- Reset the monitor settings and disable any post-processing or OLED care features
+- Use monitor factory setting for *Contrast*
+- Remove any color profile, disable HDR and night light in Windows
+- Let the display warm up for at least 30 minutes before the calibration
+- On NVIDIA, ensure *Output Dynamic Range* is set to *Full* in NVIDIA App
+- On Intel, ensure *Enhanced Power Saving*, *Panel Self Refresh* and *Lighting Aware Contrast Enhancement* are disabled in Intel Graphics Software
+
+> The Calibrite Display Plus HL's sensor loses accuracy near true black on OLED (reads close to 0 nits), which can show up as a large neutral error spike concentrated at the bottom few percent of the luminance range during verification. This is a known sensor limitation, not a failed calibration - white point, gamma, and overall brightness remain accurate.
+
+Install [displaycal-py3](https://github.com/eoyilmaz/displaycal-py3) and [ArgyllCMS](https://www.argyllcms.com/downloadwin.html). The original [DisplayCAL](https://displaycal.net/) has not been maintained since 2019.
+
+#### Colorimeter correction file
+
+Find the best colorimeter correction file on [Colorimeter Corrections Database](https://colorimetercorrections.displaycal.net/). The `DESCRIPTOR` field should reassemble the monitor model and the `DEVICE` property must match how the monitor appears in DisplayCAL and the operating system.
+
+Only use *Spectral*, never *Matrix*. Prefer finer resolution and i1 Pro 3 or 2 reference instrument, in that priority order.
+
+- *MSI MPG 321URX* - `MPG321UX OLED`
+  - `MSI 321URX (i1 Pro 2, CIE 1931 2°).ccss` - spectral, 3.33nm, i1 Pro 2
+  - *Spectral: RGB OLED family (Sony PVM-2541, Samsung Galaxy S7, Lenovo LEN4140)*
+- *LG 27GP950-B* - `LG ULTRAGEAR+`
+  - `LG ULTRAGEAR+ 27gm950b_full white (i1 Pro 2).ccss` - spectral, 3.33nm, i1 Pro 2
+  - *Spectral: LCD PFS Phosphor WLED IPS, 99% P3 (MacBook Pro Retina 2016)*
+  - *Spectral: LCD PFS Phosphor WLED IPS, 98% Adobe RGB/96% P3 (HP DreamColor Z24x G2)*
+- *LG 27UL850-W* - `LG HDR 4K`
+  - `LG 27UL850W by 4KM (i1 Pro 2).ccss` - spectral, 3.3nm, i1 Pro 2
+  - *Spectral: LCD White LED family (AC, LG, Samsung)*
+- *Sharp SHP14FA* - `F40HY-LQ134R1`
+  - *Spectral: LCD White LED family (AC, LG, Samsung)*
+
+#### SDR
+
+1. In DisplayCAL, enable Options -> Show advanced options
+2. Start from *Office & Web (D65, Gamma 2.2)* settings
+3. Setup *Display & instrument* tab
+  - Select *i1 DisplayPro* instrument
+  - Set *Mode* to *Refresh (generic)* on OLED and *LCD (generic)* on LCD
+    > The correction file's `DISPLAY_TYPE_REFRESH` property overrides this choice anyway
+  - Enable *White level drift compensation* on OLED and disable on LCD
+    > Corrects for OLED ABL/thermal brightness drift during the measurement pass itself
+  - Leave *Black level drift compensation* disabled
+    > Compensates spectrophotometer thermal drift. Not needed for this temperature-stable colorimeter.
+  - Select the *Correction* file established above
+4. Setup *Calibration* tab
+  - Leave *Interactive display adjustment* enabled
+    > Adjusts monitor RGB/brightness by hand against live colorimeter feedback before profiling
+  - Set *Whitepoint* to *Color temperature* of *6500 K*
+    > D65, the standard reference white point for color-managed content
+  - Leave *White level* at *As measured*
+    > No specific brightness target. Calibrates to whatever level looks eye-pleasing in the room.
+  - Leave *Black level* at *As measured*
+    > Native black level for maximum contrast ratio. Not a raised/clamped target.
+  - Set *Tone curve* to *Gamma 2.2*
+    > Matches most displays' native response shape
+  - Leave *Black output offset* at *100 %*
+    > Preserves native black level and contrast ratio
+  - Leave *Ambient light level adjustment* disabled
+    > DisplayCAL developer advised against using it. Causes unexpectedly steep gamma/contrast results even at modest Lux values.
+  - Set *Black point correction* to *0 %* on OLED and *Auto* on LCD
+    > Near-black chromaticity is unreliable on OLED with this instrument. LCD backlight bleed causes a real, correctable tint.
+5. Setup *Profiling* tab
+  - Set *Profile type* to *Curves + matrix* (*Black point compensation* should enable automatically) on OLED and *XYZ LUT + matrix* (*Black point compensation* should disable automatically) on LCD
+    > *Curves + matrix* avoids the QD-OLED near-black artifact of full 3D LUT profiles. *XYZ LUT + matrix* is the more accurate general default for LCD.
+  - Leave *Profile quality* at *High*
+    > More patches improve accuracy for the LUT-based LCD profile and the extra time cost is negligible
+  - Leave *Test chart* at *Auto-optimized*
+6. Run *Calibrate & profile*. During the measurement, adjust the monitor RGB levels until the tool shows green and find an eye-pleasing brightness that works well in the room conditions. The created ICC profile should be used with the resulting hardware settings.
+
+#### HDR
+
+1. Install [Windows HDR Calibration](https://apps.microsoft.com/detail/9n7f2sm5d1lr)
+  ```ps1
+  winget install "Windows HDR Calibration" --accept-package-agreements
+  ```
+2. Keep the SDR calibration hardware settings and ICC profile applied
+3. Enable HDR in Windows
+4. Calibrate using Windows HDR Calibration
+5. Retrieve the ICC profile from `C:\Windows\System32\spool\drivers\color\`
 
 ## Keyboards
 
@@ -553,4 +678,10 @@ Links
 - [Womier Nostalgia Cherry Profile Double Shot PBT](https://womierkeyboard.com/products/nostalgia-keycap-sets?variant=41230524579911)
 - [ ] [GMK MTNU 800 OS2.0](https://oblotzky.industries/products/gmk-mtnu-800-os2-0)
 <!-- - [Drop MT3 Skiidata](https://drop.com/buy/drop-mt3-skiidata-keycap-set) -->
+
+## Gaming
+
+- GuliKit KingKong 2 Pro NS09
+- Steam Deck 1TB OLED
+- Trimui Brick
 
