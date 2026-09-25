@@ -58,6 +58,7 @@ Audio
 
 Furniture
 
+- DeltaHub Gaming Desk Mat (Black, Large)
 - Ergotron LX Pro
 - Kanto S6
 - ~Kanto SE6~
@@ -267,6 +268,10 @@ Audio
 - Hollyland Lark M2
 - JCALLY JM6 Pro (CX31993 DAC)
 - Sennheiser HD 58X Jubilee
+
+Furniture
+
+- Glorious GMP 2 Stitched Cloth Gaming Mouse Pad (Black, L Extended)
 
 ### Airflow
 
