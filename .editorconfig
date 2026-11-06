@@ -8,17 +8,3 @@ indent_style = space
 insert_final_newline = true
 quote_type = single
 trim_trailing_whitespace = true
-
-[{*.cal,*.ccss,*.json,*.log,*.ti1,*.ti3}]
-charset = unset
-trim_trailing_whitespace = false
-
-[*-definition.json]
-indent_style = tab
-
-[*-layout.json]
-insert_final_newline = false
-
-[*-bios.txt]
-charset = unset
-end_of_line = unset

@@ -1,10 +1,8 @@
 * text=auto eol=lf
-*-bios.txt binary
 *.cmo binary
 *.cmos binary
-*.gz binary
 *.icc binary
 *.icm binary
 *.pdf binary
 *.png binary
-*.wrz binary
+*.zip binary
