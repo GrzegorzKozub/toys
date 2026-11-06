@@ -1,4 +1,5 @@
-* text eol=lf
+* text=auto eol=lf
+*-bios.txt binary
 *.cmo binary
 *.cmos binary
 *.gz binary
