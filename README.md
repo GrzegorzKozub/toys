@@ -34,6 +34,7 @@ Keyboards
 - Wooting 60HE v2 (Lekker Tikken Medium)
 - [ ] PMOKEY Wave 75 Pro
 - [ ] Shortcut Studio Bridge 75 Plus
+- [ ] WOBKEY Rainy 75 V2
 
 Peripherals
 
